@@ -1,0 +1,564 @@
+Systems and Computers in Japan,
+Cartographica: The International Journal for Geographic Information and Geovisualization,
+Journal for Language Technology and Computational Linguistics,
+International Journal in Computer Simulation,IJCS
+Journal in Computer Virology,
+International Journal of 3-D Information Modeling,IJ3DIM
+International Journal of Actor-Network Theory and Technological Innovation,IJANTTI
+International Journal of Ad Hoc and Ubiquitous Computing,IJAHUC
+International Journal of Adaptive, Resilient and Autonomic Systems,IJARAS
+International Journal of Adult Vocational Education and Technology,IJAVET
+Journal of Advanced Computational Intelligence and Intelligent Informatics,JACIII
+International Journal of Advanced Corporate Learning,iJAC
+International Journal of Advanced Intelligence Paradigms,IJAIP
+International Journal of Advanced Media and Communication,IJAMC
+International Journal of Advanced Operations Management,IJAOM
+International Journal of Advanced Pervasive and Ubiquitous Computing,IJAPUC
+International Journal of Advancements in Computing Technology,
+Journal of Advances in Information Fusion,
+Journal of Aerospace Computing, Information, and Communication,
+International Journal of Agent-Oriented Software Engineering,IJAOSE
+International Journal of Agent Technologies and Systems,IJATS
+International Journal of Agricultural and Environmental Information Systems,IJAEIS
+International Journal of Algebra and Computation,IJAC
+Journal of Algorithms,
+International Journal of Ambient Computing and Intelligence,IJACI
+Journal of Ambient Intelligence and Humanized Computing,
+Journal of Ambient Intelligence and Smart Environments,
+International Journal of Applied Cryptography,IJACT
+International Journal of Applied Earth Observation and Geoinformation,
+International Journal of Applied Evolutionary Computation,IJAEC
+International Journal of Applied Geospatial Research,IJAGR
+Journal of Applied Logic,
+International Journal of Applied Logistics,IJAL
+Journal of Applied Mathematics,
+Applied Mathematics and Computer Science,
+Advances in Decision Sciences,
+International Journal of Applied Metaheuristic Computing,IJAMC
+Journal of Applied Non-Classical Logics,
+International Journal of Approximate Reasoning,
+Journal of Approximation Theory,
+International Journal of Art, Culture and Design Technologies,IJACDT
+Inteligencia Artificial, Revista Iberoamericana de Inteligencia Artificial,
+International Journal of Artificial Intelligence and Soft Computing,IJAISC
+International Journal of Artificial Intelligence in Education,
+Journal of Artificial Intelligence Research,JAIR
+International Journal of Artificial Life Research,IJALR
+The Journal of Artificial Societies and Social Simulation,
+International Journal of Asian Business and Information Management,IJABIM
+International Journal of Asian Language Processing,
+Journal of Automata, Languages and Combinatorics,
+Journal of Automated Reasoning,
+International Journal of Autonomic Computing,IJAC
+International Journal of Autonomous and Adaptive Communications Systems,IJAACS
+International Journal of Aviation Technology, Engineering and Management,IJATEM
+Paladyn, Journal of Behavioral Robotics,
+International Journal of Bifurcation and Chaos,
+International Journal of Bio-Inspired Computation,IJBIC
+Journal of Bioinformatics and Computational Biology,
+International Journal of Bioinformatics Research and Applications,IJBRA
+International Journal of Biomedical Imaging,
+Journal of Biomedical Informatics,
+Journal of Biomedical Semantics,
+International Journal of Business Data Communications and Networking,IJBDCN
+International Journal of Business Information Systems,IJBIS
+International Journal of Business Intelligence and Data Mining,
+International Journal of Business Intelligence Research,IJBIR
+International Journal of Business Performance and Supply Chain Modelling,IJBPSCM
+Journal of Cases on Information Technology,JCIT
+Journal of Cellular Automata,
+Journal of Chemical Information and Modeling,
+Journal of Chemical Information and Modeling,
+Journal of Cheminformatics,
+International Journal of Chemoinformatics and Chemical Engineering,IJCCE
+International Journal of Asian Language Processing,
+Journal of Circuits, Systems, and Computers,
+Journal of Classification,
+Journal of Clinical Bioinformatics,
+International Journal of Cloud Applications and Computing,IJCAC
+International Journal of Cloud Computing,IJCC
+International Journal of Cognitive Informatics and Natural Intelligence,IJCINI
+Journal of Cognitive Neuroscience,
+Journal of Combinatorial Optimization,
+Journal of Combinatorial Theory,
+International Journal of Combinatorial Optimization Problems and Informatics,IJCOPI
+European Journal of Combinatorics,
+The Electronic Journal of Combinatorics,
+International Journal of Communication Networks and Distributed Systems,IJCNDS
+International Journal of Communication Networks and Information Security,IJCNIS
+International Journal of Communication Systems,
+Journal of Communications,
+Journal of Communications and Networks,
+International Journal of Communications, Network and System Sciences,IJCNS
+Journal of Complexity,
+Revista Colombiana de Computación,
+Colombian Journal of Computation,
+Journal of Computational and Applied Mathematics,
+Journal of Computational Biology,JCB
+International Journal of Computational Biology and Drug Design,IJCBDD
+Journal of Computational Chemistry,
+International Journal of Computational Engineering Science,IJCES
+Journal of Computational Geometry,JoCG
+International Journal of Computational Geometry and Applications,
+International Journal of Computational Intelligence and Applications,
+International Journal of Computational Linguistics & Chinese Language Processing,
+American Journal of Computational Mathematics,
+Journal of Computational Methods in Science and Engineering,
+International Journal of Computational Models and Algorithms in Medicine,IJCMAM
+Journal of Computational Neuroscience,
+Journal of Computational Physics,
+Journal of Computational Science,
+International Journal of Computational Science and Engineering,IJCSE
+International Journal of Computer Aided Engineering and Technology,IJCAET
+Journal of Computer-Aided Molecular Design,
+Journal of Computer and System Sciences,JCSS
+Journal of Computer Applications in Technology,
+International Journal of Computer-Assisted Language Learning and Teaching,IJCALLT
+Journal of Computer Assisted Learning,
+International Journal of Computer Assisted Radiology and Surgery,
+ACM Journal of Computer Documentation,JCD
+International Journal of Computer Games Technology,
+Journal of Computer Information Systems,
+International Journal of Computer Integrated Manufacturing,
+International Journal of Computer Mathematics,
+Journal of Computer-Mediated Communication,
+Journal of Computer Networks and Communications,
+International Journal of Computer Processing of Oriental Languages,
+Journal of Computer Research and Development,
+Central European Journal of Computer Science,
+International Journal of Computer Science & Applications,
+Journal of Computer Science and Technology,
+International Journal of Computer Science in Sport,
+Journal of Computer Security,
+International Journal of Computer-Supported Collaborative Learning,
+International Journal of Computer Vision,
+International Journal of Computer Vision and Image Processing,IJCVIP
+Journal of Computers,
+International Journal of Computers and Their Applications,
+International Journal of Computers in Healthcare,IJCIH
+Journal of Computers in Mathematics and Science Teaching,
+The International Journal of Computers, Systems and Signals,
+Nordic Journal of Computing,NJC
+Journal of Computing and Information Science and Engineering,
+Journal of Computing and Information Technology,
+Journal of Computing in Higher Education,
+Journal of Computing Science and Engineering,JCSE
+European Journal of Control,
+Journal of Convergence Information Technology,
+International Journal of Cooperative Information Systems,IJCIS
+International Journal of Creative Interfaces and Computer Graphics,IJCICG
+International Journal of Critical Computer-Based Systems,
+International Journal of Critical Infrastructure Protection,
+International Journal of Critical Infrastructures,IJCIS
+Journal of Cryptographic Engineering,
+Journal of Cryptology,
+International Journal of Cyber Behavior, Psychology and Learning,IJCBPL
+International Journal of Cyber Ethics in Education,IJCEE
+International Journal of Cyber Warfare and Terrorism,IJCWT
+Journal of Data and Information Quality,
+International Journal of Data Mining and Bioinformatics,IJDMB
+International Journal of Data Mining, Modelling and Management,
+International Journal of Data Warehousing and Mining,
+Journal of Database Management,
+International Journal of Decision Support System Technology,IJDSST
+Journal of Decision Systems,
+International Journal of Dependable and Trustworthy Information Systems,IJDTIS
+Journal of Digital Content Technology and its Applications,
+International Journal of Digital Crime and Forensics,IJDCF
+International Journal of Digital Curation,IJDC
+International Journal of Digital Earth,
+International Journal of Digital Evidence,
+Journal of Digital Forensic Practice,
+Journal of Digital Imaging,
+Journal of Digital Information,
+Journal of Digital Information Management,
+International Journal of Digital Library Systems,IJDLS
+International Journal of Digital Literacy and Digital Competence,IJDLDC
+International Journal of Digital Multimedia Broadcasting,
+Journal of Discrete Algorithms,
+International Journal of Distance Education Technologies,IJDET
+International Journal of Distributed Sensor Networks,
+International Journal of Distributed Systems and Technologies,IJDST
+International Journal of E-Adoption,IJEA
+International Journal of E-Business Research,IJEBR
+International Journal of e-Collaboration,IJeC
+International Journal of E-Entrepreneurship and Innovation,IJEEI
+International Journal of E-Health and Medical Communications,IJEHMC
+International Journal of E-Politics,IJEP
+International Journal of E-Services and Mobile Applications,IJESMA
+International Arab Journal of e-Technology,
+Journal of Economic Theory,
+Journal of Educational Multimedia and Hypermedia,
+ACM Transactions on Computing Education,TOCE
+Educational Technology & Society,
+Journal of Electrical and Computer Engineering,
+International Journal of Electronic Business,IJEB
+International Journal of Electronic Business Management,IJEBM
+Journal of Electronic Commerce in Organizations,JECO
+Journal of Electronic Commerce Research,
+International Journal of Electronic Government Research,IJEGR
+International Journal of Electronic Healthcare,IJEH
+Journal of Electronic Imaging,
+Journal of Electronic Publishing,
+Journal of Electronic Testing,
+International Journal of Embedded and Real-Time Communication Systems,IJERTCS
+Journal of Embedded Computing,
+International Journal of Embedded Systems,IJES
+IEEE Journal of Emerging and Selected Topics in Circuits and Systems,
+International Journal of Emerging Technologies in Learning,iJET
+International Journal of Energy Optimization and Engineering,IJEOE
+International Journal of Engineering Pedagogy,iJEP
+Journal of Enterprise Information Management,
+International Journal of Enterprise Information Systems,IJEIS
+ACM Journal of Experimental Algorithmics,JEA
+Journal of Experimental and Theoretical Artificial Intelligence,JETAI
+Journal of Field Robotics,
+Notre Dame Journal of Formal Logic,
+International Journal of Foundations of Computer Science,IJFCS
+Journal of Functional and Logic Programming,
+International Journal of Functional Informatics and Personalised Medicine,IJFIPM
+Journal of Functional Programming,
+International Journal of Fuzzy System Applications,IJFSA
+International Journal of Game-Based Learning,IJGBL
+International Journal of Game Theory,
+International Journal of Gaming and Computer-Mediated Simulations,IJGCMS
+International Journal of General Systems,
+Journal of Geographic Information System,
+International Journal of Geographical Information Science,IJGIS
+Journal of Geographical Systems,
+Journal of Global Information Management,JGIM
+Journal of Global Optimization,
+International Journal of Granular Computing, Rough Sets and Intelligent Systems,IJGCRSIS
+Journal of Graph Algorithms and Applications,
+Journal of Graph Theory,
+Journal of Graphics Tools,
+Journal of Graphics, GPU, & Game Tools,
+International Journal of Green Computing,IJGC
+International Journal of Grid and High Performance Computing,IJGHPC
+International Journal of Grid and Utility Computing,IJGUC
+Journal of Grid Computing,
+International Journal of Handheld Computing Research,IJHCR
+International Journal of Healthcare Information Systems and Informatics,IJHISI
+Journal of Heuristics,
+International Journal of High Performance Computing and Networking,IJHPCN
+International Journal of High Performance Computing Applications,
+International Journal of High Performance Systems Architecture,IJHPSA
+International Journal of High Speed Computing,
+Journal of High Speed Networks,
+International Journal of Human Capital and Information Technology Professionals,IJHCITP
+International Journal of Human-Computer Interaction,
+International Journal of Human-Computer Studies,
+International Journal of Humanities and Arts Computing,
+International Journal of Humanoid Robotics,
+International Journal of Hybrid Intelligent Systems,
+Journal of Hydroinformatics,
+International Journal of ICT Research and Development in Africa,IJICTRDA
+International Journal of Image and Graphics,
+International Journal of Imaging Systems and Technology,
+International Journal of Information Acquisition,
+International Journal of Information and Coding Theory,IJICoT
+African Journal of Information & Communication Technology,
+International Journal of Information and Communication Technology,IJICT
+International Journal of Information and Communication Technology Education,IJICTE
+Journal of Information and Data Management,JIDM
+International Journal of Information and Decision Sciences,IJIDS
+Journal of Information & Knowledge Management,
+Journal of Information, Communication and Ethics in Society,
+International Journal of Information Communication Technologies and Human Development,IJICTHD
+European Journal of Law and Technology,EJLT
+International Journal of Information Privacy, Security and Integrity,IJIPSI
+Journal of Information Processing,
+Journal of Information Processing and Cybernetics,
+Elektronische Informationsverarbeitung und Kybernetik,
+International Journal of Information Processing and Management,IJIPM
+The Journal of Information Processing Systems,
+International Journal of Information Quality,IJIQ
+International Journal of Information Retrieval Research,IJIRR
+Journal of Information Science,
+Journal of Information Science and Engineering,
+Journal of Information Security,
+International Journal of Information Security,
+International Journal of Information Security and Privacy,IJISP
+International Journal of Information System Modeling and Design,IJISMD
+Journal of Information Systems,
+Australasian Journal of Information Systems,
+European Journal of Information Systems,
+Scandinavian Journal of Information Systems,
+International Journal of Information Systems and Change Management,IJISCM
+International Journal of Information Systems and Social Change,IJISSC
+International Journal of Information Systems and Supply Chain Management,IJISSCM
+International Journal of Information Systems for Crisis Response and Management,IJISCRAM
+International Journal of Information Systems in the Service Sector,IJISSS
+International Journal of Information Technologies and Systems Approach,IJITSA
+Journal of Information Technology,
+The International Arab Journal of Information Technology,
+International Journal of Information Technology and Decision Making,
+International Journal of Information Technology and Management,IJITM
+Journal of Information Technology & Tourism,
+International Journal of Information Technology and Web Engineering,IJITWE
+International Journal of Information Technology, Communications and Convergence,IJITCC
+Journal of Information Technology Education,
+International Journal of Information Technology Project Management,IJITPM
+Journal of Information Technology Research,JITR
+Journal of Informetrics,
+International Journal of Innovation in the Digital Economy,IJIDE
+Journal of Instruction-Level Parallelism,
+Journal of Integrative Bioinformatics,
+OMICS A Journal of Integrative Biology,
+International Journal of Intelligence Science,
+Journal of Intelligent and Fuzzy Systems,
+Journal of Intelligent and Robotic Systems,
+International Journal of Intelligent Defence Support Systems,IJIDSS
+International Journal of Intelligent Engineering Informatics,IJIEI
+International Journal of Intelligent Games & Simulation,
+International Journal of Intelligent Information and Database Systems,IJIIDS
+International Journal of Intelligent Information Processing,IJIIP
+Journal of Intelligent Information Systems,JIIS
+International Journal of Intelligent Information Technologies,IJIIT
+Journal of Intelligent Learning Systems and Applications JILSA,
+International Journal of Intelligent Mechatronics and Robotics,IJIMR
+Journal of Intelligent Systems,
+International Journal of Intelligent Systems,
+International Journal of Intelligent Systems Technologies and Applications,IJISTA
+International Journal of Interactive Communication Systems and Technologies,IJICST
+Journal of Interactive Learning Research,
+International Journal of Interactive Mobile Technologies,iJIM
+International Journal of Interactive Multimedia and Artificial Intelligence,
+Journal of Interconnection Networks,
+International Journal of Interdisciplinary Telecommunications and Networking,IJITN
+Journal of Internet and Enterprise Management,IJIEM
+International Journal of Internet Protocol Technology,IJIPT
+Journal of Internet Services and Applications,
+Journal of Internet Technology,
+International Journal of Interoperability in Business Information Systems,IBIS
+International Journal of IT/Business Alignment and Governance,IJITBAG
+International Journal of IT Standards and Standardization Research,
+International Journal of Knowledge and Learning,
+International Journal of Knowledge and Systems Science,IJKSS
+International Journal of Knowledge and Web Intelligence,IJKWI
+International Journal of Knowledge-Based and Intelligent Engineering Systems,
+International Journal of Knowledge-Based Organizations,IJKBO
+International Journal of Knowledge Discovery in Bioinformatics,IJKDB
+International Journal of Knowledge Engineering and Data Mining,IJKEDM
+International Journal of Knowledge Engineering and Soft Data Paradigms,IJKESDP
+Journal of Knowledge Management,
+International Journal of Knowledge Management,IJKM
+International Journal of Knowledge Society Research,IJKSR
+International Journal of Law and Information Technology,
+European Journal of Law and Technology,EJLT
+International Journal of Learning Technology,IJLT
+Journal of Location Based Services,
+Journal of Logic and Computation,
+Journal of Logic, Language and Information,JoLLI
+Journal of Logic Programming,
+Journal of Low Power Electronics,
+Journal of Machine Learning Research,
+International Journal of Human-Computer Studies,
+Journal of Management Information Systems,
+International Journal of Manufacturing, Materials, and Mechanical Engineering,IJMMME
+International Journal of Manufacturing Research,IJMR
+International Journal of Manufacturing Technology and Management,IJMTM
+IMA Journal of Mathematical Control and Information,
+Journal of Mathematical Cryptology,
+Journal of Mathematical Imaging and Vision,
+Journal of Mathematical Modelling and Algorithms [in Operations Research],
+International Journal of Mathematical Modelling and Numerical Optimisation,IJMNO
+International Journal of Mathematics and Mathematical Sciences,
+International Journal of Medical Engineering and Informatics,IJMEI
+International Journal of Medical Informatics,
+Journal of Medical Systems,
+International Journal of Metadata, Semantics and Ontologies,
+International Journal of Metaheuristics,IJMHeur
+International Journal of Mobile and Blended Learning,IJMBL
+International Journal of Mobile Communications,IJMC
+International Journal of Mobile Computing and Multimedia Communications,IJMCMC
+International Journal of Mobile Human Computer Interaction,IJMHCI
+Journal of Mobile Multimedia,
+Journal of Molecular Biology,
+Journal of Multimedia,
+International Journal of Multimedia Data Engineering and Management,IJMDEM
+International Journal of Multimedia Information Retrieval,IJMIR
+International Journal of Multimedia Intelligence and Security,IJMIS
+Journal of Multimedia Processing and Technologies,
+Multiple-Valued Logic,and Soft Computing
+Journal of Multivariate Analysis,
+International Journal of Nanotechnology and Molecular Computation,IJNMC
+International Journal of Natural Computing Research,IJNCR
+Journal of Network and Computer Applications,
+Journal of Network and Systems Management,
+International Journal of Network Management,
+International Journal of Network Security,
+International Journal of Networking and Computing,IJNC
+International Journal of Networking and Virtual Organisations,IJNVO
+Journal of Networks,
+International Journal of Neural Systems,IJNS
+International Journal of Next-Generation Computing,IJNGC
+Journal of Next Generation Information Technology,JNIT
+Journal of Nonlinear Science,
+Journal of Object-Oriented Programming,JOOP
+Journal of Object Technology,
+International Journal of Online Engineering,iJOE
+International Journal of Online Marketing,IJOM
+International Journal of Online Pedagogy and Course Design,IJOPCD
+International Journal of Open Source Software & Processes,
+Asia-Pacific Journal of Operational Research,
+European Journal of Operational Research,
+International Journal of Operations Research and Information Systems,IJORIS
+Journal of Optimization Theory and Applications,
+International Journal of Organizational & Collective Intelligence,
+Journal of Organizational and End User Computing,JOEUC
+Journal of Organizational Computing and Electronic Commerce,
+Journal of Parallel and Distributed Computing,
+International Journal of Parallel, Emergent and Distributed Systems,
+International Journal of Parallel Programming,
+International Journal of Pattern Recognition and Artificial Intelligence,IJPRAI
+International Journal of People-Oriented Programming,IJPOP
+International Journal of Pervasive Computing and Communications,
+Journal of Philosophical Logic,
+Journal of Programming Languages,
+International Journal of Quality Assurance in Engineering and Technology Education,IJQAETE
+Journal of Quantitative Linguistics,
+Journal of Quantum Information Science,
+International Journal of Radio Frequency Identification Technology and Applications,IJRFITA
+Journal of Real-Time Image Processing,
+International Journal of Reconfigurable Computing,
+IBM Journal of Research and Development,
+Journal of Research and Practice in Information Technology,JRPIT
+International Journal of RF Technologies: Research and Applications,
+Scientific Journal of Riga Technical University. Computer Sciences,
+International Journal of Robotic Research,IJRR
+International Journal of Robotics and Automation,
+International Journal of Satellite Communications and Networking,
+Journal of Scheduling,
+Journal of Scientific Computing,
+International Journal of Secure Software Engineering,IJSSE
+International Journal of Security and Networks,IJSN
+IEEE Journal of Selected Areas in Communications,
+IEEE Journal of Selected Topics in Signal Processing,
+International Journal of Semantic Computing,
+International Journal of Sensor Networks,IJSNet
+Journal of Sensor Technology,
+International Journal of Service Science, Management, Engineering, and Technology,IJSSMET
+Journal of Service Science Research,
+International Journal of Services and Standards,
+International Journal of Services Technology and Management,IJSTM
+International Journal of Shape Modeling,IJSM
+Journal of Signal and Information Processing,
+Journal of Signal Processing Systems,
+International Journal of Signs and Semiotic Systems,IJSSS
+Journal of Simulation,
+International Journal of Social and Humanistic Computing,IJSHC
+International Journal of Social and Organizational Dynamics in IT,IJSODIT
+International Journal of Social Computing and Cyber-Physical Systems,IJSCCPS
+International Journal of Social Network Mining,IJSNM
+International Journal of Social Robotics,
+Journal of Social Structure,
+International Journal of Sociotechnology and Knowledge Development,IJSKD
+Journal of Software,
+International Journal of Software and Informatics,
+Journal of Software Engineering and Applications,JSEA
+International Journal of Software Engineering and Knowledge Engineering,IJSEKE
+Journal of Software: Evolution and Process,
+Journal of Software: Evolution and Process,
+International Journal of Software Science and Computational Intelligence,
+IEEE Journal of Solid-State Circuits,
+International Journal of Space-Based and Situated Computing,IJSSC
+Journal of Spatial Information Science,
+International Journal of Strategic Decision Sciences,IJSDS
+The Journal of Strategic Information Systems,
+International Journal of Strategic Information Technology and Applications,IJSITA
+The Journal of Supercomputing,
+International Journal of Swarm Intelligence Research,IJSIR
+Journal of Symbolic Computation,JSC
+The Journal of Symbolic Logic,
+International Journal of Synthetic Emotions,IJSE
+Journal of Systems and Information Technology,
+International Journal of Systems and Service-Oriented Engineering,IJSSOE
+Journal of Systems and Software,JSS
+Journal of Systems Architecture - Embedded Systems Design,
+International Journal of Systems Assurance Engineering and Management,
+Journal of Systems Integration,
+International Journal of Systems Science,
+International Journal of Technoethics,IJT
+International Journal of Technology and Educational Marketing,IJTEM
+International Journal of Technology and Human Interaction,IJTHI
+International Journal of Technology Diffusion,IJTD
+International Journal of Technology Management,IJTM
+Journal of the ACM,
+Journal of the AIS,
+Journal of the American Medical Informatics Association,JAMIA
+Journal of the American Society for Information Science and Technology,JASIST
+4OR: Quarterly Journal of the Belgian, French and Italian Operations Research Societies,
+Journal of the Brazilian Computer Society,
+Logic Journal of the IGPL,
+Bulletin of the IGPL,
+Journal of the International Computer Games Association,
+Journal of the London Mathematical Society,
+Journal of the Operational Research Society,
+Journal of Theoretical and Applied Electronic Commerce Research,
+Journal of Theoretical and Applied Information Technology,
+Chicago Journal of Theoretical Computer Science,
+Journal of Ubiquitous Systems and Pervasive Networks,
+International Journal of Uncertainty, Fuzziness and Knowledge-Based Systems,
+International Journal of Unconventional Computing,IJUC
+The Journal of Universal Computer Science,
+International Journal of Virtual and Personal Learning Environments,IJVPLE
+International Journal of Virtual Communities and Social Networking,IJVCSN
+International Journal of Virtual Reality,
+Journal of Virtual Reality and Broadcasting,
+Journal of Visual Communication and Image Representation,
+Journal of Visual Languages and Computing,
+Journal of Visualization,
+Journal of Visualization and Computer Animation,
+Journal of Signal Processing Systems,
+International Journal of Wavelets, Multiresolution and Information Processing,IJWMIP
+International Journal of Web and Grid Services,IJWGS
+International Journal of Web Applications,IJWA
+International Journal of Web Based Communities,IJWBC
+International Journal of Web-Based Learning and Teaching Technologies,IJWLTT
+Journal of Web Engineering,
+International Journal of Web Engineering and Technology,
+International Journal of Web Information Systems,
+International Journal of Web Portals,IJWP
+International Journal of Web Science,IJWS
+Journal of Web Semantics,
+International Journal of Web Services Research,
+International Journal of Wireless and Mobile Computing,IJWMC
+International Journal of Wireless Information Networks,
+International Journal of Wireless Networks and Broadband Technologies,IJWNBT
+Journal of WSCG,
+Journal of Zhejiang University - Science C,
+EURASIP Journal on Advances in Signal Processing,
+SIAM Journal on Applied Dynamical Systems,
+SIAM Journal on Applied Mathematics,
+International Journal on Artificial Intelligence Tools,IJAIT
+EURASIP Journal on Audio, Speech, and Music Processing,
+EURASIP Journal on Bioinformatics and Systems Biology,
+INFORMS Journal on Computing,
+SIAM Journal on Computing,
+ACM Journal on Computing and Cultural Heritage,
+SIAM Journal on Control and Optimization,
+Journal on Data Semantics,
+International Journal on Digital Libraries,JODL
+SIAM Journal on Discrete Mathematics,
+International Journal on Document Analysis and Recognition,IJDAR
+EURASIP Journal on Embedded Systems,
+ACM Journal on Emerging Technologies in Computing Systems,
+SIAM Journal on Financial Mathematics,
+e-Minds: International Journal on Human-Computer Interaction,
+EURASIP Journal on Image and Video Processing,
+SIAM Journal on Imaging Sciences,
+EURASIP Journal on Information Security,
+SIAM Journal on Mathematical Analysis,
+SIAM Journal on Matrix Analysis and Applications,
+International Journal on Measurement Technologies and Instrumentation Engineering,IJMTIE
+SIAM Journal on Numerical Analysis,
+SIAM Journal on Optimization,
+Journal on Satisfiability, Boolean Modeling and Computation,
+SIAM Journal on Scientific Computing,
+International Journal on Semantic Web and Information Systems,
+International Journal on Software Tools for Technology Transfer,STTT
+Journal on Telecommunications and High Technology Law,
+Order - A Journal on the Theory of Ordered Sets and its Applications,
+International Journal on Wireless & Optical Communications,
+EURASIP Journal on Wireless Communications and Networking,

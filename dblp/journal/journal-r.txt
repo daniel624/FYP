@@ -1,0 +1,66 @@
+International Journal of Radio Frequency Identification Technology and Applications,IJRFITA
+International Journal of Computer Assisted Radiology and Surgery,
+RAIRO - Operations Research,
+RAIRO - Theoretical Informatics and Applications
+Informatique Théorique et Applications,ITA
+Random Structures and Algorithms,
+International Journal of Embedded and Real-Time Communication Systems,IJERTCS
+Journal of Real-Time Image Processing,
+Real-Time Imaging,
+Real-Time Systems,
+International Journal of Reconfigurable Computing,
+ACM Transactions on Reconfigurable Technology and Systems,
+IEEE Transactions on Reliability,
+Microelectronics Reliability,
+Reliability Engineering & System Safety,
+Quality and Reliability Engineering International,
+Reliable Computing,
+IEEE Transactions on Geoscience and Remote Sensing,
+IEEE Geoscience and Remote Sensing Letters,
+Reports on Mathematical Logic,
+Requirements Engineering,
+Journal of Information Technology Research,JITR
+IBM Journal of Research and Development,
+Journal of Research and Practice in Information Technology,JRPIT
+Research and Practice in Technology Enhanced Learning,
+Research in Computing Science,
+International Journal of Adaptive, Resilient and Autonomic Systems,IJARAS
+Information Resources Management Journal,IRMJ
+Computer Science Review,
+International Game Theory Review,
+SIAM Review,
+Annual Reviews in Control Programming,
+Annual Review in Automatic Programming,
+The New Review of Hypermedia and Multimedia,
+Annual Review of Information Science and Technology,ARIST
+The Review of Socionetwork Strategies,
+Revista Avances en Sistemas e Informática,RASI
+Revista Colombiana de Computación,
+Colombian Journal of Computation,
+Revista de Informática Teórica e Aplicada - RITA,
+Inteligencia Artificial, Revista Iberoamericana de Inteligencia Artificial,
+Revista Iberoamericana de Tecnologías del Aprendizaje,
+Revue d'Intelligence Artificielle,
+Revue Internationale de Géomatique,
+International Journal of RF Technologies: Research and Applications,
+Rhino Didactics,
+Scientific Journal of Riga Technical University. Computer Sciences,
+Risk and Decision Analysis,
+Robotersysteme,
+International Journal of Robotic Research,IJRR
+Journal of Intelligent and Robotic Systems,
+Robotica,
+Advanced Robotics,
+Foundations and Trends in Robotics,
+IEEE Transactions on Robotics,
+International Journal of Humanoid Robotics,
+International Journal of Intelligent Mechatronics and Robotics,IJIMR
+International Journal of Social Robotics,
+Journal of Field Robotics,
+Paladyn, Journal of Behavioral Robotics,
+International Journal of Robotics and Automation,
+IEEE Robotics & Automation Magazine,
+Robotics and Autonomous Systems,
+Autonomous Robots,
+Transactions on Rough Sets,LNCS
+International Journal of Granular Computing, Rough Sets and Intelligent Systems,IJGCRSIS
