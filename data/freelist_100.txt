@@ -1,0 +1,233 @@
+Andrej Bogdanov and Youming Qiao: On the security of Goldreich's one-way function. In Computational Complexity, vol. 21, no. 1, 2012. Invited paper. (Preliminary version in Proceedings of the 13th International Workshop on Randomization and Computation (RANDOM), 2009.)
+
+Andrej Bogdanov, Periklis Papakonstantinou, and Andrew Wan: Pseudorandomness for read-once formulas. In Proceedings of the 52nd Annual Symposium on Foundations of Computer Science (FOCS), 2011.
+
+M. Xiao, L. Cai, and A.C.C. Yao, Tight Approximation Ratio of a General Greedy Splitting Algorithm for the Minimum k-Way Cut Problem, Algorithmica Vol 59 510-520, 2011.
+
+L. Cai, Parameterized Complexity of Cardinality Constrained Optimization Problems, the Computer Journal, 51(1) 102-121, 2008.
+
+L. Cai and D.G. Corneil, Tree Spanners, SIAM Journal on Discrete Mathematics, 8(3), 359-387, 1995.
+
+Zhenxing Wang, Laiwan Chan. Learning Causal Relationship in Multivariate time series Data, ACM Transactions on Intelligent Systems and Technology (TIST) , 2012: Vol 3, No 4, article no 76
+
+Zhitang Chen, Laiwan Chan. Causal Discovery for Linear Non-Gaussian Acyclic Models in the Presence of Latent Gaussian Confounders. LVA/ICA, 2012: 17-24 
+
+Zhitang Chen, Laiwan Chan. New Approaches for Solving Permutation Indeterminacy and Scaling Ambiguity in Frequency Domain Separation of Convolved Mixtures, Proceedings of International Joint Conference on Neural Networks, San Jose, California, USA, July 31-August 5, 2011, p911-918
+
+Laiwan Chan. A Study of the Activity Levels in E-learning Using Data Mining Approach. Australian Quality Forum 2010 Higher Education, p.28-34. Gold Coast, Australia, 2010.06
+
+Lou S, Ni B, Lo LY, Tsui SK, Chan TF*, and Leung KS: ABMapper: a suffix array-based tool for multi-location searching and splice-junction mapping. Bioinformatics. 2011 27(3):421-2.  (*corresponding author, page special)
+
+Kwok PY and TF Chan: Genotyping technologies: the present and the future. In Genetics, Genomics, Proteomics and Bioinformatics, Marsh, J (Ed.). 2005, John Wiley & Sons Ltd., London
+
+James Cheng, Zechao Shang, Hong Cheng, Haixun Wang, and Jeffrey Xu Yu.
+KReach: Who is In Your Small World.
+In PVLDB, Volume 5, Number 11, Pages 1292-1303, 2012
+
+J. Tang and A. Fu, "Query Rewriting Using Views for XPath queries, framework, and methodologies", Information Systems, 35:3, May, 2010, pages 315-334
+
+"Using Time-Varying Texels to Simulate Withering Grassland",
+S. Jiao, W. Wu, P. A. Heng and E. Wu, 
+IEEE Computer Graphics and Applications, pp. 36 - 48, 2012
+
+"Structure-Aware Halftoning", 
+W. M. Pang, Y. Qu, T. T. Wong, D. Cohen-Or and P. A. Heng,
+ACM Transactions on Graphics (SIGGRAPH 2008 issue), Vol.27, No.3:Article 89, 2008, pp.89-1.
+
+Mingzhen Mo, Irwin King, and Kwong-Sak Leung, "Empirical Comparisons of Attack and Protection Algorithms for Online Social Networks", Procedia CS, vol. 5, pp. 705-712, 2011
+
+Hao Ma, Irwin King, and Michael R. Lyu, "Learning to Recommend with Explicit and Implicit Social Relations", ACM Transactions on Intelligent Systems and Technology (TIST), vol. 2, iss. 3, p. 29:1-29:19, 2011.
+
+I. King, "Report on the Computer Strategy Game Programming Workshop", International Computer Chess Association Journal, pp. 113-115, June 1995
+
+Graph connectivities, network coding, and expander graphs
+Ho Yee Cheung, Lap Chi Lau, Kai Man Leung
+SIAM Journal on Computing, 42(3), 733-751, 2013 
+
+On linear and semidefinite programming relaxation for hypergraph matching
+Yuk Hei Chan, Lap Chi Lau
+Mathematical Programming, 135(1-2), 123-148, 2012
+
+Y. C. Law and J. H. M. Lee. Algebraic Properties of CSP Model Operators, in Proceedings of the International Workshop on Reformulating Constraint Satisfaction Problems: Towards Systematisation and Automation (held in conjunction with CP-2002), pages 57-71, 2002.
+
+X. Dupont, A. Lallouet, Y. C. Law, J. H. M. Lee, and C. F. K. Siu. Programmation par Contraintes sur les Séquences Infinies, in Proceedings of Huitièmes Journées Francophones de Programmation par Contraintes (JFPC-2012), pages 107-116, 2012.
+
+Y. C. Law, J. H. M. Lee, and M. H. C. Woo. Redundant Modeling in Permutation Weighted Constraint Satisfaction Problems. Constraints, 15(3), pages 354-403, 2010.
+
+Y.C. Law, J.H.M. Lee, T. Walsh and M.H.C. Woo.  Multiset Variable Representations and Constraint Propagation, CONSTRAINTS, 18(3):307-343, 2013
+
+J.H.M. Lee and K.L. Leung.  Consistency Techniques for Flow-Based Projection-Safe Global Cost Functions in Weighted Constraint Satisfaction, Journal of Artificial Intelligence Research, 43:257-292, 2012
+
+Morris S.Y. Jong, Junjie Shang, Fong-lok Lee, and Jimmy H.M. Lee.  An Evaluative Study on VISOLE Virtual Interactive Student-Oriented Learning Environment, IEEE Transactions on Learning Technologies, 3(4):307-318, 2010
+
+Xudong Luo, Jimmy Ho-man Lee, Ho-fung Leung, and Nicholas R. Jennings.  Prioritised Fuzzy Constraint Satisfaction Problems: Axioms, Instantiation and Validation,  Fuzzy Sets and Systems, 136(2), pages 151-188, Elsevier Science Ltd, 2003
+
+T.M. Chan, K.C. Wong, K.H. Lee, M.H. Wong, C.K. Lau, Stephen K.W. Tsui, K.S. Leung, Discovering approximate-associated sequence patterns for protein-DNA interactions. Bioinformatics, 2011, 27(4), pp. 471-478. (IF:5.468)
+
+(S. M. Cheang), K. H. Lee and K.S. Leung, "Applying Genetic Parallel Programming to Synthesize Combinational Logic Circuits", IEEE Transactions on Evolutionary Computation, Vol.11, No.4, pp.503-520, August 2007.
+
+(Y.Y. Wong), K.S. Leung, and K.H. Lee, "Stochastic load balancing algorithm for i-Computing", Concurrency and Computation: Practice and Experience,  15(1), 55-78, Jan. 2003.
+
+Raaed Al-Dujaily, Terrence Mak, Kai-Pui Lam, Fei Xia, Alex Yakovlev, Chi-Sang Poon, Dynamic On-Chip Thermal Optimization for Three Dimensional Networks-on-Chip, Computer Journal, 55(10), 1-15, 2012
+
+Bo Yu, Terrence Mak, Xiangyu Li, Leslie Smith, Yihe Sun and Chi-Sang Poon, Stream-based Hebbian Eigenfilter for Real-Time Neuronal Spike Discrimination, BioMedical Engineering OnLine, vol. 11, no. 18, 2012
+
+Terrence Mak, Kai-Pui Lam, H.S. Ng, Guy Rachmuth, Chi-Sang Poon, A CMOS Current-Mode Dynamic Programming Circuit, IEEE Trans. Circuits and Systems I, Vol 57, No. 22, pp. 3112-3123, 2010
+
+Capacity regions of two new classes of 2-receiver broadcast channels
+C. Nair. 
+IEEE Transactions on Information Theory, vol. IT-56, pp. 4207-4214, 2010.
+Proceedings of the International Symposium on Information Theory, pp. 1839-1843, 2009.
+
+Proof of the local REM conjecture for number partitioning I: Constant energy scales,
+C. Borgs, J. T. Chayes, S. Mertens, and C. Nair. 
+Random Structures and Algorithms, vol. 34(2), pp. 217-240, 2009.
+
+Ying Kin Yu, Kin Hong Wong, Siu Hang Or and Junzhou Chen, "Controlling Virtual Cameras Based on a Robust Model-free Pose Acquisition Technique", IEEE Transactions on Multimedia, No. 1, January 2009, pp. 184-190.
+
+Ying Kin Yu, Kin Hong Wong, Siu Hang Or, and Michael Ming Yuen Chang, "Robust 3-D Motion Tracking From Stereo Images: A Model-Less Method", IEEE Transaction on Instrumentation and Measurement, Vol. 57, No. 3, March 2008.
+
+B. Sheng, W. Meng, H. Sun, E. Wu, "Sketch-based Design for Green Geometry and Image Deformation", Journal of Multimedia Tools and Applications, 2012.
+
+B. Sheng, H. Sun, S. Chen, X. Liu, E. Wu, "Colorization Using the Rotation-invariant Feature Space", IEEE Journal of Computer Graphics and Applications, 31(2): 24-35, 2011.
+
+B. Sheng, H. Sun, G. Yang, E. Wu, "Furstyling on Angle-Split Shell Textures", Journal of Computer Animation and Virtual Worlds, (selected from International Conference on CASA '2009, special issue on CASA), 20(2-3): 205-213, 2009.
+
+H. Wang, H. Sun, KH Qin, "Estimating Recursion Depth for Loop Subdivision", International Journal of CAD/CAM, 4(1): 11-18, 2004.
+
+X. Jin, H. Sun, Q. Peng, "Subdivision Interpolating Implicit Surfaces", Journal of Computers & Graphics, Vol. 27, No. 5, p. 763-772, 2003.
+
+A. M. C. So, "Moment Inequalities for Sums of Random Matrices and Their Applications in Optimization", Mathematical Programming, Series A 130(1):125-151, 2011
+
+Le, W., Li, F., Tao, Y., Christensen, R. 
+Optimal Splitters for Temporal and Multi-version Databases. 
+Proceedings of ACM Conference on Management of Data (SIGMOD), pages 109-120, 2013.
+
+Jiang, B., Pei, J., Tao, Y., Lin, X. 
+Clustering Uncertain Data Based on Probability Distribution Similarity. 
+IEEE Transactions on Knowledge and Data Engineering (TKDE), 25(4): 751-763, 2013. 
+
+Tao, Y., Papadias, D., Lian, X., Xiao, X. 
+Multi-dimensional Reverse kNN Search. 
+Very Large Data Base Journal (VLDBJ), 16(3): 293-316, 2007
+
+Zhaorong Li, Kin-Hong Wong, Yibo Gong, and Ming-Yuen Chang, "An Effective Method for Movable Projector Keystone Correction", IEEE Transactions on Multimedia, VOL. 13, NO. 1, Feb 2011
+
+Chi Hang Wong, Wai Man Szeto and Kin Hong Wong, "Automatic lyrics alignment for Cantonese popular music",  Multimedia Systems, Springer, Volume 12, Numbers 4-5, March 2007 , pp. 307-323
+
+Ying Kin YU, Kin Hong Wong and Michael MingYuen Chang, "Pose Estimation for Augmented Reality Applications Using Genetic Algorithm", IEEE Transactions on Systems, Man, and Cybernetics, Part B, Dec. 2005, Volume: 35,  Issue: 6, PP. 1295- 1301
+
+Mohammad Ehab Ragab, Kin Hong Wong, Jun Zhou Chen, Michael Ming-Yuen Chang, "EKF Pose estimation: how many filters and cameras to use?", IEEE International Conference on Image Processing (ICIP08), San Diego, California, U.S.A, October 12?5, 2008
+
+Yee Leung, Man Hon Wong, Ka-Chun Wong, Wei Zhang, Kwong-Sak Leung: A novel web-based system for tropical cyclone analysis and prediction. International Journal of Geographical Information Science 26(1): 75-97 (2012)
+
+Po-Yuen Wong, Tak-Ming Chan, Man Hon Wong, Kwong-Sak Leung: Predicting Approximate Protein-DNA Binding Cores Using Association Rule Mining. ICDE 2012: 965-976
+
+Ka-Chun Wong, Kwong-Sak Leung, Man Hon Wong: Effect of Spatial Locality on an Evolutionary Algorithm for Multimodal Optimization. EvoApplications (1) 2010: 481-490
+
+Mi Zhou, Man Hon Wong: Boundary-Based Lower-Bound Functions for Dynamic Time Warping and Their Indexing. ICDE 2007: 1307-1311
+
+" Binocular Tone Mapping",
+X. Yang, L. Zhang, T. T. Wong and P. A. Heng,
+ACM Transactions on Graphics (SIGGRAPH 2012 issue), Vol. 31, No. 4, July 2012, pp. 93:1-93:10.
+
+" Deringing Cartoons by Image Analogies",
+G. Wang, T. T. Wong and P. A. Heng,
+ACM Transactions on Graphics, Vol. 25, No. 4, October 2006, pp. 1360-1379.
+
+T.Y. Wong, M.H. Wong, and John C.S. Lui, "A Precise Termination Condition of the Probabilistic Packet Marking Algorithm", IEEE Transactions of Secure and Dependable Computing, Vol.5, No.1, pp.6-21, January-March, 2008
+
+M.R. Lyu and T.Y. Wong, "A Progressive Fault Tolerant Mechanism in Mobile Agent Systems", Proceedings of the 7th World Multiconference on Systemics, Cybernetics and Informatics (SCI'03). Vol. IX. Orlando, Florida, 2003, pp. 299-306
+
+T.Y.Wong, "A Progressive Fault Detection and Service Recovery Mechanism in Mobile Agent Systems", A Master Thesis, The Chinese University of Hong Kong, June 2002
+
+H.W. Chan, K.M. Wong, T.Y. Wong, and M.R. Lyu, "Securing Mobile Agents for Electronic Commerce: An Experiment", Information Security for Global Information Infrastructures, IFIP TC11 Fifteenth Annual Working Conference on Information Security, August 22-24, 2000, Beijing, China, pp.471-480
+
+H. Fan, C.C. Cheung, and Y.L. Wu, "Design Automation Framework for Reconfigurable 3D Interconnection Networks", The Computer Journal pg 1-12, Oct. 2012
+
+F. S. Chim, T. K. Lam, Y.L. Wu, and F, H. Fan, "On Structural Analysis and Efficiency for Graph-Based Rewiring Techniques", IEICE Transactions on Fundamentals of Electronics, Communications and Computer Sciences, Vol. E94-A, No. 12, pp. 2853-2865 Dec. 2011
+
+X. Xiong, Y. L. Wu and W. B. Jone, "Yield analysis for self-repairable MEMS devices", Analog Integrated Circuits and Signal Processing 56:1/2 pp.1-11, Auguest. 2008
+
+Y.L. Wu and M. Marek-Sadowska, "Routing for Array Type FPGAs", IEEE Transactions on Computer Aided Design. pp. 506-518, May 1997
+
+Lei Xu (2012), " On essential topics of BYY harmony learning: Current status, challenging issues, and gene analysis applications ",  A special issue on Machine learning and intelligence science: IScIDE (C), Journal of Frontiers of Electrical and Electronic Engineering 7(1) (2012) 147?96
+
+Lei Xu (2009), "Learning Algorithms for RBF Functions and Subspace Based Functions", Ch.3 in "Handbook of Research on Machine Learning Applications and Trends: Algorithms, Methods and Techniques", eds. by Olivas, Guerrero, Sober, Benedito, & Lopez, IGI Global publication, pp60-94
+
+Lei Xu  and  Shun-ichi Amari (2008), "Combining Classifiers and Learning Mixture-of-Experts", in Encyclopedia of Artificial Intelligence,  Edited By: Juan Ramón Rabuñal Dopico; Julian Dorado; Alejandro Pazos, IGI Global (IGI) publishing company,  pp318-326
+
+L. Huang, F. Yuan, and Q. Xu, "On Task Allocation and Scheduling for Lifetime Extension of Platform-Based MPSoC Designs", IEEE Transactions on Parallel and Distributed Systems, vol 22, pp. 2088-2099,  Dec. 2011
+
+Q. Xu, Y. Zhang and K. Chakrabarty, "SOC Test-Architecture Optimization for the Testing of Embedded Cores and Signal-Integrity Faults on Core-External Interconnects", ACM Transactions on Design Automation of Electronic Systems, vol. 14, article No. 4, Jan. 2009
+
+Q. Xu and N. Nicolici, "Resource-Constrained System-on-a-Chip Test: A Survey", IEEE Proceedings: Computers and Digital Techniques. vol. 152, pp. 67-81, Jan. 2005
+
+Ken Kai-Yuen Tso*, Kevin Y. Yip*, Cathy Mak, Grace Tin-Yun Chung, Sau-Dan Lee, Siu-Tim Cheung, Ka-Fai To and Kwok-Wai Lo,
+Complete Genomic Sequence of Epstein-Barr Virus in Nasopharyngeal Carcinoma Cell Line C666-1,
+Infectious Agents and Cancer, vol. 8, issue 1, no. 29, (2013).
+
+The ENCODE Project Consortium,
+A User's Guide to the Encyclopedia of DNA Elements (ENCODE),
+PLoS Biology, vol. 9, issue 4, e1001046, (2011)
+
+Justin Jee*, Joel Rozowsky*, Kevin Y. Yip*, Lucas Lochovsky, Robert Bjornson, Guoneng Zhong, Zhengdong Zhang, Yutao Fu, Jie Wang, Zhiping Weng and Mark Gerstein,
+ACT: Aggregation and Correlation Toolbox for Analyses of Genome Tracks,
+Bioinformatics, vol. 27, no 8, pp. 1152-1154, (2011)
+
+Kevin Y. Yip*, Prianka Patel*, Philip M. Kim, Donald M. Engelman, Drew McDermott and Mark Gerstein,
+An Integrated System for Studying Residue Coevolution in Proteins,
+Bioinformatics, vol. 24, no. 2, pp. 290-292, (2008)
+
+Postgrid Clock Routing for High Performance Microprocessor Designs, Haitong Tian, W.C. Tang, Evangeline F.Y. Young and C. N. Sze, IEEE Transactions of Computer-Aided Design of Integrated Circuits and Systems, 31(2):255-259, 2012
+
+Block Flipping and White Space Distribution for Wirelength Minimization , Chiu-Wing Sham and Evangeline F.Y. Young, Integration, the VLSI Journal, Vol. 42, No. 2, p246-253, February, 2009
+
+Optimizing Wirelength and Routability by Searching Alternative Packings in Floorplanning , Chiu-Wing Sham, Evangeline F.Y. Young and Hai Zhou, ACM Transaction on Design Automation of Electronic Systems, Vol.13, No.1, Article No.21 (21:1-21:13), January, 2008
+
+Lijun Chang, Jeffrey Xu Yu, and Lu Qin: "Fast Maximal Cliques Enumeration in Sparse Graphs", Vol. 66, No. 1, Algorithmica, 2013
+
+Lijun Chang, Jeffrey Xu Yu, Lu Qin, Hong Cheng, and Miao Qiao: "The Exact Distance to Destination in Undirected World", VLDB Journal, Vol. 21, No. 6, 2012
+
+Pei Li, Laks V.S. Lakshmanan, and Jeffrey Xu Yu: "On Top-k Structural Similarity Search", in Proceedings of the 28th International Conference on Data Engineering (ICDE'12), 2012
+
+Long Xu, Sam Kwong and Zhang Yun, Low-Complexity Encoder Framework for Window-Level Rate Control Optimization, accepted for publication in IEEE Trans. On Industrial Electronics, 2012
+
+Sudeng Hu, Hanli Wang, Sam Kwong, Adaptive Quantization Parameter Clip Scheme for Smooth Quality in H.264/AVC, accepted for publication in IEEE Trans. on Image Processing. 2012
+
+Tiesong Zhao, Sam Kwong, Hanli Wang and C.C. Jay Kuo, H.264/SVC mode decision based on optimal stopping theory, accepted for publication in IEEE Trans. on Image Processing. 2012
+
+S Hu, H Wang, S Kwong, T Zhao and C C J Kuo, Rate control optimization for temporal-layer scalable video coding, IEEE Transactions on Circuits and Systems for Video Technology, Volume 21, Issue 8, August 2011, Pages 1152-1162
+
+K S Tang, R J Yin, S Kwong, K T Ng, K F Man, A theoretical development and analysis of jumping gene genetic algorithm, IEEE Transactions on Industrial Informatics, Volume 7, Issue 3, August 2011, Article number 5937032, Pages 408-418
+
+G Zhu, S Kwong, J Huang, J Yang, Random Gray code and its performance for Image Hashing, Signal processing, Volume 91, Issue 9, September 2011, Pages 2178-2193
+
+H Li, Y Hong, S Kwong, Subspace estimation of distribution algorithms: To perturb part of all variables in estimation of distribution algorithms, Applied Soft Computing Journal, Volume 11, Issue 3, April 2011, Pages 2974-2989
+
+H Li, S Kwong and Y Hong, The convergence analysis and specification of the Population-Based Incremental Learning algorithm, Neurocomputing, Volume 74, Issue 11, May 2011, Pages 1868-1873
+
+Zhenyon Fu, Zhiwu Lu and Horace H S Ip, "Symmetric Graph Regularized Constraint Propagation", Proceedings of 25th Conference on Artificial Intelligence (AAAI 2011), 7-11 August, 2011, San Francisco, USA
+
+Zhiwu Lu and Horace H S Ip, "Spatial Markov Kernels for Image Categorization and Annotation", IEEE Transactions on Systems, Man and Cybernetics – Part B: Cybernetics, Vol. 41, No. 4, pp. 976-989, August 2011.
+
+Lin Cui, Posco Tso, Di Yao and Weijia Jia, "WeFiLab: A Web-based WiFi Laboratory Platform for Wireless Networking Education", IEEE Transactions on Learning Technologies, 5(4): 291-303 (2012).
+
+Ziqiu Yun, Xiaole Bai, Dong Xuan, Weijia Jia and Wei Zhao, "Pattern Mutation in Wireless Sensor Deployment", IEEE/ACM Transactions on Networking, 20(6), 2012, pp.1964-1977.
+
+Z. Lin, J. Luo, X. Fu,  W. Yu, D. Xuan, W. Jia, "A New Cell Counting Based Attack Against Tor", IEEE/ACM Transactions on Networking, August 2012, 20(4), pp.1245-1261.
+
+Xiaohua Jia, Dongsoo Kim, Sam Makki, Pengjun Wan, and Chihwei Yi, "Power assignment for k-connectivity in wireless ad hoc networks" , IEEE INFOCOM'05, Miami, Mar 2005.
+
+Xiaohua Jia, Deying Li, and D. Du, "QoS topology control in ad hoc wireless networks" , IEEE INFOCOM'04, Hong Kong, Mar 2004.
+
+Deying Li, Xiaohua Jia, and H. Liu, "Energy efficient broadcast routing in ad hoc wireless networks" , IEEE Trans on Mobile Computing, Vol.3, No.2, Apr-Jun 2004.
+
+C. H. Yuen, E. Chan, K. Y. Lam and H. W. Leung, "Cache Invalidation Scheme for Mobile Computing Systems with Real-time Data", ACM SIGMOD RECORD, Vol. 29 No. 4, Dec. 2000.
+
+K. Y. Lam, E. Chan and C. H. Yuen, "Approaches for Broadcasting Temporal Data in Mobile Computing Systems", Journal of Systems and Software, Vol. 51, pp. 175-189, 2000.
+
+E. Chan, D. Chen, C. S. Lee, J. Cao and C. H. Lee, "On the Effectiveness of the FDDI-M Medium Access Protocol for Real-Time Traffic", The Journal of Supercomputing, Vol. 11, pp. 371-389, 1997.
+
+Kwok L F, Cheung C H and Longley D, "An Object-Oriented Framework for Risk Data Repository", Proc. IFIP/SEC2000: Information Security for Global Information Infrastructures, Beijing, PRC, 21-25 August 2000, Editors: Qing S & Eloff J H P, International Academic Publishers, pp.98-101
+
