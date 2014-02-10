@@ -1,9 +1,5 @@
 package weka;
 
-/*
-hello
-*/
-
 import java.io.*;
 import data.*;
 
