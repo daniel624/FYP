@@ -1,4 +1,4 @@
-Andrej Bogdanov and Youming Qiao: On the security of Goldreich's one-way function. In Computational Complexity, vol. 21, no. 1, 2012. Invited paper. (Preliminary version in Proceedings of the 13th International Workshop on Randomization and Computation (RANDOM), 2009.)
+aaaAndrej Bogdanov and Youming Qiao: On the security of Goldreich's one-way function. In Computational Complexity, vol. 21, no. 1, 2012. Invited paper. (Preliminary version in Proceedings of the 13th International Workshop on Randomization and Computation (RANDOM), 2009.)
 
 Andrej Bogdanov, Periklis Papakonstantinou, and Andrew Wan: Pseudorandomness for read-once formulas. In Proceedings of the 52nd Annual Symposium on Foundations of Computer Science (FOCS), 2011.
 
