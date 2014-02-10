@@ -1,7 +1,6 @@
 package weka;
 
 /*
-byebye
 */
 
 import java.io.*;
