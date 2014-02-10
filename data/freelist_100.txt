@@ -1,4 +1,5 @@
 abcabc
+daniel
 
 Andrej Bogdanov and Youming Qiao: On the security of Goldreich's one-way function. In Computational Complexity, vol. 21, no. 1, 2012. Invited paper. (Preliminary version in Proceedings of the 13th International Workshop on Randomization and Computation (RANDOM), 2009.)
 
