@@ -68,54 +68,161 @@ Title= Applicability of family therapy for Chinese children and adolescents suff
 
 105.
 Ngai, S.Y.S., Ngai, N.P., Cheung, C.K., & To, S.M. (2008). The effects of service participation, friendship networks and family support on developmental outcomes: A study of young people from low-income families in Hong Kong. Adolescence, 43, 399-416.
+Authors= Ngai, S.Y.S., Ngai, N.P., Cheung, C.K., & To, S.M.
+Journal= Adolescence
+Volume= 43
+Year= 2008
+Page= 399-416
+Title= The effects of service participation, friendship networks and family support on developmental outcomes: A study of young people from low-income families in Hong Kong
 
 106.
 (2003). To Tell or Not to Tell; Disability Disclosure and Job Application Outcomes (with Veronica Pearson, Nelson Yip, Frances Ip, K.K. Ho and Heidi Hui). The Journal of Rehabilitation, 69(4), 35-38.
+Authors= Veronica Pearson, Nelson Yip, Frances Ip, K.K. Ho and Heidi Hui
+Journal= Rehabilitation
+Volume= 69
+Year= 2003
+Page= 35-38
+Issue= 4
+Title= To Tell or Not to Tell; Disability Disclosure and Job Application Outcomes
 
 107.
 Wong, O.L., & Ma , J.L.C. (2013). Development of family therapy in Hong Kong. Contemporary Family Therapy.
+Authors= Wong, O.L., & Ma , J.L.C.
+Journal= Contemporary Family Therapy
+Year= 2013
+Title= Development of family therapy in Hong Kong
 
 108.
 Wong, O.L. (2011). Gendered power in eating habits: Insight into childhood obesity in a Chinese context. Journal of Family Therapy, 33, 332-352.
+Authors= Wong, O.L.
+Journal= Family Therapy
+Volume= 33
+Year= 2011
+Page= 332-352
+Title= Gendered power in eating habits: Insight into childhood obesity in a Chinese context
 
 109.
 To, S.M., & Chan, T.S. (2013). Searching for the meaning of parenthood: An existential approach to parent education in the Hong Kong-Chinese context. International Social Work, 56(4), 467-481.
+Authors= To, S.M., & Chan, T.S.
+Journal= International Social Work
+Volume= 56
+Year= 2013
+Page= 467-481
+Issue= 4
+Title= Searching for the meaning of parenthood: An existential approach to parent education in the Hong Kong-Chinese context
 
 110.
 Cheung, M.C., Chan, A.S., Sze, S. L., Leung, W.W., & To, C.Y. (2010). Verbal memory deficits in relation to organization strategy in high- and low-functioning autistic children. Research in Autism Spectrum Disorders, 4, 764-771
+Authors= Cheung, M.C., Chan, A.S., Sze, S. L., Leung, W.W., & To, C.Y
+Journal= Research in Autism Spectrum Disorders
+Volume= 4
+Year= 2010
+Page= 764-771
+Title= Verbal memory deficits in relation to organization strategy in high- and low-functioning autistic children
 
 111.
 J.F. Cai, R.H. Chan, and Z.W. Shen, A Framelet-Based Image Inpainting Algorithm, Appl. Com-put. Harmon. Anal., 24 (2008), 131-149.
+Authors= J.F. Cai, R.H. Chan, and Z.W. Shen
+Journal= Appl. Com-put. Harmon. Anal.
+Volume= 24
+Year= 2008
+Page= 131-149
+Title= A Framelet-Based Image Inpainting Algorithm
 
 112.
 R.H. Chan, C.W. Ho, and M. Nikolova, Salt-and-Pepper Noise Removal by Median-type Noise Detectors and Detail-preserving Regularization, IEEE Trans. Image Proc., 14 (2005), 1479-1485.
+Authors= R.H. Chan, C.W. Ho, and M. Nikolova
+Journal= IEEE Trans. Image Proc.
+Volume= 14
+Year= 2005
+Page= 1479-1485
+Title= Salt-and-Pepper Noise Removal by Median-type Noise Detectors and Detail-preserving Regularization
 
 113.
 With A. Lorz and P. Markowich: Global Solutions to the coupled chemotaxis-fluid equations, Communications in Partial Differential Equations, 35 (2010), no. 9, 1635-1673.
+Authors= A. Lorz and P. Markowich
+Journal= Communications in Partial Differential Equations
+Volume= 35
+Year= 2010
+Page= 1635-1673
+Number= 9
+Title= Global Solutions to the coupled chemotaxis-fluid equations
 
 114.
 With C.-J. Zhu: Existence and uniqueness of entropy solution to initial boundary value problem for the inviscid Burgers equation, Journal of Physics. A. 36 (2003), no. 8, 2099-2107.
+Authors= C.-J. Zhu
+Journal= Physics
+Volume= 36
+Year= 2003
+Page= 2099-2107
+Number= 8
+Title= Existence and uniqueness of entropy solution to initial boundary value problem for the inviscid Burgers equation
 
 115.
 With T. Yang and C.-J. Zhu: Boltzmann equation with external force and Vlasov-Poisson-Boltzmann system in infinite vacuum, Discrete and Continuous Dynamical Systems 16 (2006), no. 1, 253-277.
+Authors= T. Yang and C.-J. Zhu
+Journal= Discrete and Continuous Dynamical Systems
+Volume= 16
+Year= 2006
+Page= 253-277
+Number= 1
+Title= Boltzmann equation with external force and Vlasov-Poisson-Boltzmann system in infinite vacuum
 
 116.  
 Chan, K. L., & Jones, B. J. T. 1975, Distortions of the 3K background radiation spectrum: observational constraints on the early thermal history of the universe, Astrophys. J., 195, 1-11.
+Authors= Chan, K. L., & Jones, B. J. T.
+Journal= Astrophys. J
+Volume= 195
+Year= 1975
+Page= 1-11
+Title= Distortions of the 3K background radiation spectrum: observational constraints on the early thermal history of the universe
 
 117.
 Bentkus, V., Jing, B.-Y., Shao, Q.M., and Zhou, W. (2007). Limiting distributions of non-centralt-statistics and their applications to the power of t-tests under non-normality. Bernoulli, 13, 346-364.  
+Authors= Bentkus, V., Jing, B.-Y., Shao, Q.M., and Zhou, W
+Journal= Bernoulli
+Volume= 13
+Year= 2007
+Page= 346-364
+Title= Limiting distributions of non-centralt-statistics and their applications to the power of t-tests under non-normality
+
 
 118.
 [Thesis]
 Thrainsson, Hjortor, "Modeling of Earthquake Ground Motion in the Frequency Domain," Ph.D. Thesis, Report 134, Blume Earthquake Engineering Center, Stanford University, 2000
+Thesis= Ph.D. Thesis
+Authors= Thrainsson, Hjortor
+Volume= 134
+Year= 2000
+Publisher= Blume Earthquake Engineering Center, Stanford University
+Title= Modeling of Earthquake Ground Motion in the Frequency Domain
 
 119.
 [Book]
 Asymptotic Analysis (Applied Mathematical Sciences, Vol.48). Springer-Verlag, New York, 1984 (165 pages). (2nd edition of 1974 volume with further material) 2nd printing 1996. 
+Volume= 28
+Year= 1984
+Title= Asymptotic Analysis
+Publisher= Springer-Verlag
 
 120.
 [Book]
 The Mathematics of Marriage: Dynamic Nonlinear Models(J. M. Gottman, J.D. Murray, Catherine C. Swanson, Rebecca Tyson, Kristin R. Swanson). MIT Press, Cambridge, MA, 2002.
+Authors= 
+Journal= 
+Volume= 
+Number= 
+Year= 
+Page= 
+Proceeding= 
+Issue= 
+Article= 
+Month= 
+Thesis= 
+Chapter= 
+Title= 
+Editors= 
+Publisher= 
 
 121.
 [Book]
