@@ -101,14 +101,16 @@ public class Main {
 		
 		try 
 		{
-			// 100 records
-			//4,13,18,56,63,69,70,98,99
-			//BufferedReader in = new BufferedReader(new InputStreamReader(new FileInputStream("C:/Users/Lenovo/Documents/workspace/FYP/src/data/freelist_100.txt"), "UTF-8"));
+			BufferedReader in;
+			String filename;
+			
+			// 100 records (4,13,18,56,63,69,70,98,99)
+			//filename = "src/data/freelist_100.txt";
 			
 			// new records
-			BufferedReader in = new BufferedReader(new InputStreamReader(new FileInputStream("C:/Users/Lenovo/Documents/workspace/FYP/src/data/freelist_new.txt"), "UTF-8"));
-			
-			
+			filename = "src/data/freelist_new.txt";
+
+			in = new BufferedReader(new InputStreamReader(new FileInputStream(filename), "UTF-8"));
 			buffer = in.readLine();
 			while (buffer != null)
 			{

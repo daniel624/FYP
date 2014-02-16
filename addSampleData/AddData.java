@@ -11,8 +11,8 @@ public class AddData {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		DBConnection db = new DBConnection();
-		Connection conn = db.getConnection();
+		//DBConnection db = new DBConnection();
+		//Connection conn = db.getConnection();
 		String filename = "";
 		String tmp = "";
 		String fullname, shortname;
@@ -20,7 +20,7 @@ public class AddData {
 		
 		try {
 			for (int i=1; i<26; i++) {
-				filename = "C:/Users/Lenovo/Desktop/journal/dblp/journal-" + (char) (97+i) + ".txt";
+				filename = "src/data/dblp/journal-" + (char) (97+i) + ".txt";
 				BufferedReader buf = new BufferedReader(new InputStreamReader(new FileInputStream(filename), "UTF-8"));
 				
 				while (null != (tmp = buf.readLine())) {

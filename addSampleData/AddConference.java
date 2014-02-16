@@ -1,19 +1,9 @@
 package addSampleData;
 
-import java.lang.*;
-import java.util.*;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 import java.sql.*;
-
 import common.CommonFunction;
 import db.*;
-
-import java.net.*;
 import java.io.*;
-
-import org.apache.commons.lang3.*;
-
 
 public class AddConference {
 	static String colName = "";
@@ -23,12 +13,8 @@ public class AddConference {
 	{
 		DBConnection db = new DBConnection();
 		Connection conn = db.getConnection();
-		ResultSet rs = null;
 		String sql = "";
-		
-		String data = "";
 		String buffer = "";
-
 		String[] array;
 		String fileName;
 		int counter;
@@ -36,7 +22,7 @@ public class AddConference {
 		// a - z (97 -122)
 		for (int i=97; i<=122; i++)
 		{
-			fileName = "C:/Users/Lenovo/Documents/workspace/FYP/src/dblp/conference/conference-" + (char)i + ".txt";
+			fileName = "src/data/dblp/conference/conference-" + (char)i + ".txt";
 			System.out.println(fileName);
 			
 			counter = 1;
@@ -101,7 +87,7 @@ public class AddConference {
 		}
 		
 		// 3
-		fileName = "C:/Users/Lenovo/Documents/workspace/FYP/src/dblp/conference/conference-" + "3" + ".txt";
+		fileName = "src/data/dblp/conference/conference-" + "3" + ".txt";
 		System.out.println(fileName);
 		
 		counter = 1;
