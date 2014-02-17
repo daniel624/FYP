@@ -49,7 +49,7 @@ Year= 2007
 103.
 Ma, J. L. C., Wan, E. S. F., & Wong, M. M. C. (2013). Experiencing multiple family groups in a Chinese context: the clients’ perception of its helpful and unhelpful impact. Journal of Social Work Practice: Psychotherapeutic Approaches in Health, Welfare and Community, 27(1), 34-47. 
 Authors= Ma, J. L. C., Wan, E. S. F., Wong, M. M. C
-Journal= Social Work Practice: Psychotherapeutic Approaches in Health, Welfare and Community
+Journal= Journal of Social Work Practice: Psychotherapeutic Approaches in Health, Welfare and Community
 Volume= 27
 Year= 2013
 Page= 34-47
@@ -78,7 +78,7 @@ Title= The effects of service participation, friendship networks and family supp
 106.
 (2003). To Tell or Not to Tell; Disability Disclosure and Job Application Outcomes (with Veronica Pearson, Nelson Yip, Frances Ip, K.K. Ho and Heidi Hui). The Journal of Rehabilitation, 69(4), 35-38.
 Authors= Veronica Pearson, Nelson Yip, Frances Ip, K.K. Ho and Heidi Hui
-Journal= Rehabilitation
+Journal= Journal of Rehabilitation
 Volume= 69
 Year= 2003
 Page= 35-38
@@ -95,7 +95,7 @@ Title= Development of family therapy in Hong Kong
 108.
 Wong, O.L. (2011). Gendered power in eating habits: Insight into childhood obesity in a Chinese context. Journal of Family Therapy, 33, 332-352.
 Authors= Wong, O.L.
-Journal= Family Therapy
+Journal= Journal of Family Therapy
 Volume= 33
 Year= 2011
 Page= 332-352
@@ -151,7 +151,7 @@ Title= Global Solutions to the coupled chemotaxis-fluid equations
 114.
 With C.-J. Zhu: Existence and uniqueness of entropy solution to initial boundary value problem for the inviscid Burgers equation, Journal of Physics. A. 36 (2003), no. 8, 2099-2107.
 Authors= C.-J. Zhu
-Journal= Physics
+Journal= Journal of Physics
 Volume= 36
 Year= 2003
 Page= 2099-2107
@@ -208,336 +208,774 @@ Publisher= Springer-Verlag
 120.
 [Book]
 The Mathematics of Marriage: Dynamic Nonlinear Models(J. M. Gottman, J.D. Murray, Catherine C. Swanson, Rebecca Tyson, Kristin R. Swanson). MIT Press, Cambridge, MA, 2002.
-Authors= 
-Journal= 
-Volume= 
-Number= 
-Year= 
-Page= 
-Proceeding= 
-Issue= 
-Article= 
-Month= 
-Thesis= 
-Chapter= 
-Title= 
-Editors= 
-Publisher= 
+Authors= J. M. Gottman, J.D. Murray, Catherine C. Swanson, Rebecca Tyson, Kristin R. Swanson
+Title= The Mathematics of Marriage: Dynamic Nonlinear Models
+Publisher= MIT Press
 
 121.
 [Book]
 Theories of Biological Pattern Formation (editors S. Brenner, J.D. Murray and L. Wolpert). Proceedings of the Royal Society meeting of that name at the Royal Society, London, 1981.
+Authors= S. Brenner, J.D. Murray and L. Wolpert
+Year= 1981
+Proceeding= Royal Society meeting of that name at the Royal Society
+Title= Theories of Biological Pattern Formation
 
 122.
 [Book]
 Modelling of Patterns in Space and Time (editors W. Jager and J.D. Murray). Proceedings of a workshop of that name in Heidelberg, 1983. Springer-Verlag, Heidelberg, 1984 (405 pages). 
- 
+Authors= W. Jager and J.D. Murray
+Year=  1984
+Title= Modelling of Patterns in Space and Time
+Publisher= Springer-Verlag, Heidelberg
+
 123.
 [Book]
 Mathematical Biology. Springer-Verlag, Heidelberg, 1989 (767 pages) (2nd printing 1990, 3rd printing 1993); Mathematics Book Club (U.S.A.) adoption, 1991. 
+Year=  1989
+Title= Mathematical Biology
+Publisher= Springer-Verlag
 
 124.
 [Book]
 Bolton, Kingsley (2003) Chinese Englishes: A Sociolinguistic History. Cambridge: Cambridge University Press. 
+Authors= Bolton, Kingsley
+Year=  2003
+Title= Chinese Englishes: A Sociolinguistic History
+Publisher= Cambridge University Press
 
 125.
 [Book]
 Bolton, Kingsley (2005) A Dictionary of Cantonese Slang: Language of Hong Kong Movies, Street Gangs and City Life (co-authored with Christopher Hutton). London: C. Hurst and Co.; Hawaii: University of Hawaii Press. 
+Authors= Bolton, Kingsley & Christopher Hutton
+Year=  2005
+Title= A Dictionary of Cantonese Slang: Language of Hong Kong Movies, Street Gangs and City Life
+Publisher= Hurst and Co. & University of Hawaii Press
 
 126.
 [Book]
 Davis, Rocío G. Relative Histories: Mediating History in Asian American Family Memoirs (forthcoming, University of Hawaii Press, 2011). 
+Authors= Davis, Rocío G
+Year=  2011
+Title= Relative Histories: Mediating History in Asian American Family Memoirs
+Publisher= University of Hawaii Press
 
 127.
-[Book]
+[Book] *EUP - Edinburgh University Press*
 Weisser, Martin (2009) Essential Programming for Linguistics. Edinburgh Advanced Textbooks in Linguistics. Edinburgh: EUP. 
+Authors= Weisser, Martin
+Year=  2009
+Title= Essential Programming for Linguistics
+Publisher= EUP
 
 128.
 [Book]
 Xu Xi (ed.) (2003) City Voices: Hong Kong Writing in English (an anthology of prose and poetry from 1945 till present). Hong Kong: Hong Kong University Press.
+Authors= Xu Xi
+Year=  2003
+Title= City Voices: Hong Kong Writing in English
+Publisher= Hong Kong University Press
 
 129.
 [Book]
 Xu Xi (2004) Overleaf Hong Kong: Stories & Essays of the Chinese, Overseas. Hong Kong: Chameleon Press.
+Authors= Xu Xi
+Year=  2004
+Title= Overleaf Hong Kong: Stories & Essays of the Chinese, Overseas
+Publisher= Chameleon Press
 
 130.
-[Book chapters]
+[Book chapters] *Not sure*
 Bhatia, Aditi (2006) Language and ideology in political press conferences. In English in Southeast Asia Prospects, Perspectives and Possibilities. Edited by Azirah Hashim and Norizah Hassan. Kuala Lumpur: University of Malaya Press, pp. 163-79.
+Authors= Bhatia, Aditi
+Year=  2006
+Title= Language and ideology in political press conferences
+Publisher= University of Malaya Press
+Editors= Azirah Hashim, Norizah Hassan
+Chapter= English in Southeast Asia Prospects, Perspectives and Possibilities
+Page= 163-79
 
 131.
-[Book chapters]
+[Book chapters] *Not sure*
 Bhatia, Vijay K. (2003) Socio-political development of the legal system in India. In Multilingual and Multicultural Contexts of Legislation: An International Perspective. Edited by Vijay K. Bhatia, Christopher N. Candin, Jan Engberg, and Anna Trosborg. Frankfurt am Main; New York: Peter Lang, pp. 169-91. 
+Authors= Bhatia, Vijay K. 
+Year=  2003
+Title= Socio-political development of the legal system in India
+Publisher= Peter Lang
+Editors= Vijay K. Bhatia, Christopher N. Candin, Jan Engberg, and Anna Trosborg
+Chapter= Multilingual and Multicultural Contexts of Legislation: An International Perspective
+Page= 169-91
 
 132.
 [Book chapters]
 Miller, Lindsay (2007) What's in it for me? A performance management system to please everyone and (co-authored with Jean Young). In Evaluating Teacher Effectiveness in EF/SL Contexts. Edited by Christine Coombe, Mashael Al-Hamly, Peter Davidson, and Salah Troudi. The University of Michigan Press, pp. 74-88. 
+Authors= Miller, Lindsay & Jean Young
+Year=  2007
+Title= What's in it for me?
+Publisher= University of Michigan Press
+Editors= Christine Coombe, Mashael Al-Hamly, Peter Davidson, and Salah Troudi
+Chapter= Evaluating Teacher Effectiveness in EF/SL Contexts
+Page= 74-88
 
 133.
 Davis, Rocío G. Academic Autobiography and Transdisciplinary Crossings in Shirley Geok-lin Lim's Among the White Moon Faces. Journal of American Studies 43.3 (December 2009): 1-17.
+Authors= Davis, Rocío G
+Journal= Journal of American Studies
+Volume= 43
+Year= 2009
+Page= 1-17
+Issue= 3
+Title= Academic Autobiography and Transdisciplinary Crossings in Shirley Geok-lin Lim's Among the White Moon Faces
 
 134.
 Davis, Rocío G. Locating Family: Asian Canadian Historical Revisioning in Linda Ohama's Obaachan's Garden and Ann Marie Fleming's The Magical Life of Long Tack Sam. Journal of Canadian Studies 42.1 (Winter 2008): 1-22. 
+Authors= Davis, Rocío G
+Journal= Journal of Canadian Studies
+Volume= 42
+Year= 2008
+Page= 1-22
+Issue= 1
+Title= Locating Family: Asian Canadian Historical Revisioning in Linda Ohama's Obaachan's Garden and Ann Marie Fleming's The Magical Life of Long Tack Sam
 
 135.
 Bolton, Kingsley (2008a) Comment 2. World Englishes, 27(2), 270-71.
+Authors= Bolton, Kingsley
+Journal= World Englishes
+Volume= 27
+Year= 2008
+Page= 270-71
+Issue= 2
+Title= Comment 2
 
 136.
 Bolton, Kingsley (2008b) English in Asia, Asian Englishes, and the issue of proficiency. English Today, 94, 3-12
+Authors= Bolton, Kingsley
+Journal= English Today
+Volume= 94
+Year= 2008
+Page= 3-12
+Title= English in Asia, Asian Englishes, and the issue of proficiency
 
 137.
 Du-Babcock, Bertha (2006c) An analysis of topic management strategies and turn-taking behavior in the Hong Kong bilingual environment: The impact of culture and language use. Journal of Business Communication, 43(1), 21-42. 
+Authors= Du-Babcock, Bertha
+Journal= Journal of Business Communication
+Volume= 43
+Issue= 1
+Year= 2006
+Page= 21-42
+Title= An analysis of topic management strategies and turn-taking behavior in the Hong Kong bilingual environment: The impact of culture and language use
 
 138.
 [Journal Articles]
 Su, Chenting and James E. Littlefield (2001), "Entering Guanxi: A Business Ethical Dilemma in Mainland China?", Journal of Business Ethics, Vol. 33, No.3, pp. 199-210.
+Authors= Su, Chenting and James E. Littlefield
+Journal= Journal of Business Ethics
+Volume= 33
+Number= 3
+Year= 2001
+Page= 199-210
+Title= Entering Guanxi: A Business Ethical Dilemma in Mainland China?
 
 139.
 [Journal Articles]
 Su, Chenting, Joe Sirgy, and James E. Littlefield (2003), "Is Guanxi Orientation Bad, Ethically Speaking? A Study of Chinese Enterprises", Journal of Business Ethics, Vol. 44, No.4, pp. 303-312.
+Authors= Su, Chenting, Joe Sirgy, and James E. Littlefield
+Journal= Journal of Business Ethics
+Volume= 44
+Number= 4
+Year= 2003
+Page= 303-312
+Title= Is Guanxi Orientation Bad, Ethically Speaking? A Study of Chinese Enterprises
 
 140.
 [Journal Articles]
 Ding, Min, John R. Hauser, Songting Dong, Daria Silinskaia, Zhilin Yang, Chenting Su, and Steven Gaskin (2011), "Unstructured Direct Elicitation of Decision Rules ", Journal of Marketing Research, 48, 1, 116-127.
+Authors= Ding, Min, John R. Hauser, Songting Dong, Daria Silinskaia, Zhilin Yang, Chenting Su, and Steven Gaskin
+Journal= Journal of Marketing Research
+Volume= 48
+Issue= 1
+Year= 2011
+Page= 116-127
+Title= Unstructured Direct Elicitation of Decision Rules
 
 141.
 [Journal Articles]
 Yang, Zhilin, Chenting Su, and Kim Fam (May 2012), "Dealing with Institutional Distances in International Marketing Channels: Governance Strategies That Engender Legitimacy and Efficiency ", Journal of Marketing, 76, 3, 41-55.
+Authors= Yang, Zhilin, Chenting Su, and Kim Fam
+Journal= Journal of Marketing
+Volume= 76
+Issue= 3
+Year= 2012
+Month= May
+Page= 41-55
+Title= Dealing with Institutional Distances in International Marketing Channels: Governance Strategies That Engender Legitimacy and Efficiency
 
 142.
 [Journal Articles]
 Su, Chenting, Zhilin Yang, Nan Zhou, Guijun Zhuang, and Wenyu Dou (2009), "Interpersonal Influence as an Alternative Channel Communication Behavior in Emerging Markets: The Case of China", Journal of International Business Studies, 40 (4), May, 668-689.
+Authors= Su, Chenting, Zhilin Yang, Nan Zhou, Guijun Zhuang, and Wenyu Dou
+Journal= Journal of International Business Studies
+Volume= 40
+Issue= 4
+Year= 2009
+Month= May
+Page= 668-689
+Title= Interpersonal Influence as an Alternative Channel Communication Behavior in Emerging Markets: The Case of China
 
 143.
 [Journal Articles]
 Wang, Yonggui, Fiona Chan, and Zhilin Yang (2013), "Customers’ Perceived Benefits of Interacting in a Virtual Brand Community in China", Journal of Electronic Commerce Research, 14, 1, 39-56.
+Authors= Wang, Yonggui, Fiona Chan, and Zhilin Yang
+Journal= Journal of Electronic Commerce Research
+Volume= 14
+Issue= 1
+Year= 2013
+Page= 39-56
+Title= Customers’ Perceived Benefits of Interacting in a Virtual Brand Community in China
 
 144.
 [Journal Articles]
 Yang, Zhilin, Chen Zhou, and Ling Jiang (2011), "When Do Formal Control and Trust Matter? A Context-Based Analysis of the Effects on Marketing Channel Relationships in China", Industrial Marketing Management, 40, 1, 86-96.
+Authors= Yang, Zhilin, Chen Zhou, and Ling Jiang
+Journal= Industrial Marketing Management
+Volume= 40
+Issue= 1
+Year= 2011
+Page= 86-96
+Title= When Do Formal Control and Trust Matter? A Context-Based Analysis of the Effects on Marketing Channel Relationships in China
 
 145.
 [Journal Articles]
 Wang, Xuehua, and Zhilin Yang. (2010), "The Effect of Brand Credibility on Consumers’ Brand Purchase Intention in Emerging Economies: The Moderating Role of Brand Awareness and Brand Image", Journal of Global Marketing, 23, 3, 177-188.
+Authors= Wang, Xuehua, and Zhilin Yang
+Journal= Journal of Global Marketing
+Volume= 23
+Issue= 3
+Year= 2010
+Page= 177-188
+Title= The Effect of Brand Credibility on Consumers’ Brand Purchase Intention in Emerging Economies: The Moderating Role of Brand Awareness and Brand Image
 
 146.
 [Journal Articles]
 Yang, Zhilin, Robin T. Peterson, and Lily Huang (Summer 2001), "Taking the Pulse of Internet Pharmacies: Online Consumers Speak Out on Pharmacy Services,", Marketing Health Services, Vol. 21, pp. 4-10.
+Authors= Yang, Zhilin, Robin T. Peterson, and Lily Huang
+Journal= Marketing Health Services
+Volume= 21
+Year= 2001
+Page= 4-10
+Title= Taking the Pulse of Internet Pharmacies: Online Consumers Speak Out on Pharmacy Services
 
 147.
 [Journal Articles]
 Yang, Zhilin, Robin T. Peterson, and Shaohan Cai (2003), "Service Quality Dimensions of Internet Purchasing: An Exploratory Analysis", Journal of Services Marketing, Vol. 17, Issue. 7, pp.685-698.
+Authors= Yang, Zhilin, Robin T. Peterson, and Shaohan Cai
+Journal= Journal of Services Marketing
+Volume= 17
+Issue= 7
+Year= 2003
+Page= 685-698
+Title= Service Quality Dimensions of Internet Purchasing: An Exploratory Analysis
 
 148.
 [Conference Papers]
 Yang, Zhilin (2012), "How to Publish Top Tier Journals", 2012 MAG Scholar Conference, Gyor, Hungary, May 28 - June 01.
+Authors= Yang, Zhilin
+Proceeding= MAG Scholar Conference
+Year= 2012
+Month= May, June
+Title= How to Publish Top Tier Journals
 
 149.
 [Conference Papers]
 Yang, Zhilin (2001), "Global Promotion Mix Strategy: Understanding Customers and Products", Third Biennial Academy of Marketing/American Marketing Association Conference, Cardiff, Wales.
+Authors= Yang, Zhilin
+Proceeding= Third Biennial Academy of Marketing/American Marketing Association Conference
+Year= 2001
+Title= Global Promotion Mix Strategy: Understanding Customers and Products
 
 150.
 [Conference Papers]
 Yang, Zhilin (2001), "Sales Forecasting: An Analysis of the Political Process and Output Control", Professional Sales and Sales Management Practices Leading into the 21st Century (National Conference in Sales Management) (John M. Hawes, ed.). Dallas, Texas: Fisher Institute for Professional Selling, pp. 110-120.
+Authors= Yang, Zhilin
+Proceeding= Professional Sales and Sales Management Practices Leading into the 21st Century
+Year= 2001
+Title= Sales Forecasting: An Analysis of the Political Process and Output Control
+Editors= John M. Hawes
+Page= 110-120
 
 151.
 [Conference Papers]
 Fam, Kim-shyan, Brendan J. Gray, Regan Lam, and Zhilin Yang (2002), "Consumers' Views of University Promotion Campaign - Evidence from Malaysia, Singapore, and Hong Kong", Advances in Consumer Research (Rami Zwick and Tu Ping, eds.), Vol. 5, p.159.
+Authors= Fam, Kim-shyan, Brendan J. Gray, Regan Lam, and Zhilin Yang
+Proceeding= Advances in Consumer Research
+Year= 2002
+Title= Consumers' Views of University Promotion Campaign - Evidence from Malaysia, Singapore, and Hong Kong
+Editors= Rami Zwick and Tu Ping
+Volume=5
+Page= 159
 
 152.
 [Conference Papers]
 Zhou, Kevin, Laura Poppo, and Zhilin Yang (2005), "Examining Governance Choice in China: A Focus on Longstanding Ties, Relational Governance, and Contracts", Strategic Management Society’s 25th Annual International Conference, Orlando, Florida, U.S.A.
+Authors= Zhou, Kevin, Laura Poppo, and Zhilin Yang
+Proceeding= Strategic Management Society’s 25th Annual International Conference
+Year= 2005
+Title= Examining Governance Choice in China: A Focus on Longstanding Ties, Relational Governance, and Contracts
 
 153.
 [Conference Papers]
 Jia, Fang and Zhilin Yang (2011), "Mismatch between Trust and Interdependence:The Moderating Role of Power Imbalance", Cambridge Business & Economics Conference, Cambridge, United Kingdom, 27-28 June.
+Authors= Jia, Fang and Zhilin Yang
+Proceeding= Cambridge Business & Economics Conference
+Year= 2011
+Month= June
+Title= Mismatch between Trust and Interdependence:The Moderating Role of Power Imbalance
 
 154.
 [Conference Papers]
 Wu, Jianan, Jie Sun, Yinglu Wu, and Zhilin Yang (2009), "eWOM and Risk Return in Online Markets: A Joint Study on Seller Review and Product Review", 2009 Informs Marketing Science Conference, June 4-6, 2009, University of Michigan, Ann Arbor, Michigan, USA.
+Authors= Wu, Jianan, Jie Sun, Yinglu Wu, and Zhilin Yang
+Proceeding= Informs Marketing Science Conference
+Year= 2009
+Month= June
+Title= eWOM and Risk Return in Online Markets: A Joint Study on Seller Review and Product Review
 
 155.
 [Books and Book Chapters]
 Yang, Zhilin (2010), "Measuring E-Service Quality and its Linkage to Customer Loyalty", LAP Lambert Academic Publishing, Germany.
+Authors= Yang, Zhilin
+Year= 2010
+Title= Measuring E-Service Quality and its Linkage to Customer Loyalty
+Publisher= LAP Lambert Academic Publishing
 
 156.
 [Books and Book Chapters]
 Kim-Shyan Fam, Zhilin Yang, and Mike Hyman (2009), "A Handbook of Confucian/Chopsticks Marketing", Asia Business Research Corporation Ltd, Wellington, New Zealand.
+Authors= Kim-Shyan Fam, Zhilin Yang, and Mike Hyman
+Year= 2009
+Title= A Handbook of Confucian/Chopsticks Marketing
+Publisher= Asia Business Research Corporation Ltd
 
 157.
 [Books and Book Chapters]
 Originally Written by Ray Wright, Chinese Version Translated by Zuohao Hu, Zhilin Yang, et al. (2006), "Business-to-Business Marketing: A Step-by-Step Guide", Beijing: Chinese People’s University Press.
+Authors= Ray Wright
+Year= 2006
+Title= Business-to-Business Marketing: A Step-by-Step Guide
+Editors= Zuohao Hu, Zhilin Yang
+Publisher= Chinese People’s University Press
 
 158.
 [Books and Book Chapters]
 Originally by William G. Zikmund, Raymond MeLeod, Jr. and Faye W. Gilbert, Chinese Version Translated by Zuohao Hu, Song Jia, and Zhilin Yang (2005), "Customer Relationship Management: Integrating marketing strategy and information technology", Beijing: Chinese People’s University Press.
+Authors= William G. Zikmund, Raymond MeLeod, Jr. and Faye W. Gilbert
+Year= 2005
+Title= Customer Relationship Management: Integrating marketing strategy and information technology
+Editors= Zuohao Hu, Song Jia, and Zhilin Yang
+Publisher= Beijing: Chinese People’s University Press
 
 159.
 [Conference Papers]
 Dou, Weyu, Li Huang, Fue Zeng (2008), "Group Identity and Consumer Responses to Advertising in Community Web Sites", proceedings of Marketing Science Conference, Marketing Science Institute, USA.
+Authors= Dou, Weyu, Li Huang, Fue Zeng
+Proceeding= Marketing Science Conference
+Year= 2008
+Title= Group Identity and Consumer Responses to Advertising in Community Web Sites
 
 160.
 [Conference Papers]
 Dou, Wenyu, Boonghee Yoo, and Liangyu Ma (2002), "Understanding the Patronage of Ethnic Portal Sites: An Exploratory Study of Chinese Internet Users", proceedings of The 2002 Asia-Pacific Association of Consumer Research Conference.
+Authors= Dou, Wenyu, Boonghee Yoo, and Liangyu Ma
+Proceeding= The 2002 Asia-Pacific Association of Consumer Research Conference
+Year= 2002
+Title= Understanding the Patronage of Ethnic Portal Sites: An Exploratory Study of Chinese Internet Users
 
 161.
 [Conference Papers]
 Dou, Wenyu, Ollie Nielsen and Chee-Ming Tan (2001), "Building Effective Web Sites for Export Marketing: Evidences from Canada, Denmark, and Malaysia", proceedings of The AMA 2001 Summer Educators Conference, USA.
+Authors= Dou, Wenyu, Ollie Nielsen and Chee-Ming Tan
+Proceeding= The AMA 2001 Summer Educators Conference
+Year= 2001
+Title= Building Effective Web Sites for Export Marketing: Evidences from Canada, Denmark, and Malaysia
 
 162.
 [Conference Papers]
 Dou, Wenyu, Boonghee Yoo, and Naveen Donthu (2000), "Building Global E-commerce Presence Through Ethnic Portals", proceedings of The eCommerce and Global Business Forum (in CD-ROM), sponsored by the University of California -Los Angeles, the University of Washington-Seattle, and Anderson Consulting, USA.
+Authors= Dou, Wenyu, Boonghee Yoo, and Naveen Donthu
+Proceeding= The eCommerce and Global Business Forum
+Year= 2000
+Title= Building Global E-commerce Presence Through Ethnic Portals
 
 163.
 [Conference Papers]
 Dou, Wenyu and Denny Bristow (September 2000), "A Call for Electronic Marketing Training Camp", Academy of Business Education Conference, Bermuda.
+Authors= Dou, Wenyu and Denny Bristow
+Proceeding= Academy of Business Education Conference
+Year= 2000
+Month= September
+Title= A Call for Electronic Marketing Training Camp
 
 164.
 [Conference Papers]
 Dou, Wenyu, Boonghee Yoo, and Naveen Donthu (May 2000), "Building Global E-commerce Presence Through Ethnic Portals", JIBS Special Conference and Symposium on E-Commerce and Global Business, Santa Cruz.
+Authors= Dou, Wenyu, Boonghee Yoo, and Naveen Donthu
+Proceeding= JIBS Special Conference and Symposium on E-Commerce and Global Business
+Year= 2000
+Month= May
+Title= Building Global E-commerce Presence Through Ethnic Portals
 
 165.
-[Books and Book Chapters]
+[Books and Book Chapters] **Book Chapters**
 Dou, Wenyu (2002), "E-Marketing Around World: Country Profile for People's Republic of China.", in "E-Marketing" 3rd ed., Judy Strauss, Adel El-Ansary, and Raymond Frost, Prentice- Hall.
+Authors= Dou, Wenyu
+Year= 2002
+Title= E-Marketing
+Chapter= E-Marketing Around World: Country Profile for People's Republic of China
+Editors= Judy Strauss, Adel El-Ansary, and Raymond Frost
+Publisher= Prentice- Hall
 
 166.
 [Books and Book Chapters]
 Ghose, Sanjoy and Wenyu Dou (2000), "Interactive Functions and Their Impacts on the Appeal of Internet Presence Sites", in "Internet Marketing: Readings and Online Resources," ed. Paul Richardson, McGraw-Hill, Boston, MA, USA.
+Authors= Ghose, Sanjoy and Wenyu Dou
+Year= 2000
+Title= Internet Marketing: Readings and Online Resources
+Chapter= Interactive Functions and Their Impacts on the Appeal of Internet Presence Sites
+Editors= Paul Richardson
+Publisher= McGraw-Hill
 
 167.
 [Journal Articles]
 Dou, Wenyu and David Chou (2001), "A Structural Analysis of Business-to-Business Digital Markets", Industrial Marketing Management, Vol. 31, No.2, pp. 165-176.
+Authors=Dou, Wenyu and David Chou  
+Journal= Industrial Marketing Management
+Volume= 31
+Number= 2
+Year= 2011
+Page= 165-176
+Title= A Structural Analysis of Business-to-Business Digital Markets
 
 168.
 [Journal Articles]
 Ghose, Sanjoy, Dou, Wenyu. (1998), "Interactive Functions and Their Impact on the Appeal of Internet Presence Sites", Journal of Advertising Research, Vol. 38, Issue 2, pp. 29-44.
+Authors= Ghose, Sanjoy, Dou, Wenyu
+Journal= Journal of Advertising Research
+Volume= 38
+Issue= 2
+Year=1998 
+Page= 29-44
+Title= Interactive Functions and Their Impact on the Appeal of Internet Presence Sites
 
 169.
 [Journal Articles]
 Walter Wang, Wenyu Dou, and Nan Zhou (2008), "Consumption Attitudes and Adoption of New Consumer Products: An Empirical Study", European Journal of Marketing, 42, 1/2, 238-254.
+Authors= Walter Wang, Wenyu Dou, and Nan Zhou
+Journal= European Journal of Marketing
+Volume= 42
+Issue= 1/2
+Year= 2008
+Page= 238-254
+Title= Consumption Attitudes and Adoption of New Consumer Products: An Empirical Study
 
 170.
 [Journal Articles]
 Quan, Xiaojun, Liu Wenyin, Dou, Wenyu, Xiong, Hui, Ge, Yong (2012), "Link Graph Analysis for Business Site Selection", Computer, 45, 3, 64 - 69.
+Authors= Quan, Xiaojun, Liu Wenyin, Dou, Wenyu, Xiong, Hui, Ge, Yong
+Journal= Computer
+Volume= 45
+Issue= 3
+Year= 2012
+Page= 64-69
+Title= Link Graph Analysis for Business Site Selection
 
 171.
 [Books and Book Chapters]
 Yau, Oliver H M and Leung J W K (2002), "Service Marketing in the 21st Century", The City University Press.
+Authors= Yau, Oliver H M and Leung J W K
+Year= 2002
+Title= Service Marketing in the 21st Century
+Publisher= The City University Press
 
 172.
 [Books and Book Chapters]
 Leung J W K (2002) & Oliver Yau (2002), "The Profitable Delightful Services", The City University Press, (in progress).
+Authors= Leung J W K & Oliver Yau
+Year= 2002
+Title= The Profitable Delightful Services
+Publisher= The City University Press
 
 173.
 [Conference Papers]
 J Leung and K K Lai (Aug 1997), "Comparison of Assembly Systems with Different Parallel Configurations", proceedings of the IASTED International Conference on Modelling, Simulation and Optimisation, Singapore, p159-164.
+Authors= J Leung and K K Lai
+Year= 1997
+Month= August
+Page= 159-164
+Title= Comparison of Assembly Systems with Different Parallel Configurations
+Proceeding= IASTED International Conference on Modelling, Simulation and Optimisation
 
 174.
 [Conference Papers]
 K K Lai and J Leung (April 1996), "Analysis of Gate House Operations in a Container Terminal", proceedings of International Conference on Modelling and Simulation, IASTED, Pittsburgh.
+Authors= K K Lai and J Leung
+Year= 1996
+Month= April
+Title= Analysis of Gate House Operations in a Container Terminal
+Proceeding= International Conference on Modelling and Simulation, IASTED
 
 175.
 [Conference Papers]
 J. Leung (1987), "Simulation Analysis of Automatic Assembly Systems with Tandem-gated Stations", invited presentation in the China-Japan Reliability Symposium, Shanghai, China.
+Authors= J. Leung
+Year= 1987
+Title= Simulation Analysis of Automatic Assembly Systems with Tandem-gated Stations
+Proceeding= China-Japan Reliability Symposium
 
 176.
 [Conference Papers]
 J.L. Sanders & J. Leung (April 1, 1984), "Optimal Performance Characteristics for parallel stations in Automatic Transfer Line", published in the Transactions of the ASME International Conference on Computing in Mechanical Engineering, p. 247-252.
+Authors= J.L. Sanders & J. Leung
+Year= 1984
+Month= April
+Page= 247-252
+Title= Optimal Performance Characteristics for parallel stations in Automatic Transfer Line
+Proceeding= Transactions of the ASME International Conference on Computing in Mechanical Engineering
 
 177.
 [Journal Articles]
 J.L. Sanders & W.K. Leung (1986), "Simulation Analysis of Free-transfer Assembly System with Tunnel-Gated Stations", Journal of Manufacturing Systems, Vol 5, No. 3, p 191-201, (SCI).
+Authors= J.L. Sanders & W.K. Leung
+Journal= Journal of Manufacturing Systems
+Volume= 5
+Number= 3
+Year= 1986
+Page= 191-201
+Title= Simulation Analysis of Free-transfer Assembly System with Tunnel-Gated Stations
 
 178.
 [Journal Articles]
 Leung, John W. K. and Kenneth K. Kwong (2009), "A Structured Approach to Describing Service for Creating a Delightful Experience", Computers & Industrial Engineering, 57 (2), 563-570.
+Authors= Leung, John W. K. and Kenneth K. Kwong
+Journal= Computers & Industrial Engineering
+Volume= 57
+Issue= 2
+Year= 2009
+Page= 563-570
+Title= A Structured Approach to Describing Service for Creating a Delightful Experience
 
 179.
 [Books and Book Chapters]
 Hui, H., & Luk, C.L. (1997), "Industrial/Organizational Psychology", Handbook of Cross-Cultural Psychology, Allyn and Bacon, USA, 3, 371-411.
+Authors= Hui, H., & Luk, C.L.
+Year= 1997
+Title= Industrial/Organizational Psychology
+Chapter= Handbook of Cross-Cultural Psychology
+Publisher= Allyn and Bacon
+Page= 371-411
 
 180.
 [Journal Articles]
 Luk, C.L., Yau, O.H.M., Sin, L.Y.M., Tse, A.C.B., Chow, R.P.M., & Lee, J.S.Y. (2008), "The effects of social capital and organizational innovativeness in different institutional contexts", Journal of International Business Studies, 39, 4, 589-612.
+Authors= Luk, C.L., Yau, O.H.M., Sin, L.Y.M., Tse, A.C.B., Chow, R.P.M., & Lee, J.S.Y.
+Journal= Journal of International Business Studies
+Volume= 39
+Issue= 4
+Year= 2008
+Page= 589-612
+Title= The effects of social capital and organizational innovativeness in different institutional contexts
 
 181.
 [Journal Articles]
 Wendy Wan, C.L. Luk, Oliver Yau, Alan Tse, Leo Sin, Kenneth Kwong, & Raymond Chow (2008), "Do Traditional Chinese Cultural Values Nourish a Market for Pirated CDs?", Journal of Business Ethics.
+Authors= Wendy Wan, C.L. Luk, Oliver Yau, Alan Tse, Leo Sin, Kenneth Kwong, & Raymond Chow
+Journal= Journal of Business Ethics
+Year= 2008
+Title= Do Traditional Chinese Cultural Values Nourish a Market for Pirated CDs?
 
 182.
 [Journal Articles]
 Luk, Chung-leung, D W Chan and H C B Lee (1999), "Developing a Chinese Vocabulary test as a WAIS-R subtest for adults in Hong Kong", Psychologia, Vol. 42, pp. 89-100.
+Authors= Luk, Chung-leung, D W Chan and H C B Lee
+Journal= Psychologia
+Volume= 42
+Year= 1999
+Page= 89-100
+Title= Developing a Chinese Vocabulary test as a WAIS-R subtest for adults in Hong Kong
 
 183.
 [Journal Articles]
 Hofstede, G., Bond, M.H., & Luk, C.L. (1993), "Individual Perceptions of Organizational Cultures: A Methodological Treatise on Levels of Analysis", Organization Studies, 14, 4, 483-503.
+Authors= Hofstede, G., Bond, M.H., & Luk, C.L.
+Journal= Organization Studies
+Volume= 14
+Issue= 4
+Year= 1993
+Page= 483-503
+Title= Individual Perceptions of Organizational Cultures: A Methodological Treatise on Levels of Analysis
 
 184.
 [Book Chapter]
 Lo, T.W. & Kwok, S.I. (in press). Chinese triads and tongs. G. Bruinsma & D. Weisburd (Eds.) Encyclopedia of criminology and criminal justice. New York. Springer.
+Authors= Lo, T.W. & Kwok, S.I.
+Chapter= Chinese triads and tongs
+Title= Encyclopedia of criminology and criminal justice
+Publisher= Springer
+Editors= G. Bruinsma & D. Weisburd
 
 185.
 [Book Chapter]
 Lo, T.W. & Kwok, S.I. (2013). Chinese triad society. Richard Wright (Ed.) Oxford bibliographies in criminology. New York. Oxford University Press. 
+Authors= Lo, T.W. & Kwok, S.I.
+Chapter= Chinese triad society
+Year= 2013
+Title= Oxford bibliographies in criminology
+Publisher= Oxford University Press
+Editors= Richard Wright
 
 186.
 [Book]
 Lo, T.W. , Wong, S.W. & Maxwell, G. (Eds.). (2005). Alternatives to prosecution: Rehabilitative and restorative models of youth justice. Singapore & London:  Marshall Cavendish Academic.
+Authors= Lo, T.W. , Wong, S.W. & Maxwell, G.
+Year= 2005
+Title= Alternatives to prosecution: Rehabilitative and restorative models of youth justice
+Publisher= Marshall Cavendish Academic
 
 187.
 [Book]
 Lo, T. W. (1993). Corruption and politics in Hong Kong and China. Buckingham & Philadelphia: Open University Press. 
+Authors= Lo, T. W.
+Year= 1993
+Title= Corruption and politics in Hong Kong and China. Buckingham & Philadelphia
+Publisher= Open University Press
 
 188.
 [Journal]
 Lo, T.W. (2012). Resistance to the mainlandization of criminal justice practices: A barrier to the development of restorative justice in Hong Kong. International Journal of Offender Therapy and Comparative Criminology. 56(4). 627 - 645.
+Authors= Lo, T.W.
+Journal= International Journal of Offender Therapy and Comparative Criminology
+Volume= 56
+Issue= 4
+Year= 2012
+Page= 627-645
+Title= Resistance to the mainlandization of criminal justice practices: A barrier to the development of restorative justice in Hong Kong
 
 189.
 [Journal]
 Lo, T.W. (2012). Triadization of youth gangs in Hong Kong. British Journal of Criminology. 52 (3). 556 - 576. 
+Authors= Lo, T.W.
+Journal= British Journal of Criminology
+Volume= 52
+Issue= 3
+Year= 2012
+Page= 556-576
+Title= Triadization of youth gangs in Hong Kong
 
 190.
 [Journal]
 Ho, Judy. W.C. , Ho, Samuel. M.Y. , Pau, Barbara. K.Y. , Hui, Bryant. P.H. , Wong, Rosa. S.M. & Chu, Annie. (2012). Hope-based Intervention for Individuals Susceptible to Colorectal Cancer: A Pilot Study. Familial Cancer. 11. 545 - 551.
+Authors= Ho, Judy. W.C. , Ho, Samuel. M.Y. , Pau, Barbara. K.Y. , Hui, Bryant. P.H. , Wong, Rosa. S.M. & Chu, Annie.
+Journal= Familial Cancer
+Volume= 11
+Year= 2012
+Page= 545-551
+Title= Hope-based Intervention for Individuals Susceptible to Colorectal Cancer: A Pilot Study
 
 191.
 [Journal]
 Chua, Hannah. D.P. , Ho, Samuel. M.Y. & Cheung, L.K. (2012). The Comparison of Psychological Adjustment of Cleft Lip and Palate Patients after Maxillary Distraction Osteogenesis and Conventional Orthognathic Surgery. Oral Surgery, Oral Medicine, Oral Pathology, Oral Radiology and Endodontology. 114/5. S5 - S10.
+Authors= Chua, Hannah. D.P. , Ho, Samuel. M.Y. & Cheung, L.K.
+Journal= Oral Surgery, Oral Medicine, Oral Pathology, Oral Radiology and Endodontology
+Volume= 114
+Issue= 5
+Year= 2012
+Page= S5-S10
+Title= The Comparison of Psychological Adjustment of Cleft Lip and Palate Patients after Maxillary Distraction Osteogenesis and Conventional Orthognathic Surgery
 
 192.
 [Journal]
 Duan, Wenjie. , Tang, X. , Siu, P.Y. , Chan, Raymond. K.H. & Ho, Samuel. M.Y. (2012). Virtues and positive mental health. Hong Kong Journal of Mental Health. 38/2. 24 - 31. 
+Authors= Duan, Wenjie. , Tang, X. , Siu, P.Y. , Chan, Raymond. K.H. & Ho, Samuel. M.Y.
+Journal= Hong Kong Journal of Mental Health
+Volume= 38
+Issue= 2
+Year= 2012
+Page= 24-31
+Title= Virtues and positive mental health
 
 193.
 [Book Chapter]
 Ho, Samuel. M.Y. , Rochelle, Tina. Louisa. , Law, Lawrence. S.C. , Duan, Wenjie. , Bai, Yu. , Shih, Shih-ming. & Wang, G.L. (in press). Methodological Issues in Positive Psychology Research among the Chinese. Perspectives on the Intersection of Multiculturalism & Positive Psychology. New York. Springer Science + Business Media B.V.
+Authors= Ho, Samuel. M.Y. , Rochelle, Tina. Louisa. , Law, Lawrence. S.C. , Duan, Wenjie. , Bai, Yu. , Shih, Shih-ming. & Wang, G.L.
+Chapter= Methodological Issues in Positive Psychology Research among the Chinese
+Title= Perspectives on the Intersection of Multiculturalism & Positive Psycholog
+Publisher= Springer Science + Business Media B.V.
 
 194.
 [Book Chapter]
 Ho, Samuel M.Y. , Duan, Wenjie. & Tang, Sandy T.M. (in press). The Psychology of Virtue and Happiness in Western and Asian Thought. The Philosophy and Psychology of Character and Happiness. 
+Authors= Ho, Samuel M.Y. , Duan, Wenjie. & Tang, Sandy T.M.
+Chapter= The Psychology of Virtue and Happiness in Western and Asian Thought
+Title= The Philosophy and Psychology of Character and Happiness
 
 195.
 [Conference Paper]
 Ho, Samuel. M.Y. (Oct 2013). The Application of Positive Psychology in facilitating offenders to change. Keynote address at the NGO Forum 2013 cum Outstanding NGO Volunteer Award Presentation. Hong Kong Correctional Services Department, HKSAR Government & Department of Applied Social Studies, City University of Hong Kong.
+Authors= Ho, Samuel. M.Y.
+Year= 2013
+Month= October
+Title= The Application of Positive Psychology in facilitating offenders to change
+Proceeding= NGO Forum 2013 cum Outstanding NGO Volunteer Award Presentation
 
 196.
 [Conference Paper]
 Ho, Samuel. M.Y. (Aug 2013). Recovery, Resistance, and Thrive: Three possible outcomes in Community Work. Plenary presentation at the HKEC Symposium on Community Engagement VIII 2013. Hong Kong: Hospital Authority.
+Authors= Ho, Samuel. M.Y.
+Year= 2013
+Month= August
+Title= Recovery, Resistance, and Thrive: Three possible outcomes in Community Work
+Proceeding= HKEC Symposium on Community Engagement VIII 2013
 
 197.
 [Conference Paper]
 Ho, Samuel. M.Y. (Jun 2013). From Public Issue to Personal Challenge: Maintaining Well-being in Crisis. Keynote address at the Hong Kong Psychological Society Annual Conference 2013. Hong Kong: Hong Kong Psychological Society. 
+Authors= Ho, Samuel. M.Y.
+Year= 2013
+Month= June
+Title= From Public Issue to Personal Challenge: Maintaining Well-being in Crisis
+Proceeding= Hong Kong Psychological Society Annual Conference 2013
 
 198.
 [Journal]
 Wong, F.K.D. (2007). Crucial individuals in the help-seeking pathway of the Chinese caregivers with relatives suffering from early psychosis in Hong Kong: Implications for social work Practice. Social Work. 52, 2. 127 - 138.
+Authors= Wong, F.K.D.
+Journal= Social Work
+Volume= 52
+Issue= 2
+Year= 2007
+Page= 127-138
+Title= Crucial individuals in the help-seeking pathway of the Chinese caregivers with relatives suffering from early psychosis in Hong Kong: Implications for social work Practice
 
 199.
 [Journal]
 Wong, F.K.D. , Chang, Y.L. & He, X.S. (2007). Rural migrant works in urban China: Living a marginalized life. International Journal of Social Welfare. 16, 7. 32 - 40.
+Authors= Wong, F.K.D. , Chang, Y.L. & He, X.S.
+Journal= International Journal of Social Welfare
+Volume= 16
+Issue= 7
+Year= 2007
+Page= 32-40
+Title= Rural migrant works in urban China: Living a marginalized life
 
 200.
 [Journal]
 Wong, F.K.D. (2007). Uncovering socio-cultural factors influencing the pathway to care of Chinese caregivers with relatives suffering from early psychosis in Hong Kong. Culture, Medicine and Psychiatry. 31, 1. 51 - 71. 
+Authors= Wong, F.K.D.
+Journal= Culture, Medicine and Psychiatry
+Volume= 31
+Issue= 1
+Year= 2007
+Page= 51-71
+Title= Uncovering socio-cultural factors influencing the pathway to care of Chinese caregivers with relatives suffering from early psychosis in Hong Kong
 
 201.
 [Journal]
