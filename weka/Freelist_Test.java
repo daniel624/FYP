@@ -32,12 +32,12 @@ public class Freelist_Test {
 		BufferedWriter writer;
 		
 		// training data
-		//filename = "C:/Users/Lenovo/Documents/workspace/FYP/src/data/freelist_train_data.txt";
-		//outfilename = "C:/Users/Lenovo/Documents/workspace/FYP/src/data/train.arff";
+		//filename = "src/data/freelist_train_data.txt";
+		//outfilename = "src/data/train.arff";
 		
 		// testing data
-		filename = "C:/Users/Lenovo/Documents/workspace/FYP/src/data/freelist_test_data.txt";
-		outfilename = "C:/Users/Lenovo/Documents/workspace/FYP/src/data/test.arff";
+		filename = "src/data/freelist_test_data.txt";
+		outfilename = "src/data/test.arff";
 		
 		String input;
 		String split1[] = new String[50];

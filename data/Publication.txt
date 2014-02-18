@@ -86,7 +86,7 @@ Month= June
 
 10.
 Lou S, Ni B, Lo LY, Tsui SK, Chan TF*, and Leung KS: ABMapper: a suffix array-based tool for multi-location searching and splice-junction mapping. Bioinformatics. 2011 27(3):421-2.  (*corresponding author, page special)
-Authors= Lou S& Ni B& Lo LY& Tsui SK& Chan TF*& Leung KS
+Authors= Lou S& Ni B& Lo LY& Tsui SK& Chan TF& Leung KS
 Title= ABMapper: a suffix array-based tool for multi-location searching and splice-junction mapping
 Journal= Bioinformatics
 Year= 2011
@@ -152,7 +152,7 @@ Page= 89-1
 
 16.
 Mingzhen Mo, Irwin King, and Kwong-Sak Leung, "Empirical Comparisons of Attack and Protection Algorithms for Online Social Networks," Procedia CS, vol. 5, pp. 705-712, 2011
-Authors= Mingzhen Mo, Irwin King, and Kwong-Sak Leung
+Authors= Mingzhen Mo& Irwin King& and Kwong-Sak Leung
 Title= Empirical Comparisons of Attack and Protection Algorithms for Online Social Networks
 Journal= Procedia CS
 Volume= 5
@@ -162,7 +162,7 @@ Year= 2011
 [page special]
 17.
 Hao Ma, Irwin King, and Michael R. Lyu, "Learning to Recommend with Explicit and Implicit Social Relations," ACM Transactions on Intelligent Systems and Technology (TIST), vol. 2, iss. 3, p. 29:1-29:19, 2011.
-Authors= Hao Ma, Irwin King, and Michael R. Lyu
+Authors= Hao Ma& Irwin King& Michael R. Lyu
 Title= Learning to Recommend with Explicit and Implicit Social Relations
 Journal= ACM Transactions on Intelligent Systems and Technology (TIST)
 Volume= 2
@@ -186,7 +186,7 @@ Graph connectivities, network coding, and expander graphs
 Ho Yee Cheung, Lap Chi Lau, Kai Man Leung
 SIAM Journal on Computing, 42(3), 733-751, 2013 
 Title= Graph connectivities, network coding, and expander graphs
-Authors= Ho Yee Cheung, Lap Chi Lau, Kai Man Leung
+Authors= Ho Yee Cheung& Lap Chi Lau& Kai Man Leung
 Journal= SIAM Journal on Computing
 Volume= 42
 Issue= 3
@@ -198,7 +198,7 @@ On linear and semidefinite programming relaxation for hypergraph matching
 Yuk Hei Chan, Lap Chi Lau
 Mathematical Programming, 135(1-2), 123-148, 2012
 Title= On linear and semidefinite programming relaxation for hypergraph matching
-Authors= Yuk Hei Chan, Lap Chi Lau
+Authors= Yuk Hei Chan& Lap Chi Lau
 Journal= Mathematical Programming
 Volume= 135
 Issue= 1-2
@@ -208,7 +208,7 @@ Year= 2012
 21.
 **in Proceedings of the**
 Y. C. Law and J. H. M. Lee. Algebraic Properties of CSP Model Operators, in Proceedings of the International Workshop on Reformulating Constraint Satisfaction Problems: Towards Systematisation and Automation (held in conjunction with CP-2002), pages 57-71, 2002.
-Authors= Y. C. Law, J. H. M. Lee
+Authors= Y. C. Law& J. H. M. Lee
 Title= Algebraic Properties of CSP Model Operators
 Proceeding= International Workshop on Reformulating Constraint Satisfaction Problems: Towards Systematisation and Automation (held in conjunction with CP-2002)
 Page= 57-71
@@ -217,7 +217,7 @@ Year= 2002
 22.
 **in Proceedings of**
 X. Dupont, A. Lallouet, Y. C. Law, J. H. M. Lee, and C. F. K. Siu. Programmation par Contraintes sur les Sequences Infinies, in Proceedings of Huitiemes Journees Francophones de Programmation par Contraintes (JFPC-2012), pages 107-116, 2012.
-Authors= X. Dupont, A. Lallouet, Y. C. Law, J. H. M. Lee, C. F. K. Siu
+Authors= X. Dupont& A. Lallouet& Y. C. Law& J. H. M. Lee& C. F. K. Siu
 Title= Programmation par Contraintes sur les Sequences Infinies
 Journal= Huitiemes Journees Francophones de Programmation par Contraintes (JFPC-2012)
 Page= 107-116
@@ -225,7 +225,7 @@ Year= 2012
 
 23.
 Y. C. Law, J. H. M. Lee, and M. H. C. Woo. Redundant Modeling in Permutation Weighted Constraint Satisfaction Problems. Constraints, 15(3), pages 354-403, 2010.
-Authors= Y. C. Law, J. H. M. Lee, M. H. C. Woo
+Authors= Y. C. Law& J. H. M. Lee& M. H. C. Woo
 Title= Redundant Modeling in Permutation Weighted Constraint Satisfaction Problems
 Journal= Constraints
 Volume= 15
@@ -235,7 +235,7 @@ Year= 2010
 
 24.
 Y.C. Law, J.H.M. Lee, T. Walsh and M.H.C. Woo.  Multiset Variable Representations and Constraint Propagation, CONSTRAINTS, 18(3):307-343, 2013
-Authors= Y.C. Law, J.H.M. Lee, T. Walsh, M.H.C. Woo
+Authors= Y.C. Law& J.H.M. Lee& T. Walsh& M.H.C. Woo
 Title= Multiset Variable Representations and Constraint Propagation
 Journal= CONSTRAINTS
 Volume= 18
@@ -246,7 +246,7 @@ Year= 2013
 [Journal of]
 25.
 J.H.M. Lee and K.L. Leung.  Consistency Techniques for Flow-Based Projection-Safe Global Cost Functions in Weighted Constraint Satisfaction, Journal of Artificial Intelligence Research, 43:257-292, 2012
-Authors= J.H.M. Lee, K.L. Leung
+Authors= J.H.M. Lee& K.L. Leung
 Title= Consistency Techniques for Flow-Based Projection-Safe Global Cost Functions in Weighted Constraint Satisfaction
 Journal= Journal of Artificial Intelligence Research
 Volume= 43
@@ -255,7 +255,7 @@ Year= 2012
 
 26.
 Morris S.Y. Jong, Junjie Shang, Fong-lok Lee, and Jimmy H.M. Lee.  An Evaluative Study on VISOLE Virtual Interactive Student-Oriented Learning Environment, IEEE Transactions on Learning Technologies, 3(4):307-318, 2010
-Authors= Morris S.Y. Jong, Junjie Shang, Fong-lok Lee, Jimmy H.M. Lee
+Authors= Morris S.Y. Jong& Junjie Shang& Fong-lok Lee& Jimmy H.M. Lee
 Title= An Evaluative Study on VISOLE Virtual Interactive Student-Oriented Learning Environment
 Journal= IEEE Transactions on Learning Technologies
 Volume= 3
@@ -265,7 +265,7 @@ Year= 2010
 
 27.
 Xudong Luo, Jimmy Ho-man Lee, Ho-fung Leung, and Nicholas R. Jennings.  Prioritised Fuzzy Constraint Satisfaction Problems: Axioms, Instantiation and Validation,  Fuzzy Sets and Systems, 136(2), pages 151-188, Elsevier Science Ltd, 2003
-Authors= Xudong Luo, Jimmy Ho-man Lee, Ho-fung Leung, Nicholas R. Jennings
+Authors= Xudong Luo& Jimmy Ho-man Lee& Ho-fung Leung& Nicholas R. Jennings
 Title= Prioritised Fuzzy Constraint Satisfaction Problems: Axioms, Instantiation and Validation
 Journal= Fuzzy Sets and Systems
 Volume= 136
@@ -275,7 +275,7 @@ Year= 2003
 
 28.
 T.M. Chan, K.C. Wong, K.H. Lee, M.H. Wong, C.K. Lau, Stephen K.W. Tsui, K.S. Leung, Discovering approximate-associated sequence patterns for protein-DNA interactions. Bioinformatics, 2011, 27(4), pp. 471-478. (IF:5.468)
-Authors= T.M. Chan, K.C. Wong, K.H. Lee, M.H. Wong, C.K. Lau, Stephen K.W. Tsui, K.S. Leung
+Authors= T.M. Chan& K.C. Wong& K.H. Lee& M.H. Wong& C.K. Lau& Stephen K.W. Tsui& K.S. Leung
 Title= Discovering approximate-associated sequence patterns for protein-DNA interactions
 Journal= Bioinformatics
 Year= 2011
@@ -284,8 +284,9 @@ Issue= 4
 Page= 471-478
 
 29.
+**Name ()**
 (S. M. Cheang), K. H. Lee and K.S. Leung Applying Genetic Parallel Programming to Synthesize Combinational Logic Circuits,IEEE Transactions on Evolutionary Computation, Vol.11, No.4, pp.503-520, August 2007.
-Authors= (S. M. Cheang), K. H. Lee and K.S. Leung
+Authors= S. M. Cheang& K. H. Lee& K.S. Leung
 Title= Applying Genetic Parallel Programming to Synthesize Combinational Logic Circuits,
 Journal= IEEE Transactions on Evolutionary Computation
 Volume= 11
@@ -295,8 +296,9 @@ Month= August
 Year= 2007
 
 30.
+**Name ()**
 (Y.Y. Wong), K.S. Leung, and K.H. Lee  "Stochastic load balancing algorithm for i-Computing", Concurrency and Computation: Practice and Experience,  15(1), 55-78, Jan. 2003.
-Authors= (Y.Y. Wong), K.S. Leung, K.H. Lee
+Authors= Y.Y. Wong& K.S. Leung& K.H. Lee
 Title= Stochastic load balancing algorithm for i-Computing
 Journal= Concurrency and Computation: Practice and Experience
 Volume= 15
@@ -308,7 +310,7 @@ Year= 2003
 [Journal]
 31.
 Raaed Al-Dujaily, Terrence Mak, Kai-Pui Lam, Fei Xia, Alex Yakovlev, Chi-Sang Poon, Dynamic On-Chip Thermal Optimization for Three Dimensional Networks-on-Chip, Computer Journal, 55(10), 1-15, 2012
-Authors= Raaed Al-Dujaily, Terrence Mak, Kai-Pui Lam, Fei Xia, Alex Yakovlev, Chi-Sang Poon
+Authors= Raaed Al-Dujaily& Terrence Mak& Kai-Pui Lam& Fei Xia& Alex Yakovlev& Chi-Sang Poon
 Title= Dynamic On-Chip Thermal Optimization for Three Dimensional Networks-on-Chip
 Journal= Computer Journal
 Volume= 55
@@ -318,7 +320,7 @@ Year= 2012
 
 32.
 Bo Yu, Terrence Mak, Xiangyu Li, Leslie Smith, Yihe Sun and Chi-Sang Poon, Stream-based Hebbian Eigenfilter for Real-Time Neuronal Spike Discrimination, BioMedical Engineering OnLine, vol. 11, no. 18, 2012
-Authors= Bo Yu, Terrence Mak, Xiangyu Li, Leslie Smith, Yihe Sun, Chi-Sang Poon
+Authors= Bo Yu& Terrence Mak& Xiangyu Li& Leslie Smith& Yihe Sun& Chi-Sang Poon
 Title= Stream-based Hebbian Eigenfilter for Real-Time Neuronal Spike Discrimination
 Journal= BioMedical Engineering OnLine
 Volume= 11
@@ -327,7 +329,7 @@ Year= 2012
 
 33.
 Terrence Mak, Kai-Pui Lam, H.S. Ng, Guy Rachmuth, Chi-Sang Poon, A CMOS Current-Mode Dynamic Programming Circuit, IEEE Trans. Circuits and Systems I, Vol 57, No. 22, pp. 3112-3123, 2010
-Authors= Terrence Mak, Kai-Pui Lam, H.S. Ng, Guy Rachmuth, Chi-Sang Poon
+Authors= Terrence Mak& Kai-Pui Lam& H.S. Ng& Guy Rachmuth& Chi-Sang Poon
 Title= A CMOS Current-Mode Dynamic Programming Circuit
 Journal= IEEE Trans. Circuits and Systems I
 Volume= 57
@@ -355,7 +357,7 @@ Proof of the local REM conjecture for number partitioning I: Constant energy sca
 C. Borgs, J. T. Chayes, S. Mertens, and C. Nair. 
 Random Structures and Algorithms, vol. 34(2), pp. 217-240, 2009.
 Title= Proof of the local REM conjecture for number partitioning I: Constant energy scales
-Authors= C. Borgs, J. T. Chayes, S. Mertens, C. Nair. 
+Authors= C. Borgs& J. T. Chayes& S. Mertens& C. Nair. 
 Journal= Random Structures and Algorithms
 Volume= 34
 Issue= 2
@@ -364,7 +366,7 @@ Year= 2009
 
 36.
 Ying Kin Yu, Kin Hong Wong, Siu Hang Or and Junzhou Chen, "Controlling Virtual Cameras Based on a Robust Model-free Pose Acquisition Technique", IEEE Transactions on Multimedia, No. 1, January 2009, pp. 184-190.
-Authors= Ying Kin Yu, Kin Hong Wong, Siu Hang Or, Junzhou Chen
+Authors= Ying Kin Yu& Kin Hong Wong& Siu Hang Or& Junzhou Chen
 Title= Controlling Virtual Cameras Based on a Robust Model-free Pose Acquisition Technique
 Journal= IEEE Transactions on Multimedia
 Number= 1
@@ -374,7 +376,7 @@ Page= 184-190
 
 37.
 Ying Kin Yu, Kin Hong Wong, Siu Hang Or, and Michael Ming Yuen Chang, "Robust 3-D Motion Tracking From Stereo Images: A Model-Less Method", IEEE Transaction on Instrumentation and Measurement, Vol. 57, No. 3, March 2008.
-Authors= Ying Kin Yu, Kin Hong Wong, Siu Hang Or, Michael Ming Yuen Chang
+Authors= Ying Kin Yu& Kin Hong Wong& Siu Hang Or& Michael Ming Yuen Chang
 Title= Robust 3-D Motion Tracking From Stereo Images: A Model-Less Method
 Journal= IEEE Transaction on Instrumentation and Measurement
 Volume= 57
@@ -385,7 +387,7 @@ Year= 2008
 [Journal of]
 38.
 B. Sheng, W. Meng, H. Sun, E. Wu, "Sketch-based Design for Green Geometry and Image Deformation", Journal of Multimedia Tools and Applications, 2012.
-Authors= B. Sheng, W. Meng, H. Sun, E. Wu
+Authors= B. Sheng& W. Meng& H. Sun& E. Wu
 Title= Sketch-based Design for Green Geometry and Image Deformation
 Journal= Journal of Multimedia Tools and Applications
 Year= 2012
@@ -393,7 +395,7 @@ Year= 2012
 [IEEE Journal]
 39.
 B. Sheng, H. Sun, S. Chen, X. Liu, E. Wu, "Colorization Using the Rotation-invariant Feature Space", IEEE Journal of Computer Graphics and Applications, 31(2): 24-35, 2011.
-Authors= B. Sheng, H. Sun, S. Chen, X. Liu, E. Wu
+Authors= B. Sheng& H. Sun& S. Chen& X. Liu& E. Wu
 Title= Colorization Using the Rotation-invariant Feature Space
 Journal= IEEE Journal of Computer Graphics and Applications
 Volume= 31
@@ -404,7 +406,7 @@ Year= 2011
 [Journal of]
 40.
 B. Sheng, H. Sun, G. Yang, E. Wu, "Furstyling on Angle-Split Shell Textures", Journal of Computer Animation and Virtual Worlds, (selected from International Conference on CASA '2009, special issue on CASA), 20(2-3): 205-213, 2009.
-Authors= B. Sheng, H. Sun, G. Yang, E. Wu
+Authors= B. Sheng& H. Sun& G. Yang& E. Wu
 Title= Furstyling on Angle-Split Shell Textures
 Journal= Journal of Computer Animation and Virtual Worlds
 Volume= 20
@@ -415,7 +417,7 @@ Year= 2009
 [International Journal]
 41.
 H. Wang, H. Sun, KH Qin, "Estimating Recursion Depth for Loop Subdivision", International Journal of CAD/CAM, 4(1): 11-18, 2004.
-Authors= H. Wang, H. Sun, KH Qin
+Authors= H. Wang& H. Sun& KH Qin
 Title= Estimating Recursion Depth for Loop Subdivision
 Journal= International Journal of CAD/CAM
 Volume= 4
@@ -426,7 +428,7 @@ Year= 2004
 [Journal of]
 42.
 X. Jin, H. Sun, Q. Peng, "Subdivision Interpolating Implicit Surfaces", Journal of Computers & Graphics, Vol. 27, No. 5, p. 763-772, 2003.
-Authors= X. Jin, H. Sun, Q. Peng
+Authors= X. Jin& H. Sun& Q. Peng
 Title= Subdivision Interpolating Implicit Surfaces
 Journal= Journal of Computers & Graphics
 Volume= 27
@@ -446,10 +448,11 @@ Year= 2011
 
 44.
 **Proceedings of**
+**Le, W.**
 Le, W., Li, F., Tao, Y., Christensen, R. 
 Optimal Splitters for Temporal and Multi-version Databases. 
 Proceedings of ACM Conference on Management of Data (SIGMOD), pages 109-120, 2013.
-Authors= Le, W., Li, F., Tao, Y., Christensen, R.
+Authors= Le, W.& Li, F.& Tao, Y.& Christensen, R.
 Title= Optimal Splitters for Temporal and Multi-version Databases
 Proceeding= ACM Conference on Management of Data (SIGMOD)
 Page= 109-120
@@ -459,7 +462,7 @@ Year= 2013
 Jiang, B., Pei, J., Tao, Y., Lin, X. 
 Clustering Uncertain Data Based on Probability Distribution Similarity. 
 IEEE Transactions on Knowledge and Data Engineering (TKDE), 25(4): 751-763, 2013. 
-Authors= Jiang, B., Pei, J., Tao, Y., Lin, X
+Authors= Jiang, B.& Pei, J.& Tao, Y.& Lin, X
 Title= Clustering Uncertain Data Based on Probability Distribution Similarity
 Journal= IEEE Transactions on Knowledge and Data Engineering (TKDE)
 Volume= 25
@@ -471,7 +474,7 @@ Year= 2013
 Tao, Y., Papadias, D., Lian, X., Xiao, X. 
 Multi-dimensional Reverse kNN Search. 
 Very Large Data Base Journal (VLDBJ), 16(3): 293-316, 2007
-Authors= Tao, Y., Papadias, D., Lian, X., Xiao, X
+Authors= Tao, Y.& Papadias, D.& Lian, X.& Xiao, X
 Title= Multi-dimensional Reverse kNN Search
 Journal= Very Large Data Base Journal (VLDBJ)
 Volume= 16
@@ -481,7 +484,7 @@ Year= 2007
 
 47.
 Zhaorong Li, Kin-Hong Wong, Yibo Gong, and Ming-Yuen Chang, "An Effective Method for Movable Projector Keystone Correction", IEEE Transactions on Multimedia, VOL. 13, NO. 1, Feb 2011
-Authors= Zhaorong Li, Kin-Hong Wong, Yibo Gong, and Ming-Yuen Chang
+Authors= Zhaorong Li& Kin-Hong Wong& Yibo Gong& Ming-Yuen Chang
 Title= An Effective Method for Movable Projector Keystone Correction
 Journal= IEEE Transactions on Multimedia
 Volume= 13
@@ -491,7 +494,7 @@ Year= 2011
 
 48.
 Chi Hang Wong, Wai Man Szeto and Kin Hong Wong, "Automatic lyrics alignment for Cantonese popular music",  Multimedia Systems, Springer, Volume 12, Numbers 4-5, March 2007 , pp. 307-323
-Authors= Chi Hang Wong, Wai Man Szeto, Kin Hong Wong
+Authors= Chi Hang Wong& Wai Man Szeto& Kin Hong Wong
 Title= Automatic lyrics alignment for Cantonese popular music
 Journal= Multimedia Systems
 Volume= 12
@@ -503,7 +506,7 @@ Publisher= Springer
 
 49.
 Ying Kin YU, Kin Hong Wong and Michael MingYuen Chang, "Pose Estimation for Augmented Reality Applications Using Genetic Algorithm", IEEE Transactions on Systems, Man, and Cybernetics, Part B, Dec. 2005, Volume: 35,  Issue: 6, PP. 1295- 1301
-Authors= Ying Kin YU, Kin Hong Wong and Michael MingYuen Chang
+Authors= Ying Kin YU& Kin Hong Wong& Michael MingYuen Chang
 Title= Pose Estimation for Augmented Reality Applications Using Genetic Algorithm
 Journal= IEEE Transactions on Systems, Man, and Cybernetics, Part B
 Month= December
@@ -514,7 +517,7 @@ Page= 1295-1301
 
 50.
 Mohammad Ehab Ragab, Kin Hong Wong, Jun Zhou Chen, Michael Ming-Yuen Chang, "EKF Pose estimation: how many filters and cameras to use?", IEEE International Conference on Image Processing (ICIP08), San Diego, California, U.S.A, October 12?5, 2008
-Authors= Mohammad Ehab Ragab, Kin Hong Wong, Jun Zhou Chen, Michael Ming-Yuen Chang
+Authors= Mohammad Ehab Ragab& Kin Hong Wong& Jun Zhou Chen& Michael Ming-Yuen Chang
 Title= EKF Pose estimation: how many filters and cameras to use
 Proceeding= IEEE International Conference on Image Processing (ICIP08)
 Month= October
@@ -523,7 +526,7 @@ Year= 2008
 [Journal]
 51.
 Yee Leung, Man Hon Wong, Ka-Chun Wong, Wei Zhang, Kwong-Sak Leung: A novel web-based system for tropical cyclone analysis and prediction. International Journal of Geographical Information Science 26(1): 75-97 (2012)
-Authors= Yee Leung, Man Hon Wong, Ka-Chun Wong, Wei Zhang, Kwong-Sak Leung
+Authors= Yee Leung& Man Hon Wong& Ka-Chun Wong& Wei Zhang& Kwong-Sak Leung
 Title= A novel web-based system for tropical cyclone analysis and prediction
 Journal= International Journal of Geographical Information Science
 Volume= 26
@@ -533,7 +536,7 @@ Year= 2012
 
 52.
 Po-Yuen Wong, Tak-Ming Chan, Man Hon Wong, Kwong-Sak Leung: Predicting Approximate Protein-DNA Binding Cores Using Association Rule Mining. ICDE 2012: 965-976
-Authors= Po-Yuen Wong, Tak-Ming Chan, Man Hon Wong, Kwong-Sak Leung
+Authors= Po-Yuen Wong& Tak-Ming Chan& Man Hon Wong& Kwong-Sak Leung
 Title= Predicting Approximate Protein-DNA Binding Cores Using Association Rule Mining
 Journal= ICDE
 Year= 2012
@@ -541,7 +544,7 @@ Page= 965-976
 
 53.
 Ka-Chun Wong, Kwong-Sak Leung, Man Hon Wong: Effect of Spatial Locality on an Evolutionary Algorithm for Multimodal Optimization. EvoApplications (1) 2010: 481-490
-Authors= Ka-Chun Wong, Kwong-Sak Leung, Man Hon Wong
+Authors= Ka-Chun Wong& Kwong-Sak Leung& Man Hon Wong
 Title= Effect of Spatial Locality on an Evolutionary Algorithm for Multimodal Optimization
 Journal= EvoApplications
 Number= 1
@@ -550,7 +553,7 @@ Page= 481-490
 
 54.
 Mi Zhou, Man Hon Wong: Boundary-Based Lower-Bound Functions for Dynamic Time Warping and Their Indexing. ICDE 2007: 1307-1311
-Authors= Mi Zhou, Man Hon Wong
+Authors= Mi Zhou& Man Hon Wong
 Title= Boundary-Based Lower-Bound Functions for Dynamic Time Warping and Their Indexing
 Journal= ICDE
 Year= 2007
@@ -561,7 +564,7 @@ Page= 1307-1311
 X. Yang, L. Zhang, T. T. Wong and P. A. Heng,
 ACM Transactions on Graphics (SIGGRAPH 2012 issue), Vol. 31, No. 4, July 2012, pp. 93:1-93:10.
 Title= Binocular Tone Mapping
-Authors= X. Yang, L. Zhang, T. T. Wong, P. A. Heng
+Authors= X. Yang& L. Zhang& T. T. Wong& P. A. Heng
 Journal= ACM Transactions on Graphics (SIGGRAPH 2012 issue)
 Volume= 31
 Number= 4
@@ -574,7 +577,7 @@ Page= 93:1-93:10
 G. Wang, T. T. Wong and P. A. Heng,
 ACM Transactions on Graphics, Vol. 25, No. 4, October 2006, pp. 1360-1379.
 Title= Deringing Cartoons by Image Analogies
-Authors= G. Wang, T. T. Wong, P. A. Heng
+Authors= G. Wang& T. T. Wong& P. A. Heng
 Journal= ACM Transactions on Graphics
 Volume= 25
 Number= 4
@@ -584,20 +587,20 @@ Page= 1360-1379
 
 57.
 T.Y. Wong, M.H. Wong, and John C.S. Lui, "A Precise Termination Condition of the Probabilistic Packet Marking Algorithm", IEEE Transactions of Secure and Dependable Computing, Vol.5, No.1, pp.6-21, January-March, 2008
-Authors= T.Y. Wong, M.H. Wong, John C.S. Lui
+Authors= T.Y. Wong& M.H. Wong& John C.S. Lui
 Title= A Precise Termination Condition of the Probabilistic Packet Marking Algorithm
 Journal= IEEE Transactions of Secure and Dependable Computing
 Volume= 5
 Number= 1
 Page 6-21
-Month= January - March
+Month= January-March
 Year= 2008
 
 [Special Volume]
 58.
 **Proceedings of the**
 M.R. Lyu and T.Y. Wong, "A Progressive Fault Tolerant Mechanism in Mobile Agent Systems", Proceedings of the 7th World Multiconference on Systemics, Cybernetics and Informatics (SCI'03). Vol. IX. Orlando, Florida, 2003, pp. 299-306
-Authors= M.R. Lyu, T.Y. Wong
+Authors= M.R. Lyu& T.Y. Wong
 Title= A Progressive Fault Tolerant Mechanism in Mobile Agent Systems
 Proceeding= 7th World Multiconference on Systemics, Cybernetics and Informatics (SCI'03)
 Volume= IX
@@ -615,7 +618,7 @@ Year= 2002
 
 60.
 H.W. Chan, K.M. Wong, T.Y. Wong, and M.R. Lyu, "Securing Mobile Agents for Electronic Commerce: An Experiment", Information Security for Global Information Infrastructures, IFIP TC11 Fifteenth Annual Working Conference on Information Security, August 22-24, 2000, Beijing, China, pp.471-480
-Authors= H.W. Chan, K.M. Wong, T.Y. Wong, M.R. Lyu
+Authors= H.W. Chan& K.M. Wong& T.Y. Wong& M.R. Lyu
 Title= Securing Mobile Agents for Electronic Commerce: An Experiment
 Journal= Information Security for Global Information Infrastructures
 Proceeding= IFIP TC11 Fifteenth Annual Working Conference on Information Security
@@ -626,7 +629,7 @@ Page= 471-480
 [Journal]
 61.
 H. Fan, C.C. Cheung, and Y.L. Wu, "Design Automation Framework for Reconfigurable 3D Interconnection Networks," The Computer Journal pg 1-12, Oct. 2012
-Authors= H. Fan, C.C. Cheung, Y.L. Wu
+Authors= H. Fan& C.C. Cheung& Y.L. Wu
 Title= Design Automation Framework for Reconfigurable 3D Interconnection Networks
 Journal= The Computer Journal
 Page= 1-12
@@ -636,7 +639,7 @@ Year= 2012
 [Special Volume]
 62.
 F. S. Chim, T. K. Lam, Y.L. Wu, and F, H. Fan, "On Structural Analysis and Efficiency for Graph-Based Rewiring Techniques," IEICE Transactions on Fundamentals of Electronics, Communications and Computer Sciences, Vol. E94-A, No. 12, pp. 2853-2865 Dec. 2011
-Authors= F. S. Chim, T. K. Lam, Y.L. Wu, F, H. Fan
+Authors= F. S. Chim& T. K. Lam& Y.L. Wu& F, H. Fan
 Title= On Structural Analysis and Efficiency for Graph-Based Rewiring Techniques
 Journal= IEICE Transactions on Fundamentals of Electronics, Communications and Computer Sciences
 Volume= E94-A
@@ -648,7 +651,7 @@ Year= 2011
 [Special Issue]
 63.
 X. Xiong, Y. L. Wu and W. B. Jone, "Yield analysis for self-repairable MEMS devices," Analog Integrated Circuits and Signal Processing 56:1/2 pp.1-11, August. 2008
-Authors= X. Xiong, Y. L. Wu, W. B. Jone
+Authors= X. Xiong& Y. L. Wu& W. B. Jone
 Title= Yield analysis for self-repairable MEMS devices
 Journal= Analog Integrated Circuits and Signal Processing
 Volume= 56
@@ -659,7 +662,7 @@ Year= 2008
 
 64.
 Y.L. Wu and M. Marek-Sadowska, "Routing for Array Type FPGAs," IEEE Transactions on Computer Aided Design. pp. 506-518, May 1997
-Authors= Y.L. Wu, M. Marek-Sadowska
+Authors= Y.L. Wu& M. Marek-Sadowska
 Title= Routing for Array Type FPGAs
 Journal= IEEE Transactions on Computer Aided Design
 Page= 506-518
@@ -690,7 +693,7 @@ Year= 2009
 [Chapter]
 67.
 Lei Xu  and  Shun-ichi Amari (2008), "Combining Classifiers and Learning Mixture-of-Experts", in Encyclopedia of Artificial Intelligence,  Edited By: Juan Ramon Rabunal Dopico; Julian Dorado; Alejandro Pazos, IGI Global (IGI) publishing company,  pp318-326
-Authors= Lei Xu, Shun-ichi Amari
+Authors= Lei Xu& Shun-ichi Amari
 Year= 2008
 Chapter= Combining Classifiers and Learning Mixture-of-Experts
 Title= Encyclopedia of Artificial Intelligence
@@ -700,7 +703,7 @@ Page= 318-326
 
 68.
 L. Huang, F. Yuan, and Q. Xu, "On Task Allocation and Scheduling for Lifetime Extension of Platform-Based MPSoC Designs", IEEE Transactions on Parallel and Distributed Systems, vol 22, pp. 2088-2099,  Dec. 2011
-Authors= L. Huang, F. Yuan, Q. Xu
+Authors= L. Huang& F. Yuan, Q. Xu
 Title= On Task Allocation and Scheduling for Lifetime Extension of Platform-Based MPSoC Designs
 Journal= IEEE Transactions on Parallel and Distributed Systems
 Volume= 22
@@ -710,7 +713,7 @@ Year= 2011
 
 69.
 Q. Xu, Y. Zhang and K. Chakrabarty, "SOC Test-Architecture Optimization for the Testing of Embedded Cores and Signal-Integrity Faults on Core-External Interconnects", ACM Transactions on Design Automation of Electronic Systems, vol. 14, article No. 4, Jan. 2009
-Authors= Q. Xu, Y. Zhang, K. Chakrabarty
+Authors= Q. Xu& Y. Zhang& K. Chakrabarty
 Title= SOC Test-Architecture Optimization for the Testing of Embedded Cores and Signal-Integrity Faults on Core-External Interconnects
 Journal= ACM Transactions on Design Automation of Electronic Systems
 Volume= 14
@@ -720,7 +723,7 @@ Year= 2009
 
 70.
 Q. Xu and N. Nicolici, "Resource-Constrained System-on-a-Chip Test: A Survey", IEEE Proceedings: Computers and Digital Techniques. vol. 152, pp. 67-81, Jan. 2005
-Authors= Q. Xu, N. Nicolici
+Authors= Q. Xu& N. Nicolici
 Title= Resource-Constrained System-on-a-Chip Test: A Survey
 Proceeding= IEEE Proceedings: Computers and Digital Techniques
 Volume= 152
@@ -729,10 +732,11 @@ Month= January
 Year= 2005
 
 71.
+**Name* **
 Ken Kai-Yuen Tso*, Kevin Y. Yip*, Cathy Mak, Grace Tin-Yun Chung, Sau-Dan Lee, Siu-Tim Cheung, Ka-Fai To and Kwok-Wai Lo,
 Complete Genomic Sequence of Epstein-Barr Virus in Nasopharyngeal Carcinoma Cell Line C666-1,
 Infectious Agents and Cancer, vol. 8, issue 1, no. 29, (2013).
-Authors= Ken Kai-Yuen Tso*, Kevin Y. Yip*, Cathy Mak, Grace Tin-Yun Chung, Sau-Dan Lee, Siu-Tim Cheung, Ka-Fai To, Kwok-Wai Lo
+Authors= Ken Kai-Yuen Tso& Kevin Y. Yip& Cathy Mak& Grace Tin-Yun Chung& Sau-Dan Lee& Siu-Tim Cheung& Ka-Fai To& Kwok-Wai Lo
 Title= Complete Genomic Sequence of Epstein-Barr Virus in Nasopharyngeal Carcinoma Cell Line C666-1
 Journal= Infectious Agents and Cancer
 Volume= 8
@@ -756,7 +760,7 @@ Year= 2011
 Justin Jee*, Joel Rozowsky*, Kevin Y. Yip*, Lucas Lochovsky, Robert Bjornson, Guoneng Zhong, Zhengdong Zhang, Yutao Fu, Jie Wang, Zhiping Weng and Mark Gerstein,
 ACT: Aggregation and Correlation Toolbox for Analyses of Genome Tracks,
 Bioinformatics, vol. 27, no 8, pp. 1152-1154, (2011)
-Authors= Justin Jee*, Joel Rozowsky*, Kevin Y. Yip*, Lucas Lochovsky, Robert Bjornson, Guoneng Zhong, Zhengdong Zhang, Yutao Fu, Jie Wang, Zhiping Weng, Mark Gerstein
+Authors= Justin Jee& Joel Rozowsky& Kevin Y. Yip& Lucas Lochovsky& Robert Bjornson& Guoneng Zhong& Zhengdong Zhang& Yutao Fu& Jie Wang& Zhiping Weng& Mark Gerstein
 Title= ACT: Aggregation and Correlation Toolbox for Analyses of Genome Tracks
 Journal= Bioinformatics
 Volume= 27
@@ -768,7 +772,7 @@ Year= 2011
 Kevin Y. Yip*, Prianka Patel*, Philip M. Kim, Donald M. Engelman, Drew McDermott and Mark Gerstein,
 An Integrated System for Studying Residue Coevolution in Proteins,
 Bioinformatics, vol. 24, no. 2, pp. 290-292, (2008)
-Authors= Kevin Y. Yip*, Prianka Patel*, Philip M. Kim, Donald M. Engelman, Drew McDermott, Mark Gerstein
+Authors= Kevin Y. Yip& Prianka Patel& Philip M. Kim& Donald M. Engelman& Drew McDermott& Mark Gerstein
 Title= An Integrated System for Studying Residue Coevolution in Proteins
 Journal= Bioinformatics
 Volume= 24
@@ -779,7 +783,7 @@ Year= 2008
 75.
 Postgrid Clock Routing for High Performance Microprocessor Designs, Haitong Tian, W.-C. Tang, Evangeline F.Y. Young and C. N. Sze, IEEE Transactions of Computer-Aided Design of Integrated Circuits and Systems, 31(2):255-259, 2012
 Title= Postgrid Clock Routing for High Performance Microprocessor Designs
-Authors= Haitong Tian, W.-C. Tang, Evangeline F.Y. Young, C. N. Sze
+Authors= Haitong Tian& W.-C. Tang& Evangeline F.Y. Young& C. N. Sze
 Journal= IEEE Transactions of Computer-Aided Design of Integrated Circuits and Systems
 Volume= 31
 Issue= 2
@@ -790,7 +794,7 @@ Year= 2012
 **the xxx Journal**
 Block Flipping and White Space Distribution for Wirelength Minimization , Chiu-Wing Sham and Evangeline F.Y. Young, Integration, the VLSI Journal, Vol. 42, No. 2, p246-253, February, 2009
 Title= Block Flipping and White Space Distribution for Wirelength Minimization
-Authors= Chiu-Wing Sham, Evangeline F.Y. Young
+Authors= Chiu-Wing Sham& Evangeline F.Y. Young
 Journal= VLSI Journal
 Volume= 42
 Number= 2
@@ -801,18 +805,18 @@ Year= 2009
 77.
 Optimizing Wirelength and Routability by Searching Alternative Packings in Floorplanning , Chiu-Wing Sham, Evangeline F.Y. Young and Hai Zhou, ACM Transaction on Design Automation of Electronic Systems, Vol.13, No.1, Article No.21 (21:1-21:13), January, 2008
 Title= Optimizing Wirelength and Routability by Searching Alternative Packings in Floorplanning
-Authors= Chiu-Wing Sham, Evangeline F.Y. Young, Hai Zhou
+Authors= Chiu-Wing Sham& Evangeline F.Y. Young& Hai Zhou
 Journal= ACM Transaction on Design Automation of Electronic Systems
 Volume= 13
 Number= 1
 Article= 21
-Page= (21:1-21:13)
+Page= 21:1-21:13
 Month= January
 Year= 2008
 
 78.
 Lijun Chang, Jeffrey Xu Yu, and Lu Qin: "Fast Maximal Cliques Enumeration in Sparse Graphs", Vol. 66, No. 1, Algorithmica, 2013
-Authors= Lijun Chang, Jeffrey Xu Yu, Lu Qin
+Authors= Lijun Chang& Jeffrey Xu Yu& Lu Qin
 Title= Fast Maximal Cliques Enumeration in Sparse Graphs
 Volume= 66
 Number= 1
@@ -822,7 +826,7 @@ Year= 2013
 [Journal]
 79.
 Lijun Chang, Jeffrey Xu Yu, Lu Qin, Hong Cheng, and Miao Qiao: "The Exact Distance to Destination in Undirected World", VLDB Journal, Vol. 21, No. 6, 2012
-Authors= Lijun Chang, Jeffrey Xu Yu, Lu Qin, Hong Cheng, Miao Qiao
+Authors= Lijun Chang& Jeffrey Xu Yu& Lu Qin& Hong Cheng& Miao Qiao
 Title= The Exact Distance to Destination in Undirected World
 Journal= VLDB Journal
 Volume= 21
@@ -832,35 +836,35 @@ Year= 2012
 80.
 **in Proceedings of the**
 Pei Li, Laks V.S. Lakshmanan, and Jeffrey Xu Yu: "On Top-k Structural Similarity Search", in Proceedings of the 28th International Conference on Data Engineering (ICDE'12), 2012
-Authors= Pei Li, Laks V.S. Lakshmanan, Jeffrey Xu Yu
+Authors= Pei Li& Laks V.S. Lakshmanan& Jeffrey Xu Yu
 Title= On Top-k Structural Similarity Search
 Proceeding= 28th International Conference on Data Engineering (ICDE'12)
 Year= 2012
 
 81.
 Long Xu, Sam Kwong and Zhang Yun, Low-Complexity Encoder Framework for Window-Level Rate Control Optimization, accepted for publication in IEEE Trans on Industrial Electronics, 2012
-Authors= Long Xu, Sam Kwong, Zhang Yun
+Authors= Long X& Sam Kwong& Zhang Yun
 Title= Low-Complexity Encoder Framework for Window-Level Rate Control Optimization
 Journal= IEEE Trans on Industrial Electronics
 Year= 2012
 
 82.
 Sudeng Hu, Hanli Wang, Sam Kwong, Adaptive Quantization Parameter Clip Scheme for Smooth Quality in H.264/AVC, accepted for publication in IEEE Trans on Image Processing. 2012
-Authors= Sudeng Hu, Hanli Wang, Sam Kwong
+Authors= Sudeng Hu& Hanli Wang& Sam Kwong
 Title= Adaptive Quantization Parameter Clip Scheme for Smooth Quality in H.264/AVC
 Journal= IEEE Trans on Image Processing
 Year= 2012
 
 83.
 Tiesong Zhao, Sam Kwong, Hanli Wang and C.-C. Jay Kuo, H.264/SVC mode decision based on optimal stopping theory, accepted for publication in IEEE Trans on Image Processing. 2012
-Authors= Tiesong Zhao, Sam Kwong, Hanli Wang, C.-C. Jay Kuo
+Authors= Tiesong Zhao& Sam Kwong& Hanli Wang& C.-C. Jay Kuo
 Title= H.264/SVC mode decision based on optimal stopping theory
 Journal= IEEE Trans on Image Processing
 Year= 2012
 
 84.
 S Hu, H Wang, S Kwong, T Zhao and C-C J Kuo, Rate control optimization for temporal-layer scalable video coding, IEEE Transactions on Circuits and Systems for Video Technology, Volume 21, Issue 8, August 2011, Pages 1152-1162
-Authors= S Hu, H Wang, S Kwong, T Zhao, C-C J Kuo
+Authors= S Hu& H Wang& S Kwong& T Zhao, C-C J Kuo
 Title= Rate control optimization for temporal-layer scalable video coding
 Journal= IEEE Transactions on Circuits and Systems for Video Technology
 Volume= 21
@@ -871,7 +875,7 @@ Page= 1152-1162
 
 85.
 K S Tang, R J Yin, S Kwong, K T Ng, K F Man, A theoretical development and analysis of jumping gene genetic algorithm, IEEE Transactions on Industrial Informatics, Volume 7, Issue 3, August 2011, Article number 5937032, Pages 408-418
-Authors= K S Tang, R J Yin, S Kwong, K T Ng, K F Man
+Authors= K S Tang& R J Yin& S Kwong& K T Ng& K F Man
 Title= A theoretical development and analysis of jumping gene genetic algorithm
 Journal= IEEE Transactions on Industrial Informatics
 Volume= 7
@@ -883,7 +887,7 @@ Page= 408-418
 
 86.
 G Zhu, S Kwong, J Huang, J Yang, Random Gray code and its performance for Image Hashing, Signal processing, Volume 91, Issue 9, September 2011, Pages 2178-2193
-Authors= G Zhu, S Kwong, J Huang, J Yang
+Authors= G Zhu& S Kwong& J Huang& J Yang
 Title= Random Gray code and its performance for Image Hashing
 Journal= Signal processing
 Volume= 91
@@ -894,7 +898,7 @@ Page= 2178-2193
 
 87.
 H Li, Y Hong, S Kwong, Subspace estimation of distribution algorithms: To perturb part of all variables in estimation of distribution algorithms, Applied Soft Computing Journal, Volume 11, Issue 3, April 2011, Pages 2974-2989
-Authors= H Li, Y Hong, S Kwong
+Authors= H Li& Y Hong& S Kwong
 Title= Subspace estimation of distribution algorithms: To perturb part of all variables in estimation of distribution algorithms
 Journal= Applied Soft Computing Journal
 Volume= 11
@@ -905,7 +909,7 @@ Page= 2974-2989
 
 88.
 H Li, S Kwong and Y Hong, The convergence analysis and specification of the Population-Based Incremental Learning algorithm, Neurocomputing, Volume 74, Issue 11, May 2011, Pages 1868-1873
-Authors= H Li, S Kwong, Y Hong
+Authors= H Li& S Kwong& Y Hong
 Title= The convergence analysis and specification of the Population-Based Incremental Learning algorithm
 Journal= Neurocomputing
 Volume= 74
@@ -916,16 +920,16 @@ Page= 1868-1873
 
 89.
 **Proceedings of**
-Zhenyon Fu, Zhiwu Lu and Horace H S Ip, ¡§Symmetric Graph Regularized Constraint Propagation¡¨, Proceedings of 25th Conference on Artificial Intelligence (AAAI 2011), 7-11 August, 2011, San Francisco, USA
-Authors= Zhenyon Fu, Zhiwu Lu, Horace H S Ip
+Zhenyon Fu, Zhiwu Lu and Horace H S Ip, "Symmetric Graph Regularized Constraint Propagation", Proceedings of 25th Conference on Artificial Intelligence (AAAI 2011), 7-11 August, 2011, San Francisco, USA
+Authors= Zhenyon Fu& Zhiwu Lu& Horace H S Ip
 Title= Symmetric Graph Regularized Constraint Propagation algorithm
 Journal= 25th Conference on Artificial Intelligence (AAAI 2011)
 Month= August
 Year= 2011
 
 90.
-Zhiwu Lu and Horace H S Ip, ¡§Spatial Markov Kernels for Image Categorization and Annotation¡¨, IEEE Transactions on Systems, Man and Cybernetics, Vol. 41, No. 4, pp. 976-989, August 2011.
-Authors= Zhiwu Lu, Horace H S Ip
+Zhiwu Lu and Horace H S Ip, "patial Markov Kernels for Image Categorization and Annotation", IEEE Transactions on Systems, Man and Cybernetics, Vol. 41, No. 4, pp. 976-989, August 2011.
+Authors= Zhiwu Lu& Horace H S Ip
 Title= Spatial Markov Kernels for Image Categorization and Annotation
 Journal= IEEE Transactions on Systems, Man and Cybernetics
 Volume= 41
@@ -936,7 +940,7 @@ Year= 2011
 
 91.
 Lin Cui, Posco Tso, Di Yao and Weijia Jia, "WeFiLab: A Web-based WiFi Laboratory Platform for Wireless Networking Education", IEEE Transactions on Learning Technologies, 5(4): 291-303 (2012).
-Authors= Lin Cui, Posco Tso, Di Yao, Weijia Jia
+Authors= Lin Cui& Posco Tso& Di Yao& Weijia Jia
 Title= WeFiLab: A Web-based WiFi Laboratory Platform for Wireless Networking Education
 Journal= IEEE Transactions on Learning Technologies
 Volume= 5
@@ -946,7 +950,7 @@ Year= 2012
 
 92.
 Ziqiu Yun, Xiaole Bai, Dong Xuan, Weijia Jia and Wei Zhao, "Pattern Mutation in Wireless Sensor Deployment", IEEE/ACM Transactions on Networking, 20(6), 2012, pp.1964-1977.
-Authors= Ziqiu Yun, Xiaole Bai, Dong Xuan, Weijia Jia, Wei Zhao 
+Authors= Ziqiu Yun& Xiaole Bai& Dong Xuan& Weijia Jia& Wei Zhao 
 Title= Pattern Mutation in Wireless Sensor Deployment 
 Journal= IEEE/ACM Transactions on Networking
 Volume= 20
@@ -956,7 +960,7 @@ Year= 2012
 
 93.
 Z. Lin, J. Luo, X. Fu,  W. Yu, D. Xuan, W. Jia, "A New Cell Counting Based Attack Against Tor", IEEE/ACM Transactions on Networking, August 2012, 20(4), pp.1245-1261.
-Authors= Z. Lin, J. Luo, X. Fu,  W. Yu, D. Xuan, W. Jia
+Authors= Z. Lin& J. Luo& X. Fu&  W. Yu& D. Xuan& W. Jia
 Title= A New Cell Counting Based Attack Against Tor
 Journal= IEEE/ACM Transactions on Networking
 Volume= 20
@@ -967,7 +971,7 @@ Year= 2012
 
 94.
 Xiaohua Jia, Dongsoo Kim, Sam Makki, Pengjun Wan, and Chihwei Yi, "Power assignment for k-connectivity in wireless ad hoc networks" , IEEE INFOCOM'05, Miami, Mar 2005.
-Authors= Xiaohua Jia, Dongsoo Kim, Sam Makki, Pengjun Wan, Chihwei Yi
+Authors= Xiaohua Jia& Dongsoo Kim& Sam Makki& Pengjun Wan& Chihwei Yi
 Title= Power assignment for k-connectivity in wireless ad hoc networks
 Journal= IEEE INFOCOM'05
 Month= March
@@ -975,7 +979,7 @@ Year= 2005
 
 95.
 Xiaohua Jia, Deying Li, and D. Du, "QoS topology control in ad hoc wireless networks" , IEEE INFOCOM'04, Hong Kong, Mar 2004.
-Authors= Xiaohua Jia, Deying Li, D. Du
+Authors= Xiaohua Jia& Deying Li& D. Du
 Title= QoS topology control in ad hoc wireless networks
 Journal= IEEE INFOCOM'04
 Month= March
@@ -984,17 +988,17 @@ Year= 2004
 [Month Range]
 96.
 Deying Li, Xiaohua Jia, and H. Liu, "Energy efficient broadcast routing in ad hoc wireless networks" , IEEE Trans on Mobile Computing, Vol.3, No.2, Apr-Jun 2004.
-Authors= Deying Li, Xiaohua Jia, H. Liu
+Authors= Deying Li& Xiaohua Jia& H. Liu
 Title= Energy efficient broadcast routing in ad hoc wireless networks
 Journal= IEEE Trans on Mobile Computing
 Volume= 3
 Number= 2
-Month= April - June
+Month= April-June
 Year= 2004
 
 97.
 C. H. Yuen, E. Chan, K. Y. Lam and H. W. Leung, "Cache Invalidation Scheme for Mobile Computing Systems with Real-time Data", ACM SIGMOD RECORD, Vol. 29 No. 4, Dec. 2000.
-Authors= C. H. Yuen, E. Chan, K. Y. Lam, H. W. Leung
+Authors= C. H. Yuen& E. Chan& K. Y. Lam& H. W. Leung
 Title= Cache Invalidation Scheme for Mobile Computing Systems with Real-time Data
 Journal= ACM SIGMOD RECORD
 Volume= 29
@@ -1005,7 +1009,7 @@ Year= 2000
 [Journal of]
 98.
 K. Y. Lam, E. Chan and C. H. Yuen, "Approaches for Broadcasting Temporal Data in Mobile Computing Systems", Journal of Systems and Software, Vol. 51, pp. 175-189, 2000.
-Authors= K. Y. Lam, E. Chan, C. H. Yuen 
+Authors= K. Y. Lam& E. Chan& C. H. Yuen 
 Title= Approaches for Broadcasting Temporal Data in Mobile Computing Systems
 Journal= Journal of Systems and Software
 Volume= 51
@@ -1016,7 +1020,7 @@ Year= 2000
 99.
 **The Journal**
 E. Chan, D. Chen, C. S. Lee, J. Cao and C. H. Lee, "On the Effectiveness of the FDDI-M Medium Access Protocol for Real-Time Traffic", The Journal of Supercomputing, Vol. 11, pp. 371-389, 1997.
-Authors= E. Chan, D. Chen, C. S. Lee, J. Cao, C. H. Lee
+Authors= E. Chan& D. Chen& C. S. Lee& J. Cao& C. H. Lee
 Title= On the Effectiveness of the FDDI-M Medium Access Protocol for Real-Time Traffic
 Journal= Journal of Supercomputing
 Volume= 11
@@ -1025,7 +1029,7 @@ Year= 1997
 
 100.
 Kwok L F, Cheung C H and Longley D, "An Object-Oriented Framework for Risk Data Repository", Proc. IFIP/SEC2000: Information Security for Global Information Infrastructures, Beijing, PRC, 21-25 August 2000, Editors: Qing S & Eloff J H P, International Academic Publishers, pp.98-101
-Authors= Kwok L F, Cheung C H, Longley D
+Authors= Kwok L F& Cheung C H& Longley D
 Title= An Object-Oriented Framework for Risk Data Repository
 Journal= Proc. IFIP/SEC2000: Information Security for Global Information Infrastructures
 Page= 98-101
@@ -1049,7 +1053,7 @@ Year= 2007
 
 103.
 Ma, J. L. C., Wan, E. S. F., & Wong, M. M. C. (2013). Experiencing multiple family groups in a Chinese context: the clients’ perception of its helpful and unhelpful impact. Journal of Social Work Practice: Psychotherapeutic Approaches in Health, Welfare and Community, 27(1), 34-47. 
-Authors= Ma, J. L. C., Wan, E. S. F., Wong, M. M. C
+Authors= Ma, J. L. C.& Wan, E. S. F.& Wong, M. M. C
 Journal= Journal of Social Work Practice: Psychotherapeutic Approaches in Health, Welfare and Community
 Volume= 27
 Year= 2013
@@ -1059,7 +1063,7 @@ Title= Experiencing multiple family groups in a Chinese context: the clients’ 
 
 104.
 Ma, J. L.C. & Lai, K. (2009).  Applicability of family therapy for Chinese children and adolescents suffering from anorexia nervosa in a Chinese context: A preliminary study. Social Work in Mental Health, 7(4), 402-423.
-Authors= Ma, J. L.C., Lai, K
+Authors= Ma, J. L.C.& Lai, K
 Journal= Social Work in Mental Health
 Volume= 7
 Year= 2009
@@ -1069,7 +1073,7 @@ Title= Applicability of family therapy for Chinese children and adolescents suff
 
 105.
 Ngai, S.Y.S., Ngai, N.P., Cheung, C.K., & To, S.M. (2008). The effects of service participation, friendship networks and family support on developmental outcomes: A study of young people from low-income families in Hong Kong. Adolescence, 43, 399-416.
-Authors= Ngai, S.Y.S., Ngai, N.P., Cheung, C.K., & To, S.M.
+Authors= Ngai, S.Y.S.& Ngai, N.P.& Cheung, C.K.& & To, S.M.
 Journal= Adolescence
 Volume= 43
 Year= 2008
@@ -1078,7 +1082,7 @@ Title= The effects of service participation, friendship networks and family supp
 
 106.
 (2003). To Tell or Not to Tell; Disability Disclosure and Job Application Outcomes (with Veronica Pearson, Nelson Yip, Frances Ip, K.K. Ho and Heidi Hui). The Journal of Rehabilitation, 69(4), 35-38.
-Authors= Veronica Pearson, Nelson Yip, Frances Ip, K.K. Ho and Heidi Hui
+Authors= Veronica Pearson& Nelson Yip& Frances Ip& K.K. Ho& Heidi Hui
 Journal= Journal of Rehabilitation
 Volume= 69
 Year= 2003
@@ -1088,7 +1092,7 @@ Title= To Tell or Not to Tell; Disability Disclosure and Job Application Outcome
 
 107.
 Wong, O.L., & Ma , J.L.C. (2013). Development of family therapy in Hong Kong. Contemporary Family Therapy.
-Authors= Wong, O.L., & Ma , J.L.C.
+Authors= Wong, O.L.& Ma , J.L.C.
 Journal= Contemporary Family Therapy
 Year= 2013
 Title= Development of family therapy in Hong Kong
@@ -1104,7 +1108,7 @@ Title= Gendered power in eating habits: Insight into childhood obesity in a Chin
 
 109.
 To, S.M., & Chan, T.S. (2013). Searching for the meaning of parenthood: An existential approach to parent education in the Hong Kong-Chinese context. International Social Work, 56(4), 467-481.
-Authors= To, S.M., & Chan, T.S.
+Authors= To, S.M.& Chan, T.S.
 Journal= International Social Work
 Volume= 56
 Year= 2013
@@ -1114,7 +1118,7 @@ Title= Searching for the meaning of parenthood: An existential approach to paren
 
 110.
 Cheung, M.C., Chan, A.S., Sze, S. L., Leung, W.W., & To, C.Y. (2010). Verbal memory deficits in relation to organization strategy in high- and low-functioning autistic children. Research in Autism Spectrum Disorders, 4, 764-771
-Authors= Cheung, M.C., Chan, A.S., Sze, S. L., Leung, W.W., & To, C.Y
+Authors= Cheung, M.C.& Chan, A.S.& Sze, S. L.& Leung, W.W.& & To, C.Y
 Journal= Research in Autism Spectrum Disorders
 Volume= 4
 Year= 2010
@@ -1123,7 +1127,7 @@ Title= Verbal memory deficits in relation to organization strategy in high- and 
 
 111.
 J.F. Cai, R.H. Chan, and Z.W. Shen, A Framelet-Based Image Inpainting Algorithm, Appl. Com-put. Harmon. Anal., 24 (2008), 131-149.
-Authors= J.F. Cai, R.H. Chan, and Z.W. Shen
+Authors= J.F. Cai& R.H. Chan& Z.W. Shen
 Journal= Appl. Com-put. Harmon. Anal.
 Volume= 24
 Year= 2008
@@ -1132,7 +1136,7 @@ Title= A Framelet-Based Image Inpainting Algorithm
 
 112.
 R.H. Chan, C.W. Ho, and M. Nikolova, Salt-and-Pepper Noise Removal by Median-type Noise Detectors and Detail-preserving Regularization, IEEE Trans. Image Proc., 14 (2005), 1479-1485.
-Authors= R.H. Chan, C.W. Ho, and M. Nikolova
+Authors= R.H. Chan& C.W. Ho& M. Nikolova
 Journal= IEEE Trans. Image Proc.
 Volume= 14
 Year= 2005
@@ -1141,7 +1145,7 @@ Title= Salt-and-Pepper Noise Removal by Median-type Noise Detectors and Detail-p
 
 113.
 With A. Lorz and P. Markowich: Global Solutions to the coupled chemotaxis-fluid equations, Communications in Partial Differential Equations, 35 (2010), no. 9, 1635-1673.
-Authors= A. Lorz and P. Markowich
+Authors= A. Lorz& P. Markowich
 Journal= Communications in Partial Differential Equations
 Volume= 35
 Year= 2010
@@ -1161,7 +1165,7 @@ Title= Existence and uniqueness of entropy solution to initial boundary value pr
 
 115.
 With T. Yang and C.-J. Zhu: Boltzmann equation with external force and Vlasov-Poisson-Boltzmann system in infinite vacuum, Discrete and Continuous Dynamical Systems 16 (2006), no. 1, 253-277.
-Authors= T. Yang and C.-J. Zhu
+Authors= T. Yang& C.-J. Zhu
 Journal= Discrete and Continuous Dynamical Systems
 Volume= 16
 Year= 2006
@@ -1171,7 +1175,7 @@ Title= Boltzmann equation with external force and Vlasov-Poisson-Boltzmann syste
 
 116.  
 Chan, K. L., & Jones, B. J. T. 1975, Distortions of the 3K background radiation spectrum: observational constraints on the early thermal history of the universe, Astrophys. J., 195, 1-11.
-Authors= Chan, K. L., & Jones, B. J. T.
+Authors= Chan, K. L.& Jones, B. J. T.
 Journal= Astrophys. J
 Volume= 195
 Year= 1975
@@ -1180,7 +1184,7 @@ Title= Distortions of the 3K background radiation spectrum: observational constr
 
 117.
 Bentkus, V., Jing, B.-Y., Shao, Q.M., and Zhou, W. (2007). Limiting distributions of non-centralt-statistics and their applications to the power of t-tests under non-normality. Bernoulli, 13, 346-364.  
-Authors= Bentkus, V., Jing, B.-Y., Shao, Q.M., and Zhou, W
+Authors= Bentkus, V.& Jing, B.-Y.& Shao, Q.M.& Zhou, W
 Journal= Bernoulli
 Volume= 13
 Year= 2007
@@ -1191,7 +1195,7 @@ Title= Limiting distributions of non-centralt-statistics and their applications 
 [Thesis]
 Thrainsson, Hjortor, "Modeling of Earthquake Ground Motion in the Frequency Domain," Ph.D. Thesis, Report 134, Blume Earthquake Engineering Center, Stanford University, 2000
 Thesis= Ph.D. Thesis
-Authors= Thrainsson, Hjortor
+Authors= Thrainsson& Hjortor
 Volume= 134
 Year= 2000
 Publisher= Blume Earthquake Engineering Center, Stanford University
@@ -1208,14 +1212,14 @@ Publisher= Springer-Verlag
 120.
 [Book]
 The Mathematics of Marriage: Dynamic Nonlinear Models(J. M. Gottman, J.D. Murray, Catherine C. Swanson, Rebecca Tyson, Kristin R. Swanson). MIT Press, Cambridge, MA, 2002.
-Authors= J. M. Gottman, J.D. Murray, Catherine C. Swanson, Rebecca Tyson, Kristin R. Swanson
+Authors= J. M. Gottman& J.D. Murray& Catherine C. Swanson& Rebecca Tyson& Kristin R. Swanson
 Title= The Mathematics of Marriage: Dynamic Nonlinear Models
 Publisher= MIT Press
 
 121.
 [Book]
 Theories of Biological Pattern Formation (editors S. Brenner, J.D. Murray and L. Wolpert). Proceedings of the Royal Society meeting of that name at the Royal Society, London, 1981.
-Authors= S. Brenner, J.D. Murray and L. Wolpert
+Authors= S. Brenner& J.D. Murray& L. Wolpert
 Year= 1981
 Proceeding= Royal Society meeting of that name at the Royal Society
 Title= Theories of Biological Pattern Formation
@@ -1223,7 +1227,7 @@ Title= Theories of Biological Pattern Formation
 122.
 [Book]
 Modelling of Patterns in Space and Time (editors W. Jager and J.D. Murray). Proceedings of a workshop of that name in Heidelberg, 1983. Springer-Verlag, Heidelberg, 1984 (405 pages). 
-Authors= W. Jager and J.D. Murray
+Authors= W. Jager& J.D. Murray
 Year=  1984
 Title= Modelling of Patterns in Space and Time
 Publisher= Springer-Verlag, Heidelberg
@@ -1246,7 +1250,7 @@ Publisher= Cambridge University Press
 125.
 [Book]
 Bolton, Kingsley (2005) A Dictionary of Cantonese Slang: Language of Hong Kong Movies, Street Gangs and City Life (co-authored with Christopher Hutton). London: C. Hurst and Co.; Hawaii: University of Hawaii Press. 
-Authors= Bolton, Kingsley & Christopher Hutton
+Authors= Bolton, Kingsley& Christopher Hutton
 Year=  2005
 Title= A Dictionary of Cantonese Slang: Language of Hong Kong Movies, Street Gangs and City Life
 Publisher= Hurst and Co. & University of Hawaii Press
@@ -1306,9 +1310,9 @@ Chapter= Multilingual and Multicultural Contexts of Legislation: An Internationa
 Page= 169-91
 
 132.
-[Book chapters]
+[Book chapters] **co-authored with **
 Miller, Lindsay (2007) What's in it for me? A performance management system to please everyone and (co-authored with Jean Young). In Evaluating Teacher Effectiveness in EF/SL Contexts. Edited by Christine Coombe, Mashael Al-Hamly, Peter Davidson, and Salah Troudi. The University of Michigan Press, pp. 74-88. 
-Authors= Miller, Lindsay & Jean Young
+Authors= Miller, Lindsay& Jean Young
 Year=  2007
 Title= What's in it for me?
 Publisher= University of Michigan Press
@@ -1368,7 +1372,7 @@ Title= An analysis of topic management strategies and turn-taking behavior in th
 138.
 [Journal Articles]
 Su, Chenting and James E. Littlefield (2001), "Entering Guanxi: A Business Ethical Dilemma in Mainland China?", Journal of Business Ethics, Vol. 33, No.3, pp. 199-210.
-Authors= Su, Chenting and James E. Littlefield
+Authors= Su, Chenting& James E. Littlefield
 Journal= Journal of Business Ethics
 Volume= 33
 Number= 3
@@ -1379,7 +1383,7 @@ Title= Entering Guanxi: A Business Ethical Dilemma in Mainland China?
 139.
 [Journal Articles]
 Su, Chenting, Joe Sirgy, and James E. Littlefield (2003), "Is Guanxi Orientation Bad, Ethically Speaking? A Study of Chinese Enterprises", Journal of Business Ethics, Vol. 44, No.4, pp. 303-312.
-Authors= Su, Chenting, Joe Sirgy, and James E. Littlefield
+Authors= Su, Chenting& Joe Sirgy& James E. Littlefield
 Journal= Journal of Business Ethics
 Volume= 44
 Number= 4
@@ -1390,7 +1394,7 @@ Title= Is Guanxi Orientation Bad, Ethically Speaking? A Study of Chinese Enterpr
 140.
 [Journal Articles]
 Ding, Min, John R. Hauser, Songting Dong, Daria Silinskaia, Zhilin Yang, Chenting Su, and Steven Gaskin (2011), "Unstructured Direct Elicitation of Decision Rules ", Journal of Marketing Research, 48, 1, 116-127.
-Authors= Ding, Min, John R. Hauser, Songting Dong, Daria Silinskaia, Zhilin Yang, Chenting Su, and Steven Gaskin
+Authors= Ding, Min& John R. Hauser& Songting Dong& Daria Silinskaia& Zhilin Yang& Chenting Su& Steven Gaskin
 Journal= Journal of Marketing Research
 Volume= 48
 Issue= 1
@@ -1401,7 +1405,7 @@ Title= Unstructured Direct Elicitation of Decision Rules
 141.
 [Journal Articles]
 Yang, Zhilin, Chenting Su, and Kim Fam (May 2012), "Dealing with Institutional Distances in International Marketing Channels: Governance Strategies That Engender Legitimacy and Efficiency ", Journal of Marketing, 76, 3, 41-55.
-Authors= Yang, Zhilin, Chenting Su, and Kim Fam
+Authors= Yang, Zhilin& Chenting Su& Kim Fam
 Journal= Journal of Marketing
 Volume= 76
 Issue= 3
@@ -1413,7 +1417,7 @@ Title= Dealing with Institutional Distances in International Marketing Channels:
 142.
 [Journal Articles]
 Su, Chenting, Zhilin Yang, Nan Zhou, Guijun Zhuang, and Wenyu Dou (2009), "Interpersonal Influence as an Alternative Channel Communication Behavior in Emerging Markets: The Case of China", Journal of International Business Studies, 40 (4), May, 668-689.
-Authors= Su, Chenting, Zhilin Yang, Nan Zhou, Guijun Zhuang, and Wenyu Dou
+Authors= Su, Chenting& Zhilin Yang& Nan Zhou& Guijun Zhuang& Wenyu Dou
 Journal= Journal of International Business Studies
 Volume= 40
 Issue= 4
@@ -1424,8 +1428,8 @@ Title= Interpersonal Influence as an Alternative Channel Communication Behavior 
 
 143.
 [Journal Articles]
-Wang, Yonggui, Fiona Chan, and Zhilin Yang (2013), "Customers’ Perceived Benefits of Interacting in a Virtual Brand Community in China", Journal of Electronic Commerce Research, 14, 1, 39-56.
-Authors= Wang, Yonggui, Fiona Chan, and Zhilin Yang
+Yonggui Wang, Fiona Chan, and Zhilin Yang (2013), "Customers’ Perceived Benefits of Interacting in a Virtual Brand Community in China", Journal of Electronic Commerce Research, 14, 1, 39-56.
+Authors= Yonggui Wang& Fiona Chan& Zhilin Yang
 Journal= Journal of Electronic Commerce Research
 Volume= 14
 Issue= 1
@@ -1435,8 +1439,8 @@ Title= Customers’ Perceived Benefits of Interacting in a Virtual Brand Communi
 
 144.
 [Journal Articles]
-Yang, Zhilin, Chen Zhou, and Ling Jiang (2011), "When Do Formal Control and Trust Matter? A Context-Based Analysis of the Effects on Marketing Channel Relationships in China", Industrial Marketing Management, 40, 1, 86-96.
-Authors= Yang, Zhilin, Chen Zhou, and Ling Jiang
+Zhilin Yang, Chen Zhou, and Ling Jiang (2011), "When Do Formal Control and Trust Matter? A Context-Based Analysis of the Effects on Marketing Channel Relationships in China", Industrial Marketing Management, 40, 1, 86-96.
+Authors= Zhilin Yang& Chen Zhou& Ling Jiang
 Journal= Industrial Marketing Management
 Volume= 40
 Issue= 1
@@ -1446,8 +1450,8 @@ Title= When Do Formal Control and Trust Matter? A Context-Based Analysis of the 
 
 145.
 [Journal Articles]
-Wang, Xuehua, and Zhilin Yang. (2010), "The Effect of Brand Credibility on Consumers’ Brand Purchase Intention in Emerging Economies: The Moderating Role of Brand Awareness and Brand Image", Journal of Global Marketing, 23, 3, 177-188.
-Authors= Wang, Xuehua, and Zhilin Yang
+Xuehua Wang, and Zhilin Yang. (2010), "The Effect of Brand Credibility on Consumers’ Brand Purchase Intention in Emerging Economies: The Moderating Role of Brand Awareness and Brand Image", Journal of Global Marketing, 23, 3, 177-188.
+Authors= Xuehua Wang& Zhilin Yang
 Journal= Journal of Global Marketing
 Volume= 23
 Issue= 3
@@ -1458,7 +1462,7 @@ Title= The Effect of Brand Credibility on Consumers’ Brand Purchase Intention 
 146.
 [Journal Articles]
 Yang, Zhilin, Robin T. Peterson, and Lily Huang (Summer 2001), "Taking the Pulse of Internet Pharmacies: Online Consumers Speak Out on Pharmacy Services,", Marketing Health Services, Vol. 21, pp. 4-10.
-Authors= Yang, Zhilin, Robin T. Peterson, and Lily Huang
+Authors= Yang, Zhilin& Robin T. Peterson& Lily Huang
 Journal= Marketing Health Services
 Volume= 21
 Year= 2001
@@ -1468,7 +1472,7 @@ Title= Taking the Pulse of Internet Pharmacies: Online Consumers Speak Out on Ph
 147.
 [Journal Articles]
 Yang, Zhilin, Robin T. Peterson, and Shaohan Cai (2003), "Service Quality Dimensions of Internet Purchasing: An Exploratory Analysis", Journal of Services Marketing, Vol. 17, Issue. 7, pp.685-698.
-Authors= Yang, Zhilin, Robin T. Peterson, and Shaohan Cai
+Authors= Yang, Zhilin& Robin T. Peterson& Shaohan Cai
 Journal= Journal of Services Marketing
 Volume= 17
 Issue= 7
@@ -1506,7 +1510,7 @@ Page= 110-120
 151.
 [Conference Papers]
 Fam, Kim-shyan, Brendan J. Gray, Regan Lam, and Zhilin Yang (2002), "Consumers' Views of University Promotion Campaign - Evidence from Malaysia, Singapore, and Hong Kong", Advances in Consumer Research (Rami Zwick and Tu Ping, eds.), Vol. 5, p.159.
-Authors= Fam, Kim-shyan, Brendan J. Gray, Regan Lam, and Zhilin Yang
+Authors= Fam, Kim-shyan& Brendan J. Gray& Regan Lam& Zhilin Yang
 Proceeding= Advances in Consumer Research
 Year= 2002
 Title= Consumers' Views of University Promotion Campaign - Evidence from Malaysia, Singapore, and Hong Kong
@@ -1517,7 +1521,7 @@ Page= 159
 152.
 [Conference Papers]
 Zhou, Kevin, Laura Poppo, and Zhilin Yang (2005), "Examining Governance Choice in China: A Focus on Longstanding Ties, Relational Governance, and Contracts", Strategic Management Society’s 25th Annual International Conference, Orlando, Florida, U.S.A.
-Authors= Zhou, Kevin, Laura Poppo, and Zhilin Yang
+Authors= Zhou, Kevin& Laura Poppo& Zhilin Yang
 Proceeding= Strategic Management Society’s 25th Annual International Conference
 Year= 2005
 Title= Examining Governance Choice in China: A Focus on Longstanding Ties, Relational Governance, and Contracts
@@ -1525,7 +1529,7 @@ Title= Examining Governance Choice in China: A Focus on Longstanding Ties, Relat
 153.
 [Conference Papers]
 Jia, Fang and Zhilin Yang (2011), "Mismatch between Trust and Interdependence:The Moderating Role of Power Imbalance", Cambridge Business & Economics Conference, Cambridge, United Kingdom, 27-28 June.
-Authors= Jia, Fang and Zhilin Yang
+Authors= Jia, Fang& Zhilin Yang
 Proceeding= Cambridge Business & Economics Conference
 Year= 2011
 Month= June
@@ -1534,7 +1538,7 @@ Title= Mismatch between Trust and Interdependence:The Moderating Role of Power I
 154.
 [Conference Papers]
 Wu, Jianan, Jie Sun, Yinglu Wu, and Zhilin Yang (2009), "eWOM and Risk Return in Online Markets: A Joint Study on Seller Review and Product Review", 2009 Informs Marketing Science Conference, June 4-6, 2009, University of Michigan, Ann Arbor, Michigan, USA.
-Authors= Wu, Jianan, Jie Sun, Yinglu Wu, and Zhilin Yang
+Authors= Wu, Jianan& Jie Sun& Yinglu Wu& Zhilin Yang
 Proceeding= Informs Marketing Science Conference
 Year= 2009
 Month= June
@@ -1551,7 +1555,7 @@ Publisher= LAP Lambert Academic Publishing
 156.
 [Books and Book Chapters]
 Kim-Shyan Fam, Zhilin Yang, and Mike Hyman (2009), "A Handbook of Confucian/Chopsticks Marketing", Asia Business Research Corporation Ltd, Wellington, New Zealand.
-Authors= Kim-Shyan Fam, Zhilin Yang, and Mike Hyman
+Authors= Kim-Shyan Fam& Zhilin Yang& Mike Hyman
 Year= 2009
 Title= A Handbook of Confucian/Chopsticks Marketing
 Publisher= Asia Business Research Corporation Ltd
@@ -1568,7 +1572,7 @@ Publisher= Chinese People’s University Press
 158.
 [Books and Book Chapters]
 Originally by William G. Zikmund, Raymond MeLeod, Jr. and Faye W. Gilbert, Chinese Version Translated by Zuohao Hu, Song Jia, and Zhilin Yang (2005), "Customer Relationship Management: Integrating marketing strategy and information technology", Beijing: Chinese People’s University Press.
-Authors= William G. Zikmund, Raymond MeLeod, Jr. and Faye W. Gilbert
+Authors= William G. Zikmund& Raymond MeLeod& Jr.& Faye W. Gilbert
 Year= 2005
 Title= Customer Relationship Management: Integrating marketing strategy and information technology
 Editors= Zuohao Hu, Song Jia, and Zhilin Yang
@@ -1577,7 +1581,7 @@ Publisher= Beijing: Chinese People’s University Press
 159.
 [Conference Papers]
 Dou, Weyu, Li Huang, Fue Zeng (2008), "Group Identity and Consumer Responses to Advertising in Community Web Sites", proceedings of Marketing Science Conference, Marketing Science Institute, USA.
-Authors= Dou, Weyu, Li Huang, Fue Zeng
+Authors= Dou, Weyu& Li Huang& Fue Zeng
 Proceeding= Marketing Science Conference
 Year= 2008
 Title= Group Identity and Consumer Responses to Advertising in Community Web Sites
@@ -1585,7 +1589,7 @@ Title= Group Identity and Consumer Responses to Advertising in Community Web Sit
 160.
 [Conference Papers]
 Dou, Wenyu, Boonghee Yoo, and Liangyu Ma (2002), "Understanding the Patronage of Ethnic Portal Sites: An Exploratory Study of Chinese Internet Users", proceedings of The 2002 Asia-Pacific Association of Consumer Research Conference.
-Authors= Dou, Wenyu, Boonghee Yoo, and Liangyu Ma
+Authors= Dou, Wenyu& Boonghee Yoo& Liangyu Ma
 Proceeding= The 2002 Asia-Pacific Association of Consumer Research Conference
 Year= 2002
 Title= Understanding the Patronage of Ethnic Portal Sites: An Exploratory Study of Chinese Internet Users
@@ -1593,7 +1597,7 @@ Title= Understanding the Patronage of Ethnic Portal Sites: An Exploratory Study 
 161.
 [Conference Papers]
 Dou, Wenyu, Ollie Nielsen and Chee-Ming Tan (2001), "Building Effective Web Sites for Export Marketing: Evidences from Canada, Denmark, and Malaysia", proceedings of The AMA 2001 Summer Educators Conference, USA.
-Authors= Dou, Wenyu, Ollie Nielsen and Chee-Ming Tan
+Authors= Dou, Wenyu& Ollie Nielsen& Chee-Ming Tan
 Proceeding= The AMA 2001 Summer Educators Conference
 Year= 2001
 Title= Building Effective Web Sites for Export Marketing: Evidences from Canada, Denmark, and Malaysia
@@ -1601,7 +1605,7 @@ Title= Building Effective Web Sites for Export Marketing: Evidences from Canada,
 162.
 [Conference Papers]
 Dou, Wenyu, Boonghee Yoo, and Naveen Donthu (2000), "Building Global E-commerce Presence Through Ethnic Portals", proceedings of The eCommerce and Global Business Forum (in CD-ROM), sponsored by the University of California -Los Angeles, the University of Washington-Seattle, and Anderson Consulting, USA.
-Authors= Dou, Wenyu, Boonghee Yoo, and Naveen Donthu
+Authors= Dou, Wenyu& Boonghee Yoo& Naveen Donthu
 Proceeding= The eCommerce and Global Business Forum
 Year= 2000
 Title= Building Global E-commerce Presence Through Ethnic Portals
@@ -1609,7 +1613,7 @@ Title= Building Global E-commerce Presence Through Ethnic Portals
 163.
 [Conference Papers]
 Dou, Wenyu and Denny Bristow (September 2000), "A Call for Electronic Marketing Training Camp", Academy of Business Education Conference, Bermuda.
-Authors= Dou, Wenyu and Denny Bristow
+Authors= Dou, Wenyu& Denny Bristow
 Proceeding= Academy of Business Education Conference
 Year= 2000
 Month= September
@@ -1618,7 +1622,7 @@ Title= A Call for Electronic Marketing Training Camp
 164.
 [Conference Papers]
 Dou, Wenyu, Boonghee Yoo, and Naveen Donthu (May 2000), "Building Global E-commerce Presence Through Ethnic Portals", JIBS Special Conference and Symposium on E-Commerce and Global Business, Santa Cruz.
-Authors= Dou, Wenyu, Boonghee Yoo, and Naveen Donthu
+Authors= Dou, Wenyu& Boonghee Yoo& Naveen Donthu
 Proceeding= JIBS Special Conference and Symposium on E-Commerce and Global Business
 Year= 2000
 Month= May
@@ -1637,7 +1641,7 @@ Publisher= Prentice- Hall
 166.
 [Books and Book Chapters]
 Ghose, Sanjoy and Wenyu Dou (2000), "Interactive Functions and Their Impacts on the Appeal of Internet Presence Sites", in "Internet Marketing: Readings and Online Resources," ed. Paul Richardson, McGraw-Hill, Boston, MA, USA.
-Authors= Ghose, Sanjoy and Wenyu Dou
+Authors= Ghose, Sanjoy& Wenyu Dou
 Year= 2000
 Title= Internet Marketing: Readings and Online Resources
 Chapter= Interactive Functions and Their Impacts on the Appeal of Internet Presence Sites
@@ -1647,7 +1651,7 @@ Publisher= McGraw-Hill
 167.
 [Journal Articles]
 Dou, Wenyu and David Chou (2001), "A Structural Analysis of Business-to-Business Digital Markets", Industrial Marketing Management, Vol. 31, No.2, pp. 165-176.
-Authors=Dou, Wenyu and David Chou  
+Authors=Dou, Wenyu& David Chou  
 Journal= Industrial Marketing Management
 Volume= 31
 Number= 2
@@ -1658,7 +1662,7 @@ Title= A Structural Analysis of Business-to-Business Digital Markets
 168.
 [Journal Articles]
 Ghose, Sanjoy, Dou, Wenyu. (1998), "Interactive Functions and Their Impact on the Appeal of Internet Presence Sites", Journal of Advertising Research, Vol. 38, Issue 2, pp. 29-44.
-Authors= Ghose, Sanjoy, Dou, Wenyu
+Authors= Ghose, Sanjoy& Dou, Wenyu
 Journal= Journal of Advertising Research
 Volume= 38
 Issue= 2
@@ -1669,7 +1673,7 @@ Title= Interactive Functions and Their Impact on the Appeal of Internet Presence
 169.
 [Journal Articles]
 Walter Wang, Wenyu Dou, and Nan Zhou (2008), "Consumption Attitudes and Adoption of New Consumer Products: An Empirical Study", European Journal of Marketing, 42, 1/2, 238-254.
-Authors= Walter Wang, Wenyu Dou, and Nan Zhou
+Authors= Walter Wang& Wenyu Dou& Nan Zhou
 Journal= European Journal of Marketing
 Volume= 42
 Issue= 1/2
@@ -1680,7 +1684,7 @@ Title= Consumption Attitudes and Adoption of New Consumer Products: An Empirical
 170.
 [Journal Articles]
 Quan, Xiaojun, Liu Wenyin, Dou, Wenyu, Xiong, Hui, Ge, Yong (2012), "Link Graph Analysis for Business Site Selection", Computer, 45, 3, 64 - 69.
-Authors= Quan, Xiaojun, Liu Wenyin, Dou, Wenyu, Xiong, Hui, Ge, Yong
+Authors= Quan, Xiaojun& Liu Wenyin& Dou, Wenyu& Xiong, Hui& Ge, Yong
 Journal= Computer
 Volume= 45
 Issue= 3
@@ -1691,7 +1695,7 @@ Title= Link Graph Analysis for Business Site Selection
 171.
 [Books and Book Chapters]
 Yau, Oliver H M and Leung J W K (2002), "Service Marketing in the 21st Century", The City University Press.
-Authors= Yau, Oliver H M and Leung J W K
+Authors= Yau, Oliver H M& Leung J W K
 Year= 2002
 Title= Service Marketing in the 21st Century
 Publisher= The City University Press
@@ -1699,7 +1703,7 @@ Publisher= The City University Press
 172.
 [Books and Book Chapters]
 Leung J W K (2002) & Oliver Yau (2002), "The Profitable Delightful Services", The City University Press, (in progress).
-Authors= Leung J W K & Oliver Yau
+Authors= Leung J W K& Oliver Yau
 Year= 2002
 Title= The Profitable Delightful Services
 Publisher= The City University Press
@@ -1707,7 +1711,7 @@ Publisher= The City University Press
 173.
 [Conference Papers]
 J Leung and K K Lai (Aug 1997), "Comparison of Assembly Systems with Different Parallel Configurations", proceedings of the IASTED International Conference on Modelling, Simulation and Optimisation, Singapore, p159-164.
-Authors= J Leung and K K Lai
+Authors= J Leung& K K Lai
 Year= 1997
 Month= August
 Page= 159-164
@@ -1717,7 +1721,7 @@ Proceeding= IASTED International Conference on Modelling, Simulation and Optimis
 174.
 [Conference Papers]
 K K Lai and J Leung (April 1996), "Analysis of Gate House Operations in a Container Terminal", proceedings of International Conference on Modelling and Simulation, IASTED, Pittsburgh.
-Authors= K K Lai and J Leung
+Authors= K K Lai& J Leung
 Year= 1996
 Month= April
 Title= Analysis of Gate House Operations in a Container Terminal
@@ -1734,7 +1738,7 @@ Proceeding= China-Japan Reliability Symposium
 176.
 [Conference Papers]
 J.L. Sanders & J. Leung (April 1, 1984), "Optimal Performance Characteristics for parallel stations in Automatic Transfer Line", published in the Transactions of the ASME International Conference on Computing in Mechanical Engineering, p. 247-252.
-Authors= J.L. Sanders & J. Leung
+Authors= J.L. Sanders& J. Leung
 Year= 1984
 Month= April
 Page= 247-252
@@ -1744,7 +1748,7 @@ Proceeding= Transactions of the ASME International Conference on Computing in Me
 177.
 [Journal Articles]
 J.L. Sanders & W.K. Leung (1986), "Simulation Analysis of Free-transfer Assembly System with Tunnel-Gated Stations", Journal of Manufacturing Systems, Vol 5, No. 3, p 191-201, (SCI).
-Authors= J.L. Sanders & W.K. Leung
+Authors= J.L. Sanders& W.K. Leung
 Journal= Journal of Manufacturing Systems
 Volume= 5
 Number= 3
@@ -1755,7 +1759,7 @@ Title= Simulation Analysis of Free-transfer Assembly System with Tunnel-Gated St
 178.
 [Journal Articles]
 Leung, John W. K. and Kenneth K. Kwong (2009), "A Structured Approach to Describing Service for Creating a Delightful Experience", Computers & Industrial Engineering, 57 (2), 563-570.
-Authors= Leung, John W. K. and Kenneth K. Kwong
+Authors= Leung, John W. K.& Kenneth K. Kwong
 Journal= Computers & Industrial Engineering
 Volume= 57
 Issue= 2
@@ -1766,7 +1770,7 @@ Title= A Structured Approach to Describing Service for Creating a Delightful Exp
 179.
 [Books and Book Chapters]
 Hui, H., & Luk, C.L. (1997), "Industrial/Organizational Psychology", Handbook of Cross-Cultural Psychology, Allyn and Bacon, USA, 3, 371-411.
-Authors= Hui, H., & Luk, C.L.
+Authors= Hui, H.& Luk, C.L.
 Year= 1997
 Title= Industrial/Organizational Psychology
 Chapter= Handbook of Cross-Cultural Psychology
@@ -1776,7 +1780,7 @@ Page= 371-411
 180.
 [Journal Articles]
 Luk, C.L., Yau, O.H.M., Sin, L.Y.M., Tse, A.C.B., Chow, R.P.M., & Lee, J.S.Y. (2008), "The effects of social capital and organizational innovativeness in different institutional contexts", Journal of International Business Studies, 39, 4, 589-612.
-Authors= Luk, C.L., Yau, O.H.M., Sin, L.Y.M., Tse, A.C.B., Chow, R.P.M., & Lee, J.S.Y.
+Authors= Luk, C.L.& Yau, O.H.M.& Sin, L.Y.M.& Tse, A.C.B.& Chow, R.P.M.& Lee, J.S.Y.
 Journal= Journal of International Business Studies
 Volume= 39
 Issue= 4
@@ -1787,7 +1791,7 @@ Title= The effects of social capital and organizational innovativeness in differ
 181.
 [Journal Articles]
 Wendy Wan, C.L. Luk, Oliver Yau, Alan Tse, Leo Sin, Kenneth Kwong, & Raymond Chow (2008), "Do Traditional Chinese Cultural Values Nourish a Market for Pirated CDs?", Journal of Business Ethics.
-Authors= Wendy Wan, C.L. Luk, Oliver Yau, Alan Tse, Leo Sin, Kenneth Kwong, & Raymond Chow
+Authors= Wendy Wan& C.L. Luk& Oliver Yau& Alan Tse& Leo Sin& Kenneth Kwong& Raymond Chow
 Journal= Journal of Business Ethics
 Year= 2008
 Title= Do Traditional Chinese Cultural Values Nourish a Market for Pirated CDs?
@@ -1795,7 +1799,7 @@ Title= Do Traditional Chinese Cultural Values Nourish a Market for Pirated CDs?
 182.
 [Journal Articles]
 Luk, Chung-leung, D W Chan and H C B Lee (1999), "Developing a Chinese Vocabulary test as a WAIS-R subtest for adults in Hong Kong", Psychologia, Vol. 42, pp. 89-100.
-Authors= Luk, Chung-leung, D W Chan and H C B Lee
+Authors= Luk, Chung-leung& D W Chan& H C B Lee
 Journal= Psychologia
 Volume= 42
 Year= 1999
@@ -1805,7 +1809,7 @@ Title= Developing a Chinese Vocabulary test as a WAIS-R subtest for adults in Ho
 183.
 [Journal Articles]
 Hofstede, G., Bond, M.H., & Luk, C.L. (1993), "Individual Perceptions of Organizational Cultures: A Methodological Treatise on Levels of Analysis", Organization Studies, 14, 4, 483-503.
-Authors= Hofstede, G., Bond, M.H., & Luk, C.L.
+Authors= Hofstede, G.& Bond, M.H.& & Luk, C.L.
 Journal= Organization Studies
 Volume= 14
 Issue= 4
@@ -1816,7 +1820,7 @@ Title= Individual Perceptions of Organizational Cultures: A Methodological Treat
 184.
 [Book Chapter]
 Lo, T.W. & Kwok, S.I. (in press). Chinese triads and tongs. G. Bruinsma & D. Weisburd (Eds.) Encyclopedia of criminology and criminal justice. New York. Springer.
-Authors= Lo, T.W. & Kwok, S.I.
+Authors= Lo, T.W.& Kwok, S.I.
 Chapter= Chinese triads and tongs
 Title= Encyclopedia of criminology and criminal justice
 Publisher= Springer
@@ -1825,7 +1829,7 @@ Editors= G. Bruinsma & D. Weisburd
 185.
 [Book Chapter]
 Lo, T.W. & Kwok, S.I. (2013). Chinese triad society. Richard Wright (Ed.) Oxford bibliographies in criminology. New York. Oxford University Press. 
-Authors= Lo, T.W. & Kwok, S.I.
+Authors= Lo, T.W.& Kwok, S.I.
 Chapter= Chinese triad society
 Year= 2013
 Title= Oxford bibliographies in criminology
@@ -1835,7 +1839,7 @@ Editors= Richard Wright
 186.
 [Book]
 Lo, T.W. , Wong, S.W. & Maxwell, G. (Eds.). (2005). Alternatives to prosecution: Rehabilitative and restorative models of youth justice. Singapore & London:  Marshall Cavendish Academic.
-Authors= Lo, T.W. , Wong, S.W. & Maxwell, G.
+Authors= Lo, T.W.& Wong, S.W.& Maxwell, G.
 Year= 2005
 Title= Alternatives to prosecution: Rehabilitative and restorative models of youth justice
 Publisher= Marshall Cavendish Academic
@@ -1873,7 +1877,7 @@ Title= Triadization of youth gangs in Hong Kong
 190.
 [Journal]
 Ho, Judy. W.C. , Ho, Samuel. M.Y. , Pau, Barbara. K.Y. , Hui, Bryant. P.H. , Wong, Rosa. S.M. & Chu, Annie. (2012). Hope-based Intervention for Individuals Susceptible to Colorectal Cancer: A Pilot Study. Familial Cancer. 11. 545 - 551.
-Authors= Ho, Judy. W.C. , Ho, Samuel. M.Y. , Pau, Barbara. K.Y. , Hui, Bryant. P.H. , Wong, Rosa. S.M. & Chu, Annie.
+Authors= Ho, Judy. W.C.& Ho, Samuel. M.Y.& Pau, Barbara. K.Y.& Hui, Bryant. P.H.& Wong, Rosa. S.M.& Chu, Annie.
 Journal= Familial Cancer
 Volume= 11
 Year= 2012
@@ -1883,7 +1887,7 @@ Title= Hope-based Intervention for Individuals Susceptible to Colorectal Cancer:
 191.
 [Journal]
 Chua, Hannah. D.P. , Ho, Samuel. M.Y. & Cheung, L.K. (2012). The Comparison of Psychological Adjustment of Cleft Lip and Palate Patients after Maxillary Distraction Osteogenesis and Conventional Orthognathic Surgery. Oral Surgery, Oral Medicine, Oral Pathology, Oral Radiology and Endodontology. 114/5. S5 - S10.
-Authors= Chua, Hannah. D.P. , Ho, Samuel. M.Y. & Cheung, L.K.
+Authors= Chua, Hannah. D.P.& Ho, Samuel. M.Y.& Cheung, L.K.
 Journal= Oral Surgery, Oral Medicine, Oral Pathology, Oral Radiology and Endodontology
 Volume= 114
 Issue= 5
@@ -1894,7 +1898,7 @@ Title= The Comparison of Psychological Adjustment of Cleft Lip and Palate Patien
 192.
 [Journal]
 Duan, Wenjie. , Tang, X. , Siu, P.Y. , Chan, Raymond. K.H. & Ho, Samuel. M.Y. (2012). Virtues and positive mental health. Hong Kong Journal of Mental Health. 38/2. 24 - 31. 
-Authors= Duan, Wenjie. , Tang, X. , Siu, P.Y. , Chan, Raymond. K.H. & Ho, Samuel. M.Y.
+Authors= Duan, Wenjie.& Tang, X.& Siu, P.Y.& Chan, Raymond. K.H.& Ho, Samuel. M.Y.
 Journal= Hong Kong Journal of Mental Health
 Volume= 38
 Issue= 2
@@ -1905,7 +1909,7 @@ Title= Virtues and positive mental health
 193.
 [Book Chapter]
 Ho, Samuel. M.Y. , Rochelle, Tina. Louisa. , Law, Lawrence. S.C. , Duan, Wenjie. , Bai, Yu. , Shih, Shih-ming. & Wang, G.L. (in press). Methodological Issues in Positive Psychology Research among the Chinese. Perspectives on the Intersection of Multiculturalism & Positive Psychology. New York. Springer Science + Business Media B.V.
-Authors= Ho, Samuel. M.Y. , Rochelle, Tina. Louisa. , Law, Lawrence. S.C. , Duan, Wenjie. , Bai, Yu. , Shih, Shih-ming. & Wang, G.L.
+Authors= Ho, Samuel. M.Y.& Rochelle, Tina. Louisa.& Law, Lawrence. S.C.& Duan, Wenjie.& Bai, Yu.& Shih, Shih-ming.& Wang, G.L.
 Chapter= Methodological Issues in Positive Psychology Research among the Chinese
 Title= Perspectives on the Intersection of Multiculturalism & Positive Psycholog
 Publisher= Springer Science + Business Media B.V.
@@ -1913,7 +1917,7 @@ Publisher= Springer Science + Business Media B.V.
 194.
 [Book Chapter]
 Ho, Samuel M.Y. , Duan, Wenjie. & Tang, Sandy T.M. (in press). The Psychology of Virtue and Happiness in Western and Asian Thought. The Philosophy and Psychology of Character and Happiness. 
-Authors= Ho, Samuel M.Y. , Duan, Wenjie. & Tang, Sandy T.M.
+Authors= Ho, Samuel M.Y.& Duan, Wenjie.& Tang, Sandy T.M.
 Chapter= The Psychology of Virtue and Happiness in Western and Asian Thought
 Title= The Philosophy and Psychology of Character and Happiness
 
@@ -1958,7 +1962,7 @@ Title= Crucial individuals in the help-seeking pathway of the Chinese caregivers
 199.
 [Journal]
 Wong, F.K.D. , Chang, Y.L. & He, X.S. (2007). Rural migrant works in urban China: Living a marginalized life. International Journal of Social Welfare. 16, 7. 32 - 40.
-Authors= Wong, F.K.D. , Chang, Y.L. & He, X.S.
+Authors= Wong, F.K.D.& Chang, Y.L.& He, X.S.
 Journal= International Journal of Social Welfare
 Volume= 16
 Issue= 7
@@ -1980,7 +1984,7 @@ Title= Uncovering socio-cultural factors influencing the pathway to care of Chin
 201.
 [Journal]
 Wong, D.S.W. & Lo, T.W. (2011). The Recent Development of Restorative Social Work Practices in Hong Kong. International Social Work. 54 (5). 701 - 716.
-Authors= Wong, D.S.W. & Lo, T.W.
+Authors= Wong, D.S.W.& Lo, T.W.
 Journal= International Social Work
 Volume= 54
 Issue= 5
@@ -1991,7 +1995,7 @@ Title= The Recent Development of Restorative Social Work Practices in Hong Kong
 202.
 [Journal]
 Wong, D.S.W. , Cheng, C.H.K. , Leung, S.O. & Ma, S.K. (2010). Cognitive and Moral Development of Adolescents: Implications to Law Reform of Minimum Age of Criminal Responsibility. The Journal of Youth Research. 159. 24 - 31. (In Chinese).
-Authors= Wong, D.S.W. , Cheng, C.H.K. , Leung, S.O. & Ma, S.K.
+Authors= Wong, D.S.W.& Cheng, C.H.K.& Leung, S.O.& Ma, S.K.
 Journal= The Journal of Youth Research
 Volume= 159
 Year= 2010
@@ -2001,7 +2005,7 @@ Title= Cognitive and Moral Development of Adolescents: Implications to Law Refor
 203.
 [Journal]
 Yue, Xiao Dong. , Cheung, Chau-kiu. & Wong, Dennis Sing Wing. (2010). From Glamour-oriented Idolatry to Achievement-oriented Idolatry: A Framing Experiment among Adolescents in Hong Kong and Shenzhen. Asian Journal of Social Psychology. 13. 1 - 8. 
-Authors= Yue, Xiao Dong. , Cheung, Chau-kiu. & Wong, Dennis Sing Wing.
+Authors= Yue, Xiao Dong.& Cheung, Chau-kiu.& Wong, Dennis Sing Wing.
 Journal= Asian Journal of Social Psychology
 Volume= 13
 Year= 2010
@@ -2032,7 +2036,7 @@ Editors= K. Van Wormer
 
 206.
 Hon S. Chan & Jun Ma, 2011, "How are they paid? A study of civil service pay in China", International Review of Administrative Sciences, Vol. 77, pp. 294-321.
-Authors= Hon S. Chan & Jun Ma
+Authors= Hon S. Chan& Jun Ma
 Journal= International Review of Administrative Sciences
 Volume= 77
 Year= 2011
@@ -2052,7 +2056,7 @@ Title= Envisioning public administration in the field of public administration i
 208.
 **Supplement**
 Hon S. Chan & David H. Rosenbloom, 2010, "Four challenges to accountability in contemporary public administration: Lessons from the United States and China", Administration & Society, Vol. 42, Supplement 1, pp. 11S-33S. 
-Authors= Hon S. Chan & David H. Rosenbloom
+Authors= Hon S. Chan& David H. Rosenbloom
 Journal= Administration & Society
 Volume= 42
 Year= 2010
@@ -2062,7 +2066,7 @@ Title= Four challenges to accountability in contemporary public administration: 
 209.
 [Journal]
 "Agency Costs of Free Cash Flow and the Effect of Shareholder Rights on the Implied Cost of Equity Capital", Journal of Financial and Quantitative Analysis, February 2011, Vol. 46, No. 1, pp. 171-207 (jointly with K. C. W. Chen and J. K. C. Wei)
-Authors= K. C. W. Chen and J. K. C. Wei
+Authors= K. C. W. Chen& J. K. C. Wei
 Journal= Journal of Financial and Quantitative Analysis
 Volume= 46
 Number= 1
@@ -2074,7 +2078,7 @@ Title= Agency Costs of Free Cash Flow and the Effect of Shareholder Rights on th
 210.
 [Journal]
 "Regulation Fair Disclosure and the Cost of Equity Capital", Review of Accounting Studies Journal, March 2010, Vol.15, Iss. 1, pp. 106-144 (jointly with D. S. Dhaliwal and H. Xie)
-Authors= D. S. Dhaliwal and H. Xie
+Authors= D. S. Dhaliwal& H. Xie
 Journal= Review of Accounting Studies Journal
 Volume= 15
 Issue= 1
@@ -2086,7 +2090,7 @@ Title= Regulation Fair Disclosure and the Cost of Equity Capital
 211.
 [Journal]
 "Legal Protection of Investors, Corporate Governance, and the Cost of Equity Capital", Journal of Corporate Finance, June 2009, Vol. 15, Iss. 3, pp 273-289 (jointly with J. K. C. Wei and K. C. W. Chen)
-Authors= J. K. C. Wei and K. C. W. Chen
+Authors= J. K. C. Wei& K. C. W. Chen
 Journal= Journal of Corporate Finance
 Volume= 15
 Issue= 3
@@ -2098,7 +2102,7 @@ Title= Legal Protection of Investors, Corporate Governance, and the Cost of Equi
 212.
 [Journal]
 "Are Stock Option Grants to Directors of State-Controlled Chinese Firms Listed in Hong Kong Genuine Compensation?", The Accounting Review, April 2013, Vol. 88, No. 5, pp. 1547-1574 (jointly with Z. H. Chen and B. Ke)
-Authors= Z. H. Chen and B. Ke
+Authors= Z. H. Chen& B. Ke
 Journal= The Accounting Review
 Volume= 88
 Number= 5
@@ -2110,7 +2114,7 @@ Title= Are Stock Option Grants to Directors of State-Controlled Chinese Firms Li
 213.
 [Journal]
 "Conflict-of-Interest Reforms and Investment Bank Analysts’ Research Biases", Journal of Accounting Auditing and Finance, October 2012, Vol. 27, Iss. 4, pp. 443-470 (jointly with H. Lu and F. Wong)
-Authors= H. Lu and F. Wong
+Authors= H. Lu& F. Wong
 Journal= Journal of Accounting Auditing and Finance
 Volume= 27
 Issue= 4
@@ -2122,7 +2126,7 @@ Title= Conflict-of-Interest Reforms and Investment Bank Analysts’ Research Bia
 214.
 [Journal]
 "Managerial Autonomy and Tax Compliance: An Empirical Study on International Transfer Pricing", The Journal of the American Taxation Association, 2006, Vol. 28, No. 2, pp.1-22. (jointly with K. H. Chan and A. Lo)
-Authors= K. H. Chan and A. Lo
+Authors= K. H. Chan& A. Lo
 Journal= The Journal of the American Taxation Association
 Volume= 28
 Number= 2
@@ -2133,7 +2137,7 @@ Title= Managerial Autonomy and Tax Compliance: An Empirical Study on Internation
 215.
 [Journal]
 Y W Cheung and Kon S. Lai (1998), "Economic Growth and Stationarity of Real Exchange Rates: Evidence from Some Fast-Growing Asian Countries", Pacific-Basin Finance Journal, 6, 61-76.
-Authors= Y W Cheung and Kon S. Lai 
+Authors= Y W Cheung& Kon S. Lai 
 Journal= Pacific-Basin Finance Journal
 Volume= 6
 Year= 1998
@@ -2143,7 +2147,7 @@ Title= Economic Growth and Stationarity of Real Exchange Rates: Evidence from So
 216.
 [Journal]
 Y W Cheung and Kon S. Lai (1998), "Parity Revision in Real Exchange Rates During the Post-Bretton Woods Period", Journal of International Money and Finance, 17, 597-614.
-Authors= Y W Cheung and Kon S. Lai
+Authors= Y W Cheung& Kon S. Lai
 Journal= Journal of International Money and Finance
 Volume= 17
 Year= 1998
@@ -2153,7 +2157,7 @@ Title= Parity Revision in Real Exchange Rates During the Post-Bretton Woods Peri
 217.
 [Journal]
 Y W Cheung and Menzie Chinn (1998), "Integration, Cointegration and the Forecast Consistency of Structural Exchange Rate Models", Journal of International Money and Finance, 17, 813-830.
-Authors= Y W Cheung and Menzie Chinn
+Authors= Y W Cheung& Menzie Chinn
 Journal= Journal of International Money and Finance
 Volume= 17 
 Year= 1998
@@ -2163,7 +2167,7 @@ Title= Integration, Cointegration and the Forecast Consistency of Structural Exc
 218.
 [Journal]
 Y W Cheung and Lilian Ng (1998), "International Evidence on the Stock Market and Aggregate Economic Activity", Journal of Empirical Finance, 5, 281-296.
-Authors= Y W Cheung and Lilian Ng
+Authors= Y W Cheung& Lilian Ng
 Journal= Journal of Empirical Finance
 Volume= 5
 Year= 1998
@@ -2173,7 +2177,7 @@ Title= International Evidence on the Stock Market and Aggregate Economic Activit
 219.
 [Books and Book Chapters]
 Y W Cheung and Hiro Ito (2009), "Hoarding of International Reserves: A Comparison of the Asian and Latin American Experiences", Exchange Rate, Monetary and Financial Issues and Policies in Asia, Ramkishen S. Rajan, Shandre Thangavelu, and & Rasyad A Parinduri (eds), World Scientific Press, Chapter 3, 77-115, http://www.worldscibooks.com/economics/7008.html.
-Authors= Y W Cheung and Hiro Ito
+Authors= Y W Cheung& Hiro Ito
 Year= 2009
 Chapter= Hoarding of International Reserves: A Comparison of the Asian and Latin American Experiences
 Title= Exchange Rate, Monetary and Financial Issues and Policies in Asia
@@ -2184,7 +2188,7 @@ Page= 77-115
 220.
 [Books and Book Chapters]
 Y W Cheung and Lilian Ng (1995), "Equity Price Variation in Pacific Basin Countries", Advances in Pacific Basin Financial Markets, Theodore Bos and Thomas A. Fetherston eds., Volume I, p. 211-227.
-Authors= Y W Cheung and Lilian Ng
+Authors= Y W Cheung& Lilian Ng
 Year= 1995
 Chapter= Equity Price Variation in Pacific Basin Countries
 Title= Advances in Pacific Basin Financial Markets
@@ -2195,7 +2199,7 @@ Volume= I
 221.
 [Books and Book Chapters]
 Y W Cheung, Y.H. Liu and Harry Lo (1997), "Financial Options (in Chinese)", U-Press Company Ltd. (ISBN 962-8399-01-2).
-Authors= Y W Cheung, Y.H. Liu and Harry Lo
+Authors= Y W Cheung& Y.H. Liu& Harry Lo
 Year= 1997
 Title= Financial Options (in Chinese)
 Publisher= U-Press Company Ltd
@@ -2203,7 +2207,7 @@ Publisher= U-Press Company Ltd
 222.
 [Books and Book Chapters]
 Y W Cheung and Clement Yuk-Pang Wong (1999), "Foreign Exchange Traders in Hong Kong, Japan, and Singapore: A Survey Study", Advances in Pacific Basin Financial Markets, Theodore Bos and Thomas A Fetherston eds., Volume V, 111-134.
-Authors= Y W Cheung and Clement Yuk-Pang Wong
+Authors= Y W Cheung& Clement Yuk-Pang Wong
 Year= 1999
 Chapter= Foreign Exchange Traders in Hong Kong, Japan, and Singapore: A Survey Study
 Title= Advances in Pacific Basin Financial Markets
@@ -2214,7 +2218,7 @@ Volume= V
 223.
 [Journal]
 Isabel Yan (with Terence Chong and Ying-Chiu Wong) (2008), "The International Linkages of the Japanese Stock Market", Japan and the World Economy, 20, 601-621.
-Authors= Isabel Yan, Terence Chong and Ying-Chiu Wong
+Authors= Isabel Yan& Terence Chong& Ying-Chiu Wong
 Journal= Japan and the World Economy
 Volume= 20
 Year= 2008
@@ -2224,7 +2228,7 @@ Title= The International Linkages of the Japanese Stock Market
 224.
 [Journal]
 Isabel Yan, Guoxin Liu and Terence Chong (July 2007), "The Aggregated Structural-Change Model", Economics Bulletin, 3, 2, 1-10.
-Authors= Isabel Yan, Guoxin Liu and Terence Chong
+Authors= Isabel Yan& Guoxin Liu& Terence Chong
 Journal= Economics Bulletin
 Volume= 3
 Issue= 2
@@ -2235,8 +2239,9 @@ Title= The Aggregated Structural-Change Model
 
 225.
 [Journal]
+**with**
 Isabel Yan (with Michael Kumhof and Shujing Li) (2007), "Balance of Payment Crises Under Inflation Targeting", Journal of International Economics, Vol. 72, pp. 242-264.
-Authors= Isabel Yan, Michael Kumhof and Shujing Li
+Authors= Isabel Yan& Michael Kumhof& Shujing Li
 Journal= Journal of International Economics
 Volume= 72
 Year= 2007
@@ -2246,7 +2251,7 @@ Title= Balance of Payment Crises Under Inflation Targeting
 226.
 [Journal]
 Isabel Yan (with Qian Su and Terence Chong) (2007), "On the Convergence of the China and Hong Kong Stock Markets: A Cointegration Analysis of the A and H shares", Applied Financial Economics, Vol. 17, No. 16, pp. 1349-1357.
-Authors= Isabel Yan, Qian Su and Terence Chong
+Authors= Isabel Yan& Qian Su& Terence Chong
 Journal=  Applied Financial Economics
 Volume= 17
 Number= 16
@@ -2257,7 +2262,7 @@ Title= On the Convergence of the China and Hong Kong Stock Markets: A Cointegrat
 227.
 [Books and Book Chapters]
 Charles Ka Yui Leung and Edward Chi Ho Tang (January 2012), "Comparing Two Financial Crises", in Global Housing Markets: Crises, Policies and Institutions, ed. by A. Bardhan, R. Edelstein and C. Kroll, John Wiley & Sons, USA, 377-398. ISBN 978-0-470-64714-1.
-Authors= Charles Ka Yui Leung and Edward Chi Ho Tang
+Authors= Charles Ka Yui Leung& Edward Chi Ho Tang
 Year= 2012
 Month= January
 Chapter= Comparing Two Financial Crises
@@ -2269,7 +2274,7 @@ Page= 377-398
 228.
 [Books and Book Chapters]
 Chang, K. L., N. K. Chen and Charles Ka Yui Leung, (2010), "Monetary Policy, Asset Return Dynamics and the General Equilibrium Effect", in Daniel Rosch and Harald Scheule ed., Model Risk in Financial Crises - Challenges and Solution for Financial Risk Models, Risk Books and Journals. ISBN: 978-1-906348-25-0.
-Authors= Chang, K. L., N. K. Chen and Charles Ka Yui Leung
+Authors= Chang, K. L.& N. K. Chen& Charles Ka Yui Leung
 Year= 2010
 Chapter= Monetary Policy, Asset Return Dynamics and the General Equilibrium Effect
 Title= Model Risk in Financial Crises - Challenges and Solution for Financial Risk Models
@@ -2299,7 +2304,7 @@ Title= Is there a Geography of Thought for East-West Differences? Why or Why not
 231.
 [Journal]
 Sue-Chan, C and Dasborough, M (July 2006), "The Influence of Relation-and Rule-Based Regulation on Hiring Decisions in Australia and Hong Kong, Chinese Cultural Contexts", International Journal of Human Resource Management, Vol. 17, No. 7, pp. 1267 – 1292.
-Authors= Sue-Chan, C and Dasborough, M
+Authors= Sue-Chan, C& Dasborough, M
 Journal= International Journal of Human Resource Management
 Volume= 17
 Number= 7
@@ -2311,7 +2316,7 @@ Title= The Influence of Relation-and Rule-Based Regulation on Hiring Decisions i
 232.
 [Journal]
 Dewdney, P, Ross, C S, & Sue-Chan, C. (1988), "Legal information services in Ontario public libraries.", Canadian Library Journal, 45, 365-371.
-Authors= Dewdney, P, Ross, C S, & Sue-Chan, C.
+Authors= Dewdney, P& Ross, C S& Sue-Chan, C.
 Journal= Canadian Library Journal
 Volume= 45
 Year= 1988
@@ -2321,7 +2326,7 @@ Title= Legal information services in Ontario public libraries
 233.
 [Books and Book Chapters]
 Sue-Chan, C., Rassouli, K., & Latham, G. P. (2014), "Motivating project teams through goal setting", The Psychology and Management of Project Teams: An Interdisciplinary Perspective, Oxford University Press., London, England.
-Authors= Sue-Chan, C., Rassouli, K., & Latham, G. P.
+Authors= Sue-Chan, C.& Rassouli, K.& Latham, G. P.
 Year= 2014
 Chapter= Motivating project teams through goal setting
 Title= The Psychology and Management of Project Teams: An Interdisciplinary Perspective
@@ -2330,7 +2335,7 @@ Publisher= Oxford University Press
 234.
 [Books and Book Chapters]
 Latham, G. P., & Sue-Chan, C. (2013), "Motivational tactics", Oxford Handbook of Climate and Culture, Oxford University Press., London, England.
-Authors= Latham, G. P., & Sue-Chan, C.
+Authors= Latham, G. P.& Sue-Chan, C.
 Year= 2013
 Chapter= Motivational tactics
 Title= Oxford Handbook of Climate and Culture
@@ -2356,9 +2361,9 @@ Page= 461-480
 Title= Beijing’s Political Crisis Communication: An Analysis of Chinese Government Communication in the 2009 Xinjiang Riot
 
 237.
-[Books]
+[Books] **with**
 Tsan-Kuo Chang with Jian Wang & Yanru Chen. (2002). China’s Window on the World: TV News, Social Knowledge and International Spectacles. Cresskill, NJ: Hampton Press, Inc.
-Authors= Tsan-Kuo Chang with Jian Wang & Yanru Chen.
+Authors= Tsan-Kuo Chang& Jian Wang& Yanru Chen
 Year= 2002
 Title= China’s Window on the World: TV News, Social Knowledge and International Spectacles
 Publisher= Hampton Press
@@ -2366,7 +2371,7 @@ Publisher= Hampton Press
 238.
 [Books]
 Tsan-Kuo Chang. (1993). The press and China policy: The illusion of Sino-American relations, 1950-1984. Norwood, New Jersey: Ablex Publishing Corporation.
-Authors= Tsan-Kuo Chang. 
+Authors= Tsan-Kuo Chang
 Year= 1993
 Title= The press and China policy: The illusion of Sino-American relations, 1950-1984
 Publisher= Ablex Publishing Corporation
@@ -2374,7 +2379,7 @@ Publisher= Ablex Publishing Corporation
 239.
 [Book Chapters]
 Tsan-Kuo Chang & Chen Yanru. (2000). Constructing international spectacle on television: CCTV news and China’s window on the world, 1992-1996. In Abbas Malek & Anandam P. Kavoori (eds.), The global dynamics of news: Studies in international news coverage and news agenda (pp. 197-221). Stamford, CT: Ablex Publishing Corporation.
-Authors= Tsan-Kuo Chang & Chen Yanru.
+Authors= Tsan-Kuo Chang& Chen Yanru
 Year= 2000
 Chapter= Constructing international spectacle on television: CCTV news and China’s window on the world
 Title= The global dynamics of news: Studies in international news coverage and news agenda
@@ -2385,7 +2390,7 @@ Page= 197-221
 240.
 [Book Chapters]
 Tsan-Kuo Chang. (1990). Reporting U.S. China policy, 1950-1984: Presumption of legitimacy and hierarchy. In Chin-Chuan Lee (ed.), Voices of China: The interplay of politics and journalism (pp. 180-201). New York: Guilford
-Authors= Tsan-Kuo Chang.
+Authors= Tsan-Kuo Chang
 Year= 1990
 Chapter= Reporting U.S. China policy, 1950-1984: Presumption of legitimacy and hierarchy
 Title= Voices of China: The interplay of politics and journalism
@@ -2396,7 +2401,7 @@ Page= 180-201
 241.
 [hku department of medicine]
 Wong DK, Yuen MF, Yuan HJ, Hui CK, Hall JG, Sum SSM, Lai CL. Quantitation of covalently closed circular hepatitis B virus DNA in chronic hepatitis B patients. Hepatology. 2004; 40:727-737. [impact factor: 12; citation: 52]
-Authors= Wong DK, Yuen MF, Yuan HJ, Hui CK, Hall JG, Sum SSM, Lai CL.
+Authors= Wong DK& Yuen MF& Yuan HJ& Hui CK& Hall JG& Sum SSM& Lai CL
 Journal= Hepatology
 Volume= 40
 Year= 2004
@@ -2406,7 +2411,7 @@ Title= Quantitation of covalently closed circular hepatitis B virus DNA in chron
 242.
 [hku department of medicine]
 Wong DK, Yuen MF, Tse E, Yuan HJ, Sum SSM, Hui CK, Lai CL. Detection of intrahepatic hepatitis B virus DNA and its correlation with hepatic necroinflammation and fibrosis. J Clin Microbiol. 2004; 42:3920-3924. [impact factor: 4.06; citation: 8]
-Authors= Wong DK, Yuen MF, Tse E, Yuan HJ, Sum SSM, Hui CK, Lai CL.
+Authors= Wong DK& Yuen MF& Tse E& Yuan HJ& Sum SSM& Hui CK, Lai CL
 Journal= J Clin Microbiol
 Volume= 42
 Year= 2004
@@ -2416,7 +2421,7 @@ Title= Detection of intrahepatic hepatitis B virus DNA and its correlation with 
 243.
 [hku department of medicine]
 Yung S, Chan TM. Anti-DNA antibodies in the pathogenesis of lupus nephritis--the emerging mechanisms. Autoimmun Rev 2008; 7: 317-321.
-Authors= Yung S, Chan TM.
+Authors= Yung S& Chan TM
 Journal= Autoimmun Rev
 Volume= 7
 Year= 2008
@@ -2426,7 +2431,7 @@ Title= Anti-DNA antibodies in the pathogenesis of lupus nephritis--the emerging 
 244.
 [hku department of medicine]
 Wang AY, Lai KN. Use of cardiac biomarkers in end-stage renal disease. J Am Soc Nephrol 2008;19:1643-1652. 
-Authors= Wang AY, Lai KN.
+Authors= Wang AY& Lai KN
 Journal= J Am Soc Nephrol
 Volume= 19
 Year= 2008
@@ -2435,7 +2440,7 @@ Title= Use of cardiac biomarkers in end-stage renal disease
 
 245.
 Jim, C.Y. and Chen, W.Y. (2006) Perception and attitude of residents towards urban green spaces inGuangzhou (China). Environmental Management 38(3): 338-349.
-Authors= Jim, C.Y. and Chen, W.Y.
+Authors= Jim, C.Y.& Chen, W.Y.
 Journal= Environmental Management
 Volume= 28
 Issue= 3
@@ -2445,7 +2450,7 @@ Title= Perception and attitude of residents towards urban green spaces inGuangzh
 
 246.
 Jim, C.Y. and Chen, W.Y. (2006) Impacts of urban environmental elements on residential housing prices in Guangzhou (China). Landscape and Urban Planning 78: 422-434.
-Authors= Jim, C.Y. and Chen, W.Y.
+Authors= Jim, C.Y.& Chen, W.Y.
 Journal= Landscape and Urban Planning
 Volume= 78
 Year= 2006
@@ -2454,7 +2459,7 @@ Title= Impacts of urban environmental elements on residential housing prices in 
 
 247.
 Zhang, D. and Shi, C. (2001) Sedimentary causes and management of two principal environmental problems in the lower Yellow River. Environmental Management28(6): 749-760. New York:Springer-Verlag. 
-Authors= Zhang, D. and Shi, C.
+Authors= Zhang, D.& Shi, C.
 Journal= Environmental Management
 Volume= 28
 Issue= 6
@@ -2465,7 +2470,7 @@ Publisher= Springer-Verlag
 
 248.
 Zhang, D.D., Brecke, P., Lee, H.F., He, Y., and Zhang, J. (2007)Global climate change, war and population collapse during the recent human history. Proceedings of the National Academy of Sciences of the United States of America 104(49): 19214-19219. Washington, D.C.: National Academy of Sciences
-Authors= Zhang, D.D., Brecke, P., Lee, H.F., He, Y., and Zhang, J. 
+Authors= Zhang, D.D.& Brecke, P.& Lee, H.F.& He, Y.& and Zhang, J. 
 Volume= 104
 Issue= 49
 Year= 2007
@@ -2475,7 +2480,7 @@ Proceeding= National Academy of Sciences of the United States of America
 
 249.
 Cheung, L.T.O. & C.Y. Jim. (2013). Ecotourism service preference and management in Hong Kong. International Journal of Sustainable Development and World Ecology 20(2): 182-194 
-Authors= Cheung, L.T.O. & C.Y. Jim.
+Authors= Cheung, L.T.O.& C.Y. Jim
 Journal= International Journal of Sustainable Development and World Ecology 
 Volume= 20
 Issue= 2
@@ -2522,14 +2527,14 @@ Publisher= Routledge
 254.
 [Book]
 McGee, T.G., Lin, G.C.S., Wang, M.Y.L., Marton, A., and Wu, J. (2007) China's Urban Space: Development under Market Socialism. London: Routledge.
-Authors= McGee, T.G., Lin, G.C.S., Wang, M.Y.L., Marton, A., and Wu, J.
+Authors= McGee, T.G.& Lin, G.C.S.& Wang, M.Y.L.& Marton, A.& Wu, J.
 Year= 2007
 Title= China's Urban Space: Development under Market Socialism
 Publisher= Routledge
 
 255.
 Grossman, J. B., Chan, C. S., Schwartz, S. E. O., & Rhodes, J. E. (2012). The test of time in school-based mentoring: The role of relationship duration and re-matching on academic outcomes. American Journal of Community Psychology, 49, 43-54.
-Authors= Grossman, J. B., Chan, C. S., Schwartz, S. E. O., & Rhodes, J. E.
+Authors= Grossman, J. B.& Chan, C. S.& Schwartz, S. E. O.& Rhodes, J. E.
 Journal= American Journal of Community Psychology
 Volume= 49
 Year= 2012
@@ -2538,7 +2543,7 @@ Title= The test of time in school-based mentoring: The role of relationship dura
 
 256.
 Lowe, S. R., Chan, C. S., & Rhodes, J. E. (2011). You have to put them first: The impact of child-related stressors on the psychological functioning of low-income mothers after Hurricane Katrina. Journal of Family Issues, 32, 1303-1324.
-Authors= Lowe, S. R., Chan, C. S., & Rhodes, J. E.
+Authors= Lowe, S. R.& Chan, C. S.& Rhodes, J. E.
 Journal= Journal of Family Issues
 Volume= 32
 Year= 2011
@@ -2547,7 +2552,7 @@ Title= You have to put them first: The impact of child-related stressors on the 
 
 257.
 Lowe, S. R., Chan, C. S., & Rhodes, J. E. (2010). Pre-disaster social support protects against psychological distress: A longitudinal analysis of Hurricane Katrina survivors. Journal of Consulting and Clinical Psychology, 78, 551-560. 
-Authors= Lowe, S. R., Chan, C. S., & Rhodes, J. E.
+Authors= Lowe, S. R.& Chan, C. S.& Rhodes, J. E.
 Journal= Journal of Consulting and Clinical Psychology
 Volume= 78
 Year= 2010
@@ -2556,7 +2561,7 @@ Title= Pre-disaster social support protects against psychological distress: A lo
 
 258.
 Lau, E. Y. Y.*, Eskes G. A., Morrison, D. L., Rajda, M., Spurr, K. F. (2010). Executive function in patients with obstructive sleep apnea treated with continuous positive airway pressure. Journal of International Neuropsychological Society, 16, 1077-1088.
-Authors= Lau, E. Y. Y.*, Eskes G. A., Morrison, D. L., Rajda, M., Spurr, K. F.
+Authors= Lau, E. Y. Y.& Eskes G. A.& Morrison, D. L.& Rajda, M.& Spurr, K. F.
 Journal= Journal of International Neuropsychological Society
 Volume= 16
 Year= 2010
@@ -2564,9 +2569,9 @@ Page= 1077-1088
 Title= Executive function in patients with obstructive sleep apnea treated with continuous positive airway pressure
 
 259.
-[Book Chapters]
+[Book Chapters] **Name * **
 Lau, E. Y. Y.* (2013). Mood and behavior. In C. A. Kushida (Eds.), Encyclopedia of Sleep, Vol.3 (pp.413-418). Waltham, MA: Academic Press.
-Authors= Lau, E. Y. Y.*
+Authors= Lau, E. Y. Y.
 Year= 2013
 Chapter= Mood and behavior
 Title= Encyclopedia of Sleep
@@ -2577,7 +2582,7 @@ Page= 413-418
 
 260.
 Richland, L. E., Chan, T.-K., Morrison, R. G., & Au, T. K. (2010).  Young Children's Analogical Reasoning across Cultures: Similarities and Differences. Journal of Experimental Child Psychology, 105, 146-153. 
-Authors= Richland, L. E., Chan, T.-K., Morrison, R. G., & Au, T. K.
+Authors= Richland, L. E.& Chan, T.-K.& Morrison, R. G.& Au, T. K.
 Journal= Journal of Experimental Child Psychology
 Volume= 105
 Year= 2010
@@ -2586,7 +2591,7 @@ Title= Young Children's Analogical Reasoning across Cultures: Similarities and D
 
 261.
 Ho, R. T. H., Lo, H. Y. P., Chan, C. L. W., & Leung, P. P. Y. (2012). An East-West Approach to Mind-Body Health of Chinese Elderly. In S.Chen & J.L. Powell (Eds.), Aging in China: Implications to Social Policy of a Changing Economic State (pp. 169-186). New York: Springer.
-Authors= Ho, R. T. H., Lo, H. Y. P., Chan, C. L. W., & Leung, P. P. Y.
+Authors= Ho, R. T. H.& Lo, H. Y. P.& Chan, C. L. W.& Leung, P. P. Y.
 Year= 2012
 Chapter= An East-West Approach to Mind-Body Health of Chinese Elderly
 Title= Aging in China: Implications to Social Policy of a Changing Economic State
@@ -2605,7 +2610,7 @@ Title= Residential care services for older people in China: from state to market
 
 263.
 Chan, K.L., Choi, W.M. Anna, Fong, Daniel Y.T., Chow, C.B., Leung, M. & Ip, P. (2013). Characteristics of family violence victims presenting to emergency departments in Hong Kong. The Journal of Emergency Medicine, 44(1): 249-258. (IF= 1.306)
-Authors= Chan, K.L., Choi, W.M. Anna, Fong, Daniel Y.T., Chow, C.B., Leung, M. & Ip, P.
+Authors= Chan, K.L.& Choi, W.M. Anna& Fong, Daniel Y.T.& Chow, C.B.& Leung, M.& Ip, P.
 Journal= The Journal of Emergency Medicine
 Volume= 44
 Issue= 1
@@ -2625,7 +2630,7 @@ Title= Anticipatory anniversary bereavement effects and Bereavement: Development
 
 265.
 "Application of hierarchical equations of motion (HEOM) to time dependent quantum transport at zero and finite temperatures", H. Tian, G.H. Chen, Eur. Phys. J. B, 86: 411, (2013). DOI:10.1140/epjb/e2013-40333-7
-Authors= H. Tian, G.H. Chen
+Authors= H. Tian& G.H. Chen
 Journal= Eur. Phys. J. B
 Volume= 86
 Issue= 411
@@ -2635,7 +2640,7 @@ Title= Application of hierarchical equations of motion (HEOM) to time dependent 
 
 266.
 "Elementary Excitations for Two-Dimensional Quantum Heisenberg Antiferromagnet", Guanhua Chen, Hong-Qiang Ding and William A. Goddard III*, Phys. Rev. B 46, 2933 (1992). DOI:10.1103/PhysRevB.46.2933
-Authors= Guanhua Chen, Hong-Qiang Ding and William A. Goddard III*
+Authors= Guanhua Chen& Hong-Qiang Ding& William A. Goddard III
 Journal= Phys. Rev. B
 Volume= 46
 Issue= 2933
@@ -2644,7 +2649,7 @@ Title= Elementary Excitations for Two-Dimensional Quantum Heisenberg Antiferroma
 
 267.
 Y. Liu, H. Pan, J. Snyder, W. Wang, B.N. Guo, Computing self-supporting surfaces by regular triangulation, ACM Transactions on Graphics (SIGGRAPH 2013), vol. 32, no. 4, 2013
-Authors= Y. Liu, H. Pan, J. Snyder, W. Wang, B.N. Guo
+Authors= Y. Liu& H. Pan& J. Snyder& W. Wang& B.N. Guo
 Journal= ACM Transactions on Graphics (SIGGRAPH 2013)
 Volume= 32
 Number= 4
@@ -2653,7 +2658,7 @@ Title= Computing self-supporting surfaces by regular triangulation
 
 268.
 Z.C. Zhong, X.H. Guo. W. Wang, B. Levy, F. Sun, Y. Liu, W.H. Mao , Particle-based anisotropic surface meshing, ACM Transactions on Graphics (SIGGRAPH 2013), vol. 32. no. 4, 2013
-Authors= Z.C. Zhong, X.H. Guo. W. Wang, B. Levy, F. Sun, Y. Liu, W.H. Mao
+Authors= Z.C. Zhong& X.H. Guo. W. Wang& B. Levy& F. Sun, Y. Liu& W.H. Mao
 Journal= ACM Transactions on Graphics (SIGGRAPH 2013)
 Volume= 32
 Number= 4
@@ -2662,7 +2667,7 @@ Title= Particle-based anisotropic surface meshing
 
 269.
 Y.F. Li, Y. Liu, W.W. Xu, W. Wang, B.N. Guo, All-hex meshing using singularity-restricted field, ACM Transactions on Graphics (SIGGRAPH Asia 2012), vol. 31, no. 6, 2012 
-Authors= Y.F. Li, Y. Liu, W.W. Xu, W. Wang, B.N. Guo
+Authors= Y.F. Li& Y. Liu& W.W. Xu& W. Wang& B.N. Guo
 Journal= ACM Transactions on Graphics (SIGGRAPH Asia 2012)
 Volume= 31
 Number= 6
@@ -2671,7 +2676,7 @@ Title= All-hex meshing using singularity-restricted field
 
 270.
 Z.G. Chen, Z. Yuan, Y.K. Choi, L.G. Liu, and W. Wang, Variational blue noise sampling, IEEE Transactions on Visualization and Computer Graphics (TVCG), vol. 18, no. 10, 2012, pp. 1290-1303.
-Authors= Z.G. Chen, Z. Yuan, Y.K. Choi, L.G. Liu, and W. Wang
+Authors= Z.G. Chen& Z. Yuan& Y.K. Choi& L.G. Liu& W. Wang
 Journal= IEEE Transactions on Visualization and Computer Graphics (TVCG)
 Volume= 18
 Number= 10
@@ -2681,7 +2686,7 @@ Title= Variational blue noise sampling
 
 271.
 Mee Yee Chan, Wun-Tat Chan, Francis Y.L. Chin, Stanley P.Y. Fung, and Ming-Yang Kao, Linear-time Haplotype Inference on Pedigrees without Recombinations and Mating Loops, SIAM Journal of Computing, 38(6): 2179-2197 (March 2009) - preliminary version appeared in WABI 2006
-Authors= Mee Yee Chan, Wun-Tat Chan, Francis Y.L. Chin, Stanley P.Y. Fung, and Ming-Yang Kao
+Authors= Mee Yee Chan& Wun-Tat Chan& Francis Y.L. Chin& Stanley P.Y. Fung& Ming-Yang Kao
 Journal= SIAM Journal of Computing
 Volume= 38
 Issue= 6
@@ -2691,7 +2696,7 @@ Title= Linear-time Haplotype Inference on Pedigrees without Recombinations and M
 
 272.
 Huiping Cao, Nikos Mamoulis, and David W. Cheung, Discovery of Periodic Patterns in Spatiotemporal Sequences, IEEE Transaction on Knowledge and Data Engineering, IEEE Computer Society, 19(4): 453-467, April 2007. 
-Authors= Huiping Cao, Nikos Mamoulis, and David W. Cheung
+Authors= Huiping Cao& Nikos Mamoulis& David W. Cheung
 Journal= IEEE Computer Society
 Volume= 19
 Issue= 4
@@ -2702,7 +2707,7 @@ Title= Discovery of Periodic Patterns in Spatiotemporal Sequences
 
 273.
 D.W. Cheung, K. Hu, and S. Xia, An Adaptive Algorithm for Mining Association Rules on Shared-memory Multi-processors Parallel Machine, Distributed and Parallel Databases, Kluwer Academic Publishers, 9: 99-132, March 2001
-Authors= D.W. Cheung, K. Hu, and S. Xia
+Authors= D.W. Cheung& K. Hu& S. Xia
 Journal= Distributed and Parallel Databases
 Volume= 9
 Year= 2001
@@ -2713,7 +2718,7 @@ Publisher= Kluwer Academic Publishers
 
 274.
 Nikos Mamoulis, Xin Zhang, David W. Cheung and Yutao Shou, Fast Mining of Spatial Collocations, Proc. The Tenth ACM SIGKDD conference (SIGKDD 2004), Seattle, USA, August, 2004
-Authors= Nikos Mamoulis, Xin Zhang, David W. Cheung and Yutao Shou
+Authors= Nikos Mamoulis& Xin Zhang& David W. Cheung& Yutao Shou
 Year= 2004
 Month= August
 Title= Fast Mining of Spatial Collocations
@@ -2721,14 +2726,14 @@ Proceeding= The Tenth ACM SIGKDD conference (SIGKDD 2004)
 
 275.
 R. Cheng, J. Gong and D. Cheung, Managing Uncertainty of XML Schema Matching, IEEE ICDE 2010
-Authors= R. Cheng, J. Gong and D. Cheung
+Authors= R. Cheng& J. Gong& D. Cheung
 Year= 2010
 Title= Managing Uncertainty of XML Schema Matching
 Proceeding= IEEE ICDE 2010
 
 276.
 Minghua Zhang, Ben Kao, David Cheung and Kevin Yip, Mining Periodic Patterns with Gap Requirement from Sequences, in ACM Transactions on Knowledge Discovery from Data (ACM TKDD), Volume 1, Issue 2 (August 2007).
-Authors= Minghua Zhang, Ben Kao, David Cheung and Kevin Yip
+Authors= Minghua Zhang& Ben Kao& David Cheung& Kevin Yip
 Journal= ACM Transactions on Knowledge Discovery from Data (ACM TKDD)
 Volume= 1
 Issue= 2
@@ -2738,7 +2743,7 @@ Title= Mining Periodic Patterns with Gap Requirement from Sequences
 
 277.
 S. Xu, F.C.M. Lau, and Y. Pan, A Computational Approach to Digital Chinese Painting and Calligraphy, Springer-Verlag and Zhejiang University Press, 383 pages, February 2009.
-Authors= S. Xu, F.C.M. Lau, and Y. Pan
+Authors= S. Xu& F.C.M. Lau& Y. Pan
 Year= 2009
 Month= February
 Title= A Computational Approach to Digital Chinese Painting and Calligraphy
@@ -2746,7 +2751,7 @@ Publisher= Springer-Verlag and Zhejiang University Press
 
 278.
 Z.C.H. Yu, F.C.M. Lau, and C.L. Wang , Object Co-location and Memory Reuse for Java Programs, ACM Transactions on Architecture and Code Optimization, Vol. 4, No. 4, January 2008. 
-Authors= Z.C.H. Yu, F.C.M. Lau, and C.L. Wang
+Authors= Z.C.H. Yu& F.C.M. Lau& C.L. Wang
 Journal= ACM Transactions on Architecture and Code Optimization
 Volume= 4
 Number= 4
@@ -2756,7 +2761,7 @@ Title= Object Co-location and Memory Reuse for Java Programs
 
 279.
 Siu-Wing Cheng, Jiongxin Jin, and Man-Kit Lau.  A Fast and Simple Surface Reconstruction Algorithm.  Proceedings of the 28th Annual Symposium on Computational Geometry (SOCG), 2012, 69-78.
-Authors= Siu-Wing Cheng, Jiongxin Jin, and Man-Kit Lau
+Authors= Siu-Wing Cheng&Jiongxin Jin& Man-Kit Lau
 Year= 2012
 Page= 69-78
 Title= A Fast and Simple Surface Reconstruction Algorithm
@@ -2764,7 +2769,7 @@ Proceeding= 28th Annual Symposium on Computational Geometry (SOCG)
 
 280.
 Siu-Wing Cheng and Ravi Janardan.  Space-Efficient Ray-Shooting and Intersection Searching: Algorithms, Dynamization, and Applications.  Proceedings of the 2nd Annual ACM-SIAM Symposium on Discrete Algorithms (SODA), 1991, 7-16.
-Authors= Siu-Wing Cheng and Ravi Janardan
+Authors= Siu-Wing Cheng& Ravi Janardan
 Year= 1991
 Page= 7-16
 Title= Space-Efficient Ray-Shooting and Intersection Searching: Algorithms, Dynamization, and Applications
@@ -2772,7 +2777,7 @@ Proceeding= 2nd Annual ACM-SIAM Symposium on Discrete Algorithms (SODA)
 
 281.
 Dickson K. W. Chiu, Qing Li, Patrick C. K. Hung, Zhe Shan, S. C. Cheung, Yu Yang, and Matthias Farwick, "Service Composition and Interaction in a SOC Middleware Supporting Separation of Concerns with Flows and Views," Journal of Database Management, vol. 22, no. 2, May 2011, pp. 32-63
-Authors= Dickson K. W. Chiu, Qing Li, Patrick C. K. Hung, Zhe Shan, S. C. Cheung, Yu Yang, and Matthias Farwick
+Authors= Dickson K. W. Chiu& Qing Li& Patrick C. K. Hung& Zhe Shan& S. C. Cheung& Yu Yang& Matthias Farwick
 Journal= Journal of Database Management
 Volume= 22
 Number= 2
@@ -2783,7 +2788,7 @@ Title= Service Composition and Interaction in a SOC Middleware Supporting Separa
 
 282.
 Chushu Gao, Jun Wei, Chang Xu, and S.C. Cheung. Sequential Event Pattern Based Design of Context-aware Adaptive Application. International Journal of Software and Informatics (IJSI), Vol. 4, No. 4, pp. 419-436, Dec 2010. 
-Authors= Chushu Gao, Jun Wei, Chang Xu, and S.C. Cheung
+Authors= Chushu Gao& Jun Wei& Chang Xu& S.C. Cheung
 Journal= International Journal of Software and Informatics (IJSI)
 Volume= 4
 Number= 4
@@ -2795,7 +2800,7 @@ Title= Sequential Event Pattern Based Design of Context-aware Adaptive Applicati
 283.
 [Book]
 M. Hamdi and I. Elhanany (Editors). High Performance Packet Switching Architectures. Springer Verlag London Limited, 2006.
-Authors= M. Hamdi and I. Elhanany
+Authors= M. Hamdi& I. Elhanany
 Year= 2006
 Title= High Performance Packet Switching Architectures
 Publisher= Springer Verlag London Limited
@@ -2803,7 +2808,7 @@ Publisher= Springer Verlag London Limited
 284.
 [Book]
 M. Hamdi and V. O. K. Li (Editors). Proceedings of the IEEE Workshop on High-Performance Switching and Routing Computing . IEEE Press, 2005.
-Authors= M. Hamdi and V. O. K. Li
+Authors= M. Hamdi& V. O. K. Li
 Year= 2005
 Title= Proceedings of the IEEE Workshop on High-Performance Switching and Routing Computing
 Publisher= IEEE Press
@@ -2811,7 +2816,7 @@ Publisher= IEEE Press
 285.
 [Book Chapters]
 L. Wang and M. Hamdi, "Routed Wavelength WDM Networks," Optical Switching/Networking and Computing for Multimedia Systems, 2002.
-Authors= L. Wang and M. Hamdi
+Authors= L. Wang& M. Hamdi
 Year= 2002
 Chapter= Routed Wavelength WDM Networks
 Title= Optical Switching/Networking and Computing for Multimedia Systems
@@ -2819,7 +2824,7 @@ Title= Optical Switching/Networking and Computing for Multimedia Systems
 286.
 [Book Chapters]
 M. Maode and M. Hamdi, "Multimedia Access Protocols," Encyclopedia of Telecommunications, Wiley Publishers, 2001.
-Authors= M. Maode and M. Hamdi
+Authors= M. Maode& M. Hamdi
 Year= 2001
 Chapter= Multimedia Access Protocols
 Title= Encyclopedia of Telecommunications
@@ -2828,7 +2833,7 @@ Publisher= Wiley Publishers
 287.
 [Journal]
 S. Bakiras, F. Wang, D. Papadias and M. Hamdi, "Vertical Dimensioning: a novel DRR implementation for efficient fair queuing," Computer Communications, Vo. 31, No. 14, pp. 3476-3484, 2008. 
-Authors= S. Bakiras, F. Wang, D. Papadias and M. Hamdi
+Authors= S. Bakiras& F. Wang& D. Papadias& M. Hamdi
 Journal= Computer Communications
 Volume= 31
 Number= 14
@@ -2839,7 +2844,7 @@ Title= Vertical Dimensioning: a novel DRR implementation for efficient fair queu
 288.
 [Journal]
 M. K. Chan and M. Hamdi, "An Active Queue Management Scheme Based on a Capture-Recapture Model," IEEE Journal on Selected Areas in Communications, May 2003. 
-Authors= M. K. Chan and M. Hamdi
+Authors= M. K. Chan& M. Hamdi
 Journal= IEEE Journal on Selected Areas in Communications
 Year= 2003
 Month= May
@@ -2847,7 +2852,7 @@ Title= An Active Queue Management Scheme Based on a Capture-Recapture Model
 
 289.
 Wei WANG, Guohua CHEN (2005) "Heat And Mass Transfer Model In Dielectric-Material-Assisted Microwave Freeze Drying Of Skim Milk, A Porous Hygroscopic Material", Chemical Engineering Science, 60(23), 6542-6550.
-Authors= Wei WANG, Guohua CHEN
+Authors= Wei WANG& Guohua CHEN
 Journal= Chemical Engineering Science
 Volume= 60
 Issue= 23
@@ -2857,7 +2862,7 @@ Title= Heat And Mass Transfer Model In Dielectric-Material-Assisted Microwave Fr
 
 290.
 Jing HU, Guohua CHEN, Irene LO (2006) "Selective Removal and Recovery of Various Heavy Metals by Maghemite Nanoparticles: performance and mechanism", Journal of Environmental Engineering, 132 (7) 709-715.
-Authors= Jing HU, Guohua CHEN, Irene LO
+Authors= Jing HU& Guohua CHEN& Irene LO
 Journal= Journal of Environmental Engineering
 Volume= 132
 Issue= 7
@@ -2867,7 +2872,7 @@ Title= Selective Removal and Recovery of Various Heavy Metals by Maghemite Nanop
 
 291.
 Kai-Mo NG, Yiu-Ting LAU, Chi Ming CHAN (2006) "Chemical Characterization of Proton Exchange Membranes by Time-of-Flight Secondary Ion Mass Spectrometry", World Forum on Advanced Materials, Nara, Japan, April 17-22, 2006, p.31..
-Authors= Kai-Mo NG, Yiu-Ting LAU, Chi Ming CHAN
+Authors= Kai-Mo NG& Yiu-Ting LAU& Chi Ming CHAN
 Year= 2006
 Month= April
 Page= 31
@@ -2876,7 +2881,7 @@ Proceeding= World Forum on Advanced Materials
 
 292.
 J.- L. WEON, K.-T. GAM, W. -J. BOO, H.-J. SUE, Chi Ming CHAN (2006) "Impact-Toughening Mechanisms of Calcium Carbonate-Reinforced Polypropylene Nanocomposite", Journal of Applied Polymer Science, 99, 3070-3076.
-Authors= J.- L. WEON, K.-T. GAM, W. -J. BOO, H.-J. SUE, Chi Ming CHAN
+Authors= J.- L. WEON& K.-T. GAM& W. -J. BOO& H.-J. SUE& Chi Ming CHAN
 Journal= Journal of Applied Polymer Science
 Volume= 99
 Year= 2006
@@ -2885,7 +2890,7 @@ Title= Impact-Toughening Mechanisms of Calcium Carbonate-Reinforced Polypropylen
 
 293.
 Wang, K. and Tsung, F., " An Adaptive T2 chart for Monitoring Dynamic Systems ," Journal of Quality Technology, 40, 109-123, 2008.
-Authors= Wang, K. and Tsung, F.
+Authors= Wang, K.& Tsung, F.
 Journal= Journal of Quality Technology
 Volume= 40
 Year= 2008
@@ -2894,7 +2899,7 @@ Title= An Adaptive T2 chart for Monitoring Dynamic Systems
 
 294.
 Kong, Q., C.-Y. Lee, C.-P.Teo and Z. Zheng, "Sequencing and Scheduling Arrivals to a Stochastic Service Delivery System using Copositive Cones," Operations Research, 61, (2013), pp. 711-726.
-Authors= Kong, Q., C.-Y. Lee, C.-P.Teo and Z. Zheng
+Authors= Kong, Q.& C.-Y. Lee& C.-P.Teo& Z. Zheng
 Journal= Operations Research
 Volume= 61
 Year= 2013
@@ -2904,7 +2909,7 @@ Title= Sequencing and Scheduling Arrivals to a Stochastic Service Delivery Syste
 295.
 [Journal]
 L. Chen, Z. Xiao, P.C.H. Chan, Y.-K. Lee, "Static and Dynamic Characterization of Robust Superhydrophobic Surfaces Built from Nano-flowers on Silicon Micro-Post Arrays,"Journal Micromechanics and Microengineering, Vol. 20. No. 10,  105001 (8pp), 2010 (dx.doi.org/10.1088/0960-1317/20/10/105001).
-Authors= L. Chen, Z. Xiao, P.C.H. Chan, Y.-K. Lee
+Authors= L. Chen& Z. Xiao& P.C.H. Chan& Y.-K. Lee
 Journal= Journal Micromechanics and Microengineering
 Volume= 20
 Number= 10
@@ -2914,7 +2919,7 @@ Title= Static and Dynamic Characterization of Robust Superhydrophobic Surfaces B
 296.
 [Book Chapters]
 P. Tabeling and Y.K. Lee, "Micro/nanofluidic Processes," in Micro/Nano Technology Systems for Biomedical Applications: Microfluidics, Optics, and Surface Chemistry, Chapter 2, C.M. Ho (ed.), pp.33,52, Oxford University Press, 2010.
-Authors= P. Tabeling and Y.K. Lee
+Authors= P. Tabeling& Y.K. Lee
 Year= 2010
 Chapter= Micro/nanofluidic Processes
 Title= Micro/Nano Technology Systems for Biomedical Applications: Microfluidics, Optics, and Surface Chemistry
@@ -2925,7 +2930,7 @@ Page= 33-52
 297.
 [Book Chapters]
 P. Cheng, Y.K. Lee and P. Deng, Thermal Bubbles in Encyclopedia of Micro- and Nano-Fluidics, D. Li (ed.), Springer, 2008.
-Authors= P. Cheng, Y.K. Lee and P. Deng
+Authors= P. Cheng& Y.K. Lee& P. Deng
 Year= 2008
 Chapter= Thermal Bubbles in Encyclopedia of Micro- and Nano-Fluidics
 Publisher= Springer
@@ -2933,7 +2938,7 @@ Editors= D. Li
 
 298.
 T.Slee, Lin Zhenyang and D.M.P.Mingos* "Polyhedral skeletal electron pair theory of bare clusters 1: small silicon clusters" Inorg. Chem.,28, 2256-2261(1989) 
-Authors= T.Slee, Lin Zhenyang and D.M.P.Mingos
+Authors= T.Slee& Lin Zhenyang& D.M.P.Mingos
 Journal= Inorg. Chem.
 Volume= 28
 Year= 1989
@@ -2942,7 +2947,7 @@ Title= Polyhedral skeletal electron pair theory of bare clusters 1: small silico
 
 299.
 Zhenyang Lin and Michael B. Hall* "Theoretical studies of Inorganic and Organometallic Reaction Mechanisms. 2. The trans-Effect in Four Coordinate Platinum(II) and Rh(I) Subsititution Reactions" Inorg. Chem.30, 646-651(1991) 
-Authors= Zhenyang Lin and Michael B. Hall
+Authors= Zhenyang Lin& Michael B. Hall
 Journal= Inorg. Chem.
 Volume= 30
 Year= 1991
@@ -2985,7 +2990,7 @@ Title= Iridium(III) silyl alkyl and iridacyclic compounds supported by 4,4'-di-t
 304.
 [Conference]
 Huang, K.G. & Li, J.T. 2012. Transnational intellectual property and innovation strategies: Evidence from China-US patent dyads. Presented at the Strategic Management Society (SMS) Special Conference on Globalization of Innovation Strategies: Novel Moves for a Global Game, Singapore.
-Authors= Huang, K.G. & Li, J.T.
+Authors= Huang, K.G.& Li, J.T.
 Year= 2012
 Title= Transnational intellectual property and innovation strategies: Evidence from China-US patent dyads
 Proceeding= Strategic Management Society (SMS) Special Conference on Globalization of Innovation Strategies: Novel Moves for a Global Game
@@ -2993,7 +2998,7 @@ Proceeding= Strategic Management Society (SMS) Special Conference on Globalizati
 305.
 [Conference]
 Miao, Y., Song, J.Y. & Li, J.T. 2012. Race on innovation: How laggards from emerging economies compete with incumbent leaders. Presented at the Strategic Management Society (SMS) Special Conference on Globalization of Innovation Strategies: Novel Moves for a Global Game, Singapore.
-Authors= Miao, Y., Song, J.Y. & Li, J.T.
+Authors= Miao, Y.& Song, J.Y.& Li, J.T.
 Year= 2012
 Title= Race on innovation: How laggards from emerging economies compete with incumbent leaders
 Proceeding= Strategic Management Society (SMS) Special Conference on Globalization of Innovation Strategies: Novel Moves for a Global Game
@@ -3001,7 +3006,7 @@ Proceeding= Strategic Management Society (SMS) Special Conference on Globalizati
 306.
 [Conference] **Presented at the **
 Li, J.T. & Xie, Z. 2012. Global R&D alliances in an emerging economy: Governance structure and the protection of technological competencies. Presented at the International Association of Chinese Management Research (IACMR) Conference, Hong Kong.
-Authors= Li, J.T. & Xie, Z.
+Authors= Li, J.T.& Xie, Z.
 Year= 2012
 Title= Global R&D alliances in an emerging economy: Governance structure and the protection of technological competencies
 Proceeding= International Association of Chinese Management Research (IACMR) Conference
@@ -3009,7 +3014,7 @@ Proceeding= International Association of Chinese Management Research (IACMR) Con
 307.
 [Conference]
 Takeuchi, R., Li, J.T. & Shay, J.P. 2012. The roles of subsidiary structure on expatriate outcomes: Moderating effects of global management processes. Presented at the International Association of Chinese Management Research (IACMR) Conference, Hong Kong.
-Authors= Takeuchi, R., Li, J.T. & Shay, J.P.
+Authors= Takeuchi, R.& Li, J.T.& Shay, J.P.
 Year= 2012
 Title= The roles of subsidiary structure on expatriate outcomes: Moderating effects of global management processes
 Proceeding= International Association of Chinese Management Research (IACMR) Conference
@@ -3017,7 +3022,7 @@ Proceeding= International Association of Chinese Management Research (IACMR) Con
 308.
 [Conference]
 Liu, W. & Li, J.T. 2011. Political institutions and corporate governance in China: Effects on corporate performance. Presented at the annual meeting of the Strategic Management Society, Miami.
-Authors= Liu, W. & Li, J.T.
+Authors= Liu, W.& Li, J.T.
 Year= 2011
 Title= Political institutions and corporate governance in China: Effects on corporate performance
 Proceeding= annual meeting of the Strategic Management Society
@@ -3025,7 +3030,7 @@ Proceeding= annual meeting of the Strategic Management Society
 309.
 [Conference]
 Tang, Y., Li, J.T. & Yang, H. 2011. How executive overconfidence affects firm innovation. Presented at the annual meeting of the Strategic Management Society, Miami.
-Authors= Tang, Y., Li, J.T. & Yang, H.
+Authors= Tang, Y.& Li, J.T.& Yang, H.
 Year= 2011
 Title= How executive overconfidence affects firm innovation
 Proceeding= annual meeting of the Strategic Management Society
@@ -3033,7 +3038,7 @@ Proceeding= annual meeting of the Strategic Management Society
 310.
 [Journal]
 Li, J.T. & Xie, Z. 2013 (In press). Examining the cross-border acquisition strategy of Chinese companies. Journal of Leadership and Organization Studies.
-Authors= Li, J.T. & Xie, Z.
+Authors= Li, J.T.& Xie, Z.
 Journal= Journal of Leadership and Organization Studies
 Year= 2013
 Title= Examining the cross-border acquisition strategy of Chinese companies
@@ -3041,7 +3046,7 @@ Title= Examining the cross-border acquisition strategy of Chinese companies
 311.
 [Journal]
 Tang, Y., J.T. Li, & Yang, H. 2013 (In press). What I see, what I do: How executive hubris affects firm innovation. Journal of Management. 
-Authors= Tang, Y., J.T. Li, & Yang, H.
+Authors= Tang, Y.& J.T. Li& Yang, H.
 Journal= Journal of Management
 Year= 2013
 Title= What I see, what I do: How executive hubris affects firm innovation
@@ -3049,7 +3054,7 @@ Title= What I see, what I do: How executive hubris affects firm innovation
 312.
 [Journal]
 Xie, Z. & Li, J.T. 2013. Internationalization and indigenous technological efforts of emerging economy firms: The effect of multiple knowledge sources. Journal of International Management, 19: 247-259.
-Authors= Xie, Z. & Li, J.T.
+Authors= Xie, Z.& Li, J.T.
 Journal= Journal of International Management
 Volume= 19
 Year= 2013
@@ -3069,7 +3074,7 @@ Title= The Internationalization of entrepreneurial firms from emerging economies
 314.
 [Journal]
 Li, J.T. & Liu, W. 2013. Selecting a target segment: Market structure and new venture entry decisions. Management Decision, 51: 1402-1421.
-Authors= Li, J.T. & Liu, W.
+Authors= Li, J.T.& Liu, W.
 Journal= Management Decision
 Volume= 51
 Year= 2013
@@ -3078,7 +3083,7 @@ Title= Selecting a target segment: Market structure and new venture entry decisi
 
 315.
 "Determinants of service quality and continuance intention of online services: The case of eTax," Journal of the American Society for Information Science and Technology, 60, 2, 2009, pp. 292-306. (with Hu, P.J.H., Brown, S.A., Chan, F.K.Y., and Tam, K.Y.)
-Authors= Hu, P.J.H., Brown, S.A., Chan, F.K.Y., and Tam, K.Y.
+Authors= Hu, P.J.H.& Brown, S.A.& Chan, F.K.Y.& Tam, K.Y.
 Journal= Journal of the American Society for Information Science and Technology
 Volume= 60
 Issue= 2
@@ -3088,7 +3093,7 @@ Title= Determinants of service quality and continuance intention of online servi
 
 316.
 "Design of product listing pages on e-commerce websites: An examination of presentation mode and information format," International Journal of Human-Computer Studies, 61, 4 (2004), pp. 481-503. (with W. Hong and K.Y. Tam)
-Authors= W. Hong and K.Y. Tam
+Authors= W. Hong& K.Y. Tam
 Journal= International Journal of Human-Computer Studies
 Volume= 61
 Issue= 4
@@ -3130,7 +3135,7 @@ Page= 57-64
 320.
 [Conference] **Invited talk presented in the**
 "Supply Chain Information sharing in a competitive Environment," Lode Li and Shu Ming Ng 1999, Invited talk presented in the 15th Triennium International Conference of IFORS, 16-20 August 1999, Beijing China (with Lode Li)
-Authors= Lode Li and Shu Ming Ng
+Authors= Lode Li& Shu Ming Ng
 Year= 1999
 Month= August
 Title= Supply Chain Information sharing in a competitive Environment
@@ -3139,7 +3144,7 @@ Proceeding= 15th Triennium International Conference of IFORS
 321.
 [Conference] **proceedings of the**
 "Scheduling problems in liquid crystal display manufacturing", proceedings of the International Conference on Management Science and the Economic Development of China, Vol. 1, 1996, 54 (with C.Y. Lee, L. Li and T.M. Chung) 
-Authors= C.Y. Lee, L. Li and T.M. Chung
+Authors= C.Y. Lee& L. Li& T.M. Chung
 Year= 1996
 Page= 54
 Title= Scheduling problems in liquid crystal display manufacturing
@@ -3195,7 +3200,7 @@ Publisher= Routledge
 
 327.
 Zou, C. and Tsung, F., " Directional MEWMA Schemes for Multistage Process Monitoring and Diagnosis ," Journal of Quality Technology, 40, 407-427, 2008.
-Authors= Zou, C. and Tsung, F.
+Authors= Zou, C.& Tsung, F.
 Journal= Journal of Quality Technology
 Volume= 40
 Year= 2008
@@ -3211,7 +3216,7 @@ Publisher=Cornell University Press
 
 329.
 Chen, E.E., Corriveau, K.H., & Harris, P.L. (2013). Children trust a consensus composed of outgroup members – but do not retain that trust. Child Development, 84, 269-282.
-Authors= Chen, E.E., Corriveau, K.H., & Harris, P.L.
+Authors= Chen, E.E.& Corriveau, K.H.& Harris, P.L.
 Journal= Child Development
 Volume= 84
 Year= 2013
@@ -3220,7 +3225,7 @@ Title= Children trust a consensus composed of outgroup members – but do not re
 
 330.
 Dunham, Y., Chen, E.E., & Banaji, M.R. (2013). Two signatures of implicit intergroup attitudes: Developmental invariance and early enculturation. Psychological Science, 24, 860-868.
-Authors= Dunham, Y., Chen, E.E., & Banaji, M.R.
+Authors= Dunham, Y., Chen& E.E.& Banaji, M.R.
 Journal= Psychological Science
 Volume= 24
 Year= 2013
@@ -3230,7 +3235,7 @@ Title= Two signatures of implicit intergroup attitudes: Developmental invariance
 331.
 [Journal]
 Kong, S.C., & So, W.M.W. (2004). The design of computer-mediated learning resources for the inquiry approach to building knowledge of family trees. Global Chinese Journal on Computers in Education, 2(2), 44-58. 
-Authors= Kong, S.C., & So, W.M.W. 
+Authors= Kong, S.C.& So, W.M.W. 
 Journal= Global Chinese Journal on Computers in Education
 Volume= 2
 Issue= 2
@@ -3240,7 +3245,7 @@ Title= The design of computer-mediated learning resources for the inquiry approa
 
 332.
 Fuhrman, O., McCormick, K., Chen, E., Jiang, H., Shu, D., Mao, S. & Boroditsky, L. (2011). How linguistic and cultural forces shape conceptions of time: English and Mandarin time in 3D. Cognitive Science, 35, 1305-1328.
-Authors= Fuhrman, O., McCormick, K., Chen, E., Jiang, H., Shu, D., Mao, S. & Boroditsky, L.
+Authors= Fuhrman, O.& McCormick, K.& Chen, E.& Jiang, H.& Shu, D.& Mao, S.& Boroditsky, L.
 Journal= Cognitive Science
 Volume= 35
 Year= 2011
@@ -3249,7 +3254,7 @@ Title= How linguistic and cultural forces shape conceptions of time: English and
 
 333.
 Tsai, J.L., Louie, J.Y., Chen, E.E., & Uchida, Y. (2007). Learning what feelings to desire: Socialization of ideal affect through children’s storybooks. Personality and Social Psychology Bulletin, 33, 17-30.
-Authors= Tsai, J.L., Louie, J.Y., Chen, E.E., & Uchida, Y.
+Authors= Tsai, J.L.& Louie, J.Y.& Chen, E.E.& Uchida, Y.
 Journal= Personality and Social Psychology Bulletin
 Volume= 33
 Year= 2007
@@ -3259,7 +3264,7 @@ Title= Learning what feelings to desire: Socialization of ideal affect through c
 334.
 [Chapter]
 Chen, E.E., & Li, H. (in press). Early childhood education in Taiwan. In N. Rao, J. Zhou, & J. Sun (Eds.), Early childhood development in Chinese societies. Springer.
-Authors= Chen, E.E., & Li, H. 
+Authors= Chen, E.E.& Li, H. 
 Chapter= Early childhood education in Taiwan
 Title= Early childhood development in Chinese societies
 Publisher= Springer
@@ -3276,7 +3281,7 @@ Proceeding= 65th World Organization for Early Childhood Education (OMEP) World A
 336.
 [Conference] **Paper presented at the**
 Chen, E.E., Corriveau, K.H., Banaji, M.R., & Harris, P.L. (2013). Children’s inference and retention of trait information across two cultures. Paper presented at the Society of Research on Child Development Biennial Meeting, Seattle, WA.
-Authors= Chen, E.E., Corriveau, K.H., Banaji, M.R., & Harris, P.L.
+Authors= Chen, E.E.& Corriveau, K.H.& Banaji, M.R.& Harris, P.L.
 Year= 2013
 Title= Children’s inference and retention of trait information across two cultures
 Proceeding= Society of Research on Child Development Biennial Meeting
@@ -3284,7 +3289,7 @@ Proceeding= Society of Research on Child Development Biennial Meeting
 337.
 [Conference] **Poster presented at the**
 Chen, E.E., Corriveau, K.H., Banaji, M.R., & Harris, P.L. (2013). Inference and retention of trait information in children and adults. Poster presented at the Society of Research on Child Development Biennial Meeting, Seattle, WA.
-Authors= Chen, E.E., Corriveau, K.H., Banaji, M.R., & Harris, P.L.
+Authors= Chen, E.E.& Corriveau, K.H.& Banaji, M.R.& Harris, P.L.
 Year= 2013
 Title= Inference and retention of trait information in children and adults
 Proceeding= Society of Research on Child Development Biennial Meeting
@@ -3310,7 +3315,7 @@ Title= Beyond Internal Capital Markets: The In-House Transmission of Adverse Sal
 
 340.
 "Analyst Coverage and Financing Decisions", (with Chang Xin and Gilles Hilary), Journal of Finance, December 2006, 3009-3048. (Download here)
-Authors= Chang Xin and Gilles Hilary
+Authors= Chang Xin& Gilles Hilary
 Journal= Journal of Finance
 Year= 2006
 Month= December
@@ -3337,7 +3342,7 @@ Title= Optimal Regulation of MNEs and Government Revenues
 
 343.
 "Spin Polarized Vacuum Tunnelling from Co-Coated W(111) Tips", R. Bryl and M. Altman, Journal of Applied Physics 94, 4670-4675 (2003).
-Authors= R. Bryl and M. Altman
+Authors= R. Bryl& M. Altman
 Journal= Journal of Applied Physics
 Volume= 94
 Year= 2003
@@ -3346,7 +3351,7 @@ Title= Spin Polarized Vacuum Tunnelling from Co-Coated W(111) Tips
 
 344.
 "Step Contrast in Low Energy Electron Microscopy", W.F. Chung and M.S. Altman, Ultramicroscopy 74, 237 (1998). 
-Authors= W.F. Chung and M.S. Altman
+Authors= W.F. Chung& M.S. Altman
 Journal= Ultramicroscopy
 Volume= 74
 Year= 1998
@@ -3356,7 +3361,7 @@ Title= Step Contrast in Low Energy Electron Microscopy
 345.
 [Journal] **J.** **http://pubs.acs.org/action/showPublications?display=journals**
 Multi-component assembly of supramolecular coordination polygons on a Au(111) surface, T. Lin, X. S. Shang, P. N. Liu, N. Lin, J. Phys. Chem. C. 117, 23027 (2013).
-Authors= T. Lin, X. S. Shang, P. N. Liu, N. Lin
+Authors= T. Lin& X. S. Shang& P. N. Liu& N. Lin
 Journal= J. Phys. Chem. C.
 Volume= 117
 Year= 2013
@@ -3366,7 +3371,7 @@ Title= Multi-component assembly of supramolecular coordination polygons on a Au(
 346.
 [Journal] **http://pubs.rsc.org/en/journals?key=title&value=all**
 Coordination self-assembly of bromo-phenyl and pyridyl functionalized porphyrins with Fe on a Au(111) surface, X. F. Mao, T. Lin, J. Adisoejoso, Z. Shi, X. S. Shang, P. N. Liu, N. Lin, Phys. Chem. Chem. Phys. 15, 12447 (2013).
-Authors= X. F. Mao, T. Lin, J. Adisoejoso, Z. Shi, X. S. Shang, P. N. Liu, N. Lin
+Authors= X. F. Mao& T. Lin& J. Adisoejoso& Z. Shi& X. S. Shang& P. N. Liu& N. Lin
 Journal= Phys. Chem. Chem. Phys.
 Volume= 15
 Year= 2013
@@ -3376,7 +3381,7 @@ Title= Coordination self-assembly of bromo-phenyl and pyridyl functionalized por
 347.
 [Journal]
 Recovery of Clean Ordered (111) Surface of Etched Silicon, A. M. C. Ng, L. Dong, W. K. Ho, A. B. Djurišić, M. H. Xie, H. S. Wu, N. Lin, S. Y. Tong, Appl. Surf. Sci. DOI: 10.1016/j.apsusc.2013.05.092 (2013).
-Authors= A. M. C. Ng, L. Dong, W. K. Ho, A. B. Djurišić, M. H. Xie, H. S. Wu, N. Lin, S. Y. Tong
+Authors= A. M. C. Ng& L. Dong& W. K. Ho& A. B. Djurišić& M. H. Xie& H. S. Wu& N. Lin& S. Y. Tong
 Journal= Appl. Surf. Sci
 Year= 2013
 Title= Recovery of Clean Ordered (111) Surface of Etched Silicon
@@ -3384,7 +3389,7 @@ Title= Recovery of Clean Ordered (111) Surface of Etched Silicon
 348.
 [Book]
 J. F. Chen, Heejeong Jeong,  M. M. T. Loy, and Shengwang Du, Optical Precursors: From Classical Waves to Single Photons, Springer Briefs in Physics, Springer (2013).
-Authors= J. F. Chen, Heejeong Jeong,  M. M. T. Loy, and Shengwang Du
+Authors= J. F. Chen& Heejeong Jeong& M. M. T. Loy& Shengwang Du
 Year= 2013
 Title= Optical Precursors: From Classical Waves to Single Photons
 Publisher= Springer
@@ -3392,7 +3397,7 @@ Publisher= Springer
 349.
 [Journal]
 Dingdi Wang, Wenhao Guo, Juanmei Hu, Fang Liu, Lisheng Chen, Shengwang Du, and Zikang Tang, "Estimating atomic sizes with Raman spectroscopy," Scientific Reports 3, 1486 (2013).
-Authors= Dingdi Wang, Wenhao Guo, Juanmei Hu, Fang Liu, Lisheng Chen, Shengwang Du, and Zikang Tang
+Authors= Dingdi Wang& Wenhao Guo& Juanmei Hu& Fang Liu& Lisheng Chen& Shengwang Du,& Zikang Tang
 Journal= Scientific Reports
 Volume= 3
 Year= 2013
@@ -3402,7 +3407,7 @@ Title= Estimating atomic sizes with Raman spectroscopy
 350.
 [Journal]
 Shuigang Xu, Chun Cheng, Wenhao Guo, Yuheng He, Rui Huang, Shengwang Du, and Ning Wang, "Tuning the optical and electrical properties of hydrothermally grown ZnO nanowires by sealed post annealing treatment," Solid State Communications 160, 41 (2013).
-Authors= Shuigang Xu, Chun Cheng, Wenhao Guo, Yuheng He, Rui Huang, Shengwang Du, and Ning Wang
+Authors= Shuigang Xu& Chun Cheng& Wenhao Guo& Yuheng He& Rui Huang& Shengwang Du& Ning Wang
 Journal= Solid State Communications
 Volume= 160
 Year= 2013
@@ -3412,7 +3417,7 @@ Title= Tuning the optical and electrical properties of hydrothermally grown ZnO 
 351.
 [Journal] **Phys. Rev. Lett.**
 Yi-Hsin Chen, Meng-Jung Lee, I-Chung Wang, Shengwang Du, Yong-Fan Chen, Ying-Cheng Chen, and Ite A. Yu, "Coherent optical memory with high storage efficiency and large fractional delay," Phys. Rev. Lett. 110, 083601 (2013).
-Authors= Yi-Hsin Chen, Meng-Jung Lee, I-Chung Wang, Shengwang Du, Yong-Fan Chen, Ying-Cheng Chen, and Ite A. Yu
+Authors= Yi-Hsin Chen& Meng-Jung Lee& I-Chung Wang& Shengwang Du& Yong-Fan Chen& Ying-Cheng Chen& Ite A. Yu
 Journal= Phys. Rev. Lett.
 Volume= 110
 Year= 2013
@@ -3421,7 +3426,7 @@ Title= Coherent optical memory with high storage efficiency and large fractional
 
 352.
 "A New Electrorheological Fluids: Theory and Experiment", W.Y. Tam, G.H. Yi, W. Wen, H. Ma, M.M.T. Loy and P. Sheng, Phys. Rev. Lett. 78, 2987-2990 (1997).
-Authors= W.Y. Tam, G.H. Yi, W. Wen, H. Ma, M.M.T. Loy and P. Sheng
+Authors= W.Y. Tam& G.H. Yi& W. Wen& H. Ma& M.M.T. Loy& P. Sheng
 Journal= Phys. Rev. Lett.
 Volume= 78
 Year= 1997
@@ -3430,7 +3435,7 @@ Title= A New Electrorheological Fluids: Theory and Experiment
 
 353.
 "Universal Topological Properties of Shells in Soap Forth", K.Y. Szeto and W.Y. Tam, Phys. Rev. E 53, 4213-4216 (1996). 
-Authors= K.Y. Szeto and W.Y. Tam
+Authors= K.Y. Szeto& W.Y. Tam
 Journal= Phys. Rev. E
 Volume= 53
 Year= 1996
@@ -3439,7 +3444,7 @@ Title= Universal Topological Properties of Shells in Soap Forth
 
 354.
 "Anisotropic Topological Surface States on High-Index Bi2Se3 Films" Zhongjie Xu, Xin Guo, Mengyu Yao, Hongtao He, Lin Miao, Lu Jiao, Hongchao Liu, Jiannong Wang, Dong Qian, Jinfeng Jia, Wingkin Ho, and Maohai Xie, Adv. Mater. 25 1557 (2013)
-Authors= Zhongjie Xu, Xin Guo, Mengyu Yao, Hongtao He, Lin Miao, Lu Jiao, Hongchao Liu, Jiannong Wang, Dong Qian, Jinfeng Jia, Wingkin Ho, and Maohai Xie
+Authors= Zhongjie Xu& Xin Guo& Mengyu Yao& Hongtao He& Lin Miao& Lu Jiao& Hongchao Liu& Jiannong Wang& Dong Qian& Jinfeng Jia& Wingkin Ho& Maohai Xie
 Journal= Adv. Mater.
 Volume= 25
 Year= 2013
@@ -3448,7 +3453,7 @@ Title= Anisotropic Topological Surface States on High-Index Bi2Se3 Films
 
 355.
 "Verification of G7 symmetry assignment for the top valence band of ZnO by magneto-optical studies of the free A exciton state", Lu Ding, Chunlei Yang, Hongtao He, Jiannong Wang, Zikang Tang, Bradley A Foreman, Fengyi Jiang, and Weikun Ge, New Journal of Physics 15 033015 (2013)
-Authors= Lu Ding, Chunlei Yang, Hongtao He, Jiannong Wang, Zikang Tang, Bradley A Foreman, Fengyi Jiang, and Weikun Ge
+Authors= Lu Ding& Chunlei Yang& Hongtao He& Jiannong Wang& Zikang Tang& Bradley A Foreman& Fengyi Jiang& Weikun Ge
 Journal= New Journal of Physics
 Volume= 15
 Year= 2013
@@ -3458,7 +3463,7 @@ Title= Verification of G7 symmetry assignment for the top valence band of ZnO by
 356.
 [Journal]
 Kong, S. C., & Kwok, L. F. (2005). A cognitive tool for teaching the addition/subtraction of common fractions: a model of affordances. Computers and Education, 45 (2), 245-265.
-Authors= Kong, S. C., & Kwok, L. F.
+Authors= Kong, S. C.& Kwok, L. F.
 Journal= Computers and Education
 Volume= 45
 Issue= 2
@@ -3467,9 +3472,9 @@ Page= 245-265
 Title= A cognitive tool for teaching the addition/subtraction of common fractions: a model of affordances
 
 357.
-R. Guérout, J. Lussange, H. B. Chan, A. Lambrecht and Serge Reynaud
+R. Guérout, J. Lussange, H. B. Chan. Lambrecht and Serge Reynaud
 Physical Review A  87, 052514 (2013).
-Authors= R. Guérout, J. Lussange, H. B. Chan, A.
+Authors= R. Guérout& J. Lussange& H. B. Chan
 Journal= Physical Review A
 Volume= 87
 Year= 2013
@@ -3480,7 +3485,7 @@ Title= Lambrecht and Serge Reynaud
 A half wave retarder made of bilayer subwavelength metallic apertures
 Z. Marcet, H. B. Chan, D. W. Carr, J. E. Bower, R. A. Cirelli, F. Klemens, W. M. Mansfield, J. Miner, C. S. Pai and I. Kravchenko
 Applied Physics Letters 98, 151107 (2011).
-Authors= Z. Marcet, H. B. Chan, D. W. Carr, J. E. Bower, R. A. Cirelli, F. Klemens, W. M. Mansfield, J. Miner, C. S. Pai and I. Kravchenko
+Authors= Z. Marcet& H. B. Chan& D. W. Carr& J. E. Bower& R. A. Cirelli& F. Klemens& W. M. Mansfield& J. Miner& C. S. Pai& I. Kravchenko
 Journal= Applied Physics Letters
 Volume= 98
 Year= 2011
@@ -3489,7 +3494,7 @@ Title= A half wave retarder made of bilayer subwavelength metallic apertures
 
 359.
 Li, L., Zhu, L. P. and Zhu, Li-Xing (2011). Inference on Primary Parameter of Interest with Aid of Dimension Reduction Estimation, Journal of the Royal Statistical Society, series B., 73, 59-80.
-Authors= Li, L., Zhu, L. P. and Zhu, Li-Xing
+Authors= Li, L.& Zhu, L. P.& Zhu, Li-Xing
 Journal= Journal of the Royal Statistical Society
 Volume= 73
 Year= 2011
@@ -3498,7 +3503,7 @@ Title= Inference on Primary Parameter of Interest with Aid of Dimension Reductio
 
 360.
 Cheng, CW, Bian, ZX, Zhu, LX, Wu, JC, Sung, JJ. (2011). Efficacy of a Chinese Herbal Proprietary Medicine (Hemp Seed Pill) for Functional Constipation. American Journal of Gastroenterology. 106, 120-129 (IF 6.1)
-Authors= Cheng, CW, Bian, ZX, Zhu, LX, Wu, JC, Sung, JJ.
+Authors= Cheng, CW& Bian, ZX& Zhu, LX& Wu, JC& Sung, JJ
 Journal= American Journal of Gastroenterology
 Volume= 106
 Year= 2011
@@ -3507,7 +3512,7 @@ Title= Efficacy of a Chinese Herbal Proprietary Medicine (Hemp Seed Pill) for Fu
 
 361.
 Xu, W. L. and Zhu, Lixing (2009). Kernel-based generalized cross validation in Nonparametric Mixed-Effects Models, Scand. J. Statist., 36 229-247.
-Authors= Xu, W. L. and Zhu, Lixing
+Authors= Xu, W. L.& Zhu, Lixing
 Journal= Scand. J. Statist.
 Volume= 36
 Year= 2009
@@ -3516,7 +3521,7 @@ Title= Kernel-based generalized cross validation in Nonparametric Mixed-Effects 
 
 362.
 XU, W. L. and Zhu, Lixing (2009). A Goodness-of-fit Test for a Varying-Coefficients Model in Longitudinal Studies, Journal of Nonparametric Statistics. 21 427-440.
-Authors= XU, W. L. and Zhu, Lixing
+Authors= XU, W. L.& Zhu, Lixing
 Journal= Journal of Nonparametric Statistics
 Volume= 21
 Year= 2009
@@ -3527,7 +3532,7 @@ Title= A Goodness-of-fit Test for a Varying-Coefficients Model in Longitudinal S
 Improved numerical solver for Kansa's method based on affine space decomposition.
 L. Ling and Y. C. Hon.
 Engineering Analysis with Boundary Elements. 29(12):1077-1085. 2005.
-Authors= L. Ling and Y. C. Hon
+Authors= L. Ling& Y. C. Hon
 Journal= Engineering Analysis with Boundary Elements
 Volume= 29
 Issue= 12
@@ -3539,7 +3544,7 @@ Title= Improved numerical solver for Kansa's method based on affine space decomp
 Multiquadric collocation method with integral formulation for boundary layer problems.
 L. Ling and M. R. Trummer.
 Computers and Mathematics with Applications. 48(5-6):927-941. 2004.
-Authors= L. Ling and M. R. Trummer
+Authors= L. Ling& M. R. Trummer
 Journal= Computers and Mathematics with Applications
 Volume= 48
 Issue= 5-6
@@ -3552,7 +3557,7 @@ Title= Multiquadric collocation method with integral formulation for boundary la
 Mathematics of Fairness.
 S. N. Chiu, and L. Ling.
 Series: Hong Kong Mathematical Society Texts in General Education, Vol. 1, Pearson Education Asia, 2012.
-Authors= S. N. Chiu, and L. Ling
+Authors= S. N. Chiu& L. Ling
 Year= 2012
 Chapter= Mathematics of Fairness
 Title= Series: Hong Kong Mathematical Society Texts in General Education
@@ -3576,7 +3581,7 @@ Volume= 2
 Discovering Hong Kong by SPSS.
 H. W. Chiu, and L. Ling.
 Series: Hong Kong Mathematical Society Texts in General Education, Vol. 3, Pearson Education Asia, 2012.
-Authors= H. W. Chiu, and L. Ling
+Authors= H. W. Chiu& L. Ling
 Year= 2012
 Chapter= Discovering Hong Kong by SPSS
 Title= Series: Hong Kong Mathematical Society Texts in General Education
@@ -3585,7 +3590,7 @@ Volume= 3
 
 368.
 (with A. Boettcher, A. Iserles and S.P. Norsett) On the singular values and eigenvalues of the Fox-Li and related operators, New York J. Math., 16 (2010), 539-561.
-Authors= A. Boettcher, A. Iserles and S.P. Norsett
+Authors= A. Boettcher& A. Iserles& S.P. Norsett
 Journal= New York J. Math.
 Volume= 16
 Year= 2010
@@ -3603,7 +3608,7 @@ Title= Stability of collocation methods for delay diferential equations with van
 
 370.
 B. S. He and L.-Z. Liao, Improvements of some projection methods for monotone nonlinear variational inequalities, Journal of Optimization Theory and Applications, 112 (1), pp. 111-128, 2002. 
-Authors= B. S. He and L.-Z. Liao
+Authors= B. S. He& L.-Z. Liao
 Journal= Journal of Optimization Theory and Applications
 Volume= 112
 Issue= 1
@@ -3613,7 +3618,7 @@ Title= Improvements of some projection methods for monotone nonlinear variationa
 
 371.
 X. Chen and S. Xiang, Implicit solution function of P0 and Z matrix linear complementarity constraints, Math. Programming, 128(2011), 1-18. 
-Authors= X. Chen and S. Xiang
+Authors= X. Chen& S. Xiang
 Journal= Math. Programming
 Volume= 128
 Year= 2011
@@ -3623,7 +3628,7 @@ Title= Implicit solution function of P0 and Z matrix linear complementarity cons
 372.
 **Volume(Year)**
 Z. Wei, L. Qi and X. Chen, An SQP-type method and its application in stochastic programs, Journal of Optimization Theory and Applications, 116(2003),205-228.
-Authors= Z. Wei, L. Qi and X. Chen
+Authors= Z. Wei& L. Qi& X. Chen
 Journal= Journal of Optimization Theory and Applications
 Volume= 116
 Year= 2003
@@ -3632,7 +3637,7 @@ Title= An SQP-type method and its application in stochastic programs
 
 373.
 B. Mermri and X. Chen, On characterizations and regularity of the solution of bilateral obstacle problems, Journal of Computational and Applied Mathematics, 152(2003), 333-345.
-Authors= B. Mermri and X. Chen,
+Authors= B. Mermri& X. Chen
 Journal= Journal of Computational and Applied Mathematics
 Volume= 152
 Year= 2003
@@ -3650,7 +3655,7 @@ Title= Applications of smoothing methods in numerical analysis and optimization
 
 375.
 Chau F.T., Shih T.M., Gao J.B. and Chan C.K., Application of the Fast Wavelet Transform Method to Compress Ultraviolet-Visible Spectra, Applied Spectroscopy, Vol.50, No.3, pp339-348, 1996.
-Authors= Chau F.T., Shih T.M., Gao J.B. and Chan C.K.
+Authors= Chau F.T.& Shih T.M.& Gao J.B.& Chan C.K.
 Journal= Applied Spectroscopy
 Volume= 50
 Number= 3
@@ -3660,7 +3665,7 @@ Title= Application of the Fast Wavelet Transform Method to Compress Ultraviolet-
 
 376.
 Chan C.K., Zhang H.Q. and Lau K.S., An Improved Stochastic Separated Flow Model for Turbulent Two-Phase Flow, Computational Mechanics, Vol.24, No.6, pp491-502, 2000. (The original publication is available on LINK via http://link.springer.de)
-Authors= Chan C.K., Zhang H.Q. and Lau K.S.
+Authors= Chan C.K.& Zhang H.Q.& Lau K.S.
 Journal= Computational Mechanics
 Volume= 24
 Number= 6
@@ -3670,7 +3675,7 @@ Title= An Improved Stochastic Separated Flow Model for Turbulent Two-Phase Flow
 
 377.
 Zhao Q.W. and Chan C.K., Prediction of Open Turbulent Premixed Flames Stabilized by Swirl, Work-in-Progress Poster No.5C04, Twenty Eighth Symposium (International) on Combustion, Edinburgh, U.K., July-August 2000.
-Authors= Zhao Q.W. and Chan C.K.
+Authors= Zhao Q.W.& Chan C.K.
 Journal= Twenty Eighth Symposium (International) on Combustion
 Year= 2000
 Month= July-August
@@ -3679,7 +3684,7 @@ Title= Prediction of Open Turbulent Premixed Flames Stabilized by Swirl
 378.
 [Journal]
 Kong, S. C. & Song, Y. (2013). A principle-based pedagogical design framework for developing constructivist learning in a seamless learning environment: A teacher development model for learning and teaching in digital classrooms in school education. British Journal of Educational Technology, 44(6), E209-E212.
-Authors= Kong, S. C. & Song, Y. 
+Authors= Kong, S. C.& Song, Y. 
 Journal= British Journal of Educational Technology
 Volume= 44
 Issue= 6
@@ -3690,7 +3695,7 @@ Title= A principle-based pedagogical design framework for developing constructiv
 379.
 [Journal]
 Wang, A., & Kong, S.C. (2013). A study of students’ CMC behaviors for incorporating CMC in teaching and learning. International Journal of Innovation and Learning, 13(3), 339-352.
-Authors= Wang, A., & Kong, S.C.
+Authors= Wang, A.& Kong, S.C.
 Journal= International Journal of Innovation and Learning
 Volume= 13
 Issue= 3

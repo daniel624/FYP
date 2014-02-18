@@ -58,7 +58,6 @@ public class Main {
 		
 		String thesis = null;
 		String chapter = null;
-		String bookTitle = null;
 		String editors = null;
 		String publisher = null;
 		
@@ -71,7 +70,7 @@ public class Main {
 		
 		String resultPrint = "";
 		int idDB,yearDB;
-		String authorsDB,titleDB,journalDB,proceedingDB,volumeDB,issueDB,numberDB,articleDB,pageDB,monthDB,thesisDB,chapterDB,bookTitleDB,editorsDB,publisherDB;
+		String authorsDB,titleDB,journalDB,proceedingDB,volumeDB,issueDB,numberDB,articleDB,pageDB,monthDB,thesisDB,chapterDB,editorsDB,publisherDB;
 		
 		String yearMonthTmp = "";
 		
@@ -87,7 +86,6 @@ public class Main {
 		int totalmonth = 0, wrongmonth = 0;
 		int totalthesis = 0, wrongthesis = 0;
 		int totalchapter = 0, wrongchapter = 0;
-		int totalbooktitle = 0, wrongbooktitle = 0;
 		int totaleditor = 0, wrongeditor = 0;
 		int totalpublisher = 0, wrongpublisher = 0;
 		int totalyear = 0, wrongyear = 0;
@@ -101,14 +99,17 @@ public class Main {
 		
 		try 
 		{
-			// 100 records
-			//4,13,18,56,63,69,70,98,99
-			//BufferedReader in = new BufferedReader(new InputStreamReader(new FileInputStream("C:/Users/Lenovo/Documents/workspace/FYP/src/data/freelist_100.txt"), "UTF-8"));
+			BufferedReader in;
+			String filename;
+			
+			// 100 records (4,13,18,56,63,69,70,98,99)
+			//filename = "src/data/freelist_100.txt";
+			filename = "src/data/freelist_380.txt";
 			
 			// new records
-			BufferedReader in = new BufferedReader(new InputStreamReader(new FileInputStream("C:/Users/Lenovo/Documents/workspace/FYP/src/data/freelist_new.txt"), "UTF-8"));
-			
-			
+			//filename = "src/data/freelist_new.txt";
+
+			in = new BufferedReader(new InputStreamReader(new FileInputStream(filename), "UTF-8"));
 			buffer = in.readLine();
 			while (buffer != null)
 			{
@@ -350,18 +351,6 @@ public class Main {
 							}
 						}
 						
-						bookTitleDB = rs.getString("BookTitle");
-						if (bookTitleDB != null) {
-							totalFields = totalFields + 1;
-							totalbooktitle++;
-							if (!(bookTitleDB.equals(bookTitle))) {
-								 System.out.println("***Wrong BookTitle");
-								 wrongFields = wrongFields + 1;
-								 indiWrong++;
-								 wrongbooktitle++;
-							}
-						}
-						
 						editorsDB = rs.getString("Editors");
 						if (editorsDB != null) {
 							totalFields = totalFields + 1;
@@ -446,7 +435,6 @@ public class Main {
 			System.out.println("Month: " + (totalmonth-wrongmonth) + "/" + totalmonth + ", accuracy: " + (double) (totalmonth-wrongmonth) / totalmonth);
 			System.out.println("Thesis: " + (totalthesis-wrongthesis) + "/" + totalthesis + ", accuracy: " + (double) (totalthesis-wrongthesis) / totalthesis);
 			System.out.println("Chapter: " + (totalchapter-wrongchapter) + "/" + totalchapter + ", accuracy: " + (double) (totalchapter-wrongchapter) / totalchapter);
-			System.out.println("Booktitle: " + (totalbooktitle-wrongbooktitle) + "/" + totalbooktitle + ", accuracy: " + (double) (totalbooktitle-wrongbooktitle) / totalbooktitle);
 			System.out.println("Editor: " + (totaleditor-wrongeditor) + "/" + totaleditor + ", accuracy: " + (double) (totaleditor-wrongeditor) / totaleditor);
 			System.out.println("Publisher: " + (totalpublisher-wrongpublisher) + "/" + totalpublisher + ", accuracy: " + (double) (totalpublisher-wrongpublisher) / totalpublisher);
 			System.out.println("Year: " + (totalyear-wrongyear) + "/" + totalyear + ", accuracy: " + (double) (totalyear-wrongyear) / totalyear);

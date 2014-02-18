@@ -5,15 +5,11 @@ import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.sql.*;
-
 import common.CommonFunction;
 import db.*;
-
 import java.net.*;
 import java.io.*;
-
 import org.apache.commons.lang3.*;
-
 
 public class AddJournal {
 	static String colName = "";
@@ -36,8 +32,7 @@ public class AddJournal {
 		// a - z (97 -122)
 		for (int i=97; i<=122; i++)
 		{
-			fileName = "C:/Users/Benny/workspace/FYP_test/src/dblp/journal/journal-" + (char)i + ".txt";
-			//fileName = "C:/Users/Lenovo/Documents/workspace/FYP/src/dblp/journal/journal-" + (char)i + ".txt";
+			fileName = "src/data/dblp/journal/journal-" + (char)i + ".txt";
 			System.out.println(fileName);
 			
 			counter = 1;

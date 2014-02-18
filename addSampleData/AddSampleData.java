@@ -5,15 +5,11 @@ import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.sql.*;
-
 import common.CommonFunction;
 import db.*;
-
 import java.net.*;
 import java.io.*;
-
 import org.apache.commons.lang3.*;
-
 
 public class AddSampleData {
 	static String colName = "";
@@ -59,7 +55,7 @@ public class AddSampleData {
 		
 		try 
 		{
-			BufferedReader in = new BufferedReader(new InputStreamReader(new FileInputStream("C:/Users/Benny/workspace/FYP/src/data/Publication.txt"), "UTF8"));
+			BufferedReader in = new BufferedReader(new InputStreamReader(new FileInputStream("src/data/Publication.txt"), "UTF8"));
 
 			buffer = in.readLine();
 			while (buffer != null)

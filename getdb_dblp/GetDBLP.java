@@ -3,6 +3,9 @@ package getdb_dblp;
 /*
  *  GetDBLP
  *  This program is used to connect to DBLP and retrieve specific data from the site
+ *  
+ *  !! 2014-02-16 (Daniel)
+ *  this file is temporary unused
  */
 
 import java.io.*;

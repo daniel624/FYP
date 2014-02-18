@@ -33,8 +33,8 @@ public class AddJournal_PubMed {
 		String fileName;
 		int counter;
 		
-			fileName = "C:/Users/Benny/workspace/FYP_test/src/PubMed.txt";
-			//fileName = "C:/Users/Lenovo/Documents/workspace/FYP/src/dblp/journal/journal-" + (char)i + ".txt";
+			fileName = "src/data/PubMed.txt";
+			//fileName = "src/data/dblp/journal/journal-" + (char)i + ".txt";
 			System.out.println(fileName);
 			
 			counter = 1;

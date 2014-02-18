@@ -903,7 +903,7 @@ Year= 2011
 Page= 1868-1873
 
 89.
-Zhenyon Fu, Zhiwu Lu and Horace H S Ip, ¡§Symmetric Graph Regularized Constraint Propagation¡¨, Proceedings of 25th Conference on Artificial Intelligence (AAAI 2011), 7-11 August, 2011, San Francisco, USA
+Zhenyon Fu, Zhiwu Lu and Horace H S Ip, "Symmetric Graph Regularized Constraint Propagation", Proceedings of 25th Conference on Artificial Intelligence (AAAI 2011), 7-11 August, 2011, San Francisco, USA
 Authors= Zhenyon Fu, Zhiwu Lu, Horace H S Ip
 Title= Symmetric Graph Regularized Constraint Propagation algorithm
 Journal= Proceedings of 25th Conference on Artificial Intelligence (AAAI 2011)
@@ -911,10 +911,10 @@ Month= August
 Year= 2011
 
 90.
-Zhiwu Lu and Horace H S Ip, ¡§Spatial Markov Kernels for Image Categorization and Annotation¡¨, IEEE Transactions on Systems, Man and Cybernetics ¡V Part B: Cybernetics, Vol. 41, No. 4, pp. 976-989, August 2011.
+Zhiwu Lu and Horace H S Ip, "Spatial Markov Kernels for Image Categorization and Annotation", IEEE Transactions on Systems, Man and Cybernetics - Part B: Cybernetics, Vol. 41, No. 4, pp. 976-989, August 2011.
 Authors= Zhiwu Lu, Horace H S Ip
 Title= Spatial Markov Kernels for Image Categorization and Annotation
-Journal= IEEE Transactions on Systems, Man and Cybernetics ¡V Part B: Cybernetics
+Journal= IEEE Transactions on Systems, Man and Cybernetics – Part B: Cybernetics
 Volume= 41
 Number= 4
 Page= 976-989

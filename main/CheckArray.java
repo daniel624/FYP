@@ -235,7 +235,7 @@ public class CheckArray {
 					
 					if (indexOfShort >= 0)
 					{
-						if (indexOfShort != 0) {
+						if ((indexOfShort != 0) && (indexOfShort-2 > 0)) {
 							if (!CommonFunction.isCharacter(array[i].substring(indexOfShort-2, indexOfShort-1))) {
 								if (month != "") {
 									month = month + ", " + monthWords[j].substring(0, 1).toUpperCase() + monthWords[j].substring(1);
@@ -693,8 +693,11 @@ public class CheckArray {
 							}
 							array[i] = CommonFunction.removePart(array[i], journal, journal);
 							*/
-							journal = array[i].trim();
-							array[i] = "";
+
+							journal = rs.getString(2);
+							array[i] = CommonFunction.removePart(array[i], journal, journal);
+							//journal = array[i].trim();
+							//array[i] = "";
 							break;
 						}
 					}
@@ -900,7 +903,7 @@ public class CheckArray {
 				match = Pattern.compile("[,\\.:].*[\\.,]").matcher(array[i]);
 				if (match.find())
 				{
-					title = match.group();
+					title = match.group().substring(1);
 					array[i] = CommonFunction.removePart(array[i], title, title);
 					if (title.length() > 20)
 					{
@@ -971,10 +974,10 @@ public class CheckArray {
 			if (leadingLetter.find())
 			{
 				if (array[i].indexOf("and") >= 0) {
-					array[i] = (array[i].substring(0, array[i].indexOf("and"))).trim() + ", " + (array[i].substring(array[i].indexOf("and") + 3)).trim();
+					array[i] = (array[i].substring(0, array[i].indexOf("and"))).trim() + "& " + (array[i].substring(array[i].indexOf("and") + 3)).trim();
 					authors += array[i].trim();
 				} else {
-					authors += array[i].trim() + ", ";
+					authors += array[i].trim() + "& ";
 				}
 			
 				array[i] = "";
@@ -998,5 +1001,17 @@ public class CheckArray {
 	public void printArray()
 	{
 		for (int i=0; i<array.length; i++) System.out.println("array[" + i + "]: " + array[i]);
+		
+		/*try {
+			String filename = "C:/Users/Lenovo/Desktop/remain.txt";
+	    	BufferedWriter writer = new BufferedWriter(new FileWriter(filename, true));
+	    	for (int i=0; i<array.length; i++) {
+	    		if (array[i].trim().length()>0) writer.write(array[i] + "\n");
+	    	}
+	    	writer.write("==========\n");
+	    	writer.close();
+		} catch (Exception e) {
+			System.out.println("[CheckArray.printArray()] Exception");
+		}*/
 	}
 }

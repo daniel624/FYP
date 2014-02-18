@@ -14,7 +14,7 @@ package weka;
  * - add 1 more attribute, whether the field contains abbreviated initials in author names 
  * 
  * ===== 2014-01-28 =====
- * - add exact keyword matching
+ * - add exact keyword matching (breakdown each type)
  * - length of longest word in a field
  * - preposition mostly appear in title/journal
  * - ':' in title
@@ -35,15 +35,15 @@ public class TestWeka {
     	String filename;
     	BufferedReader buf;
     	
-    	//filename = "C:/Users/Lenovo/Documents/workspace/FYP/src/data/RA-train.arff";
-    	filename = "C:/Users/Lenovo/Documents/workspace/FYP/src/data/train.arff";
+    	//filename = "src/data/RA-train.arff";
+    	filename = "src/data/train.arff";
     	buf = new BufferedReader(new FileReader(filename));
     	Instances train = new Instances(buf);
     	train.setClassIndex(3);
     	//train.setClassIndex(train.numAttributes()-1);
     	
-    	//filename = "C:/Users/Lenovo/Documents/workspace/FYP/src/data/RA-test.arff";
-    	filename = "C:/Users/Lenovo/Documents/workspace/FYP/src/data/test.arff";
+    	//filename = "src/data/RA-test.arff";
+    	filename = "src/data/test.arff";
     	buf = new BufferedReader(new FileReader(filename));
     	Instances test = new Instances(buf);
     	test.setClassIndex(3);
@@ -51,9 +51,12 @@ public class TestWeka {
     	
     	buf.close();
 
+    	// 20140211 check importance of each feature
     	RandomForest tree = new RandomForest();
     	tree.setNumTrees(10);
     	tree.buildClassifier(train);
+    	
+    	//exact match / fuzzy match
     	
     	// add cross validation
     	Evaluation eval = new Evaluation(train);
@@ -70,7 +73,7 @@ public class TestWeka {
     		labeled.instance(i).setClassValue(clsLabel);
     	}
     	
-    	filename = "C:/Users/Lenovo/Documents/workspace/FYP/src/data/result.arff";
+    	filename = "src/data/result.arff";
     	BufferedWriter writer = new BufferedWriter(new FileWriter(filename));
     	writer.write(labeled.toString());
     	writer.close();
