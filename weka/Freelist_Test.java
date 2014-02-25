@@ -32,12 +32,12 @@ public class Freelist_Test {
 		BufferedWriter writer;
 		
 		// training data
-		//filename = "src/data/freelist_train_data.txt";
-		//outfilename = "src/data/train.arff";
+		filename = "src/data/freelist_train_data.txt";
+		outfilename = "src/data/train.arff";
 		
 		// testing data
-		filename = "src/data/freelist_test_data.txt";
-		outfilename = "src/data/test.arff";
+		//filename = "src/data/freelist_test_data.txt";
+		//outfilename = "src/data/test.arff";
 		
 		String input;
 		String split1[] = new String[50];
@@ -50,11 +50,17 @@ public class Freelist_Test {
 			
 	    	writer = new BufferedWriter(new FileWriter(outfilename));
 	    	writer.write("@relation test\n\n");
+	    	writer.write("@attribute type {A,T,J,P}\n");
 	    	writer.write("@attribute no-of-word numeric\n");
 	    	writer.write("@attribute length numeric\n");
 	    	writer.write("@attribute initials {0,1}\n");
-	    	writer.write("@attribute type {A,T,JC}\n");
-	    	writer.write("@attribute keyword {0,1}\n");
+	    	writer.write("@attribute key-journal {0,1}\n");
+	    	writer.write("@attribute key-proceeding {0,1}\n");
+	    	writer.write("@attribute key-ieee {0,1}\n");
+	    	writer.write("@attribute key-symposium {0,1}\n");
+	    	writer.write("@attribute key-workshop {0,1}\n");
+	    	writer.write("@attribute key-meeting {0,1}\n");
+	    	writer.write("@attribute key-conference {0,1}\n");
 	    	writer.write("@attribute preposition {0,1}\n");
 	    	writer.write("@attribute longest-word numeric\n");
 	    	writer.write("@attribute colon-in-title {0,1}\n\n");
@@ -75,8 +81,8 @@ public class Freelist_Test {
 				longest = getLongestWord(split1[0]);
 				
 				split2 = split1[0].split(" ");
-				writer.write(split2.length + "," + split1[0].length() + "," + split1[2] + "," + 
-							type + "," + split1[3] + "," + split1[4] + "," + longest + "," +
+				writer.write(type + "," + split2.length + "," + split1[0].length() + "," + split1[2] + "," + 
+							split1[3] + "," + split1[4] + "," + longest + "," +
 							split1[5] + "\n");
 								
 				input = buf.readLine();

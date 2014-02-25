@@ -36,24 +36,24 @@ public class TestWeka {
     	BufferedReader buf;
     	
     	//filename = "src/data/RA-train.arff";
-    	filename = "src/data/train.arff";
+    	filename = "src/data/publication-train.arff";
     	buf = new BufferedReader(new FileReader(filename));
     	Instances train = new Instances(buf);
-    	train.setClassIndex(3);
+    	train.setClassIndex(0);
     	//train.setClassIndex(train.numAttributes()-1);
     	
     	//filename = "src/data/RA-test.arff";
-    	filename = "src/data/test.arff";
+    	filename = "src/data/publication-test.arff";
     	buf = new BufferedReader(new FileReader(filename));
     	Instances test = new Instances(buf);
-    	test.setClassIndex(3);
+    	test.setClassIndex(0);
     	//test.setClassIndex(test.numAttributes()-1);
     	
     	buf.close();
 
     	// 20140211 check importance of each feature
     	RandomForest tree = new RandomForest();
-    	tree.setNumTrees(10);
+    	tree.setNumTrees(15);
     	tree.buildClassifier(train);
     	
     	//exact match / fuzzy match
@@ -62,9 +62,6 @@ public class TestWeka {
     	Evaluation eval = new Evaluation(train);
     	eval.crossValidateModel(tree, train, 10, new Random(1));
     	eval.evaluateModel(tree, test);
-    	System.out.println(eval.toSummaryString("\nResults\n======\n", false));
-    	System.out.println(eval.confusionMatrix()[0][0] + "\t" + eval.confusionMatrix()[0][1]);
-    	System.out.println(eval.confusionMatrix()[1][0] + "\t" + eval.confusionMatrix()[1][1]);
     	
     	Instances labeled = new Instances(test);
     	double clsLabel;
@@ -73,10 +70,29 @@ public class TestWeka {
     		labeled.instance(i).setClassValue(clsLabel);
     	}
     	
-    	filename = "src/data/result.arff";
+    	filename = "src/data/publication-result.arff";
     	BufferedWriter writer = new BufferedWriter(new FileWriter(filename));
     	writer.write(labeled.toString());
+    	writer.write("\n");
     	writer.close();
+    	
+    	
+    	/** check result and test arff **/
+    	BufferedReader buf1 = new BufferedReader(new FileReader("src/data/publication-test.arff"));
+    	BufferedReader buf2 = new BufferedReader(new FileReader("src/data/publication-result.arff"));
+    	String in1, in2;
+    	int correct=0, total=0;
+    	
+    	do {
+    		in1 = buf1.readLine();
+    		in2 = buf2.readLine();
+    		total++;
+    		
+    		if (in1!=null && in1.equals(in2)) correct++;
+    	} while (in1!=null);
+    	
+    	System.out.println(correct +"/"+ total);
+    	System.out.println((double) correct/total);
     }
 }
 

@@ -104,7 +104,7 @@ public class Main {
 			
 			// 100 records (4,13,18,56,63,69,70,98,99)
 			//filename = "src/data/freelist_100.txt";
-			filename = "src/data/freelist_380.txt";
+			filename = "data/freelist_380.txt";
 			
 			// new records
 			//filename = "src/data/freelist_new.txt";
