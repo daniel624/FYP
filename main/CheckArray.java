@@ -277,8 +277,9 @@ public class CheckArray {
 
 		for (int i=0; i<array.length; i++)
 		{
+			// .*article number(\\.)*.*[0-9]+.*
 			// article number / article number.
-			if (array[i].toLowerCase().matches(".*article number(\\.)*.*[0-9]+.*"))
+			if (array[i].toLowerCase().matches(".*article number(\\.)*( )*[0-9]+.*"))
 			{
 				subString = (array[i].substring(array[i].toLowerCase().indexOf("article number"))).trim();
 				numOnly = Pattern.compile("\\d+").matcher(subString);
@@ -291,8 +292,9 @@ public class CheckArray {
 				}
 			}	
 
+			// .*article no(\\.)*.*[0-9]+.*
 			// article no / article no.
-			if (array[i].toLowerCase().matches(".*article no(\\.)*.*[0-9]+.*"))
+			if (array[i].toLowerCase().matches(".*article no(\\.)*( )*[0-9]+.*"))
 			{
 				subString = (array[i].substring(array[i].toLowerCase().indexOf("article no"))).trim();
 				numOnly = Pattern.compile("\\d+").matcher(subString);
@@ -305,7 +307,9 @@ public class CheckArray {
 				}
 			}	
 
-			if (array[i].toLowerCase().matches(".*article(\\.)*.*[0-9]+.*"))
+			// .*article(\\.)*.*[0-9]+.*
+			// article / article.
+			if (array[i].toLowerCase().matches(".*article(\\.)*( )*[0-9]+.*"))
 			{
 				subString = (array[i].substring(array[i].toLowerCase().indexOf("article"))).trim();
 				numOnly = Pattern.compile("\\d+").matcher(subString);
@@ -337,8 +341,9 @@ public class CheckArray {
 
 		for (int i=0; i<array.length; i++)
 		{
+			// .*volume(\\.)*.*[0-9]+.*
 			// volume / volume.
-			if (array[i].toLowerCase().matches(".*volume(\\.)*.*[0-9]+.*"))
+			if (array[i].toLowerCase().matches(".*volume(\\.)*( )*[0-9]+.*"))
 			{
 				subString = (array[i].substring(array[i].toLowerCase().indexOf("volume"))).trim();
 				numOnly = Pattern.compile("\\d+").matcher(subString);
@@ -351,8 +356,9 @@ public class CheckArray {
 				}
 			}	
 
+			// .*vol(\\.)*.*[0-9]+.*
 			// vol / vol.
-			if (array[i].toLowerCase().matches(".*vol(\\.)*.*[0-9]+.*"))
+			if (array[i].toLowerCase().matches(".*vol(\\.)*( )*[0-9]+.*"))
 			{
 				subString = (array[i].substring(array[i].toLowerCase().indexOf("vol"))).trim();
 				numOnly = Pattern.compile("\\d+").matcher(subString);
@@ -383,8 +389,9 @@ public class CheckArray {
 
 		for (int i=0; i<array.length; i++)
 		{
+			// .*issue(\\.)*.*[0-9]+.*
 			// issue / issue.
-			if (array[i].toLowerCase().matches(".*issue(\\.)*.*[0-9]+.*"))
+			if (array[i].toLowerCase().matches(".*issue(\\.)*( )*[0-9]+.*"))
 			{
 				subString = (array[i].substring(array[i].toLowerCase().indexOf("issue"))).trim();
 				numOnly = Pattern.compile("\\d+").matcher(subString);
@@ -396,9 +403,10 @@ public class CheckArray {
 					break;
 				}
 			}
-
+			
+			// .*iss(\\.)*.*[0-9]+.*"
 			// iss / iss.
-			if (array[i].toLowerCase().matches(".*iss(\\.)*.*[0-9]+.*"))
+			if (array[i].toLowerCase().matches(".*iss(\\.)*( )*[0-9]+.*"))
 			{
 				subString = (array[i].substring(array[i].toLowerCase().indexOf("iss"))).trim();
 				numOnly = Pattern.compile("\\d+").matcher(subString);
@@ -429,8 +437,9 @@ public class CheckArray {
 
 		for (int i=0; i<array.length; i++)
 		{
+			// .*no(\\.)*.*[0-9]+.*
 			// no / no.
-			if (array[i].toLowerCase().matches(".*no(\\.)*.*[0-9]+.*"))
+			if (array[i].toLowerCase().matches(".*no(\\.)*( )*[0-9]+.*"))
 			{
 				subString = (array[i].substring(array[i].toLowerCase().indexOf("no"))).trim();
 				numOnly = Pattern.compile("\\d+").matcher(subString);
@@ -443,8 +452,9 @@ public class CheckArray {
 				}
 			}
 
+			// .*number(\\.)*.*[0-9]+.*
 			// number / number.
-			if (array[i].toLowerCase().matches(".*number(\\.)*.*[0-9]+.*"))
+			if (array[i].toLowerCase().matches(".*number(\\.)*( )*[0-9]+.*"))
 			{
 				subString = (array[i].substring(array[i].toLowerCase().indexOf("number"))).trim();
 				numOnly = Pattern.compile("\\d+").matcher(subString);
@@ -477,11 +487,11 @@ public class CheckArray {
 
 		for (int i=0; i<array.length; i++)
 		{
-			// pages / pages.
-			if (array[i].toLowerCase().matches(".*pages(\\.)*.*[0-9]+( )*-( )*[0-9]+.*"))
+			// pages / pages. (p. 29:1-29:19)
+			if (array[i].toLowerCase().matches(".*pages(\\.)*( )*[0-9]+( )*:( )*[0-9]+( )*-( )*[0-9]+( )*:( )*[0-9]+.*"))
 			{
 				subString = (array[i].substring(array[i].toLowerCase().indexOf("pages"))).trim();
-				numToNum = Pattern.compile("[0-9]+( )*-( )*[0-9]+").matcher(subString);
+				numToNum = Pattern.compile("[0-9]+( )*:( )*[0-9]+( )*-( )*[0-9]+( )*:( )*[0-9]+").matcher(subString);
 
 				if (numToNum.find())
 				{
@@ -490,12 +500,12 @@ public class CheckArray {
 					break;
 				}
 			}
-
-			// page / page.
-			if (array[i].toLowerCase().matches(".*page(\\.)*.*[0-9]+( )*-( )*[0-9]+.*"))
+			
+			// page / page. (p. 29:1-29:19)
+			if (array[i].toLowerCase().matches(".*page(\\.)*( )*[0-9]+( )*:( )*[0-9]+( )*-( )*[0-9]+( )*:( )*[0-9]+.*"))
 			{
 				subString = (array[i].substring(array[i].toLowerCase().indexOf("page"))).trim();
-				numToNum = Pattern.compile("[0-9]+( )*-( )*[0-9]+").matcher(subString);
+				numToNum = Pattern.compile("[0-9]+( )*:( )*[0-9]+( )*-( )*[0-9]+( )*:( )*[0-9]+").matcher(subString);
 
 				if (numToNum.find())
 				{
@@ -505,11 +515,11 @@ public class CheckArray {
 				}
 			}
 
-			// pp / pp.
-			if (array[i].toLowerCase().matches(".*pp(\\.)*.*[0-9]+( )*-( )*[0-9]+.*"))
+			// pp / pp. (p. 29:1-29:19)
+			if (array[i].toLowerCase().matches(".*pp(\\.)*( )*[0-9]+( )*:( )*[0-9]+( )*-( )*[0-9]+( )*:( )*[0-9]+.*"))
 			{
 				subString = (array[i].substring(array[i].toLowerCase().indexOf("pp"))).trim();
-				numToNum = Pattern.compile("[0-9]+( )*-( )*[0-9]+").matcher(subString);
+				numToNum = Pattern.compile("[0-9]+( )*:( )*[0-9]+( )*-( )*[0-9]+( )*:( )*[0-9]+").matcher(subString);
 
 				if (numToNum.find())
 				{
@@ -519,11 +529,11 @@ public class CheckArray {
 				}
 			}
 
-			// p / p.
-			if (array[i].toLowerCase().matches(".*p(\\.)*.*[0-9]+( )*-( )*[0-9]+.*"))
+			// p / p. (p. 29:1-29:19)
+			if (array[i].toLowerCase().matches(".*p(\\.)*( )*[0-9]+( )*:( )*[0-9]+( )*-( )*[0-9]+( )*:( )*[0-9]+.*"))
 			{
 				subString = (array[i].substring(array[i].toLowerCase().indexOf("p"))).trim();
-				numToNum = Pattern.compile("[0-9]+( )*-( )*[0-9]+").matcher(subString);
+				numToNum = Pattern.compile("[0-9]+( )*:( )*[0-9]+( )*-( )*[0-9]+( )*:( )*[0-9]+").matcher(subString);
 
 				if (numToNum.find())
 				{
@@ -532,22 +542,91 @@ public class CheckArray {
 					break;
 				}
 			}
-
-			// page number only
-			if (array[i].toLowerCase().matches(".*[0-9]+( )*-( )*[0-9]+.*"))
-			{
-				numToNum = Pattern.compile("[0-9]+( )*-( )*[0-9]+").matcher(array[i]);
-
-				if (numToNum.find())
+			
+			
+			if (page == null) {
+				// .*pages(\\.)*.*[0-9]+( )*-( )*[0-9]+.*
+				// pages / pages.
+				if (array[i].toLowerCase().matches(".*pages(\\.)*( )*[0-9]+( )*-( )*[0-9]+.*"))
 				{
-					page = numToNum.group();
-					//array[i] = array[i].substring(0, array[i].indexOf(page)) + array[i].substring(array[i].indexOf(page) + page.length());
-					array[i] = CommonFunction.removePart(array[i], page, page);
-					break;
+					subString = (array[i].substring(array[i].toLowerCase().indexOf("pages"))).trim();
+					numToNum = Pattern.compile("[0-9]+( )*-( )*[0-9]+").matcher(subString);
+	
+					if (numToNum.find())
+					{
+						page = numToNum.group();
+						array[i] = CommonFunction.removePart(array[i], "pages", page);
+						break;
+					}
+				}
+	
+				// .*page(\\.)*.*[0-9]+( )*-( )*[0-9]+.*
+				// page / page.
+				if (array[i].toLowerCase().matches(".*page(\\.)*( )*[0-9]+( )*-( )*[0-9]+.*"))
+				{
+					subString = (array[i].substring(array[i].toLowerCase().indexOf("page"))).trim();
+					numToNum = Pattern.compile("[0-9]+( )*-( )*[0-9]+").matcher(subString);
+	
+					if (numToNum.find())
+					{
+						page = numToNum.group();					
+						array[i] = CommonFunction.removePart(array[i], "page", page);
+						break;
+					}
+				}
+	
+				// .*pp(\\.)*.*[0-9]+( )*-( )*[0-9]+.*
+				// pp / pp.
+				if (array[i].toLowerCase().matches(".*pp(\\.)*( )*[0-9]+( )*-( )*[0-9]+.*"))
+				{
+					subString = (array[i].substring(array[i].toLowerCase().indexOf("pp"))).trim();
+					numToNum = Pattern.compile("[0-9]+( )*-( )*[0-9]+").matcher(subString);
+	
+					if (numToNum.find())
+					{
+						page = numToNum.group();
+						array[i] = CommonFunction.removePart(array[i], "pp", page);
+						break;
+					}
+				}
+	
+				// .*p(\\.)*.*[0-9]+( )*-( )*[0-9]+.*
+				// p / p.
+				if (array[i].toLowerCase().matches(".*p(\\.)*( )*[0-9]+( )*-( )*[0-9]+.*"))
+				{
+					subString = (array[i].substring(array[i].toLowerCase().indexOf("p"))).trim();
+					numToNum = Pattern.compile("[0-9]+( )*-( )*[0-9]+").matcher(subString);
+	
+					if (numToNum.find())
+					{
+						page = numToNum.group();
+						array[i] = CommonFunction.removePart(array[i], "p", page);
+						break;
+					}
+				}
+	
+				// page number only
+				if (array[i].toLowerCase().matches(".*[0-9]+( )*-( )*[0-9]+.*"))
+				{
+					numToNum = Pattern.compile("[0-9]+( )*-( )*[0-9]+").matcher(array[i]);
+	
+					if (numToNum.find())
+					{
+						page = numToNum.group();
+						//array[i] = array[i].substring(0, array[i].indexOf(page)) + array[i].substring(array[i].indexOf(page) + page.length());
+						array[i] = CommonFunction.removePart(array[i], page, page);
+						break;
+					}
 				}
 			}
+			
+			
 		}
 
+		if (page != null) {
+			page = page.replaceAll(" ", "");
+		}
+		
 		return page;
 	}
 	
@@ -605,32 +684,31 @@ public class CheckArray {
 	public String getVolumeIssue()
 	{
 		String volIss = null;
-		Matcher multiIssue;
-		Matcher numOnly;
-		Matcher volIssue;
+		
+		Matcher volIssueBracket;
+		Matcher volmultiIssueBracket;
+		
+		Matcher volIssueSemiColon;
+		Matcher volmultiIssueSemiColon;
+		
+		Matcher volIssuePage;
+		
 		String volume = null, issue = null;
 		
 		for (int i=0; i<array.length; i++)
 		{
-			multiIssue = Pattern.compile("[0-9]+:[0-9]+[-/[0-9]*]*").matcher(array[i]);
-			numOnly = Pattern.compile("\\d+").matcher(array[i]);
-			volIssue = Pattern.compile("[0-9]+( )*\\([0-9]+([-/]*[0-9]+)*\\)").matcher(array[i]);
+			// vol(iss):page
+
 			
-			if (multiIssue.find())
-			{
-				volIss = multiIssue.group();
-				//array[i] = array[i].substring(0, array[i].indexOf(volIss)) + array[i].substring(array[i].indexOf(volIss) + volIss.length());
-				array[i] = CommonFunction.removePart(array[i], volIss, volIss);
-				volIss = volIss.substring(0, volIss.indexOf(":")) + "," + volIss.substring(volIss.indexOf(":") + 1);
-				//System.out.println("volIssue: " + volIss); 
-				break;
-			}
-			
+			// 12(2)
+			volIssueBracket = Pattern.compile("[0-9]+\\([0-9]+\\)").matcher(array[i]);
 			//if (array[i].indexOf("(")>0 && array[i].indexOf(")")>0 && array[i].indexOf("(")<array[i].indexOf(")"))
-			if (volIssue.find())
+			if (volIssueBracket.find())
 			{
+				System.out.println("bbb");
+				
 				//check vol issue, format: 10(1)
-				volIss = volIssue.group();
+				volIss = volIssueBracket.group();
 				volume = volIss.substring(0, volIss.indexOf("("));
 				issue = volIss.substring(volIss.indexOf("(")+1, volIss.indexOf(")"));
 				//array[i] = array[i].substring(0, array[i].indexOf(volIss)) + array[i].substring(array[i].indexOf(volIss) + volIss.length());
@@ -639,7 +717,37 @@ public class CheckArray {
 				break;
 			}
 			
-			//multiIssue.
+			// 12(2-5)
+			
+			
+			// 12:2
+			volIssueSemiColon = Pattern.compile("[0-9]+:[0-9]+").matcher(array[i]);
+			if (volIssueSemiColon.find())
+			{
+				System.out.println("ccc");
+				
+				volIss = volIssueSemiColon.group();
+				//array[i] = array[i].substring(0, array[i].indexOf(volIss)) + array[i].substring(array[i].indexOf(volIss) + volIss.length());
+				array[i] = CommonFunction.removePart(array[i], volIss, volIss);
+				volIss = volIss.substring(0, volIss.indexOf(":")) + "," + volIss.substring(volIss.indexOf(":") + 1);
+				//System.out.println("volIssue: " + volIss); 
+				break;
+			}
+			
+			// 12:2-5
+			volmultiIssueSemiColon = Pattern.compile("[0-9]+:[0-9]+-[0-9]+").matcher(array[i]);
+			if (volmultiIssueSemiColon.find())
+			{
+				System.out.println("aaa");
+				
+				volIss = volmultiIssueSemiColon.group();
+				//array[i] = array[i].substring(0, array[i].indexOf(volIss)) + array[i].substring(array[i].indexOf(volIss) + volIss.length());
+				array[i] = CommonFunction.removePart(array[i], volIss, volIss);
+				volIss = volIss.substring(0, volIss.indexOf(":")) + "," + volIss.substring(volIss.indexOf(":") + 1);
+				//System.out.println("volIssue: " + volIss); 
+				break;
+			}
+			
 		}
 		
 		return volIss;
@@ -683,7 +791,7 @@ public class CheckArray {
 					sql = "select * from journal where fullname like '%" + checkStr + "%'";
 					rs = db.getResultSet(conn, sql);
 					while (rs.next()) {
-						if (array[i].contains(rs.getString(2))) {
+						if (array[i].toLowerCase().contains(rs.getString(2).toLowerCase())) {
 							/*
 							journal = rs.getString(2);	
 							if (rs.getString(3)!=null && array[i].contains(rs.getString(3))) {
@@ -732,11 +840,6 @@ public class CheckArray {
 			System.out.println("[CheckArray.getJournal()] SQLException");
 			e.printStackTrace();
 		}
-		/*catch (UnsupportedEncodingException e)
-		{
-			System.out.println("[CheckArray.getJournal()] UnsupportedEncodingException");
-			e.printStackTrace();
-		}*/
 		finally
 		{
 			db.closeConnection(conn);
@@ -784,7 +887,7 @@ public class CheckArray {
 					sql = "select * from conference where fullname like '%" + URLEncoder.encode(checkStr, "UTF8") + "%'";
 					rs = db.getResultSet(conn, sql);
 					while (rs.next()) {
-						if (array[i].contains(rs.getString(2))) {
+						if (array[i].toLowerCase().contains(rs.getString(2).toLowerCase())) {
 							/*
 							proceeding = rs.getString(2);	
 							if (rs.getString(3)!=null && array[i].contains(rs.getString(3))) {
@@ -851,15 +954,9 @@ public class CheckArray {
 							proceeding = proceeding.substring(1);
 						}
 						
-						//System.out.println(proceeding.substring(proceeding.length()-1));
-						
-						
 						if (!CommonFunction.isCharacter(proceeding.substring(proceeding.length()-1))) {
 							proceeding = proceeding.substring(0, proceeding.length()-1);
 						}
-						
-						
-						//System.out.println("proceedings: " + proceeding);
 						
 						array[i] = "";
 						break;
@@ -868,21 +965,6 @@ public class CheckArray {
 					if (array[i].toLowerCase().indexOf("conference") >= 0)
 					{
 						proceeding = array[i];
-						
-						/*
-						if (!CommonFunction.isCharacter(proceeding.substring(0,1))) {
-							proceeding = proceeding.substring(1);
-						}
-						
-						//System.out.println(proceeding.substring(proceeding.length()-1));
-						
-						
-						if (!CommonFunction.isCharacter(proceeding.substring(proceeding.length()-1))) {
-							proceeding = proceeding.substring(0, proceeding.length()-1);
-						}
-						*/
-						
-						//System.out.println("proceedings: " + proceeding);
 						
 						array[i] = "";
 						break;
@@ -942,43 +1024,123 @@ public class CheckArray {
 	public String getPublisher()
 	{
 		String publisher = null;
+		DBConnection db = new DBConnection();
+		Connection conn = db.getConnection();
+		ResultSet rs = null;
+		String sql = "";
+		String[] checkPublisher;
+		String checkStr;
+		
+		try
+		{		
+			for (int i=0; i<array.length; i++)
+			{
+				checkPublisher = array[i].split(" ");
+				for (int j=0; j<checkPublisher.length; j++) {
+					if (checkPublisher.length>1)
+					{
+						if (j<1) checkStr = checkPublisher[j] + " " + checkPublisher[j+1];
+						else if (j==checkPublisher.length-1) checkStr = checkPublisher[checkPublisher.length-2] + " " + checkPublisher[checkPublisher.length-1];
+						else checkStr = checkPublisher[j-1] + " " + checkPublisher[j] + " " + checkPublisher[j+1];
+					}
+					else
+					{
+						checkStr = checkPublisher[j];
+					}
+					checkStr = checkStr.replaceAll("'", "\\\\'");
+					
+					sql = "select * from publisher where pubname like '%" + URLEncoder.encode(checkStr, "UTF8") + "%'";
+					rs = db.getResultSet(conn, sql);
+					while (rs.next()) {
+						if (array[i].toLowerCase().contains(rs.getString(2).toLowerCase())) {
+							// if check similar --> use whole string (rather than use db string)
+							publisher = array[i].trim();
+							array[i] = "";
+							break;		
+						}
+					}
+					
+					if (publisher!=null) break;
+				}
+				
+				if (publisher==null)
+				{
+					if (array[i].toLowerCase().indexOf("publishing") >= 0)
+					{
+						publisher = array[i].trim();
+						
+						array[i] = "";
+						break;
+					}
+					
+					if (array[i].toLowerCase().indexOf("publisher") >= 0)
+					{
+						publisher = array[i].trim();
+						
+						array[i] = "";
+						break;
+					}
+					
+					if (array[i].toLowerCase().indexOf("press") >= 0)
+					{
+						publisher = array[i].trim();
+						
+						array[i] = "";
+						break;
+					}
+					
+					if (array[i].toLowerCase().indexOf("ltd") >= 0)
+					{
+						publisher = array[i].trim();
+						
+						array[i] = "";
+						break;
+					}
+				}
+				
+			}
+			rs.close();
+		}
+		catch (SQLException e)
+		{
+			System.out.println("[CheckArray.getPublisher()] SQLException");
+			e.printStackTrace();
+		}
+		catch (UnsupportedEncodingException e)
+		{
+			System.out.println("[CheckArray.getPublisher()] UnsupportedEncodingException");
+			e.printStackTrace();
+		}
+		finally
+		{
+			db.closeConnection(conn);
+		}
+		
+		return publisher;
+	}
+	
+
+	/**
+	 * getThesis()
+	 * - search for the thesis
+	 * @return thesis
+	 */
+	public String getThesis()
+	{
+		String thesis = null;
 		
 		for (int i=0; i<array.length; i++)
 		{
-			if (array[i].toLowerCase().indexOf("publishing") >= 0)
+			if (array[i].toLowerCase().indexOf("thesis") >= 0)
 			{
-				publisher = array[i].trim();
-				
-				array[i] = "";
-				break;
-			}
-			
-			if (array[i].toLowerCase().indexOf("publisher") >= 0)
-			{
-				publisher = array[i].trim();
-				
-				array[i] = "";
-				break;
-			}
-			
-			if (array[i].toLowerCase().indexOf("press") >= 0)
-			{
-				publisher = array[i].trim();
-				
-				array[i] = "";
-				break;
-			}
-			
-			if (array[i].toLowerCase().indexOf("ltd") >= 0)
-			{
-				publisher = array[i].trim();
+				thesis = array[i].trim();
 				
 				array[i] = "";
 				break;
 			}
 		}
 
-		return publisher;
+		return thesis;
 	}
 	
 	

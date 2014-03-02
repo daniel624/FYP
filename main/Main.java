@@ -30,6 +30,21 @@ import java.sql.Date;
 public class Main {
 	public static void main(String[] args)
 	{
+		/*
+		////////////////////////////////////////////////////////
+		// output console result to file
+		String output_filename = "src/main/output.txt";
+					
+		try {
+			System.setOut(new PrintStream(new FileOutputStream(output_filename)));
+		} catch (FileNotFoundException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+		////////////////////////////////////////////////////////
+		 * 
+		 */
+		
 		Calendar cal = Calendar.getInstance();
     	cal.getTime();
     	SimpleDateFormat sdf = new SimpleDateFormat("HH:mm:ss");
@@ -106,9 +121,7 @@ public class Main {
 			//filename = "src/data/freelist_100.txt";
 			//filename = "src/data/freelist_200.txt";
 			filename = "src/data/freelist_380.txt";
-			
-			// new records
-			//filename = "src/data/freelist_new.txt";
+			//filename = "src/data/freelist_test.txt";
 
 			in = new BufferedReader(new InputStreamReader(new FileInputStream(filename), "UTF-8"));
 			buffer = in.readLine();
@@ -132,10 +145,15 @@ public class Main {
 					
 					ca = new CheckArray(data);
 
+					/////////////////////////////////////////////////////////////////
+					// Identity the fields
 					title = ca.getTitlePreSplit();
 					if (title != null) System.out.println("Title = " + title);
 					
 					ca.splitByComma();
+					
+					thesis = ca.getThesis();
+					if (thesis != null) System.out.println("Thesis = " + thesis);
 					
 					volume = ca.getVolume();
 					if (volume != null) System.out.println("Volume = " + volume);
@@ -147,7 +165,6 @@ public class Main {
 					number = ca.getNumber();
 					if (number != null) System.out.println("Number = " + number);
 					page = ca.getPage();
-					if (page != null) System.out.println("Page = " + page);
 					
 					if (volume == null || issue == null)
 					{
@@ -159,6 +176,7 @@ public class Main {
 						}
 					}
 					
+					if (page != null) System.out.println("Page = " + page);
 
 					yearMonthTmp = "";
 					yearMonthTmp = ca.getYearMonth();
@@ -196,6 +214,7 @@ public class Main {
 					publisher = ca.getPublisher();
 					if (publisher != null) System.out.println("Publisher = " + publisher);
 					
+					/////////////////////////////////////////////////////////////////
 					
 					
 					sql = "select * from Publication where ID = " + count;
