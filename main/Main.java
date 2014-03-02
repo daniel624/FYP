@@ -104,6 +104,7 @@ public class Main {
 			
 			// 100 records (4,13,18,56,63,69,70,98,99)
 			//filename = "src/data/freelist_100.txt";
+			//filename = "src/data/freelist_200.txt";
 			filename = "src/data/freelist_380.txt";
 			
 			// new records
@@ -192,6 +193,8 @@ public class Main {
 						if (title!=null) System.out.println("Title = " + title);
 					}
 
+					publisher = ca.getPublisher();
+					if (publisher != null) System.out.println("Publisher = " + publisher);
 					
 					
 					

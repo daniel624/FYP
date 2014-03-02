@@ -694,10 +694,12 @@ public class CheckArray {
 							array[i] = CommonFunction.removePart(array[i], journal, journal);
 							*/
 
-							journal = rs.getString(2);
-							array[i] = CommonFunction.removePart(array[i], journal, journal);
-							//journal = array[i].trim();
-							//array[i] = "";
+							//journal = rs.getString(2);
+							//array[i] = CommonFunction.removePart(array[i], journal, journal);
+							
+							// if check similar --> use whole string (rather than use db string)
+							journal = array[i].trim();
+							array[i] = "";
 							break;
 						}
 					}
@@ -707,10 +709,17 @@ public class CheckArray {
 				
 				if (journal==null)
 				{
+					
 					if (array[i].toLowerCase().indexOf("journal") >= 0)
 					{
-						journal = array[i];
-						//System.out.println("Journal: " + journal);					
+						journal = array[i].trim();
+						//System.out.println("Journal: " + journal);
+						
+						if (array[i].toLowerCase().indexOf("the") == 0)
+						{
+							journal = journal.substring(3);
+						}
+						
 						array[i] = "";
 						break;
 					}
@@ -785,6 +794,8 @@ public class CheckArray {
 							}
 							array[i] = CommonFunction.removePart(array[i], proceeding, proceeding);
 							*/
+							
+							// if check similar --> use whole string (rather than use db string)
 							proceeding = array[i].trim();
 							array[i] = "";
 							break;		
@@ -796,12 +807,30 @@ public class CheckArray {
 				
 				if (proceeding==null)
 				{
+					if (array[i].toLowerCase().indexOf("in proceedings of the") >= 0)
+					{
+						proceeding = (array[i].substring(array[i].toLowerCase().indexOf("in proceedings of the") + 21)).trim();
+						//System.out.println("proceedings: " + proceeding);
+						
+						array[i] = array[i].substring(0, array[i].toLowerCase().indexOf("in proceedings of the"));
+						break;
+					}
+					
 					if (array[i].toLowerCase().indexOf("in proceedings of") >= 0)
 					{
 						proceeding = (array[i].substring(array[i].toLowerCase().indexOf("in proceedings of") + 17)).trim();
 						//System.out.println("proceedings: " + proceeding);
 						
 						array[i] = array[i].substring(0, array[i].toLowerCase().indexOf("in proceedings of"));
+						break;
+					}
+					
+					if (array[i].toLowerCase().indexOf("proceedings of the") >= 0)
+					{
+						proceeding = (array[i].substring(array[i].toLowerCase().indexOf("proceedings of the") + 18)).trim();
+						//System.out.println("proceedings: " + proceeding);
+						
+						array[i] = array[i].substring(0, array[i].toLowerCase().indexOf("proceedings of the"));
 						break;
 					}
 					
@@ -822,13 +851,36 @@ public class CheckArray {
 							proceeding = proceeding.substring(1);
 						}
 						
-						System.out.println(proceeding.substring(proceeding.length()-1));
+						//System.out.println(proceeding.substring(proceeding.length()-1));
 						
 						
 						if (!CommonFunction.isCharacter(proceeding.substring(proceeding.length()-1))) {
 							proceeding = proceeding.substring(0, proceeding.length()-1);
 						}
 						
+						
+						//System.out.println("proceedings: " + proceeding);
+						
+						array[i] = "";
+						break;
+					}
+					
+					if (array[i].toLowerCase().indexOf("conference") >= 0)
+					{
+						proceeding = array[i];
+						
+						/*
+						if (!CommonFunction.isCharacter(proceeding.substring(0,1))) {
+							proceeding = proceeding.substring(1);
+						}
+						
+						//System.out.println(proceeding.substring(proceeding.length()-1));
+						
+						
+						if (!CommonFunction.isCharacter(proceeding.substring(proceeding.length()-1))) {
+							proceeding = proceeding.substring(0, proceeding.length()-1);
+						}
+						*/
 						
 						//System.out.println("proceedings: " + proceeding);
 						
@@ -856,6 +908,80 @@ public class CheckArray {
 		
 		return proceeding;
 	}
+	
+	
+
+	/**
+	 * getEditors()
+	 * - search for the editors
+	 * @return editors
+	 */
+	public String getEditors()
+	{
+		String editors = null;
+		
+		for (int i=0; i<array.length; i++)
+		{
+			if (array[i].toLowerCase().indexOf("eds") >= 0)
+			{
+				editors = array[i].trim();
+				
+				array[i] = "";
+				break;
+			}
+		}
+
+		return editors;
+	}
+	
+	/**
+	 * getPublisher()
+	 * - search for the publisher
+	 * @return publisher
+	 */
+	public String getPublisher()
+	{
+		String publisher = null;
+		
+		for (int i=0; i<array.length; i++)
+		{
+			if (array[i].toLowerCase().indexOf("publishing") >= 0)
+			{
+				publisher = array[i].trim();
+				
+				array[i] = "";
+				break;
+			}
+			
+			if (array[i].toLowerCase().indexOf("publisher") >= 0)
+			{
+				publisher = array[i].trim();
+				
+				array[i] = "";
+				break;
+			}
+			
+			if (array[i].toLowerCase().indexOf("press") >= 0)
+			{
+				publisher = array[i].trim();
+				
+				array[i] = "";
+				break;
+			}
+			
+			if (array[i].toLowerCase().indexOf("ltd") >= 0)
+			{
+				publisher = array[i].trim();
+				
+				array[i] = "";
+				break;
+			}
+		}
+
+		return publisher;
+	}
+	
+	
 	
 	/**
 	 * getTitlePreSplit()
