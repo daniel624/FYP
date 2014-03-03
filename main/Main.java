@@ -30,7 +30,8 @@ import java.sql.Date;
 public class Main {
 	public static void main(String[] args)
 	{
-		/*
+		
+		/**
 		////////////////////////////////////////////////////////
 		// output console result to file
 		String output_filename = "src/main/output.txt";
@@ -44,6 +45,8 @@ public class Main {
 		////////////////////////////////////////////////////////
 		 * 
 		 */
+		
+		 
 		
 		Calendar cal = Calendar.getInstance();
     	cal.getTime();
@@ -135,6 +138,26 @@ public class Main {
 				}
 				else
 				{
+					/////////////////////////////////////////////////////////////////
+					// Clear the fields
+					title = null;
+					journal = null;
+					proceeding = null;
+					volume = null;
+					issue = null;
+					number = null;
+					page = null;
+					year = null;
+					authors = null;
+					article = null;
+					month = null;
+					
+					thesis = null;
+					chapter = null;
+					editors = null;
+					publisher = null;
+					/////////////////////////////////////////////////////////////////
+					
 					System.out.println("===== testing string " + count + " =====");
 					System.out.println(data);
 					indiWrong = 0;
@@ -154,29 +177,52 @@ public class Main {
 					
 					thesis = ca.getThesis();
 					if (thesis != null) System.out.println("Thesis = " + thesis);
+
+					article = ca.getArticle();
+					if (article != null) System.out.println("Article = " + article);
+					
+					number = ca.getNumber();
+					if (number != null) System.out.println("Number = " + number);
 					
 					volume = ca.getVolume();
 					if (volume != null) System.out.println("Volume = " + volume);
+
 					issue = ca.getIssue();
 					if (issue != null) System.out.println("Issue = " + issue);
-					
-					article = ca.getArticle();
-					if (article != null) System.out.println("Article = " + article);
-					number = ca.getNumber();
-					if (number != null) System.out.println("Number = " + number);
-					page = ca.getPage();
-					
-					if (volume == null || issue == null)
-					{
+				
+					if ((volume == null) || (issue == null) || (page == null)) {
 						tmp = ca.getVolumeIssue();
 						if (tmp != null) {
-							volume = tmp.substring(0, tmp.indexOf(","));
-							issue = tmp.substring(tmp.indexOf(",") + 1);
-							System.out.println("Volume = " + volume + "\nIssue = " + issue);
+							if (tmp.indexOf(",") == tmp.lastIndexOf(",")) {
+								if (volume == null) {
+									volume = tmp.substring(0, tmp.indexOf(","));
+									System.out.println("Volume = " + volume);
+								}
+								if (issue == null) {
+									issue = tmp.substring(tmp.indexOf(",") + 1);
+									System.out.println("Issue = " + issue);
+								}
+							} else {
+								if (volume == null) {
+									volume = tmp.substring(0, tmp.indexOf(","));
+									System.out.println("Volume = " + volume);
+								}
+								if (issue == null) {
+									issue = tmp.substring(tmp.indexOf(",") + 1, tmp.lastIndexOf(","));
+									System.out.println("Issue = " + issue);
+								}
+								if (page == null) {
+									page = tmp.substring(tmp.lastIndexOf(",") + 1);
+									System.out.println("Page = " + page);
+								}
+							}
 						}
 					}
 					
-					if (page != null) System.out.println("Page = " + page);
+					if (page == null) {
+						page = ca.getPage();
+						if (page != null) System.out.println("Page = " + page);
+					}
 
 					yearMonthTmp = "";
 					yearMonthTmp = ca.getYearMonth();
@@ -214,8 +260,32 @@ public class Main {
 					publisher = ca.getPublisher();
 					if (publisher != null) System.out.println("Publisher = " + publisher);
 					
-					/////////////////////////////////////////////////////////////////
 					
+					if (volume == null) {
+						volume = ca.getVolumeLast();
+						if (volume != null) System.out.println("Volume = " + volume);
+					}
+					
+					/////////////////////////////////////////////////////////////////
+
+					if (title != null) title = title.trim();
+					if (journal != null) journal = journal.trim();
+					if (proceeding != null) proceeding = proceeding.trim();
+					if (volume != null) volume = volume.trim();
+					if (issue != null) issue = issue.trim();
+					if (number != null) number = number.trim();
+					if (page != null) page = page.trim();
+					if (year != null) year = year.trim();
+					if (authors != null) authors = authors.trim();
+					if (article != null) article = article.trim();
+					if (month != null) month = month.trim();
+					
+					if (thesis != null) thesis = thesis.trim();
+					if (chapter != null) chapter = chapter.trim();
+					if (editors != null) editors = editors.trim();
+					if (publisher != null) publisher = publisher.trim();
+
+					/////////////////////////////////////////////////////////////////
 					
 					sql = "select * from Publication where ID = " + count;
 					System.out.println();

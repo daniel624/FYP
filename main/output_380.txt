@@ -1,10 +1,10 @@
-Start Time = 01:56:33
+Start Time = 00:19:46
 
 ===== testing string 1 =====
 ?Andrej Bogdanov and Youming Qiao: On the security of Goldreich's one-way function. In Computational Complexity, vol. 21, no. 1, 2012. Invited paper. , 
 ===== splitted fields 1 =====
-Volume = 21
 Number = 1
+Volume = 21
 Year = 2012
 Month = November
 Journal = ?Andrej Bogdanov and Youming Qiao: On the security of Goldreich's one-way function. In Computational Complexity
@@ -63,7 +63,6 @@ array[6]:
 ===== testing string 4 =====
 L. Cai, Parameterized Complexity of Cardinality Constrained Optimization Problems, the Computer Journal, 51(1) 102-121, 2008., 
 ===== splitted fields 4 =====
-bbb
 Volume = 51
 Issue = 1
 Page = 102-121
@@ -87,7 +86,6 @@ array[5]:
 ===== testing string 5 =====
 L. Cai and D.G. Corneil, Tree Spanners, SIAM Journal on Discrete Mathematics, 8(3), 359-387, 1995., 
 ===== splitted fields 5 =====
-bbb
 Volume = 8
 Issue = 3
 Page = 359-387
@@ -110,9 +108,9 @@ array[6]:
 ===== testing string 6 =====
 Zhenxing Wang, Laiwan Chan. Learning Causal Relationship in Multivariate time series Data, ACM Transactions on Intelligent Systems and Technology (TIST) , 2012: Vol 3, No 4, article no 76, 
 ===== splitted fields 6 =====
-Volume = 3
 Article = 76
 Number = 4
+Volume = 3
 Year = 2012
 Journal = ACM Transactions on Intelligent Systems and Technology (TIST)
 Title = Laiwan Chan. Learning Causal Relationship in Multivariate time series Data
@@ -195,13 +193,13 @@ array[4]:
 ===== testing string 10 =====
 Lou S, Ni B, Lo LY, Tsui SK, Chan TF*, and Leung KS: ABMapper: a suffix array-based tool for multi-location searching and splice-junction mapping. Bioinformatics. 2011 27(3):421-2.  (*corresponding author, page special), 
 ===== splitted fields 10 =====
-bbb
+aaa
 Volume = 27
 Issue = 3
 Page = 421-2
 Year = 2011
 Month = June
-Title = ABMapper: a suffix array-based tool for multi-location searching and splice-junction mapping. Bioinformatics.:
+Title = ABMapper: a suffix array-based tool for multi-location searching and splice-junction mapping. Bioinformatics.
 
 ***Wrong Authors
 ***Wrong Title
@@ -247,8 +245,8 @@ array[7]:
 ===== testing string 12 =====
 James Cheng, Zechao Shang, Hong Cheng, Haixun Wang, and Jeffrey Xu Yu., KReach: Who is In Your Small World., In PVLDB, Volume 5, Number 11, Pages 1292-1303, 2012, 
 ===== splitted fields 12 =====
-Volume = 5
 Number = 11
+Volume = 5
 Page = 1292-1303
 Year = 2012
 Title = Who is In Your Small World
@@ -276,7 +274,6 @@ array[11]:
 J. Tang and A. Fu, "Query Rewriting Using Views for XPath queries, framework, and methodologies", Information Systems, 35:3, May, 2010, pages 315-334, 
 ===== splitted fields 13 =====
 Title = Query Rewriting Using Views for XPath queries, framework, and methodologies
-ccc
 Volume = 35
 Issue = 3
 Page = 315-334
@@ -324,9 +321,9 @@ array[8]:
 "Structure-Aware Halftoning", , W. M. Pang, Y. Qu, T. T. Wong, D. Cohen-Or and P. A. Heng,, ACM Transactions on Graphics (SIGGRAPH 2008 issue), Vol.27, No.3:Article 89, 2008, pp.89-1., 
 ===== splitted fields 15 =====
 Title = Structure-Aware Halftoning
-Volume = 27
 Article = 89
 Number = 3
+Volume = 27
 Page = 89-1
 Year = 2008
 Journal = ACM Transactions on Graphics (SIGGRAPHissue)
@@ -379,13 +376,13 @@ Hao Ma, Irwin King, and Michael R. Lyu, "Learning to Recommend with Explicit and
 Title = Learning to Recommend with Explicit and Implicit Social Relations,
 Volume = 2
 Issue = 3
-Page = 29:1-29:19
 Year = 2011
 Journal = ACM Transactions on Intelligent Systems and Technology (TIST)
 Authors = & Michael R. Lyu
 
 ***Wrong Authors
 ***Wrong Title
+***Wrong Page
 ===== remaining fields 17 =====
 array[0]: Hao Ma
 array[1]: Irwin King
@@ -393,7 +390,7 @@ array[2]:
 array[3]: 
 array[4]: 
 array[5]: 
-array[6]: 
+array[6]: p.:19
 array[7]: .
 array[8]: 
 ===== end 17 =====
@@ -423,7 +420,6 @@ array[4]:
 ===== testing string 19 =====
 Ho Yee Cheung, Lap Chi Lau, Kai Man Leung, SIAM Journal on Computing, 42(3), 733-751, 2013 , 
 ===== splitted fields 19 =====
-bbb
 Volume = 42
 Issue = 3
 Page = 733-751
@@ -447,22 +443,21 @@ array[7]:
 ===== testing string 20 =====
 On linear and semidefinite programming relaxation for hypergraph matching, Yuk Hei Chan, Lap Chi Lau, Mathematical Programming, 135(1-2), 123-148, 2012, 
 ===== splitted fields 20 =====
-Page = 1-2
+Volume = 135
+Issue = 1-2
+Page = 123-148
 Year = 2012
 Journal = Mathematical Programming
 Title = On linear and semidefinite programming relaxation for hypergraph matching
 
 ***Wrong Authors
-***Wrong Volume
-***Wrong Issue
-***Wrong Page
 ===== remaining fields 20 =====
 array[0]: 
 array[1]: Yuk Hei Chan
 array[2]: Lap Chi Lau
 array[3]: 
-array[4]: 135()
-array[5]: 123-148
+array[4]: 
+array[5]: 
 array[6]: 
 array[7]: 
 ===== end 20 =====
@@ -516,7 +511,6 @@ array[8]:
 ===== testing string 23 =====
 Y. C. Law, J. H. M. Lee, and M. H. C. Woo. Redundant Modeling in Permutation Weighted Constraint Satisfaction Problems. Constraints, 15(3), pages 354-403, 2010., 
 ===== splitted fields 23 =====
-bbb
 Volume = 15
 Issue = 3
 Page = 354-403
@@ -540,7 +534,7 @@ array[6]:
 ===== testing string 24 =====
 Y.C. Law, J.H.M. Lee, T. Walsh and M.H.C. Woo.  Multiset Variable Representations and Constraint Propagation, CONSTRAINTS, 18(3):307-343, 2013, 
 ===== splitted fields 24 =====
-bbb
+aaa
 Volume = 18
 Issue = 3
 Page = 307-343
@@ -555,7 +549,7 @@ array[0]:
 array[1]: 
 array[2]: 
 array[3]: 
-array[4]: :
+array[4]: 
 array[5]: 
 array[6]: 
 ===== end 24 =====
@@ -564,18 +558,19 @@ array[6]:
 ===== testing string 25 =====
 J.H.M. Lee and K.L. Leung.  Consistency Techniques for Flow-Based Projection-Safe Global Cost Functions in Weighted Constraint Satisfaction, Journal of Artificial Intelligence Research, 43:257-292, 2012, 
 ===== splitted fields 25 =====
-Page = 257-292
+Volume = 43
+Issue = 257-292
 Year = 2012
 Journal = Journal of Artificial Intelligence Research
 Authors = J.H.M. Lee& K.L. Leung.  Consistency Techniques for Flow-Based Projection-Safe Global Cost Functions in Weighted Constraint Satisfaction
 
 ***Wrong Authors
 ***Wrong Title
-***Wrong Volume
+***Wrong Page
 ===== remaining fields 25 =====
 array[0]: 
 array[1]: 
-array[2]: 43:
+array[2]: 
 array[3]: 
 array[4]: 
 ===== end 25 =====
@@ -584,7 +579,7 @@ array[4]:
 ===== testing string 26 =====
 Morris S.Y. Jong, Junjie Shang, Fong-lok Lee, and Jimmy H.M. Lee.  An Evaluative Study on VISOLE Virtual Interactive Student-Oriented Learning Environment, IEEE Transactions on Learning Technologies, 3(4):307-318, 2010, 
 ===== splitted fields 26 =====
-bbb
+aaa
 Volume = 3
 Issue = 4
 Page = 307-318
@@ -601,7 +596,7 @@ array[1]: Junjie Shang
 array[2]: Fong-lok Lee
 array[3]: 
 array[4]: 
-array[5]: :
+array[5]: 
 array[6]: 
 array[7]: 
 ===== end 26 =====
@@ -610,7 +605,6 @@ array[7]:
 ===== testing string 27 =====
 Xudong Luo, Jimmy Ho-man Lee, Ho-fung Leung, and Nicholas R. Jennings.  Prioritised Fuzzy Constraint Satisfaction Problems: Axioms, Instantiation and Validation,  Fuzzy Sets and Systems, 136(2), pages 151-188, Elsevier Science Ltd, 2003, 
 ===== splitted fields 27 =====
-bbb
 Volume = 136
 Issue = 2
 Page = 151-188
@@ -639,7 +633,6 @@ array[10]:
 ===== testing string 28 =====
 T.M. Chan, K.C. Wong, K.H. Lee, M.H. Wong, C.K. Lau, Stephen K.W. Tsui, K.S. Leung, Discovering approximate-associated sequence patterns for protein-DNA interactions. Bioinformatics, 2011, 27(4), pp. 471-478. (IF:5.468), 
 ===== splitted fields 28 =====
-bbb
 Volume = 27
 Issue = 4
 Page = 471-478
@@ -669,8 +662,8 @@ array[11]:
 ===== testing string 29 =====
 (S. M. Cheang), K. H. Lee and K.S. Leung Applying Genetic Parallel Programming to Synthesize Combinational Logic Circuits,IEEE Transactions on Evolutionary Computation, Vol.11, No.4, pp.503-520, August 2007., 
 ===== splitted fields 29 =====
-Volume = 11
 Number = 4
+Volume = 11
 Page = 503-520
 Year = 2007
 Month = August
@@ -695,7 +688,6 @@ array[7]:
 (Y.Y. Wong), K.S. Leung, and K.H. Lee  "Stochastic load balancing algorithm for i-Computing", Concurrency and Computation: Practice and Experience,  15(1), 55-78, Jan. 2003., 
 ===== splitted fields 30 =====
 Title = Stochastic load balancing algorithm for i-Computing
-bbb
 Volume = 15
 Issue = 1
 Page = 55-78
@@ -720,7 +712,6 @@ array[7]:
 ===== testing string 31 =====
 Raaed Al-Dujaily, Terrence Mak, Kai-Pui Lam, Fei Xia, Alex Yakovlev, Chi-Sang Poon, Dynamic On-Chip Thermal Optimization for Three Dimensional Networks-on-Chip, Computer Journal, 55(10), 1-15, 2012, 
 ===== splitted fields 31 =====
-bbb
 Volume = 55
 Issue = 10
 Page = 1-15
@@ -748,8 +739,8 @@ array[11]:
 ===== testing string 32 =====
 Bo Yu, Terrence Mak, Xiangyu Li, Leslie Smith, Yihe Sun and Chi-Sang Poon, Stream-based Hebbian Eigenfilter for Real-Time Neuronal Spike Discrimination, BioMedical Engineering OnLine, vol. 11, no. 18, 2012, 
 ===== splitted fields 32 =====
-Volume = 11
 Number = 18
+Volume = 11
 Year = 2012
 Journal = BioMedical Engineering OnLine
 Title = Stream-based Hebbian Eigenfilter for Real-Time Neuronal Spike Discrimination
@@ -773,8 +764,8 @@ array[10]:
 ===== testing string 33 =====
 Terrence Mak, Kai-Pui Lam, H.S. Ng, Guy Rachmuth, Chi-Sang Poon, A CMOS Current-Mode Dynamic Programming Circuit, IEEE Trans. Circuits and Systems I, Vol 57, No. 22, pp. 3112-3123, 2010, 
 ===== splitted fields 33 =====
-Volume = 57
 Number = 22
+Volume = 57
 Page = 3112-3123
 Year = 2010
 Journal = IEEE Trans. Circuits and Systems I
@@ -807,9 +798,9 @@ Proceeding = International Symposium on Information Theory
 Journal = IEEE Transactions on Information Theory
 Authors = C. Nair.& 
 Title = Capacity regions of two new classes of 2-receiver broadcast channels
+Volume = IT-56
 
 ***Wrong Authors
-***Wrong Volume
 ===== remaining fields 34 =====
 array[0]: 
 array[1]: 
@@ -879,8 +870,8 @@ array[8]:
 Ying Kin Yu, Kin Hong Wong, Siu Hang Or, and Michael Ming Yuen Chang, "Robust 3-D Motion Tracking From Stereo Images: A Model-Less Method", IEEE Transaction on Instrumentation and Measurement, Vol. 57, No. 3, March 2008., 
 ===== splitted fields 37 =====
 Title = Robust 3-D Motion Tracking From Stereo Images: A Model-Less Method
-Volume = 57
 Number = 3
+Volume = 57
 Year = 2008
 Month = March
 
@@ -925,7 +916,6 @@ array[7]:
 B. Sheng, H. Sun, S. Chen, X. Liu, E. Wu, "Colorization Using the Rotation-invariant Feature Space", IEEE Journal of Computer Graphics and Applications, 31(2): 24-35, 2011., 
 ===== splitted fields 39 =====
 Title = Colorization Using the Rotation-invariant Feature Space
-bbb
 Volume = 31
 Issue = 2
 Page = 24-35
@@ -952,16 +942,15 @@ array[9]:
 B. Sheng, H. Sun, G. Yang, E. Wu, "Furstyling on Angle-Split Shell Textures", Journal of Computer Animation and Virtual Worlds, (selected from International Conference on CASA '2009, special issue on CASA), 20(2-3): 205-213, 2009., 
 ===== splitted fields 40 =====
 Title = Furstyling on Angle-Split Shell Textures
-Page = 2-3
+Volume = 20
+Issue = 2-3
+Page = 205-213
 Year = 2009
 Proceeding = (selected from International Conference on CASA '
 Journal = Journal of Computer Animation and Virtual Worlds
 Authors = B. Sheng& H. Sun& G. Yang& E. Wu& 
 
 ***Wrong Authors
-***Wrong Volume
-***Wrong Issue
-***Wrong Page
 ===== remaining fields 40 =====
 array[0]: 
 array[1]: 
@@ -971,7 +960,7 @@ array[4]:
 array[5]: 
 array[6]: 
 array[7]: special issue on CASA)
-array[8]: 20(): 205-213
+array[8]: :
 array[9]: 2009.
 array[10]: 
 ===== end 40 =====
@@ -981,7 +970,6 @@ array[10]:
 H. Wang, H. Sun, KH Qin, "Estimating Recursion Depth for Loop Subdivision", International Journal of CAD/CAM, 4(1): 11-18, 2004., 
 ===== splitted fields 41 =====
 Title = Estimating Recursion Depth for Loop Subdivision
-bbb
 Volume = 4
 Issue = 1
 Page = 11-18
@@ -1006,8 +994,8 @@ array[7]:
 X. Jin, H. Sun, Q. Peng, "Subdivision Interpolating Implicit Surfaces", Journal of Computers & Graphics, Vol. 27, No. 5, p. 763-772, 2003., 
 ===== splitted fields 42 =====
 Title = Subdivision Interpolating Implicit Surfaces
-Volume = 27
 Number = 5
+Volume = 27
 Page = 763-772
 Year = 2003
 Journal = Journal of Computers & Graphics
@@ -1031,7 +1019,7 @@ array[9]:
 ===== testing string 43 =====
 A. M.-C. So, Moment Inequalities for Sums of Random Matrices and Their Applications in Optimization, Mathematical Programming, Series A 130(1):125-151, 2011, 
 ===== splitted fields 43 =====
-bbb
+aaa
 Volume = 130
 Issue = 1
 Page = 125-151
@@ -1046,7 +1034,7 @@ Title = Moment Inequalities for Sums of Random Matrices and Their Applications i
 array[0]: 
 array[1]: 
 array[2]: 
-array[3]: Series A:
+array[3]: Series A
 array[4]: 
 array[5]: 
 ===== end 43 =====
@@ -1083,7 +1071,6 @@ array[12]:
 ===== testing string 45 =====
 Jiang, B., Pei, J., Tao, Y., Lin, X. , Clustering Uncertain Data Based on Probability Distribution Similarity. , IEEE Transactions on Knowledge and Data Engineering (TKDE), 25(4): 751-763, 2013. , 
 ===== splitted fields 45 =====
-bbb
 Volume = 25
 Issue = 4
 Page = 751-763
@@ -1114,7 +1101,6 @@ array[12]:
 ===== testing string 46 =====
 Tao, Y., Papadias, D., Lian, X., Xiao, X. , Multi-dimensional Reverse kNN Search. , Very Large Data Base Journal (VLDBJ), 16(3): 293-316, 2007, 
 ===== splitted fields 46 =====
-bbb
 Volume = 16
 Issue = 3
 Page = 293-316
@@ -1145,8 +1131,8 @@ array[12]:
 Zhaorong Li, Kin-Hong Wong, Yibo Gong, and Ming-Yuen Chang, "An Effective Method for Movable Projector Keystone Correction", IEEE Transactions on Multimedia, VOL. 13, NO. 1, Feb 2011, 
 ===== splitted fields 47 =====
 Title = An Effective Method for Movable Projector Keystone Correction
-Volume = 13
 Number = 1
+Volume = 13
 Year = 2011
 Month = February
 Journal = IEEE Transactions on Multimedia
@@ -1170,16 +1156,15 @@ array[9]:
 Chi Hang Wong, Wai Man Szeto and Kin Hong Wong, "Automatic lyrics alignment for Cantonese popular music",  Multimedia Systems, Springer, Volume 12, Numbers 4-5, March 2007 , pp. 307-323, 
 ===== splitted fields 48 =====
 Title = Automatic lyrics alignment for Cantonese popular music
+Number = 4-5
 Volume = 12
-Page = 4-5
+Page = 307-323
 Year = 2007
 Month = March
 Journal = Multimedia Systems
 Publisher = Springer
 
 ***Wrong Authors
-***Wrong Number
-***Wrong Page
 ===== remaining fields 48 =====
 array[0]: Chi Hang Wong
 array[1]: Wai Man Szeto and Kin Hong Wong
@@ -1187,9 +1172,9 @@ array[2]:
 array[3]: 
 array[4]: 
 array[5]: 
-array[6]: Numbers
+array[6]: 
 array[7]: March
-array[8]: pp. 307-323
+array[8]: 
 array[9]: 
 ===== end 48 =====
 
@@ -1198,14 +1183,14 @@ array[9]:
 Ying Kin YU, Kin Hong Wong and Michael MingYuen Chang, "Pose Estimation for Augmented Reality Applications Using Genetic Algorithm", IEEE Transactions on Systems, Man, and Cybernetics, Part B, Dec. 2005, Volume: 35,  Issue: 6, PP. 1295- 1301, 
 ===== splitted fields 49 =====
 Title = Pose Estimation for Augmented Reality Applications Using Genetic Algorithm
+Volume = 35
+Issue = 6
 Page = 1295-1301
 Year = 2005
 Month = December
 
 ***Wrong Authors
 ***Wrong Journal
-***Wrong Volume
-***Wrong Issue
 ===== remaining fields 49 =====
 array[0]: Ying Kin YU
 array[1]: Kin Hong Wong and Michael MingYuen Chang
@@ -1215,8 +1200,8 @@ array[4]: Man
 array[5]: and Cybernetics
 array[6]: Part B
 array[7]: Dec.
-array[8]: Volume: 35
-array[9]: Issue: 6
+array[8]: 
+array[9]: 
 array[10]: 
 array[11]: 
 ===== end 49 =====
@@ -1253,7 +1238,6 @@ array[11]:
 ===== testing string 51 =====
 Yee Leung, Man Hon Wong, Ka-Chun Wong, Wei Zhang, Kwong-Sak Leung: A novel web-based system for tropical cyclone analysis and prediction. International Journal of Geographical Information Science 26(1): 75-97 (2012), 
 ===== splitted fields 51 =====
-bbb
 Volume = 26
 Issue = 1
 Page = 75-97
@@ -1330,15 +1314,16 @@ array[2]:
 " Binocular Tone Mapping",, X. Yang, L. Zhang, T. T. Wong and P. A. Heng,, ACM Transactions on Graphics (SIGGRAPH 2012 issue), Vol. 31, No. 4, July 2012, pp. 93:1-93:10., 
 ===== splitted fields 55 =====
 Title = Binocular Tone Mapping
-Volume = 31
 Number = 4
-Page = 93:1-93:10
+Volume = 31
+Issue = 1-93
 Year = 2012
 Month = July
 Journal = ACM Transactions on Graphics (SIGGRAPHissue)
 Authors = X. Yang& L. Zhang& T. T. Wong& P. A. Heng
 
 ***Wrong Journal
+***Wrong Page
 ===== remaining fields 55 =====
 array[0]: 
 array[1]: 
@@ -1350,7 +1335,7 @@ array[6]:
 array[7]: 
 array[8]: 
 array[9]: July 2012
-array[10]: .
+array[10]: pp.:10.
 array[11]: 
 ===== end 55 =====
 
@@ -1359,8 +1344,8 @@ array[11]:
 " Deringing Cartoons by Image Analogies",, G. Wang, T. T. Wong and P. A. Heng,, ACM Transactions on Graphics, Vol. 25, No. 4, October 2006, pp. 1360-1379., 
 ===== splitted fields 56 =====
 Title = Deringing Cartoons by Image Analogies
-Volume = 25
 Number = 4
+Volume = 25
 Page = 1360-1379
 Year = 2006
 Month = October
@@ -1386,8 +1371,8 @@ array[10]:
 T.Y. Wong, M.H. Wong, and John C.S. Lui, "A Precise Termination Condition of the Probabilistic Packet Marking Algorithm", IEEE Transactions of Secure and Dependable Computing, Vol.5, No.1, pp.6-21, January-March, 2008, 
 ===== splitted fields 57 =====
 Title = A Precise Termination Condition of the Probabilistic Packet Marking Algorithm
-Volume = 5
 Number = 1
+Volume = 5
 Page = 6-21
 Year = 2008
 Month = January - March
@@ -1518,11 +1503,11 @@ Year = 2011
 Month = December
 Journal = IEICE Transactions on Fundamentals of Electronics
 Authors = F. S. Chim& T. K. Lam& Y.L. Wu& H. Fan& 
+Volume = E94-A
 
 ***Wrong Authors
 ***Wrong Title
 ***Wrong Journal
-***Wrong Volume
 ===== remaining fields 62 =====
 array[0]: 
 array[1]: 
@@ -1542,18 +1527,15 @@ array[10]:
 X. Xiong, Y. L. Wu and W. B. Jone, "Yield analysis for self-repairable MEMS devices," Analog Integrated Circuits and Signal Processing 56:1/2 pp.1-11, August. 2008, 
 ===== splitted fields 63 =====
 Title = Yield analysis for self-repairable MEMS devices,
-ccc
 Volume = 56
-Issue = 1
+Issue = 1/2
 Page = 1-11
 Year = 2008
 Month = August
-Journal = Analog Integrated Circuits and Signal Processing/2
+Journal = Analog Integrated Circuits and Signal Processing
 Authors = X. Xiong& Y. L. Wu& W. B. Jone
 
 ***Wrong Title
-***Wrong Journal
-***Wrong Issue
 ===== remaining fields 63 =====
 array[0]: 
 array[1]: 
@@ -1587,7 +1569,6 @@ array[3]:
 Lei Xu (2012), " On essential topics of BYY harmony learning: Current status, challenging issues, and gene analysis applications ", Journal of Frontiers of Electrical and Electronic Engineering 7(1) (2012) 147-196, 
 ===== splitted fields 65 =====
 Title = On essential topics of BYY harmony learning: Current status, challenging issues, and gene analysis applications
-bbb
 Volume = 7
 Issue = 1
 Page = 147-196
@@ -1686,8 +1667,8 @@ array[8]:
 Q. Xu, Y. Zhang and K. Chakrabarty, "SOC Test-Architecture Optimization for the Testing of Embedded Cores and Signal-Integrity Faults on Core-External Interconnects", ACM Transactions on Design Automation of Electronic Systems, vol. 14, article No. 4, Jan. 2009, 
 ===== splitted fields 69 =====
 Title = SOC Test-Architecture Optimization for the Testing of Embedded Cores and Signal-Integrity Faults on Core-External Interconnects
-Volume = 14
 Article = 4
+Volume = 14
 Year = 2009
 Month = January
 Journal = ACM Transactions on Design Automation of Electronic Systems
@@ -1729,9 +1710,9 @@ array[5]:
 ===== testing string 71 =====
 Ken Kai-Yuen Tso*, Kevin Y. Yip*, Cathy Mak, Grace Tin-Yun Chung, Sau-Dan Lee, Siu-Tim Cheung, Ka-Fai To and Kwok-Wai Lo,, Complete Genomic Sequence of Epstein-Barr Virus in Nasopharyngeal Carcinoma Cell Line C666-1,, Infectious Agents and Cancer, vol. 8, issue 1, no. 29, (2013)., 
 ===== splitted fields 71 =====
+Number = 29
 Volume = 8
 Issue = 1
-Number = 29
 Page = 666-1
 Year = 2013
 Journal = Infectious Agents and Cancer
@@ -1787,8 +1768,8 @@ array[9]:
 ===== testing string 73 =====
 Justin Jee*, Joel Rozowsky*, Kevin Y. Yip*, Lucas Lochovsky, Robert Bjornson, Guoneng Zhong, Zhengdong Zhang, Yutao Fu, Jie Wang, Zhiping Weng and Mark Gerstein,, ACT: Aggregation and Correlation Toolbox for Analyses of Genome Tracks,, Bioinformatics, vol. 27, no 8, pp. 1152-1154, (2011), 
 ===== splitted fields 73 =====
-Volume = 27
 Number = 8
+Volume = 27
 Page = 1152-1154
 Year = 2011
 Journal = Bioinformatics
@@ -1822,8 +1803,8 @@ array[18]:
 ===== testing string 74 =====
 Kevin Y. Yip*, Prianka Patel*, Philip M. Kim, Donald M. Engelman, Drew McDermott and Mark Gerstein,, An Integrated System for Studying Residue Coevolution in Proteins,, Bioinformatics, vol. 24, no. 2, pp. 290-292, (2008), 
 ===== splitted fields 74 =====
-Volume = 24
 Number = 2
+Volume = 24
 Page = 290-292
 Year = 2008
 Journal = Bioinformatics
@@ -1852,7 +1833,7 @@ array[13]:
 ===== testing string 75 =====
 Postgrid Clock Routing for High Performance Microprocessor Designs, Haitong Tian, W.-C. Tang, Evangeline F.Y. Young and C. N. Sze, IEEE Transactions of Computer-Aided Design of Integrated Circuits and Systems, 31(2):255-259, 2012, 
 ===== splitted fields 75 =====
-bbb
+aaa
 Volume = 31
 Issue = 2
 Page = 255-259
@@ -1868,7 +1849,7 @@ array[1]: Haitong Tian
 array[2]: 
 array[3]: 
 array[4]: 
-array[5]: :
+array[5]: 
 array[6]: 
 array[7]: 
 ===== end 75 =====
@@ -1877,8 +1858,8 @@ array[7]:
 ===== testing string 76 =====
 Block Flipping and White Space Distribution for Wirelength Minimization , Chiu-Wing Sham and Evangeline F.Y. Young, Integration, the VLSI Journal, Vol. 42, No. 2, p246-253, February, 2009, 
 ===== splitted fields 76 =====
-Volume = 42
 Number = 2
+Volume = 42
 Page = 246-253
 Year = 2009
 Month = February
@@ -1904,10 +1885,10 @@ array[9]:
 ===== testing string 77 =====
 Optimizing Wirelength and Routability by Searching Alternative Packings in Floorplanning , Chiu-Wing Sham, Evangeline F.Y. Young and Hai Zhou, ACM Transaction on Design Automation of Electronic Systems, Vol.13, No.1, Article No.21 (21:1-21:13), January, 2008, 
 ===== splitted fields 77 =====
-Volume = 13
 Article = 21
 Number = 1
-Page = 1-21
+Volume = 13
+Issue = 1-21
 Year = 2008
 Month = January
 Authors = Evangeline F.Y. Young& Hai Zhou
@@ -1923,7 +1904,7 @@ array[2]:
 array[3]: ACM Transaction on Design Automation of Electronic Systems
 array[4]: 
 array[5]: 
-array[6]: (21::13)
+array[6]: (:13)
 array[7]: January
 array[8]: 
 array[9]: 
@@ -1934,8 +1915,8 @@ array[9]:
 Lijun Chang, Jeffrey Xu Yu, and Lu Qin: "Fast Maximal Cliques Enumeration in Sparse Graphs", Vol. 66, No. 1, Algorithmica, 2013, 
 ===== splitted fields 78 =====
 Title = Fast Maximal Cliques Enumeration in Sparse Graphs
-Volume = 66
 Number = 1
+Volume = 66
 Year = 2013
 Month = June
 Journal = Algorithmica
@@ -1958,8 +1939,8 @@ array[7]:
 Lijun Chang, Jeffrey Xu Yu, Lu Qin, Hong Cheng, and Miao Qiao: "The Exact Distance to Destination in Undirected World", VLDB Journal, Vol. 21, No. 6, 2012, 
 ===== splitted fields 79 =====
 Title = The Exact Distance to Destination in Undirected World
-Volume = 21
 Number = 6
+Volume = 21
 Year = 2012
 Month = June
 Journal = VLDB Journal
@@ -2087,9 +2068,9 @@ array[10]:
 ===== testing string 85 =====
 K S Tang, R J Yin, S Kwong, K T Ng, K F Man, A theoretical development and analysis of jumping gene genetic algorithm, IEEE Transactions on Industrial Informatics, Volume 7, Issue 3, August 2011, Article number 5937032, Pages 408-418, 
 ===== splitted fields 85 =====
+Article = 5937032
 Volume = 7
 Issue = 3
-Article = 5937032
 Page = 408-418
 Year = 2011
 Month = August
@@ -2221,8 +2202,8 @@ array[8]:
 Zhiwu Lu and Horace H S Ip, "Spatial Markov Kernels for Image Categorization and Annotation", IEEE Transactions on Systems, Man and Cybernetics, Vol. 41, No. 4, pp. 976-989, August 2011., 
 ===== splitted fields 90 =====
 Title = Spatial Markov Kernels for Image Categorization and Annotation
-Volume = 41
 Number = 4
+Volume = 41
 Page = 976-989
 Year = 2011
 Month = August
@@ -2246,7 +2227,6 @@ array[8]:
 Lin Cui, Posco Tso, Di Yao and Weijia Jia, "WeFiLab: A Web-based WiFi Laboratory Platform for Wireless Networking Education", IEEE Transactions on Learning Technologies, 5(4): 291-303 (2012)., 
 ===== splitted fields 91 =====
 Title = WeFiLab: A Web-based WiFi Laboratory Platform for Wireless Networking Education
-bbb
 Volume = 5
 Issue = 4
 Page = 291-303
@@ -2269,7 +2249,6 @@ array[6]:
 Ziqiu Yun, Xiaole Bai, Dong Xuan, Weijia Jia and Wei Zhao, "Pattern Mutation in Wireless Sensor Deployment", IEEE/ACM Transactions on Networking, 20(6), 2012, pp.1964-1977., 
 ===== splitted fields 92 =====
 Title = Pattern Mutation in Wireless Sensor Deployment
-bbb
 Volume = 20
 Issue = 6
 Page = 1964-1977
@@ -2295,7 +2274,6 @@ array[9]:
 Z. Lin, J. Luo, X. Fu,  W. Yu, D. Xuan, W. Jia, "A New Cell Counting Based Attack Against Tor", IEEE/ACM Transactions on Networking, August 2012, 20(4), pp.1245-1261., 
 ===== splitted fields 93 =====
 Title = A New Cell Counting Based Attack Against Tor
-bbb
 Volume = 20
 Issue = 4
 Page = 1245-1261
@@ -2370,8 +2348,8 @@ array[7]:
 Deying Li, Xiaohua Jia, and H. Liu, "Energy efficient broadcast routing in ad hoc wireless networks" , IEEE Trans on Mobile Computing, Vol.3, No.2, Apr-Jun 2004., 
 ===== splitted fields 96 =====
 Title = Energy efficient broadcast routing in ad hoc wireless networks
-Volume = 3
 Number = 2
+Volume = 3
 Year = 2004
 Month = April - June
 Authors = & H. Liu
@@ -2396,8 +2374,8 @@ array[8]:
 C. H. Yuen, E. Chan, K. Y. Lam and H. W. Leung, "Cache Invalidation Scheme for Mobile Computing Systems with Real-time Data", ACM SIGMOD RECORD, Vol. 29 No. 4, Dec. 2000., 
 ===== splitted fields 97 =====
 Title = Cache Invalidation Scheme for Mobile Computing Systems with Real-time Data
-Volume = 29
 Number = 4
+Volume = 29
 Year = 2000
 Month = December
 Journal = ACM SIGMOD RECORD
@@ -2524,7 +2502,6 @@ array[2]:
 ===== testing string 103 =====
 Ma, J. L. C., Wan, E. S. F., & Wong, M. M. C. (2013). Experiencing multiple family groups in a Chinese context: the clients¡¦ perception of its helpful and unhelpful impact. Journal of Social Work Practice: Psychotherapeutic Approaches in Health, Welfare and Community, 27(1), 34-47. , 
 ===== splitted fields 103 =====
-bbb
 Volume = 27
 Issue = 1
 Page = 34-47
@@ -2552,7 +2529,6 @@ array[9]:
 ===== testing string 104 =====
 Ma, J. L.C. & Lai, K. (2009).  Applicability of family therapy for Chinese children and adolescents suffering from anorexia nervosa in a Chinese context: A preliminary study. Social Work in Mental Health, 7(4), 402-423., 
 ===== splitted fields 104 =====
-bbb
 Volume = 7
 Issue = 4
 Page = 402-423
@@ -2603,7 +2579,6 @@ array[11]:
 ===== testing string 106 =====
 (2003). To Tell or Not to Tell; Disability Disclosure and Job Application Outcomes (with Veronica Pearson, Nelson Yip, Frances Ip, K.K. Ho and Heidi Hui). The Journal of Rehabilitation, 69(4), 35-38., 
 ===== splitted fields 106 =====
-bbb
 Volume = 69
 Issue = 4
 Page = 35-38
@@ -2666,7 +2641,6 @@ array[4]:
 ===== testing string 109 =====
 To, S.M., & Chan, T.S. (2013). Searching for the meaning of parenthood: An existential approach to parent education in the Hong Kong-Chinese context. International Social Work, 56(4), 467-481., 
 ===== splitted fields 109 =====
-bbb
 Volume = 56
 Issue = 4
 Page = 467-481
@@ -2718,22 +2692,23 @@ array[12]:
 ===== testing string 111 =====
 J.F. Cai, R.H. Chan, and Z.W. Shen, A Framelet-Based Image Inpainting Algorithm, Appl. Com-put. Harmon. Anal., 24 (2008), 131-149., 
 ===== splitted fields 111 =====
+Volume = 24 
+Issue = 2008
 Page = 131-149
-Year = 2008
 Authors = J.F. Cai& R.H. Chan& & Z.W. Shen
 Title = Com-put. Harmon. Anal
 
 ***Wrong Authors
 ***Wrong Title
 ***Wrong Journal
-***Wrong Volume
+***Wrong Year
 ===== remaining fields 111 =====
 array[0]: 
 array[1]: 
 array[2]: 
 array[3]: A Framelet-Based Image Inpainting Algorithm
 array[4]: Appl.
-array[5]: 24 ()
+array[5]: 
 array[6]: .
 array[7]: 
 ===== end 111 =====
@@ -2742,21 +2717,22 @@ array[7]:
 ===== testing string 112 =====
 R.H. Chan, C.W. Ho, and M. Nikolova, Salt-and-Pepper Noise Removal by Median-type Noise Detectors and Detail-preserving Regularization, IEEE Trans. Image Proc., 14 (2005), 1479-1485., 
 ===== splitted fields 112 =====
+Volume = 14 
+Issue = 2005
 Page = 1479-1485
-Year = 2005
 Authors = R.H. Chan& C.W. Ho& & M. Nikolova
 Title = Salt-and-Pepper Noise Removal by Median-type Noise Detectors and Detail-preserving Regularization
 
 ***Wrong Authors
 ***Wrong Journal
-***Wrong Volume
+***Wrong Year
 ===== remaining fields 112 =====
 array[0]: 
 array[1]: 
 array[2]: 
 array[3]: 
 array[4]: IEEE Trans. Image Proc.
-array[5]: 14 ()
+array[5]: 
 array[6]: .
 array[7]: 
 ===== end 112 =====
@@ -2766,19 +2742,20 @@ array[7]:
 With A. Lorz and P. Markowich: Global Solutions to the coupled chemotaxis-fluid equations, Communications in Partial Differential Equations, 35 (2010), no. 9, 1635-1673., 
 ===== splitted fields 113 =====
 Number = 9
+Volume = 35 
+Issue = 2010
 Page = 1635-1673
-Year = 2010
 Month = March
 Journal = Communications in Partial Differential Equations
 Authors = With A. Lorz& P. Markowich: Global Solutions to the coupled chemotaxis-fluid equations
 
 ***Wrong Authors
 ***Wrong Title
-***Wrong Volume
+***Wrong Year
 ===== remaining fields 113 =====
 array[0]: 
 array[1]: 
-array[2]: 35 ()
+array[2]: 
 array[3]: 
 array[4]: .
 array[5]: 
@@ -2789,15 +2766,16 @@ array[5]:
 With C.-J. Zhu: Existence and uniqueness of entropy solution to initial boundary value problem for the inviscid Burgers equation, Journal of Physics. A. 36 (2003), no. 8, 2099-2107., 
 ===== splitted fields 114 =====
 Number = 8
+Volume = 36 
+Issue = 2003
 Page = 2099-2107
-Year = 2003
-Journal = Journal of Physics. A. 36 ()
+Journal = Journal of Physics. A.
 Authors = With C.-J. Zhu: Existence& uniqueness of entropy solution to initial boundary value problem for the inviscid Burgers equation
 
 ***Wrong Authors
 ***Wrong Title
 ***Wrong Journal
-***Wrong Volume
+***Wrong Year
 ===== remaining fields 114 =====
 array[0]: 
 array[1]: 
@@ -2811,15 +2789,15 @@ array[4]:
 With T. Yang and C.-J. Zhu: Boltzmann equation with external force and Vlasov-Poisson-Boltzmann system in infinite vacuum, Discrete and Continuous Dynamical Systems 16 (2006), no. 1, 253-277., 
 ===== splitted fields 115 =====
 Number = 1
+Volume = 16 
+Issue = 2006
 Page = 253-277
-Year = 2006
-Journal = Discrete and Continuous Dynamical Systems 16 ()
+Journal = Discrete and Continuous Dynamical Systems
 Authors = With T. Yang& C.-J. Zhu: Boltzmann equation with external force and Vlasov-Poisson-Boltzmann system in infinite vacuum
 
 ***Wrong Authors
 ***Wrong Title
-***Wrong Journal
-***Wrong Volume
+***Wrong Year
 ===== remaining fields 115 =====
 array[0]: 
 array[1]: 
@@ -3215,7 +3193,6 @@ array[2]:
 ===== testing string 135 =====
 Bolton, Kingsley (2008a) Comment 2. World Englishes, 27(2), 270-71., 
 ===== splitted fields 135 =====
-bbb
 Volume = 27
 Issue = 2
 Page = 270-71
@@ -3259,7 +3236,6 @@ array[6]:
 ===== testing string 137 =====
 Du-Babcock, Bertha (2006c) An analysis of topic management strategies and turn-taking behavior in the Hong Kong bilingual environment: The impact of culture and language use. Journal of Business Communication, 43(1), 21-42. , 
 ===== splitted fields 137 =====
-bbb
 Volume = 43
 Issue = 1
 Page = 21-42
@@ -3282,8 +3258,8 @@ array[4]:
 Su, Chenting and James E. Littlefield (2001), "Entering Guanxi: A Business Ethical Dilemma in Mainland China?", Journal of Business Ethics, Vol. 33, No.3, pp. 199-210., 
 ===== splitted fields 138 =====
 Title = Entering Guanxi: A Business Ethical Dilemma in Mainland China?
-Volume = 33
 Number = 3
+Volume = 33
 Page = 199-210
 Year = 2001
 Journal = Journal of Business Ethics
@@ -3306,8 +3282,8 @@ array[7]:
 Su, Chenting, Joe Sirgy, and James E. Littlefield (2003), "Is Guanxi Orientation Bad, Ethically Speaking? A Study of Chinese Enterprises", Journal of Business Ethics, Vol. 44, No.4, pp. 303-312., 
 ===== splitted fields 139 =====
 Title = Is Guanxi Orientation Bad, Ethically Speaking? A Study of Chinese Enterprises
-Volume = 44
 Number = 4
+Volume = 44
 Page = 303-312
 Year = 2003
 Journal = Journal of Business Ethics
@@ -3388,14 +3364,14 @@ array[9]:
 Su, Chenting, Zhilin Yang, Nan Zhou, Guijun Zhuang, and Wenyu Dou (2009), "Interpersonal Influence as an Alternative Channel Communication Behavior in Emerging Markets: The Case of China", Journal of International Business Studies, 40 (4), May, 668-689., 
 ===== splitted fields 142 =====
 Title = Interpersonal Influence as an Alternative Channel Communication Behavior in Emerging Markets: The Case of China
+Volume = 40 
+Issue = 4
 Page = 668-689
 Year = 2009
 Month = May
 Journal = Journal of International Business Studies
 
 ***Wrong Authors
-***Wrong Volume
-***Wrong Issue
 ===== remaining fields 142 =====
 array[0]: Su
 array[1]: Chenting
@@ -3405,7 +3381,7 @@ array[4]: Guijun Zhuang
 array[5]: and Wenyu Dou ()
 array[6]: 
 array[7]: 
-array[8]: 40 (4)
+array[8]: 
 array[9]: May
 array[10]: .
 array[11]: 
@@ -3966,8 +3942,8 @@ array[7]:
 Dou, Wenyu and David Chou (2001), "A Structural Analysis of Business-to-Business Digital Markets", Industrial Marketing Management, Vol. 31, No.2, pp. 165-176., 
 ===== splitted fields 167 =====
 Title = A Structural Analysis of Business-to-Business Digital Markets
-Volume = 31
 Number = 2
+Volume = 31
 Page = 165-176
 Year = 2001
 
@@ -4187,8 +4163,8 @@ array[5]:
 J.L. Sanders & W.K. Leung (1986), "Simulation Analysis of Free-transfer Assembly System with Tunnel-Gated Stations", Journal of Manufacturing Systems, Vol 5, No. 3, p 191-201, (SCI)., 
 ===== splitted fields 177 =====
 Title = Simulation Analysis of Free-transfer Assembly System with Tunnel-Gated Stations
-Volume = 5
 Number = 3
+Volume = 5
 Page = 191-201
 Year = 1986
 Journal = Journal of Manufacturing Systems
@@ -4211,20 +4187,20 @@ array[7]:
 Leung, John W. K. and Kenneth K. Kwong (2009), "A Structured Approach to Describing Service for Creating a Delightful Experience", Computers & Industrial Engineering, 57 (2), 563-570., 
 ===== splitted fields 178 =====
 Title = A Structured Approach to Describing Service for Creating a Delightful Experience
+Volume = 57 
+Issue = 2
 Page = 563-570
 Year = 2009
 Journal = Computers & Industrial Engineering
 Authors = John W. K.& Kenneth K. Kwong ()
 
 ***Wrong Authors
-***Wrong Volume
-***Wrong Issue
 ===== remaining fields 178 =====
 array[0]: Leung
 array[1]: 
 array[2]: 
 array[3]: 
-array[4]: 57 (2)
+array[4]: 
 array[5]: .
 array[6]: 
 ===== end 178 =====
@@ -4440,7 +4416,6 @@ array[2]:
 ===== testing string 188 =====
 Lo, T.W. (2012). Resistance to the mainlandization of criminal justice practices: A barrier to the development of restorative justice in Hong Kong. International Journal of Offender Therapy and Comparative Criminology. 56(4). 627 - 645., 
 ===== splitted fields 188 =====
-bbb
 Volume = 56
 Issue = 4
 Page = 627-645
@@ -4460,15 +4435,15 @@ array[2]:
 ===== testing string 189 =====
 Lo, T.W. (2012). Triadization of youth gangs in Hong Kong. British Journal of Criminology. 52 (3). 556 - 576. , 
 ===== splitted fields 189 =====
+Volume = 52 
+Issue = 3
 Page = 556-576
 Year = 2012
-Journal = T.W. (). Triadization of youth gangs in Hong Kong. British Journal of Criminology. 52 (3)..
+Journal = T.W. (). Triadization of youth gangs in Hong Kong. British Journal of Criminology...
 
 ***Wrong Authors
 ***Wrong Title
 ***Wrong Journal
-***Wrong Volume
-***Wrong Issue
 ===== remaining fields 189 =====
 array[0]: Lo
 array[1]: 
@@ -4727,15 +4702,15 @@ array[4]:
 ===== testing string 201 =====
 Wong, D.S.W. & Lo, T.W. (2011). The Recent Development of Restorative Social Work Practices in Hong Kong. International Social Work. 54 (5). 701 - 716., 
 ===== splitted fields 201 =====
+Volume = 54 
+Issue = 5
 Page = 701-716
 Year = 2011
-Authors = D.S.W. & Lo& T.W. (). The Recent Development of Restorative Social Work Practices in Hong Kong. International Social Work. 54 (5)..& 
+Authors = D.S.W. & Lo& T.W. (). The Recent Development of Restorative Social Work Practices in Hong Kong. International Social Work...& 
 
 ***Wrong Authors
 ***Wrong Title
 ***Wrong Journal
-***Wrong Volume
-***Wrong Issue
 ===== remaining fields 201 =====
 array[0]: Wong
 array[1]: 
@@ -4905,8 +4880,8 @@ array[7]:
 "Agency Costs of Free Cash Flow and the Effect of Shareholder Rights on the Implied Cost of Equity Capital", Journal of Financial and Quantitative Analysis, February 2011, Vol. 46, No. 1, pp. 171-207 (jointly with K. C. W. Chen and J. K. C. Wei), 
 ===== splitted fields 209 =====
 Title = Agency Costs of Free Cash Flow and the Effect of Shareholder Rights on the Implied Cost of Equity Capital
-Volume = 46
 Number = 1
+Volume = 46
 Page = 171-207
 Year = 2011
 Month = February
@@ -4977,8 +4952,8 @@ array[6]:
 "Are Stock Option Grants to Directors of State-Controlled Chinese Firms Listed in Hong Kong Genuine Compensation?", The Accounting Review, April 2013, Vol. 88, No. 5, pp. 1547-1574 (jointly with Z. H. Chen and B. Ke), 
 ===== splitted fields 212 =====
 Title = Are Stock Option Grants to Directors of State-Controlled Chinese Firms Listed in Hong Kong Genuine Compensation?
-Volume = 88
 Number = 5
+Volume = 88
 Page = 1547-1574
 Year = 2013
 Month = April
@@ -5025,8 +5000,8 @@ array[6]:
 "Managerial Autonomy and Tax Compliance: An Empirical Study on International Transfer Pricing", The Journal of the American Taxation Association, 2006, Vol. 28, No. 2, pp.1-22. (jointly with K. H. Chan and A. Lo), 
 ===== splitted fields 214 =====
 Title = Managerial Autonomy and Tax Compliance: An Empirical Study on International Transfer Pricing
-Volume = 28
 Number = 2
+Volume = 28
 Page = 1-22
 Year = 2006
 Journal =  Journal of the American Taxation Association
@@ -5163,10 +5138,10 @@ Title = Equity Price Variation in Pacific Basin Countries
 Page = 211-227
 Year = 1995
 Authors = Theodore Bos& Thomas A. Fetherston eds.
+Volume = I
 
 ***Wrong Authors
 ***Wrong Title
-***Wrong Volume
 ***Wrong Chapter
 ***Wrong Editors
 ===== remaining fields 220 =====
@@ -5206,10 +5181,10 @@ Y W Cheung and Clement Yuk-Pang Wong (1999), "Foreign Exchange Traders in Hong K
 Title = Foreign Exchange Traders in Hong Kong, Japan, and Singapore: A Survey Study
 Page = 111-134
 Year = 1999
+Volume = V
 
 ***Wrong Authors
 ***Wrong Title
-***Wrong Volume
 ***Wrong Chapter
 ***Wrong Editors
 ===== remaining fields 222 =====
@@ -5291,8 +5266,8 @@ array[5]:
 Isabel Yan (with Qian Su and Terence Chong) (2007), "On the Convergence of the China and Hong Kong Stock Markets: A Cointegration Analysis of the A and H shares", Applied Financial Economics, Vol. 17, No. 16, pp. 1349-1357., 
 ===== splitted fields 226 =====
 Title = On the Convergence of the China and Hong Kong Stock Markets: A Cointegration Analysis of the A and H shares
-Volume = 17
 Number = 16
+Volume = 17
 Page = 1349-1357
 Year = 2007
 
@@ -5368,8 +5343,8 @@ array[8]:
 "Long-term Care: Autonomy, Dignity, Family Integrity and Sustainability: The Hong Kong Experience", Journal of Medicine and Philosophy, Vol. 32, No. 5, 2007 pp. 401-424. (with Sam Pang), 
 ===== splitted fields 229 =====
 Title = Long-term Care: Autonomy, Dignity, Family Integrity and Sustainability: The Hong Kong Experience
-Volume = 32
 Number = 5
+Volume = 32
 Page = 401-424
 Year = 2007
 Journal = Journal of Medicine and Philosophy
@@ -5411,8 +5386,8 @@ array[6]:
 Sue-Chan, C and Dasborough, M (July 2006), "The Influence of Relation-and Rule-Based Regulation on Hiring Decisions in Australia and Hong Kong, Chinese Cultural Contexts", International Journal of Human Resource Management, Vol. 17, No. 7, pp. 1267 ¡V 1292., 
 ===== splitted fields 231 =====
 Title = The Influence of Relation-and Rule-Based Regulation on Hiring Decisions in Australia and Hong Kong, Chinese Cultural Contexts
-Volume = 17
 Number = 7
+Volume = 17
 Year = 2006
 Month = July
 Journal = International Journal of Human Resource Management
@@ -5642,14 +5617,15 @@ array[3]:
 ===== testing string 241 =====
 Wong DK, Yuen MF, Yuan HJ, Hui CK, Hall JG, Sum SSM, Lai CL. Quantitation of covalently closed circular hepatitis B virus DNA in chronic hepatitis B patients. Hepatology. 2004; 40:727-737. [impact factor: 12; citation: 52], 
 ===== splitted fields 241 =====
-Page = 727-737
+Volume = 40
+Issue = 727-737
 Year = 2004
-Authors = Lai CL. Quantitation of covalently closed circular hepatitis B virus DNA in chronic hepatitis B patients. Hepatology.; 40:. [impact factor: 12; citation: 52]& 
+Authors = Lai CL. Quantitation of covalently closed circular hepatitis B virus DNA in chronic hepatitis B patients. Hepatology.;. [impact factor: 12; citation: 52]& 
 
 ***Wrong Authors
 ***Wrong Title
 ***Wrong Journal
-***Wrong Volume
+***Wrong Page
 ===== remaining fields 241 =====
 array[0]: Wong DK
 array[1]: Yuen MF
@@ -5665,14 +5641,15 @@ array[7]:
 ===== testing string 242 =====
 Wong DK, Yuen MF, Tse E, Yuan HJ, Sum SSM, Hui CK, Lai CL. Detection of intrahepatic hepatitis B virus DNA and its correlation with hepatic necroinflammation and fibrosis. J Clin Microbiol. 2004; 42:3920-3924. [impact factor: 4.06; citation: 8], 
 ===== splitted fields 242 =====
-Page = 3920-3924
+Volume = 42
+Issue = 3920-3924
 Year = 2004
-Authors = Lai CL. Detection of intrahepatic hepatitis B virus DNA& its correlation with hepatic necroinflammation and fibrosis. J Clin Microbiol.; 42:. [impact factor: 4.06; citation: 8]
+Authors = Lai CL. Detection of intrahepatic hepatitis B virus DNA& its correlation with hepatic necroinflammation and fibrosis. J Clin Microbiol.;. [impact factor: 4.06; citation: 8]
 
 ***Wrong Authors
 ***Wrong Title
 ***Wrong Journal
-***Wrong Volume
+***Wrong Page
 ===== remaining fields 242 =====
 array[0]: Wong DK
 array[1]: Yuen MF
@@ -5706,15 +5683,16 @@ array[2]:
 ===== testing string 244 =====
 Wang AY, Lai KN. Use of cardiac biomarkers in end-stage renal disease. J Am Soc Nephrol 2008;19:1643-1652. , 
 ===== splitted fields 244 =====
-Page = 1643-1652
+Volume = 19
+Issue = 1643-1652
 Year = 2008
 Month = March
-Authors = Lai KN. Use of cardiac biomarkers in end-stage renal disease. J Am Soc Nephrol;19:.& 
+Authors = Lai KN. Use of cardiac biomarkers in end-stage renal disease. J Am Soc Nephrol;.& 
 
 ***Wrong Authors
 ***Wrong Title
 ***Wrong Journal
-***Wrong Volume
+***Wrong Page
 ===== remaining fields 244 =====
 array[0]: Wang AY
 array[1]: 
@@ -5725,7 +5703,6 @@ array[2]:
 ===== testing string 245 =====
 Jim, C.Y. and Chen, W.Y. (2006) Perception and attitude of residents towards urban green spaces inGuangzhou (China). Environmental Management 38(3): 338-349., 
 ===== splitted fields 245 =====
-bbb
 Volume = 38
 Issue = 3
 Page = 338-349
@@ -5767,7 +5744,6 @@ array[3]:
 ===== testing string 247 =====
 Zhang, D. and Shi, C. (2001) Sedimentary causes and management of two principal environmental problems in the lower Yellow River. Environmental Management28(6): 749-760. New York:Springer-Verlag. , 
 ===== splitted fields 247 =====
-bbb
 Volume = 28
 Issue = 6
 Page = 749-760
@@ -5789,7 +5765,6 @@ array[3]:
 ===== testing string 248 =====
 Zhang, D.D., Brecke, P., Lee, H.F., He, Y., and Zhang, J. (2007)Global climate change, war and population collapse during the recent human history. Proceedings of the National Academy of Sciences of the United States of America 104(49): 19214-19219. Washington, D.C.: National Academy of Sciences, 
 ===== splitted fields 248 =====
-bbb
 Volume = 104
 Issue = 49
 Page = 19214-19219
@@ -5821,7 +5796,6 @@ array[12]:
 ===== testing string 249 =====
 Cheung, L.T.O. & C.Y. Jim. (2013). Ecotourism service preference and management in Hong Kong. International Journal of Sustainable Development and World Ecology 20(2): 182-194 , 
 ===== splitted fields 249 =====
-bbb
 Volume = 20
 Issue = 2
 Page = 182-194
@@ -5864,7 +5838,6 @@ array[6]:
 ===== testing string 251 =====
 Jim, C.Y. (1985) Impregnation of moist and dry unconsolidated clay samples using Spurr resin for micro-structural studies. Journal of Sedimentary Petrology (American Association of Petroleum Geologists, Tulsa, Arizona) 55(4): 597-599., 
 ===== splitted fields 251 =====
-bbb
 Volume = 55
 Issue = 4
 Page = 597-599
@@ -6131,7 +6104,6 @@ array[9]:
 ===== testing string 262 =====
 J. Leung (2009). Residential care services for older people in China: from state to market provisions? Social Development Issues, 32(1), 31-47., 
 ===== splitted fields 262 =====
-bbb
 Volume = 32
 Issue = 1
 Page = 31-47
@@ -6151,7 +6123,6 @@ array[3]:
 ===== testing string 263 =====
 Chan, K.L., Choi, W.M. Anna, Fong, Daniel Y.T., Chow, C.B., Leung, M. & Ip, P. (2013). Characteristics of family violence victims presenting to emergency departments in Hong Kong. The Journal of Emergency Medicine, 44(1): 249-258. (IF= 1.306), 
 ===== splitted fields 263 =====
-bbb
 Volume = 44
 Issue = 1
 Page = 249-258
@@ -6182,7 +6153,6 @@ array[12]:
 ===== testing string 264 =====
 Chow, A.Y.M. (2010). Anticipatory anniversary bereavement effects and Bereavement: Development of an integrated explanatory model. Journal of Loss and Trauma, 15(1), 54-68. doi:10.1080/15325020902925969, 
 ===== splitted fields 264 =====
-bbb
 Volume = 15
 Issue = 1
 Page = 54-68
@@ -6230,7 +6200,9 @@ array[6]:
 "Elementary Excitations for Two-Dimensional Quantum Heisenberg Antiferromagnet", Guanhua Chen, Hong-Qiang Ding and William A. Goddard III*, Phys. Rev. B 46, 2933 (1992). DOI:10.1103/PhysRevB.46.2933, 
 ===== splitted fields 266 =====
 Title = Elementary Excitations for Two-Dimensional Quantum Heisenberg Antiferromagnet
-Authors = Hong-Qiang Ding& William A. Goddard III*2933 (1992). DOI:10.1103/PhysRevB.46.2933& 
+Volume = 2933 
+Issue = 1992
+Authors = Hong-Qiang Ding& William A. Goddard III*. DOI:10.1103/PhysRevB.46.2933& 
 
 ***Wrong Authors
 ***Wrong Journal
@@ -6250,8 +6222,8 @@ array[5]:
 ===== testing string 267 =====
 Y. Liu, H. Pan, J. Snyder, W. Wang, B.N. Guo, Computing self-supporting surfaces by regular triangulation, ACM Transactions on Graphics (SIGGRAPH 2013), vol. 32, no. 4, 2013, 
 ===== splitted fields 267 =====
-Volume = 32
 Number = 4
+Volume = 32
 Year = 2013
 Journal = ACM Transactions on Graphics (SIGGRAPH)
 Authors = Y. Liu& H. Pan& J. Snyder& W. Wang& B.N. Guo& 
@@ -6278,8 +6250,8 @@ array[10]:
 ===== testing string 268 =====
 Z.C. Zhong, X.H. Guo. W. Wang, B. Levy, F. Sun, Y. Liu, W.H. Mao , Particle-based anisotropic surface meshing, ACM Transactions on Graphics (SIGGRAPH 2013), vol. 32. no. 4, 2013, 
 ===== splitted fields 268 =====
-Volume = 32
 Number = 4
+Volume = 32
 Year = 2013
 Journal = ACM Transactions on Graphics (SIGGRAPH)
 Authors = Z.C. Zhong& X.H. Guo. W. Wang& B. Levy& F. Sun& Y. Liu& W.H. Mao& 
@@ -6305,8 +6277,8 @@ array[10]:
 ===== testing string 269 =====
 Y.F. Li, Y. Liu, W.W. Xu, W. Wang, B.N. Guo, All-hex meshing using singularity-restricted field, ACM Transactions on Graphics (SIGGRAPH Asia 2012), vol. 31, no. 6, 2012 , 
 ===== splitted fields 269 =====
-Volume = 31
 Number = 6
+Volume = 31
 Year = 2012
 Journal = ACM Transactions on Graphics (SIGGRAPH Asia)
 Authors = Y.F. Li& Y. Liu& W.W. Xu& W. Wang& B.N. Guo& 
@@ -6332,8 +6304,8 @@ array[10]:
 ===== testing string 270 =====
 Z.G. Chen, Z. Yuan, Y.K. Choi, L.G. Liu, and W. Wang, Variational blue noise sampling, IEEE Transactions on Visualization and Computer Graphics (TVCG), vol. 18, no. 10, 2012, pp. 1290-1303., 
 ===== splitted fields 270 =====
-Volume = 18
 Number = 10
+Volume = 18
 Page = 1290-1303
 Year = 2012
 Journal = IEEE Transactions on Visualization and Computer Graphics (TVCG)
@@ -6360,7 +6332,6 @@ array[11]:
 ===== testing string 271 =====
 Mee Yee Chan, Wun-Tat Chan, Francis Y.L. Chin, Stanley P.Y. Fung, and Ming-Yang Kao, Linear-time Haplotype Inference on Pedigrees without Recombinations and Mating Loops, SIAM Journal of Computing, 38(6): 2179-2197 (March 2009) - preliminary version appeared in WABI 2006, 
 ===== splitted fields 271 =====
-bbb
 Volume = 38
 Issue = 6
 Page = 2179-2197
@@ -6387,7 +6358,6 @@ array[8]:
 ===== testing string 272 =====
 Huiping Cao, Nikos Mamoulis, and David W. Cheung, Discovery of Periodic Patterns in Spatiotemporal Sequences, IEEE Transaction on Knowledge and Data Engineering, IEEE Computer Society, 19(4): 453-467, April 2007. , 
 ===== splitted fields 272 =====
-bbb
 Volume = 19
 Issue = 4
 Page = 453-467
@@ -6528,8 +6498,8 @@ array[7]:
 ===== testing string 278 =====
 Z.C.H. Yu, F.C.M. Lau, and C.L. Wang , Object Co-location and Memory Reuse for Java Programs, ACM Transactions on Architecture and Code Optimization, Vol. 4, No. 4, January 2008. , 
 ===== splitted fields 278 =====
-Volume = 4
 Number = 4
+Volume = 4
 Year = 2008
 Month = January
 Journal = ACM Transactions on Architecture and Code Optimization
@@ -6594,8 +6564,8 @@ array[5]:
 Dickson K. W. Chiu, Qing Li, Patrick C. K. Hung, Zhe Shan, S. C. Cheung, Yu Yang, and Matthias Farwick, "Service Composition and Interaction in a SOC Middleware Supporting Separation of Concerns with Flows and Views," Journal of Database Management, vol. 22, no. 2, May 2011, pp. 32-63, 
 ===== splitted fields 281 =====
 Title = Service Composition and Interaction in a SOC Middleware Supporting Separation of Concerns with Flows and Views,
-Volume = 22
 Number = 2
+Volume = 22
 Page = 32-63
 Year = 2011
 Month = May
@@ -6624,8 +6594,8 @@ array[12]:
 ===== testing string 282 =====
 Chushu Gao, Jun Wei, Chang Xu, and S.C. Cheung. Sequential Event Pattern Based Design of Context-aware Adaptive Application. International Journal of Software and Informatics (IJSI), Vol. 4, No. 4, pp. 419-436, Dec 2010. , 
 ===== splitted fields 282 =====
-Volume = 4
 Number = 4
+Volume = 4
 Page = 419-436
 Year = 2010
 Month = June, December
@@ -6765,7 +6735,6 @@ array[3]:
 Wei WANG, Guohua CHEN (2005) "Heat And Mass Transfer Model In Dielectric-Material-Assisted Microwave Freeze Drying Of Skim Milk, A Porous Hygroscopic Material", Chemical Engineering Science, 60(23), 6542-6550., 
 ===== splitted fields 289 =====
 Title = Heat And Mass Transfer Model In Dielectric-Material-Assisted Microwave Freeze Drying Of Skim Milk, A Porous Hygroscopic Material
-bbb
 Volume = 60
 Issue = 23
 Page = 6542-6550
@@ -6787,19 +6756,19 @@ array[5]:
 Jing HU, Guohua CHEN, Irene LO (2006) "Selective Removal and Recovery of Various Heavy Metals by Maghemite Nanoparticles: performance and mechanism", Journal of Environmental Engineering, 132 (7) 709-715., 
 ===== splitted fields 290 =====
 Title = Selective Removal and Recovery of Various Heavy Metals by Maghemite Nanoparticles: performance and mechanism
+Volume = 132 
+Issue = 7
 Page = 709-715
 Year = 2006
 Journal = Journal of Environmental Engineering
 
 ***Wrong Authors
-***Wrong Volume
-***Wrong Issue
 ===== remaining fields 290 =====
 array[0]: Jing HU
 array[1]: Guohua CHEN
 array[2]: Irene LO ()
 array[3]: 
-array[4]: 132 (7).
+array[4]: .
 array[5]: 
 ===== end 290 =====
 
@@ -6907,8 +6876,8 @@ array[8]:
 L. Chen, Z. Xiao, P.C.H. Chan, Y.-K. Lee, "Static and Dynamic Characterization of Robust Superhydrophobic Surfaces Built from Nano-flowers on Silicon Micro-Post Arrays,"Journal Micromechanics and Microengineering, Vol. 20. No. 10,  105001 (8pp), 2010 (dx.doi.org/10.1088/0960-1317/20/10/105001)., 
 ===== splitted fields 295 =====
 Title = Static and Dynamic Characterization of Robust Superhydrophobic Surfaces Built from Nano-flowers on Silicon Micro-Post Arrays,
-Volume = 20
 Number = 10
+Volume = 20
 Page = 0960-1317
 Year = 2010
 Journal = Journal Micromechanics and Microengineering
@@ -6983,18 +6952,20 @@ array[6]:
 T.Slee, Lin Zhenyang and D.M.P.Mingos* "Polyhedral skeletal electron pair theory of bare clusters 1: small silicon clusters" Inorg. Chem.,28, 2256-2261(1989) , 
 ===== splitted fields 298 =====
 Title = Polyhedral skeletal electron pair theory of bare clusters 1: small silicon clusters
-Page = 2256-2261
-Year = 1989
+Volume = 2261
+Issue = 1989
 Authors = T.Slee& Lin Zhenyang& D.M.P.Mingos*  Inorg. Chem.
 
 ***Wrong Authors
 ***Wrong Journal
 ***Wrong Volume
+***Wrong Page
+***Wrong Year
 ===== remaining fields 298 =====
 array[0]: 
 array[1]: 
 array[2]: 28
-array[3]: ()
+array[3]: 2256-
 array[4]: 
 ===== end 298 =====
 
@@ -7003,16 +6974,18 @@ array[4]:
 Zhenyang Lin and Michael B. Hall* "Theoretical studies of Inorganic and Organometallic Reaction Mechanisms. 2. The trans-Effect in Four Coordinate Platinum(II) and Rh(I) Subsititution Reactions" Inorg. Chem.30, 646-651(1991) , 
 ===== splitted fields 299 =====
 Title = Theoretical studies of Inorganic and Organometallic Reaction Mechanisms. 2. The trans-Effect in Four Coordinate Platinum(II) and Rh(I) Subsititution Reactions
-Page = 646-651
-Year = 1991
+Volume = 651
+Issue = 1991
 Authors = Zhenyang Lin& Michael B. Hall*  Inorg. Chem.30
 
 ***Wrong Authors
 ***Wrong Journal
 ***Wrong Volume
+***Wrong Page
+***Wrong Year
 ===== remaining fields 299 =====
 array[0]: 
-array[1]: ()
+array[1]: 646-
 array[2]: 
 ===== end 299 =====
 
@@ -7021,14 +6994,16 @@ array[2]:
 "Dendritic Nanostructures of Silver: Facile Synthesis, Structural Characterizations, and Sensing  Applications" Langmuir 22, 4836-4842 (2006)., 
 ===== splitted fields 300 =====
 Title = Dendritic Nanostructures of Silver: Facile Synthesis, Structural Characterizations, and Sensing  Applications
-Page = 4836-4842
-Year = 2006
+Volume = 4842 
+Issue = 2006
 
 ***Wrong Journal
 ***Wrong Volume
+***Wrong Page
+***Wrong Year
 ===== remaining fields 300 =====
 array[0]: Langmuir 22
-array[1]: ().
+array[1]: 4836-.
 array[2]: 
 ===== end 300 =====
 
@@ -7037,7 +7012,6 @@ array[2]:
 "The Design of New Molecular Light Swithces for DNA" J. Biol. Inorg. Chem., 6(2), 143-150 (2001)., 
 ===== splitted fields 301 =====
 Title = The Design of New Molecular Light Swithces for DNA
-bbb
 Volume = 6
 Issue = 2
 Page = 143-150
@@ -7057,6 +7031,8 @@ array[3]:
 "Dinuclear Ruthenium Nitrido Complexes Supported by an Oxygen Tripodal Ligand", Inorganic Chemistry, 51, 10529 (2012)  , 
 ===== splitted fields 302 =====
 Title = Dinuclear Ruthenium Nitrido Complexes Supported by an Oxygen Tripodal Ligand
+Volume = 10529 
+Issue = 2012
 Journal = Inorganic Chemistry
 
 ***Wrong Volume
@@ -7066,7 +7042,7 @@ Journal = Inorganic Chemistry
 array[0]: 
 array[1]: 
 array[2]: 51
-array[3]: 10529 (2012)
+array[3]: 
 array[4]: 
 ===== end 302 =====
 
@@ -7075,6 +7051,8 @@ array[4]:
 "Iridium(III) silyl alkyl and iridacyclic compounds supported by 4,4'-di-tert-butyl-2,2'-bipyridyl" Chemistry - A European Journal, 12, 9323 (2006)., 
 ===== splitted fields 303 =====
 Title = Iridium(III) silyl alkyl and iridacyclic compounds supported by 4,4'-di-tert-butyl-2,2'-bipyridyl
+Volume = 9323 
+Issue = 2006
 Journal = Chemistry - A European Journal
 
 ***Wrong Volume
@@ -7083,7 +7061,7 @@ Journal = Chemistry - A European Journal
 ===== remaining fields 303 =====
 array[0]: 
 array[1]: 12
-array[2]: 9323 (2006).
+array[2]: .
 array[3]: 
 ===== end 303 =====
 
@@ -7341,8 +7319,9 @@ array[12]:
 "Design of product listing pages on e-commerce websites: An examination of presentation mode and information format," International Journal of Human-Computer Studies, 61, 4 (2004), pp. 481-503. (with W. Hong and K.Y. Tam), 
 ===== splitted fields 316 =====
 Title = Design of product listing pages on e-commerce websites: An examination of presentation mode and information format,
+Volume = 4 
+Issue = 2004
 Page = 481-503
-Year = 2004
 Journal = International Journal of Human-Computer Studies
 Authors = . (with W. Hong& K.Y. Tam)
 
@@ -7350,10 +7329,11 @@ Authors = . (with W. Hong& K.Y. Tam)
 ***Wrong Title
 ***Wrong Volume
 ***Wrong Issue
+***Wrong Year
 ===== remaining fields 316 =====
 array[0]: 
 array[1]: 61
-array[2]: 4 ()
+array[2]: 
 array[3]: 
 array[4]: 
 ===== end 316 =====
@@ -7644,7 +7624,6 @@ array[8]:
 ===== testing string 331 =====
 Kong, S.C., & So, W.M.W. (2004). The design of computer-mediated learning resources for the inquiry approach to building knowledge of family trees. Global Chinese Journal on Computers in Education, 2(2), 44-58. , 
 ===== splitted fields 331 =====
-bbb
 Volume = 2
 Issue = 2
 Page = 44-58
@@ -7838,14 +7817,13 @@ array[5]:
 "Beyond Internal Capital Markets: The In-House Transmission of Adverse Sales Shocks and the Collateral Channel", (with Yuk Ying Chang), 2007, Journal of Corporate Finance 13 (5), 743-770., 
 ===== splitted fields 339 =====
 Title = Beyond Internal Capital Markets: The In-House Transmission of Adverse Sales Shocks and the Collateral Channel
+Volume = 13 
+Issue = 5
 Page = 743-770
 Year = 2007
-Journal = Journal of Corporate Finance 13 (5)
+Journal = Journal of Corporate Finance
 
 ***Wrong Authors
-***Wrong Journal
-***Wrong Volume
-***Wrong Issue
 ===== remaining fields 339 =====
 array[0]: 
 array[1]: (with Yuk Ying Chang)
@@ -7921,18 +7899,20 @@ array[5]:
 "Spin Polarized Vacuum Tunnelling from Co-Coated W(111) Tips", R. Bryl and M. Altman, Journal of Applied Physics 94, 4670-4675 (2003)., 
 ===== splitted fields 343 =====
 Title = Spin Polarized Vacuum Tunnelling from Co-Coated W(111) Tips
-Page = 4670-4675
-Year = 2003
+Volume = 4675 
+Issue = 2003
 Journal = Journal of Applied Physics 94
 Authors = R. Bryl& M. Altman
 
 ***Wrong Journal
 ***Wrong Volume
+***Wrong Page
+***Wrong Year
 ===== remaining fields 343 =====
 array[0]: 
 array[1]: 
 array[2]: 
-array[3]: ().
+array[3]: 4670-.
 array[4]: 
 ===== end 343 =====
 
@@ -7941,17 +7921,19 @@ array[4]:
 "Step Contrast in Low Energy Electron Microscopy", W.F. Chung and M.S. Altman, Ultramicroscopy 74, 237 (1998). , 
 ===== splitted fields 344 =====
 Title = Step Contrast in Low Energy Electron Microscopy
-Year = 1998
+Volume = 237 
+Issue = 1998
 Authors = W.F. Chung& M.S. Altman
 
 ***Wrong Journal
 ***Wrong Volume
 ***Wrong Page
+***Wrong Year
 ===== remaining fields 344 =====
 array[0]: 
 array[1]: 
 array[2]: Ultramicroscopy 74
-array[3]: 237 ().
+array[3]: .
 array[4]: 
 ===== end 344 =====
 
@@ -7959,6 +7941,8 @@ array[4]:
 ===== testing string 345 =====
 Multi-component assembly of supramolecular coordination polygons on a Au(111) surface, T. Lin, X. S. Shang, P. N. Liu, N. Lin, J. Phys. Chem. C. 117, 23027 (2013)., 
 ===== splitted fields 345 =====
+Volume = 23027 
+Issue = 2013
 Authors = T. Lin& X. S. Shang& P. N. Liu& N. Lin& J. Phys. Chem. C. 117& 
 Title = Multi-component assembly of supramolecular coordination polygons on a Au(111) surface
 
@@ -7974,7 +7958,7 @@ array[2]:
 array[3]: 
 array[4]: 
 array[5]: 
-array[6]: 23027 (2013).
+array[6]: .
 array[7]: 
 ===== end 345 =====
 
@@ -7982,6 +7966,8 @@ array[7]:
 ===== testing string 346 =====
 Coordination self-assembly of bromo-phenyl and pyridyl functionalized porphyrins with Fe on a Au(111) surface, X. F. Mao, T. Lin, J. Adisoejoso, Z. Shi, X. S. Shang, P. N. Liu, N. Lin, Phys. Chem. Chem. Phys. 15, 12447 (2013)., 
 ===== splitted fields 346 =====
+Volume = 12447 
+Issue = 2013
 Authors = X. F. Mao& T. Lin& J. Adisoejoso& Z. Shi& X. S. Shang& P. N. Liu& N. Lin& 
 Title = Coordination self-assembly of bromo-phenyl and pyridyl functionalized porphyrins with Fe on a Au(111) surface
 
@@ -8000,7 +7986,7 @@ array[5]:
 array[6]: 
 array[7]: 
 array[8]: Phys. Chem. Chem. Phys. 15
-array[9]: 12447 (2013).
+array[9]: .
 array[10]: 
 ===== end 346 =====
 
@@ -8008,6 +7994,8 @@ array[10]:
 ===== testing string 347 =====
 Recovery of Clean Ordered (111) Surface of Etched Silicon, A. M. C. Ng, L. Dong, W. K. Ho, A. B. Djuri?i?, M. H. Xie, H. S. Wu, N. Lin, S. Y. Tong, Appl. Surf. Sci. DOI: 10.1016/j.apsusc.2013.05.092 (2013)., 
 ===== splitted fields 347 =====
+Volume = 092 
+Issue = 2013
 Year = 2013
 Month = May
 Authors = A. M. C. Ng& L. Dong& W. K. Ho& A. B. Djuri?i?& M. H. Xie& H. S. Wu& N. Lin& S. Y. Tong& 
@@ -8025,7 +8013,7 @@ array[5]:
 array[6]: 
 array[7]: 
 array[8]: 
-array[9]: Appl. Surf. Sci. DOI: 10.1016/j.apsusc.2013.05.092 (2013).
+array[9]: Appl. Surf. Sci. DOI: 10.1016/j.apsusc.2013.05..
 array[10]: 
 ===== end 347 =====
 
@@ -8055,6 +8043,8 @@ array[7]:
 Dingdi Wang, Wenhao Guo, Juanmei Hu, Fang Liu, Lisheng Chen, Shengwang Du, and Zikang Tang, "Estimating atomic sizes with Raman spectroscopy," Scientific Reports 3, 1486 (2013)., 
 ===== splitted fields 349 =====
 Title = Estimating atomic sizes with Raman spectroscopy,
+Volume = 1486 
+Issue = 2013
 Journal = Scientific Reports 3
 
 ***Wrong Authors
@@ -8072,7 +8062,7 @@ array[4]: Lisheng Chen
 array[5]: Shengwang Du
 array[6]: and Zikang Tang
 array[7]: 
-array[8]: 1486 (2013).
+array[8]: .
 array[9]: 
 ===== end 349 =====
 
@@ -8081,7 +8071,8 @@ array[9]:
 Shuigang Xu, Chun Cheng, Wenhao Guo, Yuheng He, Rui Huang, Shengwang Du, and Ning Wang, "Tuning the optical and electrical properties of hydrothermally grown ZnO nanowires by sealed post annealing treatment," Solid State Communications 160, 41 (2013)., 
 ===== splitted fields 350 =====
 Title = Tuning the optical and electrical properties of hydrothermally grown ZnO nanowires by sealed post annealing treatment,
-Year = 2013
+Volume = 41 
+Issue = 2013
 Journal = Solid State Communications 160
 
 ***Wrong Authors
@@ -8089,6 +8080,7 @@ Journal = Solid State Communications 160
 ***Wrong Journal
 ***Wrong Volume
 ***Wrong Page
+***Wrong Year
 ===== remaining fields 350 =====
 array[0]: Shuigang Xu
 array[1]: Chun Cheng
@@ -8098,7 +8090,7 @@ array[4]: Rui Huang
 array[5]: Shengwang Du
 array[6]: and Ning Wang
 array[7]: 
-array[8]: 41 ().
+array[8]: .
 array[9]: 
 ===== end 350 =====
 
@@ -8107,6 +8099,8 @@ array[9]:
 Yi-Hsin Chen, Meng-Jung Lee, I-Chung Wang, Shengwang Du, Yong-Fan Chen, Ying-Cheng Chen, and Ite A. Yu, "Coherent optical memory with high storage efficiency and large fractional delay," Phys. Rev. Lett. 110, 083601 (2013)., 
 ===== splitted fields 351 =====
 Title = Coherent optical memory with high storage efficiency and large fractional delay,
+Volume = 083601 
+Issue = 2013
 Month = June
 Authors = & Ite A. Yu
 
@@ -8125,7 +8119,7 @@ array[4]: Yong-Fan Chen
 array[5]: Ying-Cheng Chen
 array[6]: 
 array[7]: Phys. Rev. Lett. 110
-array[8]: 083601 (2013).
+array[8]: .
 array[9]: 
 ===== end 351 =====
 
@@ -8134,12 +8128,14 @@ array[9]:
 "A New Electrorheological Fluids: Theory and Experiment", W.Y. Tam, G.H. Yi, W. Wen, H. Ma, M.M.T. Loy and P. Sheng, Phys. Rev. Lett. 78, 2987-2990 (1997)., 
 ===== splitted fields 352 =====
 Title = A New Electrorheological Fluids: Theory and Experiment
-Page = 2987-2990
-Year = 1997
+Volume = 2990 
+Issue = 1997
 Authors = W.Y. Tam& G.H. Yi& W. Wen& H. Ma& M.M.T. Loy& P. Sheng
 
 ***Wrong Journal
 ***Wrong Volume
+***Wrong Page
+***Wrong Year
 ===== remaining fields 352 =====
 array[0]: 
 array[1]: 
@@ -8148,7 +8144,7 @@ array[3]:
 array[4]: 
 array[5]: 
 array[6]: Phys. Rev. Lett. 78
-array[7]: ().
+array[7]: 2987-.
 array[8]: 
 ===== end 352 =====
 
@@ -8157,17 +8153,19 @@ array[8]:
 "Universal Topological Properties of Shells in Soap Forth", K.Y. Szeto and W.Y. Tam, Phys. Rev. E 53, 4213-4216 (1996). , 
 ===== splitted fields 353 =====
 Title = Universal Topological Properties of Shells in Soap Forth
-Page = 4213-4216
-Year = 1996
+Volume = 4216 
+Issue = 1996
 Authors = K.Y. Szeto& W.Y. Tam
 
 ***Wrong Journal
 ***Wrong Volume
+***Wrong Page
+***Wrong Year
 ===== remaining fields 353 =====
 array[0]: 
 array[1]: 
 array[2]: Phys. Rev. E 53
-array[3]: ().
+array[3]: 4213-.
 array[4]: 
 ===== end 353 =====
 
@@ -8176,6 +8174,8 @@ array[4]:
 "Anisotropic Topological Surface States on High-Index Bi2Se3 Films" Zhongjie Xu, Xin Guo, Mengyu Yao, Hongtao He, Lin Miao, Lu Jiao, Hongchao Liu, Jiannong Wang, Dong Qian, Jinfeng Jia, Wingkin Ho, and Maohai Xie, Adv. Mater. 25 1557 (2013), 
 ===== splitted fields 354 =====
 Title = Anisotropic Topological Surface States on High-Index Bi2Se3 Films
+Volume = 1557 
+Issue = 2013
 
 ***Wrong Authors
 ***Wrong Journal
@@ -8195,7 +8195,7 @@ array[8]: Dong Qian
 array[9]: Jinfeng Jia
 array[10]: Wingkin Ho
 array[11]: and Maohai Xie
-array[12]: Adv. Mater. 25 1557 (2013)
+array[12]: Adv. Mater. 25
 array[13]: 
 ===== end 354 =====
 
@@ -8204,7 +8204,9 @@ array[13]:
 "Verification of G7 symmetry assignment for the top valence band of ZnO by magneto-optical studies of the free A exciton state", Lu Ding, Chunlei Yang, Hongtao He, Jiannong Wang, Zikang Tang, Bradley A Foreman, Fengyi Jiang, and Weikun Ge, New Journal of Physics 15 033015 (2013), 
 ===== splitted fields 355 =====
 Title = Verification of G7 symmetry assignment for the top valence band of ZnO by magneto-optical studies of the free A exciton state
-Journal = New Journal of Physics 15 033015 (2013)
+Volume = 033015 
+Issue = 2013
+Journal = New Journal of Physics 15
 
 ***Wrong Authors
 ***Wrong Journal
@@ -8229,6 +8231,8 @@ array[10]:
 ===== testing string 356 =====
 Kong, S. C., & Kwok, L. F. (2005). A cognitive tool for teaching the addition/subtraction of common fractions: a model of affordances. Computers and Education, 45 (2), 245-265., 
 ===== splitted fields 356 =====
+Volume = 45 
+Issue = 2
 Page = 245-265
 Year = 2005
 Authors = S. C.& L. F. (). A cognitive tool for teaching the addition/subtraction of common fractions: a model of affordances. Computers& Education
@@ -8236,14 +8240,12 @@ Authors = S. C.& L. F. (). A cognitive tool for teaching the addition/subtractio
 ***Wrong Authors
 ***Wrong Title
 ***Wrong Journal
-***Wrong Volume
-***Wrong Issue
 ===== remaining fields 356 =====
 array[0]: Kong
 array[1]: 
 array[2]: & Kwok
 array[3]: 
-array[4]: 45 (2)
+array[4]: 
 array[5]: .
 array[6]: 
 ===== end 356 =====
@@ -8252,6 +8254,8 @@ array[6]:
 ===== testing string 357 =====
 R. Guˆmrout, J. Lussange, H. B. Chan. Lambrecht and Serge Reynaud, Physical Review A  87, 052514 (2013)., 
 ===== splitted fields 357 =====
+Volume = 052514 
+Issue = 2013
 Journal = Physical Review A  87
 Authors = R. Guˆmrout& J. Lussange& H. B. Chan. Lambrecht& Serge Reynaud
 
@@ -8266,7 +8270,7 @@ array[0]:
 array[1]: 
 array[2]: 
 array[3]: 
-array[4]: 052514 (2013).
+array[4]: .
 array[5]: 
 ===== end 357 =====
 
@@ -8274,6 +8278,8 @@ array[5]:
 ===== testing string 358 =====
 A half wave retarder made of bilayer subwavelength metallic apertures, Z. Marcet, H. B. Chan, D. W. Carr, J. E. Bower, R. A. Cirelli, F. Klemens, W. M. Mansfield, J. Miner, C. S. Pai and I. Kravchenko, Applied Physics Letters 98, 151107 (2011)., 
 ===== splitted fields 358 =====
+Volume = 151107 
+Issue = 2011
 Month = March
 Journal = Applied Physics Letters 98
 Authors = Z. Marcet& H. B. Chan& D. W. Carr& J. E. Bower& R. A. Cirelli& F. Klemens& W. M. Mansfield& J. Miner& C. S. Pai& I. Kravchenko
@@ -8295,7 +8301,7 @@ array[7]:
 array[8]: 
 array[9]: 
 array[10]: 
-array[11]: 151107 (2011).
+array[11]: .
 array[12]: 
 ===== end 358 =====
 
@@ -8401,12 +8407,12 @@ array[4]:
 ===== testing string 363 =====
 Improved numerical solver for Kansa's method based on affine space decomposition., L. Ling and Y. C. Hon., Engineering Analysis with Boundary Elements. 29(12):1077-1085. 2005., 
 ===== splitted fields 363 =====
-bbb
+aaa
 Volume = 29
 Issue = 12
 Page = 1077-1085
 Year = 2005
-Journal = Engineering Analysis with Boundary Elements.:..
+Journal = Engineering Analysis with Boundary Elements...
 Authors = L. Ling& Y. C. Hon.
 Title = Improved numerical solver for Kansa's method based on affine space decomposition.
 
@@ -8424,7 +8430,10 @@ array[3]:
 ===== testing string 364 =====
 Multiquadric collocation method with integral formulation for boundary layer problems., L. Ling and M. R. Trummer., Computers and Mathematics with Applications. 48(5-6):927-941. 2004., 
 ===== splitted fields 364 =====
-Page = 5-6
+aaa
+Volume = 48
+Issue = 5-6
+Page = 927-941
 Year = 2004
 Authors = L. Ling& M. R. Trummer.
 Title = Multiquadric collocation method with integral formulation for boundary layer problems.
@@ -8432,13 +8441,10 @@ Title = Multiquadric collocation method with integral formulation for boundary l
 ***Wrong Authors
 ***Wrong Title
 ***Wrong Journal
-***Wrong Volume
-***Wrong Issue
-***Wrong Page
 ===== remaining fields 364 =====
 array[0]: 
 array[1]: 
-array[2]: Computers and Mathematics with Applications. 48():927-941..
+array[2]: Computers and Mathematics with Applications...
 array[3]: 
 ===== end 364 =====
 
@@ -8514,19 +8520,20 @@ array[7]:
 ===== testing string 368 =====
 (with A. Boettcher, A. Iserles and S.P. Norsett) On the singular values and eigenvalues of the Fox-Li and related operators, New York J. Math., 16 (2010), 539-561., 
 ===== splitted fields 368 =====
+Volume = 16 
+Issue = 2010
 Page = 539-561
-Year = 2010
 Authors = (with A. Boettcher& A. Iserles& S.P. Norsett) On the singular values and eigenvalues of the Fox-Li and related operatorsNew York J. Math.& 
 
 ***Wrong Authors
 ***Wrong Title
 ***Wrong Journal
-***Wrong Volume
+***Wrong Year
 ===== remaining fields 368 =====
 array[0]: 
 array[1]: 
 array[2]: 
-array[3]: 16 ()
+array[3]: 
 array[4]: .
 array[5]: 
 ===== end 368 =====
@@ -8535,18 +8542,19 @@ array[5]:
 ===== testing string 369 =====
 (with H. Liang) Stability of collocation methods for delay diferential equations with vanishing delays, BIT Numer. Math., 50 (2010), 693-711., 
 ===== splitted fields 369 =====
+Volume = 50 
+Issue = 2010
 Page = 693-711
-Year = 2010
 Authors = (with H. Liang) Stability of collocation methods for delay diferential equations with vanishing delays& 
 
 ***Wrong Authors
 ***Wrong Title
 ***Wrong Journal
-***Wrong Volume
+***Wrong Year
 ===== remaining fields 369 =====
 array[0]: 
 array[1]: BIT Numer. Math.
-array[2]: 50 ()
+array[2]: 
 array[3]: .
 array[4]: 
 ===== end 369 =====
@@ -8555,6 +8563,8 @@ array[4]:
 ===== testing string 370 =====
 B. S. He and L.-Z. Liao, Improvements of some projection methods for monotone nonlinear variational inequalities, Journal of Optimization Theory and Applications, 112 (1), pp. 111-128, 2002. , 
 ===== splitted fields 370 =====
+Volume = 112 
+Issue = 1
 Page = 111-128
 Year = 2002
 Journal = Journal of Optimization Theory and Applications
@@ -8562,13 +8572,11 @@ Authors = B. S. He& L.-Z. Liao
 Title = Improvements of some projection methods for monotone nonlinear variational inequalities
 
 ***Wrong Title
-***Wrong Volume
-***Wrong Issue
 ===== remaining fields 370 =====
 array[0]: 
 array[1]: 
 array[2]: 
-array[3]: 112 (1)
+array[3]: 
 array[4]: 
 array[5]: .
 array[6]: 
@@ -8578,7 +8586,6 @@ array[6]:
 ===== testing string 371 =====
 X. Chen and S. Xiang, Implicit solution function of P0 and Z matrix linear complementarity constraints, Math. Programming, 128(2011), 1-18. , 
 ===== splitted fields 371 =====
-bbb
 Volume = 128
 Issue = 2011
 Page = 1-18
@@ -8600,7 +8607,6 @@ array[5]:
 ===== testing string 372 =====
 Z. Wei, L. Qi and X. Chen, An SQP-type method and its application in stochastic programs, Journal of Optimization Theory and Applications, 116(2003),205-228., 
 ===== splitted fields 372 =====
-bbb
 Volume = 116
 Issue = 2003
 Page = 205-228
@@ -8623,7 +8629,6 @@ array[6]:
 ===== testing string 373 =====
 B. Mermri and X. Chen, On characterizations and regularity of the solution of bilateral obstacle problems, Journal of Computational and Applied Mathematics, 152(2003), 333-345., 
 ===== splitted fields 373 =====
-bbb
 Volume = 152
 Issue = 2003
 Page = 333-345
@@ -8645,7 +8650,6 @@ array[5]:
 ===== testing string 374 =====
 X. Chen, Applications of smoothing methods in numerical analysis and optimization, Journal of Asian Information Science Life, 1(2002), 1-13., 
 ===== splitted fields 374 =====
-bbb
 Volume = 1
 Issue = 2002
 Page = 1-13
@@ -8668,8 +8672,8 @@ array[5]:
 ===== testing string 375 =====
 Chau F.T., Shih T.M., Gao J.B. and Chan C.K., Application of the Fast Wavelet Transform Method to Compress Ultraviolet-Visible Spectra, Applied Spectroscopy, Vol.50, No.3, pp339-348, 1996., 
 ===== splitted fields 375 =====
-Volume = 50
 Number = 3
+Volume = 50
 Page = 339-348
 Year = 1996
 Journal = Applied Spectroscopy
@@ -8693,8 +8697,8 @@ array[9]:
 ===== testing string 376 =====
 Chan C.K., Zhang H.Q. and Lau K.S., An Improved Stochastic Separated Flow Model for Turbulent Two-Phase Flow, Computational Mechanics, Vol.24, No.6, pp491-502, 2000. (The original publication is available on LINK via http://link.springer.de), 
 ===== splitted fields 376 =====
-Volume = 24
 Number = 6
+Volume = 24
 Page = 491-502
 Year = 2000
 Month = September
@@ -8742,7 +8746,6 @@ array[7]:
 ===== testing string 378 =====
 Kong, S. C. & Song, Y. (2013). A principle-based pedagogical design framework for developing constructivist learning in a seamless learning environment: A teacher development model for learning and teaching in digital classrooms in school education. British Journal of Educational Technology, 44(6), E209-E212., 
 ===== splitted fields 378 =====
-bbb
 Volume = 44
 Issue = 6
 Year = 2013
@@ -8766,7 +8769,6 @@ array[5]:
 ===== testing string 379 =====
 Wang, A., & Kong, S.C. (2013). A study of students¡¦ CMC behaviors for incorporating CMC in teaching and learning. International Journal of Innovation and Learning, 13(3), 339-352., 
 ===== splitted fields 379 =====
-bbb
 Volume = 13
 Issue = 3
 Page = 339-352
@@ -8791,28 +8793,28 @@ array[6]:
 
 ===== overall statistics =====
 Total Fields: 2303
-Correct Fields: 1236
-Wrong Fields: 1067
-Accuracy: 0.53669125
+Correct Fields: 1256
+Wrong Fields: 1047
+Accuracy: 0.5453756
 All correct: 13,56,69,70,97,98,375,376,
 
 ===== fields statistics =====
 Author: 30/366, accuracy: 0.08196721311475409
 Title: 179/378, accuracy: 0.47354497354497355
-Journal: 104/261, accuracy: 0.39846743295019155
+Journal: 107/261, accuracy: 0.4099616858237548
 Proceeding: 18/48, accuracy: 0.375
-Volume: 130/246, accuracy: 0.5284552845528455
-Issue: 60/101, accuracy: 0.594059405940594
-Number: 48/52, accuracy: 0.9230769230769231
+Volume: 157/246, accuracy: 0.6382113821138211
+Issue: 73/101, accuracy: 0.7227722772277227
+Number: 49/52, accuracy: 0.9423076923076923
 Article: 5/5, accuracy: 1.0
-Page: 228/258, accuracy: 0.8837209302325582
+Page: 220/258, accuracy: 0.8527131782945736
 Month: 67/75, accuracy: 0.8933333333333333
 Thesis: 2/2, accuracy: 1.0
 Chapter: 0/37, accuracy: 0.0
 Editor: 0/31, accuracy: 0.0
 Publisher: 11/69, accuracy: 0.15942028985507245
-Year: 354/374, accuracy: 0.946524064171123
+Year: 338/374, accuracy: 0.9037433155080213
 
-End Time = 02:02:22
+End Time = 00:25:41
 
-Running Time = 348 seconds
+Running Time = 354 seconds

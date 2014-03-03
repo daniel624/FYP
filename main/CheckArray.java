@@ -279,7 +279,7 @@ public class CheckArray {
 		{
 			// .*article number(\\.)*.*[0-9]+.*
 			// article number / article number.
-			if (array[i].toLowerCase().matches(".*article number(\\.)*( )*[0-9]+.*"))
+			if (array[i].toLowerCase().matches(".*article number( )*(\\.)*( )*[0-9]+.*"))
 			{
 				subString = (array[i].substring(array[i].toLowerCase().indexOf("article number"))).trim();
 				numOnly = Pattern.compile("\\d+").matcher(subString);
@@ -294,7 +294,7 @@ public class CheckArray {
 
 			// .*article no(\\.)*.*[0-9]+.*
 			// article no / article no.
-			if (array[i].toLowerCase().matches(".*article no(\\.)*( )*[0-9]+.*"))
+			if (array[i].toLowerCase().matches(".*article no( )*(\\.)*( )*[0-9]+.*"))
 			{
 				subString = (array[i].substring(array[i].toLowerCase().indexOf("article no"))).trim();
 				numOnly = Pattern.compile("\\d+").matcher(subString);
@@ -309,7 +309,7 @@ public class CheckArray {
 
 			// .*article(\\.)*.*[0-9]+.*
 			// article / article.
-			if (array[i].toLowerCase().matches(".*article(\\.)*( )*[0-9]+.*"))
+			if (array[i].toLowerCase().matches(".*article( )*(\\.)*( )*[0-9]+.*"))
 			{
 				subString = (array[i].substring(array[i].toLowerCase().indexOf("article"))).trim();
 				numOnly = Pattern.compile("\\d+").matcher(subString);
@@ -343,7 +343,7 @@ public class CheckArray {
 		{
 			// .*volume(\\.)*.*[0-9]+.*
 			// volume / volume.
-			if (array[i].toLowerCase().matches(".*volume(\\.)*( )*[0-9]+.*"))
+			if (array[i].toLowerCase().matches(".*volume( )*(\\.)*( )*[0-9]+.*"))
 			{
 				subString = (array[i].substring(array[i].toLowerCase().indexOf("volume"))).trim();
 				numOnly = Pattern.compile("\\d+").matcher(subString);
@@ -354,11 +354,39 @@ public class CheckArray {
 					array[i] = CommonFunction.removePart(array[i], "volume", volume);
 					break;
 				}
-			}	
+			}
+			
+			// volume:
+			if (array[i].toLowerCase().matches(".*volume( )*:( )*[0-9]+.*"))
+			{
+				subString = (array[i].substring(array[i].toLowerCase().indexOf("volume"))).trim();
+				numOnly = Pattern.compile("\\d+").matcher(subString);
+				
+				if (numOnly.find())
+				{
+					volume = numOnly.group();
+					array[i] = CommonFunction.removePart(array[i], "volume", volume);
+					break;
+				}
+			}
 
 			// .*vol(\\.)*.*[0-9]+.*
 			// vol / vol.
-			if (array[i].toLowerCase().matches(".*vol(\\.)*( )*[0-9]+.*"))
+			if (array[i].toLowerCase().matches(".*vol( )*(\\.)*(:)*( )*[0-9]+.*"))
+			{
+				subString = (array[i].substring(array[i].toLowerCase().indexOf("vol"))).trim();
+				numOnly = Pattern.compile("\\d+").matcher(subString);
+				
+				if (numOnly.find())
+				{
+					volume = numOnly.group();
+					array[i] = CommonFunction.removePart(array[i], "vol", volume);
+					break;
+					}
+			}
+			
+			// vol:
+			if (array[i].toLowerCase().matches(".*vol( )*:( )*[0-9]+.*"))
 			{
 				subString = (array[i].substring(array[i].toLowerCase().indexOf("vol"))).trim();
 				numOnly = Pattern.compile("\\d+").matcher(subString);
@@ -372,6 +400,32 @@ public class CheckArray {
 			}
 		}
 		
+		return volume;
+	}
+	
+	/**
+	 * getVolumeLast()
+	 * - search for the volume field
+	 * - with hints like volume/volume./vol/vol.
+	 * @return volume extracted
+	 */
+	public String getVolumeLast()
+	{
+		String volume = null;
+		String subString = null;
+
+		for (int i=0; i<array.length; i++)
+		{
+			// Vol. E94-A
+			// vol. IT-56
+			subString = array[i].trim();
+			
+			if (subString.toLowerCase().contains("vol")) {
+				volume = subString.substring(subString.indexOf(" ")+1);
+				break;
+			}
+		}
+
 		return volume;
 	}
 
@@ -391,7 +445,21 @@ public class CheckArray {
 		{
 			// .*issue(\\.)*.*[0-9]+.*
 			// issue / issue.
-			if (array[i].toLowerCase().matches(".*issue(\\.)*( )*[0-9]+.*"))
+			if (array[i].toLowerCase().matches(".*issue( )*(\\.)*( )*[0-9]+.*"))
+			{
+				subString = (array[i].substring(array[i].toLowerCase().indexOf("issue"))).trim();
+				numOnly = Pattern.compile("\\d+").matcher(subString);
+				
+				if (numOnly.find())
+				{
+					issue = numOnly.group();
+					array[i] = CommonFunction.removePart(array[i], "issue", issue);
+					break;
+				}
+			}
+			
+			// issue:
+			if (array[i].toLowerCase().matches(".*issue( )*:( )*[0-9]+.*"))
 			{
 				subString = (array[i].substring(array[i].toLowerCase().indexOf("issue"))).trim();
 				numOnly = Pattern.compile("\\d+").matcher(subString);
@@ -406,7 +474,21 @@ public class CheckArray {
 			
 			// .*iss(\\.)*.*[0-9]+.*"
 			// iss / iss.
-			if (array[i].toLowerCase().matches(".*iss(\\.)*( )*[0-9]+.*"))
+			if (array[i].toLowerCase().matches(".*iss( )*(\\.)*( )*[0-9]+.*"))
+			{
+				subString = (array[i].substring(array[i].toLowerCase().indexOf("iss"))).trim();
+				numOnly = Pattern.compile("\\d+").matcher(subString);
+				
+				if (numOnly.find())
+				{
+					issue = numOnly.group();
+					array[i] = CommonFunction.removePart(array[i], "iss", issue);
+					break;
+				}
+			}	
+			
+			// iss:
+			if (array[i].toLowerCase().matches(".*iss( )*:( )*[0-9]+.*"))
 			{
 				subString = (array[i].substring(array[i].toLowerCase().indexOf("iss"))).trim();
 				numOnly = Pattern.compile("\\d+").matcher(subString);
@@ -439,7 +521,21 @@ public class CheckArray {
 		{
 			// .*no(\\.)*.*[0-9]+.*
 			// no / no.
-			if (array[i].toLowerCase().matches(".*no(\\.)*( )*[0-9]+.*"))
+			if (array[i].toLowerCase().matches(".*no( )*(\\.)*( )*[0-9]+.*"))
+			{
+				subString = (array[i].substring(array[i].toLowerCase().indexOf("no"))).trim();
+				numOnly = Pattern.compile("\\d+").matcher(subString);
+				
+				if (numOnly.find())
+				{
+					number = numOnly.group();
+					array[i] = CommonFunction.removePart(array[i], "no", number);
+					break;
+				}
+			}
+			
+			// no:
+			if (array[i].toLowerCase().matches(".*no( )*:( )*[0-9]+.*"))
 			{
 				subString = (array[i].substring(array[i].toLowerCase().indexOf("no"))).trim();
 				numOnly = Pattern.compile("\\d+").matcher(subString);
@@ -453,11 +549,11 @@ public class CheckArray {
 			}
 
 			// .*number(\\.)*.*[0-9]+.*
-			// number / number.
-			if (array[i].toLowerCase().matches(".*number(\\.)*( )*[0-9]+.*"))
+			// number / number. / numbers 4-5
+			if (array[i].toLowerCase().matches(".*number(s)?( )*(\\.)*( )*[0-9]+( )*([-]*( )*[0-9]+)*.*"))
 			{
 				subString = (array[i].substring(array[i].toLowerCase().indexOf("number"))).trim();
-				numOnly = Pattern.compile("\\d+").matcher(subString);
+				numOnly = Pattern.compile("[0-9]+( )*([-]*( )*[0-9]+)*").matcher(subString);
 				
 				if (numOnly.find())
 				{
@@ -466,6 +562,20 @@ public class CheckArray {
 					break;
 				}
 			}	
+			
+			// number: / numbers: 4-5
+			if (array[i].toLowerCase().matches(".*number(s)?( )*:( )*[0-9]+( )*([-]*( )*[0-9]+)*.*"))
+			{
+				subString = (array[i].substring(array[i].toLowerCase().indexOf("number"))).trim();
+				numOnly = Pattern.compile("[0-9]+( )*([-]*( )*[0-9]+)*").matcher(subString);
+				
+				if (numOnly.find())
+				{
+					number = numOnly.group();
+					array[i] = CommonFunction.removePart(array[i], "number", number);
+					break;
+				}
+			}
 		}
 		
 		return number;
@@ -488,7 +598,7 @@ public class CheckArray {
 		for (int i=0; i<array.length; i++)
 		{
 			// pages / pages. (p. 29:1-29:19)
-			if (array[i].toLowerCase().matches(".*pages(\\.)*( )*[0-9]+( )*:( )*[0-9]+( )*-( )*[0-9]+( )*:( )*[0-9]+.*"))
+			if (array[i].toLowerCase().matches(".*pages( )*(\\.)*( )*[0-9]+( )*:( )*[0-9]+( )*-( )*[0-9]+( )*:( )*[0-9]+.*"))
 			{
 				subString = (array[i].substring(array[i].toLowerCase().indexOf("pages"))).trim();
 				numToNum = Pattern.compile("[0-9]+( )*:( )*[0-9]+( )*-( )*[0-9]+( )*:( )*[0-9]+").matcher(subString);
@@ -502,7 +612,7 @@ public class CheckArray {
 			}
 			
 			// page / page. (p. 29:1-29:19)
-			if (array[i].toLowerCase().matches(".*page(\\.)*( )*[0-9]+( )*:( )*[0-9]+( )*-( )*[0-9]+( )*:( )*[0-9]+.*"))
+			if (array[i].toLowerCase().matches(".*page( )*(\\.)*( )*[0-9]+( )*:( )*[0-9]+( )*-( )*[0-9]+( )*:( )*[0-9]+.*"))
 			{
 				subString = (array[i].substring(array[i].toLowerCase().indexOf("page"))).trim();
 				numToNum = Pattern.compile("[0-9]+( )*:( )*[0-9]+( )*-( )*[0-9]+( )*:( )*[0-9]+").matcher(subString);
@@ -516,7 +626,7 @@ public class CheckArray {
 			}
 
 			// pp / pp. (p. 29:1-29:19)
-			if (array[i].toLowerCase().matches(".*pp(\\.)*( )*[0-9]+( )*:( )*[0-9]+( )*-( )*[0-9]+( )*:( )*[0-9]+.*"))
+			if (array[i].toLowerCase().matches(".*pp( )*(\\.)*( )*[0-9]+( )*:( )*[0-9]+( )*-( )*[0-9]+( )*:( )*[0-9]+.*"))
 			{
 				subString = (array[i].substring(array[i].toLowerCase().indexOf("pp"))).trim();
 				numToNum = Pattern.compile("[0-9]+( )*:( )*[0-9]+( )*-( )*[0-9]+( )*:( )*[0-9]+").matcher(subString);
@@ -530,7 +640,7 @@ public class CheckArray {
 			}
 
 			// p / p. (p. 29:1-29:19)
-			if (array[i].toLowerCase().matches(".*p(\\.)*( )*[0-9]+( )*:( )*[0-9]+( )*-( )*[0-9]+( )*:( )*[0-9]+.*"))
+			if (array[i].toLowerCase().matches(".*p( )*(\\.)*( )*[0-9]+( )*:( )*[0-9]+( )*-( )*[0-9]+( )*:( )*[0-9]+.*"))
 			{
 				subString = (array[i].substring(array[i].toLowerCase().indexOf("p"))).trim();
 				numToNum = Pattern.compile("[0-9]+( )*:( )*[0-9]+( )*-( )*[0-9]+( )*:( )*[0-9]+").matcher(subString);
@@ -547,7 +657,7 @@ public class CheckArray {
 			if (page == null) {
 				// .*pages(\\.)*.*[0-9]+( )*-( )*[0-9]+.*
 				// pages / pages.
-				if (array[i].toLowerCase().matches(".*pages(\\.)*( )*[0-9]+( )*-( )*[0-9]+.*"))
+				if (array[i].toLowerCase().matches(".*pages( )*(\\.)*( )*[0-9]+( )*-( )*[0-9]+.*"))
 				{
 					subString = (array[i].substring(array[i].toLowerCase().indexOf("pages"))).trim();
 					numToNum = Pattern.compile("[0-9]+( )*-( )*[0-9]+").matcher(subString);
@@ -562,7 +672,7 @@ public class CheckArray {
 	
 				// .*page(\\.)*.*[0-9]+( )*-( )*[0-9]+.*
 				// page / page.
-				if (array[i].toLowerCase().matches(".*page(\\.)*( )*[0-9]+( )*-( )*[0-9]+.*"))
+				if (array[i].toLowerCase().matches(".*page( )*(\\.)*( )*[0-9]+( )*-( )*[0-9]+.*"))
 				{
 					subString = (array[i].substring(array[i].toLowerCase().indexOf("page"))).trim();
 					numToNum = Pattern.compile("[0-9]+( )*-( )*[0-9]+").matcher(subString);
@@ -577,7 +687,7 @@ public class CheckArray {
 	
 				// .*pp(\\.)*.*[0-9]+( )*-( )*[0-9]+.*
 				// pp / pp.
-				if (array[i].toLowerCase().matches(".*pp(\\.)*( )*[0-9]+( )*-( )*[0-9]+.*"))
+				if (array[i].toLowerCase().matches(".*pp( )*(\\.)*( )*[0-9]+( )*-( )*[0-9]+.*"))
 				{
 					subString = (array[i].substring(array[i].toLowerCase().indexOf("pp"))).trim();
 					numToNum = Pattern.compile("[0-9]+( )*-( )*[0-9]+").matcher(subString);
@@ -592,7 +702,7 @@ public class CheckArray {
 	
 				// .*p(\\.)*.*[0-9]+( )*-( )*[0-9]+.*
 				// p / p.
-				if (array[i].toLowerCase().matches(".*p(\\.)*( )*[0-9]+( )*-( )*[0-9]+.*"))
+				if (array[i].toLowerCase().matches(".*p( )*(\\.)*( )*[0-9]+( )*-( )*[0-9]+.*"))
 				{
 					subString = (array[i].substring(array[i].toLowerCase().indexOf("p"))).trim();
 					numToNum = Pattern.compile("[0-9]+( )*-( )*[0-9]+").matcher(subString);
@@ -685,28 +795,77 @@ public class CheckArray {
 	{
 		String volIss = null;
 		
-		Matcher volIssueBracket;
-		Matcher volmultiIssueBracket;
-		
-		Matcher volIssueSemiColon;
-		Matcher volmultiIssueSemiColon;
-		
 		Matcher volIssuePage;
 		
-		String volume = null, issue = null;
+		Matcher volIssueBracket;
+		Matcher volIssueSemiColon;
+		
+		String volume = null;
+		String issue = null;
+		String page = null;
 		
 		for (int i=0; i<array.length; i++)
 		{
 			// vol(iss):page
+			// 12(2-5):3-6
+			volIssuePage = Pattern.compile("[0-9]+( )*\\([0-9]+([-/]*[0-9]+)*\\):[0-9]+[-/]*[0-9]+").matcher(array[i]);
+			if (volIssuePage.find())
+			{
+				System.out.println("aaa");
+				
+				volIss = volIssuePage.group();
+				volume = volIss.substring(0, volIss.indexOf("("));
+				issue = volIss.substring(volIss.indexOf("(")+1, volIss.indexOf(")"));
+				page = volIss.substring(volIss.indexOf(":")+1);
+				array[i] = CommonFunction.removePart(array[i], volIss, volIss);
+				volIss = volume + "," + issue + "," + page;
+				break;
+			}
 
+			// 12(2-5) 12(2)
+			volIssueBracket = Pattern.compile("[0-9]+( )*\\([0-9]+([-/]*[0-9]+)*\\)").matcher(array[i]);
+			if (volIssueBracket.find())
+			{
+				volIss = volIssueBracket.group();
+				volume = volIss.substring(0, volIss.indexOf("("));
+				issue = volIss.substring(volIss.indexOf("(")+1, volIss.indexOf(")"));
+				array[i] = CommonFunction.removePart(array[i], volIss, volIss);
+				volIss = volume + "," + issue;
+				break;
+			}
+			
+			// 12:2-5 12:2
+			volIssueSemiColon = Pattern.compile("[0-9]+:[0-9]+[-/[0-9]*]*").matcher(array[i]);
+			if (volIssueSemiColon.find())
+			{
+				volIss = volIssueSemiColon.group();
+				array[i] = CommonFunction.removePart(array[i], volIss, volIss);
+				volIss = volIss.substring(0, volIss.indexOf(":")) + "," + volIss.substring(volIss.indexOf(":") + 1);
+				break;
+			}
+			
+            /**
+			// 12(2-5)
+			volmultiIssueBracket = Pattern.compile("[0-9]+\\([0-9]+-[0-9]+\\)").matcher(array[i]);
+			//if (array[i].indexOf("(")>0 && array[i].indexOf(")")>0 && array[i].indexOf("(")<array[i].indexOf(")"))
+			if (volmultiIssueBracket.find())
+			{
+				//check vol issue, format: 10(1)
+				volIss = volmultiIssueBracket.group();
+				volume = volIss.substring(0, volIss.indexOf("("));
+				issue = volIss.substring(volIss.indexOf("(")+1, volIss.indexOf(")"));
+				//array[i] = array[i].substring(0, array[i].indexOf(volIss)) + array[i].substring(array[i].indexOf(volIss) + volIss.length());
+				array[i] = CommonFunction.removePart(array[i], volIss, volIss);
+				volIss = volume + "," + issue;
+				break;
+			}
+			
 			
 			// 12(2)
 			volIssueBracket = Pattern.compile("[0-9]+\\([0-9]+\\)").matcher(array[i]);
 			//if (array[i].indexOf("(")>0 && array[i].indexOf(")")>0 && array[i].indexOf("(")<array[i].indexOf(")"))
 			if (volIssueBracket.find())
 			{
-				System.out.println("bbb");
-				
 				//check vol issue, format: 10(1)
 				volIss = volIssueBracket.group();
 				volume = volIss.substring(0, volIss.indexOf("("));
@@ -717,29 +876,10 @@ public class CheckArray {
 				break;
 			}
 			
-			// 12(2-5)
-			
-			
-			// 12:2
-			volIssueSemiColon = Pattern.compile("[0-9]+:[0-9]+").matcher(array[i]);
-			if (volIssueSemiColon.find())
-			{
-				System.out.println("ccc");
-				
-				volIss = volIssueSemiColon.group();
-				//array[i] = array[i].substring(0, array[i].indexOf(volIss)) + array[i].substring(array[i].indexOf(volIss) + volIss.length());
-				array[i] = CommonFunction.removePart(array[i], volIss, volIss);
-				volIss = volIss.substring(0, volIss.indexOf(":")) + "," + volIss.substring(volIss.indexOf(":") + 1);
-				//System.out.println("volIssue: " + volIss); 
-				break;
-			}
-			
 			// 12:2-5
 			volmultiIssueSemiColon = Pattern.compile("[0-9]+:[0-9]+-[0-9]+").matcher(array[i]);
 			if (volmultiIssueSemiColon.find())
 			{
-				System.out.println("aaa");
-				
 				volIss = volmultiIssueSemiColon.group();
 				//array[i] = array[i].substring(0, array[i].indexOf(volIss)) + array[i].substring(array[i].indexOf(volIss) + volIss.length());
 				array[i] = CommonFunction.removePart(array[i], volIss, volIss);
@@ -747,6 +887,19 @@ public class CheckArray {
 				//System.out.println("volIssue: " + volIss); 
 				break;
 			}
+			
+			// 12:2
+			volIssueSemiColon = Pattern.compile("[0-9]+:[0-9]+").matcher(array[i]);
+			if (volIssueSemiColon.find())
+			{
+				volIss = volIssueSemiColon.group();
+				//array[i] = array[i].substring(0, array[i].indexOf(volIss)) + array[i].substring(array[i].indexOf(volIss) + volIss.length());
+				array[i] = CommonFunction.removePart(array[i], volIss, volIss);
+				volIss = volIss.substring(0, volIss.indexOf(":")) + "," + volIss.substring(volIss.indexOf(":") + 1);
+				//System.out.println("volIssue: " + volIss); 
+				break;
+			}
+			**/
 			
 		}
 		
