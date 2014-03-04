@@ -30,8 +30,8 @@ import java.sql.Date;
 public class Main {
 	public static void main(String[] args)
 	{
-		
-		/**
+
+		/*
 		////////////////////////////////////////////////////////
 		// output console result to file
 		String output_filename = "src/main/output.txt";
@@ -43,10 +43,9 @@ public class Main {
 			e1.printStackTrace();
 		}
 		////////////////////////////////////////////////////////
-		 * 
-		 */
-		
-		 
+		*
+		*/
+
 		
 		Calendar cal = Calendar.getInstance();
     	cal.getTime();
@@ -171,49 +170,58 @@ public class Main {
 					/////////////////////////////////////////////////////////////////
 					// Identity the fields
 					title = ca.getTitlePreSplit();
-					if (title != null) System.out.println("Title = " + title);
 					
 					ca.splitByComma();
 					
 					thesis = ca.getThesis();
-					if (thesis != null) System.out.println("Thesis = " + thesis);
 
 					article = ca.getArticle();
-					if (article != null) System.out.println("Article = " + article);
 					
 					number = ca.getNumber();
-					if (number != null) System.out.println("Number = " + number);
+
+					yearMonthTmp = "";
+					yearMonthTmp = ca.getYearMonth();
+					if (yearMonthTmp != "") {
+						year = yearMonthTmp.substring(0, yearMonthTmp.indexOf(","));
+						month = yearMonthTmp.substring(yearMonthTmp.indexOf(",") + 1);
+					} else {
+						year = ca.getYear();
+						
+						month = ca.getMonth();
+					}
 					
 					volume = ca.getVolume();
-					if (volume != null) System.out.println("Volume = " + volume);
 
 					issue = ca.getIssue();
-					if (issue != null) System.out.println("Issue = " + issue);
 				
 					if ((volume == null) || (issue == null) || (page == null)) {
 						tmp = ca.getVolumeIssue();
 						if (tmp != null) {
 							if (tmp.indexOf(",") == tmp.lastIndexOf(",")) {
-								if (volume == null) {
-									volume = tmp.substring(0, tmp.indexOf(","));
-									System.out.println("Volume = " + volume);
-								}
-								if (issue == null) {
-									issue = tmp.substring(tmp.indexOf(",") + 1);
-									System.out.println("Issue = " + issue);
+								if (tmp.substring(0,1).equalsIgnoreCase("y")) {
+									if (issue == null) {
+										issue = tmp.substring(1, tmp.indexOf(","));
+									}
+									if (year == null) {
+										year = tmp.substring(tmp.indexOf(",") + 1);
+									}
+								} else {
+									if (volume == null) {
+										volume = tmp.substring(0, tmp.indexOf(","));
+									}
+									if (issue == null) {
+										issue = tmp.substring(tmp.indexOf(",") + 1);
+									}
 								}
 							} else {
 								if (volume == null) {
 									volume = tmp.substring(0, tmp.indexOf(","));
-									System.out.println("Volume = " + volume);
 								}
 								if (issue == null) {
 									issue = tmp.substring(tmp.indexOf(",") + 1, tmp.lastIndexOf(","));
-									System.out.println("Issue = " + issue);
 								}
 								if (page == null) {
 									page = tmp.substring(tmp.lastIndexOf(",") + 1);
-									System.out.println("Page = " + page);
 								}
 							}
 						}
@@ -221,70 +229,78 @@ public class Main {
 					
 					if (page == null) {
 						page = ca.getPage();
-						if (page != null) System.out.println("Page = " + page);
 					}
-
-					yearMonthTmp = "";
-					yearMonthTmp = ca.getYearMonth();
-					if (yearMonthTmp != "") {
-						year = yearMonthTmp.substring(0, yearMonthTmp.indexOf(","));
-						System.out.println("Year = " + year);
-						month = yearMonthTmp.substring(yearMonthTmp.indexOf(",") + 1);
-						System.out.println("Month = " + month);
-					} else {
+					
+					if (year == null) {
 						year = ca.getYear();
-						if (year != null) System.out.println("Year = " + year);
-						
-						month = ca.getMonth();
-						if (month != null) System.out.println("Month = " + month);
 					}
+					
 					
 					
 					proceeding = ca.getProceeding();
-					if (proceeding != null) System.out.println("Proceeding = " + proceeding);
 					
 					journal = ca.getJournal();
-					if (journal != null) System.out.println("Journal = " + journal);
 					
 					
 					authors = ca.getAuthors();
-					if (authors != null) System.out.println("Authors = " + authors);
-					
 					
 					if (title == null)
 					{
 						title = ca.getTitlePostSplit();
-						if (title!=null) System.out.println("Title = " + title);
 					}
 
 					publisher = ca.getPublisher();
-					if (publisher != null) System.out.println("Publisher = " + publisher);
+					
 					
 					
 					if (volume == null) {
 						volume = ca.getVolumeLast();
-						if (volume != null) System.out.println("Volume = " + volume);
 					}
 					
+					
+					
 					/////////////////////////////////////////////////////////////////
-
+					// Trim and Replace the field
 					if (title != null) title = title.trim();
 					if (journal != null) journal = journal.trim();
 					if (proceeding != null) proceeding = proceeding.trim();
 					if (volume != null) volume = volume.trim();
+					if (volume != null) volume = volume.replaceAll(" ", "");
 					if (issue != null) issue = issue.trim();
+					if (issue != null) issue = issue.replaceAll(" ", "");
 					if (number != null) number = number.trim();
+					if (number != null) number = number.replaceAll(" ", "");
 					if (page != null) page = page.trim();
+					if (page != null) page = page.replaceAll(" ", "");
 					if (year != null) year = year.trim();
 					if (authors != null) authors = authors.trim();
 					if (article != null) article = article.trim();
 					if (month != null) month = month.trim();
+					if (month != null) month = month.replaceAll(" ", "");
 					
 					if (thesis != null) thesis = thesis.trim();
 					if (chapter != null) chapter = chapter.trim();
 					if (editors != null) editors = editors.trim();
 					if (publisher != null) publisher = publisher.trim();
 
+					/////////////////////////////////////////////////////////////////
+					// Print out the field
+					if (title != null) System.out.println("Title = " + title);
+					if (journal != null) System.out.println("Journal = " + journal);
+					if (proceeding != null) System.out.println("Proceeding = " + proceeding);
+					if (volume != null) System.out.println("Volume = " + volume);
+					if (issue != null) System.out.println("Issue = " + issue);
+					if (number != null) System.out.println("Number = " + number);
+					if (page != null) System.out.println("Page = " + page);
+					if (year != null) System.out.println("Year = " + year);
+					if (authors != null) System.out.println("Authors = " + authors);
+					if (article != null) System.out.println("Article = " + article);
+					if (month != null) System.out.println("Month = " + month);
+					
+					if (thesis != null) System.out.println("Thesis = " + thesis);
+					if (chapter != null) System.out.println("Chapter = " + chapter);
+					if (editors != null) System.out.println("Editors = " + editors);
+					if (publisher != null) System.out.println("Publisher = " + publisher);
 					/////////////////////////////////////////////////////////////////
 					
 					sql = "select * from Publication where ID = " + count;

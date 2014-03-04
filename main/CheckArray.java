@@ -177,7 +177,7 @@ public class CheckArray {
 					if ((startMonth.toLowerCase().contains(monthWords[j])) | (startMonth.toLowerCase().contains(monthWords[j].substring(0, 3))))
 					{
 						if (month != "") {
-							month = month + " - " + monthWords[j].substring(0, 1).toUpperCase() + monthWords[j].substring(1);
+							month = month + "-" + monthWords[j].substring(0, 1).toUpperCase() + monthWords[j].substring(1);
 						} else {
 							month = month + monthWords[j].substring(0, 1).toUpperCase() + monthWords[j].substring(1);
 						}
@@ -188,7 +188,7 @@ public class CheckArray {
 					if ((endMonth.toLowerCase().contains(monthWords[j])) | (endMonth.toLowerCase().contains(monthWords[j].substring(0, 3))))
 					{
 						if (month != "") {
-							month = month + " - " + monthWords[j].substring(0, 1).toUpperCase() + monthWords[j].substring(1);
+							month = month + "-" + monthWords[j].substring(0, 1).toUpperCase() + monthWords[j].substring(1);
 						} else {
 							month = month + monthWords[j].substring(0, 1).toUpperCase() + monthWords[j].substring(1);
 						}
@@ -238,14 +238,14 @@ public class CheckArray {
 						if ((indexOfShort != 0) && (indexOfShort-2 > 0)) {
 							if (!CommonFunction.isCharacter(array[i].substring(indexOfShort-2, indexOfShort-1))) {
 								if (month != "") {
-									month = month + ", " + monthWords[j].substring(0, 1).toUpperCase() + monthWords[j].substring(1);
+									month = month + "-" + monthWords[j].substring(0, 1).toUpperCase() + monthWords[j].substring(1);
 								} else {
 									month = month + monthWords[j].substring(0, 1).toUpperCase() + monthWords[j].substring(1);
 								}
 							}
 						} else {
 							if (month != "") {
-								month = month + ", " + monthWords[j].substring(0, 1).toUpperCase() + monthWords[j].substring(1);
+								month = month + "-" + monthWords[j].substring(0, 1).toUpperCase() + monthWords[j].substring(1);
 							} else {
 								month = month + monthWords[j].substring(0, 1).toUpperCase() + monthWords[j].substring(1);
 							}
@@ -397,6 +397,18 @@ public class CheckArray {
 					array[i] = CommonFunction.removePart(array[i], "vol", volume);
 					break;
 					}
+			}
+			
+			// 12()
+			if (array[i].toLowerCase().matches(".*[0-9]+( )*\\(( )*\\).*"))
+			{
+				numOnly = Pattern.compile("[0-9]+").matcher(array[i]);
+				
+				if (numOnly.find())
+				{
+					volume = numOnly.group();
+					break;
+				}
 			}
 		}
 		
@@ -753,7 +765,8 @@ public class CheckArray {
 
 		for (int i=0; i<array.length; i++)
 		{
-			yearOnly = Pattern.compile("\\d{4}").matcher(array[i]);
+			//System.out.println("a:"+array[i]);
+			yearOnly = Pattern.compile("[0-9]{4}").matcher(array[i]);
 			
 			// year
 			if (yearOnly.find())
@@ -800,6 +813,8 @@ public class CheckArray {
 		Matcher volIssueBracket;
 		Matcher volIssueSemiColon;
 		
+		Matcher fourdigit;
+		
 		String volume = null;
 		String issue = null;
 		String page = null;
@@ -811,14 +826,15 @@ public class CheckArray {
 			volIssuePage = Pattern.compile("[0-9]+( )*\\([0-9]+([-/]*[0-9]+)*\\):[0-9]+[-/]*[0-9]+").matcher(array[i]);
 			if (volIssuePage.find())
 			{
-				System.out.println("aaa");
-				
 				volIss = volIssuePage.group();
+				
 				volume = volIss.substring(0, volIss.indexOf("("));
 				issue = volIss.substring(volIss.indexOf("(")+1, volIss.indexOf(")"));
 				page = volIss.substring(volIss.indexOf(":")+1);
+				
 				array[i] = CommonFunction.removePart(array[i], volIss, volIss);
 				volIss = volume + "," + issue + "," + page;
+
 				break;
 			}
 
@@ -827,10 +843,21 @@ public class CheckArray {
 			if (volIssueBracket.find())
 			{
 				volIss = volIssueBracket.group();
+				
 				volume = volIss.substring(0, volIss.indexOf("("));
 				issue = volIss.substring(volIss.indexOf("(")+1, volIss.indexOf(")"));
-				array[i] = CommonFunction.removePart(array[i], volIss, volIss);
-				volIss = volume + "," + issue;
+				
+				// issue seems impossible larger than 4 digits
+				fourdigit = Pattern.compile("[0-9]{4}").matcher(issue);
+				if (fourdigit.find())
+				{
+					array[i] = CommonFunction.removePart(array[i], volIss, volIss);
+					volIss = "y" + volume + "," + issue;
+				} else {
+					array[i] = CommonFunction.removePart(array[i], volIss, volIss);
+					volIss = volume + "," + issue;
+				}
+				
 				break;
 			}
 			
@@ -839,8 +866,13 @@ public class CheckArray {
 			if (volIssueSemiColon.find())
 			{
 				volIss = volIssueSemiColon.group();
+				
+				volume = volIss.substring(0, volIss.indexOf(":"));
+				issue = volIss.substring(volIss.indexOf(":")+1);
+				
 				array[i] = CommonFunction.removePart(array[i], volIss, volIss);
-				volIss = volIss.substring(0, volIss.indexOf(":")) + "," + volIss.substring(volIss.indexOf(":") + 1);
+				volIss = volume + "," + issue;
+				
 				break;
 			}
 			
@@ -976,11 +1008,6 @@ public class CheckArray {
 						journal = array[i].trim();
 						//System.out.println("Journal: " + journal);
 						
-						if (array[i].toLowerCase().indexOf("the") == 0)
-						{
-							journal = journal.substring(3);
-						}
-						
 						array[i] = "";
 						break;
 					}
@@ -998,6 +1025,13 @@ public class CheckArray {
 			db.closeConnection(conn);
 		}
 		
+		
+		if (journal!=null) {
+			if (journal.toLowerCase().indexOf("the") == 0)
+			{
+				journal = journal.substring(3);
+			}
+		}
 		
 		return journal;
 	}
@@ -1139,6 +1173,23 @@ public class CheckArray {
 		finally
 		{
 			db.closeConnection(conn);
+		}
+		
+
+		if (proceeding!=null) {
+			
+			if (proceeding.toLowerCase().indexOf("the") == 0)
+			{
+				proceeding = proceeding.substring(3);
+			}
+			
+			if (proceeding.toLowerCase().indexOf("published in the") != -1) {
+				proceeding = proceeding.substring(proceeding.toLowerCase().indexOf("published in the")+16);
+			}
+			
+			if (proceeding.toLowerCase().indexOf("presented in the ") != -1) {
+				proceeding = proceeding.substring(proceeding.toLowerCase().indexOf("presented in the")+16);
+			}
 		}
 		
 		return proceeding;

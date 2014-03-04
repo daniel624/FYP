@@ -17,25 +17,13 @@ public class AddSampleData {
 
 	public static void AddColNameValue(String[] inputArray, String compareString)
 	{
-		if (compareString.equals("Year")) {
-			if (inputArray[0].equals(compareString)) {
-				if (colName != "") {
-					colName = colName + ", Year";
-					colValue = colValue + ", " + inputArray[1] + "";
-				} else {
-					colName = "Year";
-					colValue = colValue + inputArray[1];
-				}
-			}
-		} else {
-			if (inputArray[0].equals(compareString)) {
-				if (colName != "") {
-					colName = colName + ", " + compareString;
-					colValue = colValue + ", \"" + inputArray[1] + "\"";
-				} else {
-					colName = compareString;
-					colValue = colValue + "\"" + inputArray[1] + "\"";
-				}
+		if (inputArray[0].equals(compareString)) {
+			if (colName != "") {
+				colName = colName + ", " + compareString;
+				colValue = colValue + ", \"" + inputArray[1] + "\"";
+			} else {
+				colName = compareString;
+				colValue = colValue + "\"" + inputArray[1] + "\"";
 			}
 		}
 	}

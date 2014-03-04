@@ -16,7 +16,7 @@ create table Publication (
 	Chapter varchar(255),
 	Editors varchar(255),
 	Publisher varchar(255),
-	Year int,
+	Year varchar(255),
 	PRIMARY KEY (ID)
 );
 

@@ -675,7 +675,7 @@ Authors= Lei Xu
 Title= On essential topics of BYY harmony learning: Current status, challenging issues, and gene analysis applications
 Journal= Journal of Frontiers of Electrical and Electronic Engineering
 Volume= 7
-Number= 1
+Issue= 1
 Year= 2012
 Page= 147-196
 
@@ -1228,7 +1228,7 @@ Title= Theories of Biological Pattern Formation
 [Book]
 Modelling of Patterns in Space and Time (editors W. Jager and J.D. Murray). Proceedings of a workshop of that name in Heidelberg, 1983. Springer-Verlag, Heidelberg, 1984 (405 pages). 
 Authors= W. Jager& J.D. Murray
-Year=  1984
+Year=  1983
 Title= Modelling of Patterns in Space and Time
 Publisher= Springer-Verlag, Heidelberg
 
@@ -1486,7 +1486,7 @@ Yang, Zhilin (2012), "How to Publish Top Tier Journals", 2012 MAG Scholar Confer
 Authors= Yang, Zhilin
 Proceeding= MAG Scholar Conference
 Year= 2012
-Month= May, June
+Month= May-June
 Title= How to Publish Top Tier Journals
 
 149.
@@ -1655,7 +1655,7 @@ Authors=Dou, Wenyu& David Chou
 Journal= Industrial Marketing Management
 Volume= 31
 Number= 2
-Year= 2011
+Year= 2001
 Page= 165-176
 Title= A Structural Analysis of Business-to-Business Digital Markets
 
@@ -2653,7 +2653,7 @@ Authors= Y. Liu& H. Pan& J. Snyder& W. Wang& B.N. Guo
 Journal= ACM Transactions on Graphics (SIGGRAPH 2013)
 Volume= 32
 Number= 4
-Year= 1013
+Year= 2013
 Title= Computing self-supporting surfaces by regular triangulation
 
 268.
@@ -3114,7 +3114,7 @@ Title= Co-ordinated Quality Control in a Two-stage System
 [Book Chapters]
 Kong, S.C. (2011). A knowledge-based approach of modeling an Internet-based intelligent learning environment for comprehending common fraction operations. In S. Graf, F.H. Lin, Kinshuk & R. McGreal (Eds.), Intelligent and adaptive learning systems: technology enhanced support for learners and teachers (pp. 101-118). Hershey, PA: IGI Global.
 Authors= Kong, S.C.
-Year= 2001
+Year= 2011
 Chapter= A knowledge-based approach of modeling an Internet-based intelligent learning environment for comprehending common fraction operations
 Title= Intelligent and adaptive learning systems: technology enhanced support for learners and teachers
 Publisher= IGI Global
