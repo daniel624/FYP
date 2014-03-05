@@ -39,5 +39,17 @@ create table Conference (
 	PRIMARY KEY (CID)
 );
 
+create table publisher (
+	pubid int not null auto_increment,
+	pubname varchar(255),
+	PRIMARY KEY (pubid)
+);
+
+create table publisher2 (
+	pubid int not null auto_increment,
+	pubname varchar(255),
+	PRIMARY KEY (pubid)
+);
+
 
 select * from Conference;

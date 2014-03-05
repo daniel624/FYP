@@ -31,7 +31,6 @@ public class Main {
 	public static void main(String[] args)
 	{
 
-		/*
 		////////////////////////////////////////////////////////
 		// output console result to file
 		String output_filename = "src/main/output.txt";
@@ -43,9 +42,9 @@ public class Main {
 			e1.printStackTrace();
 		}
 		////////////////////////////////////////////////////////
-		*
-		*/
-
+		 
+		
+		 
 		
 		Calendar cal = Calendar.getInstance();
     	cal.getTime();
@@ -77,6 +76,7 @@ public class Main {
 		String chapter = null;
 		String editors = null;
 		String publisher = null;
+		String yearDB = null;
 		
 		String data = "";
 		String buffer = "";
@@ -86,7 +86,7 @@ public class Main {
 		int indiWrong = 0;
 		
 		String resultPrint = "";
-		int idDB,yearDB;
+		int idDB;
 		String authorsDB,titleDB,journalDB,proceedingDB,volumeDB,issueDB,numberDB,articleDB,pageDB,monthDB,thesisDB,chapterDB,editorsDB,publisherDB;
 		
 		String yearMonthTmp = "";
@@ -251,13 +251,24 @@ public class Main {
 
 					publisher = ca.getPublisher();
 					
+
 					
 					
 					if (volume == null) {
 						volume = ca.getVolumeLast();
 					}
 					
+					if (volume == null) {
+						volume = ca.getVolumeLast2_NumberOnly();
+					}
 					
+					if (number == null) {
+						number = ca.getNumberLast();
+					}
+					
+					if ((year == null) && (title != null)) {
+						year = ca.getYearLast(title);
+					}
 					
 					/////////////////////////////////////////////////////////////////
 					// Trim and Replace the field
@@ -273,6 +284,7 @@ public class Main {
 					if (page != null) page = page.trim();
 					if (page != null) page = page.replaceAll(" ", "");
 					if (year != null) year = year.trim();
+					if (year != null) year = year.replaceAll(" ", "");
 					if (authors != null) authors = authors.trim();
 					if (article != null) article = article.trim();
 					if (month != null) month = month.trim();
@@ -483,22 +495,15 @@ public class Main {
 							}
 						}
 						
-						yearDB = rs.getInt("Year");
-						if (yearDB != 0) {
+						yearDB = rs.getString("Year");
+						if (yearDB != null) {
 							totalFields = totalFields + 1;
 							totalyear++;
-							if (year != null) {
-								if (yearDB != Integer.parseInt(year)) {
-									 System.out.println("***Wrong Year");
-									 wrongFields = wrongFields + 1;
-									 indiWrong++;
-									 wrongyear++;
-								}
-							} else {
-								System.out.println("***Wrong Year");
-								wrongFields = wrongFields + 1;
-								indiWrong++;
-								wrongyear++;
+							if (!(yearDB.equals(year))) {
+								 System.out.println("***Wrong Year");
+								 wrongFields = wrongFields + 1;
+								 indiWrong++;
+								 wrongyear++;
 							}
 						}
 						

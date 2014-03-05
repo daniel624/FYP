@@ -164,6 +164,9 @@ public class CheckArray {
 		String monthWords[] = {"january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"};
 		int indexOfLong, indexOfShort;
 		
+		Matcher dateTodate;
+		String dateString;
+		
 		
 		for (int i=0; i<array.length; i++)
 		{
@@ -173,6 +176,8 @@ public class CheckArray {
 				String startMonth = array[i].substring(0, array[i].indexOf("-"));
 				String endMonth = array[i].substring(array[i].indexOf("-")+1);;
 				
+				int getMonthornot = 0;
+				
 				for (int j=0; j<12; j++) {
 					if ((startMonth.toLowerCase().contains(monthWords[j])) | (startMonth.toLowerCase().contains(monthWords[j].substring(0, 3))))
 					{
@@ -181,6 +186,8 @@ public class CheckArray {
 						} else {
 							month = month + monthWords[j].substring(0, 1).toUpperCase() + monthWords[j].substring(1);
 						}
+						
+						getMonthornot = getMonthornot + 1;
 					}
 				}
 				
@@ -192,8 +199,23 @@ public class CheckArray {
 						} else {
 							month = month + monthWords[j].substring(0, 1).toUpperCase() + monthWords[j].substring(1);
 						}
+						
+						getMonthornot = getMonthornot + 1;
 					}
 				}
+
+				/**
+				if (getMonthornot > 0) {
+					dateTodate = Pattern.compile("[0-9]+( )*-( )*[0-9]+").matcher(array[i]);
+					if (dateTodate.find())
+					{
+						dateString = dateTodate.group();
+
+						array[i] = array[i].substring(0, array[i].indexOf(dateString));
+					}
+				}
+				**/
+				
 			} else {
 				// month, month / month
 				for (int j=0; j<12; j++) {
@@ -439,6 +461,55 @@ public class CheckArray {
 		}
 
 		return volume;
+	}
+	
+	/**
+	 * getVolumeLast2_NumberOnly()
+	 * - search for the volume field
+	 * @return volume extracted
+	 */
+	public String getVolumeLast2_NumberOnly()
+	{
+		String volume = null;
+		Matcher volNum;
+
+		for (int i=0; i<array.length; i++)
+		{
+			// (1)
+			volNum = Pattern.compile("[0-9]+").matcher(array[i]);
+			if (volNum.find())
+			{
+				volume = volNum.group();
+				array[i] = CommonFunction.removePart(array[i], volume, volume);
+				break;
+			}
+		}
+
+		return volume;
+	}
+	
+	/**
+	 * getNumberLast()
+	 * - search for the number field
+	 * @return number extracted
+	 */
+	public String getNumberLast()
+	{
+		String number = null;
+		Matcher numberNum;
+
+		for (int i=0; i<array.length; i++)
+		{
+			// e1001046
+			numberNum = Pattern.compile("[0-9]+").matcher(array[i]);
+			if (numberNum.find())
+			{
+				number = array[i];
+				break;
+			}
+		}
+
+		return number;
 	}
 
 	/**
@@ -752,6 +823,73 @@ public class CheckArray {
 		return page;
 	}
 	
+	
+	public String getYearLast(String inputTitle)
+	{
+		String year = null;
+		Matcher yearOnly;
+		
+		// 2007-2008
+		String startYear = null;
+		String endYear = null;
+		yearOnly = Pattern.compile("[0-9]{4}( )*-( )*[0-9]{4}").matcher(inputTitle);
+		if (yearOnly.find())
+		{
+			year = yearOnly.group();
+			year = year.replaceAll(" ", "");
+			startYear = year.substring(0, year.indexOf("-"));
+			endYear =  year.substring(year.indexOf("-")+1);
+			
+			if ((checkYear(startYear)) && checkYear(endYear))
+			{
+				return year;
+			}
+		}
+		
+		// 2007
+		yearOnly = Pattern.compile("[0-9]{4}").matcher(inputTitle);
+		if (yearOnly.find())
+		{
+			year = yearOnly.group();
+			if (checkYear(year))
+			{
+				return year;
+			}
+		}
+		
+		for (int i=0; i<array.length; i++)
+		{
+			// 2007-2008
+			yearOnly = Pattern.compile("[0-9]{4}( )*-( )*[0-9]{4}").matcher(array[i]);
+			if (yearOnly.find())
+			{
+				year = yearOnly.group();
+				year = year.replaceAll(" ", "");
+				startYear = year.substring(0, year.indexOf("-"));
+				endYear =  year.substring(year.indexOf("-")+1);
+				
+				if ((checkYear(startYear)) && checkYear(endYear))
+				{
+					return year;
+				}
+			}
+			
+			// 2007
+			yearOnly = Pattern.compile("[0-9]{4}").matcher(array[i]);
+			if (yearOnly.find())
+			{
+				year = yearOnly.group();
+				if (checkYear(year))
+				{
+					return year;
+				}
+			}
+			
+		}
+		
+		return null;
+	}
+	
 
 	/**
 	 * getYear()
@@ -765,10 +903,8 @@ public class CheckArray {
 
 		for (int i=0; i<array.length; i++)
 		{
-			//System.out.println("a:"+array[i]);
+			// 2007
 			yearOnly = Pattern.compile("[0-9]{4}").matcher(array[i]);
-			
-			// year
 			if (yearOnly.find())
 			{
 				year = yearOnly.group();
@@ -776,7 +912,6 @@ public class CheckArray {
 				{
 					array[i] = CommonFunction.removePart(array[i], year, year);
 					return year;
-					//System.out.println("Remaining: " + array[i]);
 				}
 			}
 		}
@@ -862,7 +997,7 @@ public class CheckArray {
 			}
 			
 			// 12:2-5 12:2
-			volIssueSemiColon = Pattern.compile("[0-9]+:[0-9]+[-/[0-9]*]*").matcher(array[i]);
+			volIssueSemiColon = Pattern.compile("[0-9]+:[0-9]+[-/[0-9]*]*(^:)").matcher(array[i]);
 			if (volIssueSemiColon.find())
 			{
 				volIss = volIssueSemiColon.group();
@@ -972,33 +1107,39 @@ public class CheckArray {
 					checkStr = checkStr.replaceAll("'", "\\\\'");
 					//System.out.println(checkStr);
 					
-					//sql = "select * from journal where fullname like '%" + URLEncoder.encode(checkStr, "UTF8") + "%'";
-					sql = "select * from journal where fullname like '%" + checkStr + "%'";
-					rs = db.getResultSet(conn, sql);
-					while (rs.next()) {
-						if (array[i].toLowerCase().contains(rs.getString(2).toLowerCase())) {
-							/*
-							journal = rs.getString(2);	
-							if (rs.getString(3)!=null && array[i].contains(rs.getString(3))) {
-								journal += " (" + rs.getString(3) + ")";
-								array[i] = CommonFunction.removePart(array[i], rs.getString(2), rs.getString(2));
+					if (!checkStr.equals("")) {
+						//sql = "select * from journal where fullname like '%" + URLEncoder.encode(checkStr, "UTF8") + "%'";
+						sql = "select * from journal where fullname like '%" + checkStr + "%'";
+						rs = db.getResultSet(conn, sql);
+						while (rs.next()) {
+							if (array[i].toLowerCase().contains(rs.getString(2).toLowerCase())) {
+								/*
+								journal = rs.getString(2);	
+								if (rs.getString(3)!=null && array[i].contains(rs.getString(3))) {
+									journal += " (" + rs.getString(3) + ")";
+									array[i] = CommonFunction.removePart(array[i], rs.getString(2), rs.getString(2));
+									break;
+								}
+								array[i] = CommonFunction.removePart(array[i], journal, journal);
+								*/
+	
+								//journal = rs.getString(2);
+								//array[i] = CommonFunction.removePart(array[i], journal, journal);
+								
+								// if check similar --> use whole string (rather than use db string)
+								journal = array[i].trim();
+								array[i] = "";
 								break;
 							}
-							array[i] = CommonFunction.removePart(array[i], journal, journal);
-							*/
-
-							//journal = rs.getString(2);
-							//array[i] = CommonFunction.removePart(array[i], journal, journal);
-							
-							// if check similar --> use whole string (rather than use db string)
-							journal = array[i].trim();
-							array[i] = "";
-							break;
 						}
+						
+						rs.close();
 					}
 					
 					if (journal!=null) break;
 				}
+				
+				if (journal!=null) break;
 				
 				if (journal==null)
 				{
@@ -1013,7 +1154,6 @@ public class CheckArray {
 					}
 				}
 			}
-			rs.close();
 		}
 		catch (SQLException e)
 		{
@@ -1071,29 +1211,35 @@ public class CheckArray {
 					}
 					checkStr = checkStr.replaceAll("'", "\\\\'");
 					
-					sql = "select * from conference where fullname like '%" + URLEncoder.encode(checkStr, "UTF8") + "%'";
-					rs = db.getResultSet(conn, sql);
-					while (rs.next()) {
-						if (array[i].toLowerCase().contains(rs.getString(2).toLowerCase())) {
-							/*
-							proceeding = rs.getString(2);	
-							if (rs.getString(3)!=null && array[i].contains(rs.getString(3))) {
-								proceeding += " (" + rs.getString(3) + ")";
-								array[i] = CommonFunction.removePart(array[i], rs.getString(2), rs.getString(2));
-								break;
+					if (!checkStr.equals("")) {
+						sql = "select * from conference where fullname like '%" + URLEncoder.encode(checkStr, "UTF8") + "%'";
+						rs = db.getResultSet(conn, sql);
+						while (rs.next()) {
+							if (array[i].toLowerCase().contains(rs.getString(2).toLowerCase())) {
+								/*
+								proceeding = rs.getString(2);	
+								if (rs.getString(3)!=null && array[i].contains(rs.getString(3))) {
+									proceeding += " (" + rs.getString(3) + ")";
+									array[i] = CommonFunction.removePart(array[i], rs.getString(2), rs.getString(2));
+									break;
+								}
+								array[i] = CommonFunction.removePart(array[i], proceeding, proceeding);
+								*/
+								
+								// if check similar --> use whole string (rather than use db string)
+								proceeding = array[i].trim();
+								array[i] = "";
+								break;		
 							}
-							array[i] = CommonFunction.removePart(array[i], proceeding, proceeding);
-							*/
-							
-							// if check similar --> use whole string (rather than use db string)
-							proceeding = array[i].trim();
-							array[i] = "";
-							break;		
 						}
+						
+						rs.close();
 					}
 					
 					if (proceeding!=null) break;
 				}
+
+				if (proceeding!=null) break;
 				
 				if (proceeding==null)
 				{
@@ -1158,7 +1304,6 @@ public class CheckArray {
 					}
 				}
 			}
-			rs.close();
 		}
 		catch (SQLException e)
 		{
@@ -1252,23 +1397,43 @@ public class CheckArray {
 						checkStr = checkPublisher[j];
 					}
 					checkStr = checkStr.replaceAll("'", "\\\\'");
-					
-					sql = "select * from publisher where pubname like '%" + URLEncoder.encode(checkStr, "UTF8") + "%'";
-					rs = db.getResultSet(conn, sql);
-					while (rs.next()) {
-						if (array[i].toLowerCase().contains(rs.getString(2).toLowerCase())) {
-							// if check similar --> use whole string (rather than use db string)
-							publisher = array[i].trim();
-							array[i] = "";
-							break;		
+
+					if (!checkStr.equals("")) {
+						//sql = "select * from publisher where pubname like '%" + URLEncoder.encode(checkStr, "UTF8") + "%'";
+						sql = "select * from publisher where pubname like '%" + checkStr + "%'";
+						rs = db.getResultSet(conn, sql);
+						while (rs.next()) {
+							if (array[i].toLowerCase().contains(rs.getString(2).toLowerCase())) {
+								// if check similar --> use whole string (rather than use db string)
+								
+								publisher = rs.getString(2);
+								array[i] = CommonFunction.removePart(array[i], publisher, publisher);
+								
+								//publisher = array[i].trim();
+								//array[i] = "";
+								
+								break;		
+							}
 						}
+						
+						rs.close();
 					}
 					
-					if (publisher!=null) break;
+					if (publisher != null) break;
 				}
+				
+				if (publisher != null) break;
 				
 				if (publisher==null)
 				{
+					if (array[i].toLowerCase().indexOf("publication") >= 0)
+					{
+						publisher = array[i].trim();
+						
+						array[i] = "";
+						break;
+					}
+					
 					if (array[i].toLowerCase().indexOf("publishing") >= 0)
 					{
 						publisher = array[i].trim();
@@ -1300,25 +1465,47 @@ public class CheckArray {
 						array[i] = "";
 						break;
 					}
+					
+					/**
+					// substring from ":"
+					if (publisher.indexOf(":") >= 0) {
+						publisher = publisher.substring(publisher.indexOf(":")+1);
+					}
+					**/
+					
 				}
 				
 			}
-			rs.close();
 		}
 		catch (SQLException e)
 		{
 			System.out.println("[CheckArray.getPublisher()] SQLException");
 			e.printStackTrace();
 		}
-		catch (UnsupportedEncodingException e)
+		/**catch (UnsupportedEncodingException e)
 		{
 			System.out.println("[CheckArray.getPublisher()] UnsupportedEncodingException");
 			e.printStackTrace();
-		}
+		}**/
 		finally
 		{
 			db.closeConnection(conn);
 		}
+		
+		// truncate "the" and "."
+		if (publisher != null) {
+			if (publisher.toLowerCase().indexOf("the") == 0)
+			{
+				publisher = publisher.substring(3);
+			}
+			
+			
+			if (publisher.toLowerCase().indexOf(".") == publisher.length()-1)
+			{
+				publisher = publisher.substring(0, publisher.length()-1);
+			}
+		}
+		
 		
 		return publisher;
 	}
