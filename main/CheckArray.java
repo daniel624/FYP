@@ -1176,6 +1176,92 @@ public class CheckArray {
 		return journal;
 	}
 	
+
+	/**
+	 * getJournal()
+	 * - search for the journal name
+	 * @return journal name
+	 */
+	public String getJournal_Last_fromTitle(String inputTitle)
+	{
+		String journal = null;
+		DBConnection db = new DBConnection();
+		Connection conn = db.getConnection();
+		ResultSet rs = null;
+		String sql = "";
+		String[] checkJournal;
+		String checkStr;
+		
+		try
+		{
+			checkJournal = inputTitle.split(" ");
+			for (int j=0; j<checkJournal.length; j++) {
+				if (checkJournal.length>1)
+				{
+					if (j<1) checkStr = checkJournal[j] + " " + checkJournal[j+1];
+					else if (j==checkJournal.length-1) checkStr = checkJournal[j];
+					else checkStr = checkJournal[j] + " " + checkJournal[j+1];
+				}
+				else
+				{
+					checkStr = checkJournal[0];
+				}
+				checkStr = checkStr.replaceAll("'", "\\\\'");
+				checkStr = checkStr.replaceAll("\\.", "");
+				//System.out.println(checkStr);
+				
+				if (!checkStr.equals("")) {
+					//sql = "select * from journal where fullname like '%" + URLEncoder.encode(checkStr, "UTF8") + "%'";
+					sql = "select * from journal where fullname like '%" + checkStr + "%'";
+					rs = db.getResultSet(conn, sql);
+					while (rs.next()) {
+						if (inputTitle.toLowerCase().contains(rs.getString(2).toLowerCase())) {
+							/*
+							journal = rs.getString(2);	
+							if (rs.getString(3)!=null && array[i].contains(rs.getString(3))) {
+								journal += " (" + rs.getString(3) + ")";
+								array[i] = CommonFunction.removePart(array[i], rs.getString(2), rs.getString(2));
+								break;
+							}
+							array[i] = CommonFunction.removePart(array[i], journal, journal);
+							*/
+
+							//journal = rs.getString(2);
+							//array[i] = CommonFunction.removePart(array[i], journal, journal);
+							
+							// if check similar --> use whole string (rather than use db string)
+							journal = rs.getString(2).trim();
+							break;
+						}
+					}
+					
+					rs.close();
+				}
+				
+				if (journal!=null) break;
+			}
+		}
+		catch (SQLException e)
+		{
+			System.out.println("[CheckArray.getJournal_Last_fromTitle()] SQLException");
+			e.printStackTrace();
+		}
+		finally
+		{
+			db.closeConnection(conn);
+		}
+		
+		
+		if (journal!=null) {
+			if (journal.toLowerCase().indexOf("the") == 0)
+			{
+				journal = journal.substring(3);
+			}
+		}
+		
+		return journal;
+	}
+	
 	
 
 	/**
@@ -1202,7 +1288,7 @@ public class CheckArray {
 					if (checkProc.length>1)
 					{
 						if (j<1) checkStr = checkProc[j] + " " + checkProc[j+1];
-						else if (j==checkProc.length-1) checkStr = checkProc[checkProc.length-2] + " " + checkProc[checkProc.length-1];
+						else if (j==checkProc.length-1) checkStr = checkProc[j-1] + " " + checkProc[j];
 						else checkStr = checkProc[j-1] + " " + checkProc[j] + " " + checkProc[j+1];
 					}
 					else

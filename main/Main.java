@@ -252,6 +252,10 @@ public class Main {
 					publisher = ca.getPublisher();
 					
 
+					if ((journal == null) && (title != null)) {
+						journal = ca.getJournal_Last_fromTitle(title);
+					}
+					
 					
 					
 					if (volume == null) {

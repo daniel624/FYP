@@ -5,7 +5,7 @@ import common.CommonFunction;
 import db.*;
 import java.io.*;
 
-public class AddConference {
+public class AddConference_dblp {
 	static String colName = "";
 	static String colValue = "";
 	
@@ -22,7 +22,7 @@ public class AddConference {
 		// a - z (97 -122)
 		for (int i=97; i<=122; i++)
 		{
-			fileName = "src/data/dblp/conference/conference-" + (char)i + ".txt";
+			fileName = "src/data/conference/dblp/conference-" + (char)i + ".txt";
 			System.out.println(fileName);
 			
 			counter = 1;

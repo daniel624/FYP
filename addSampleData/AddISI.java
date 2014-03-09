@@ -18,7 +18,7 @@ public class AddISI {
 		String sql2 = "";
 		String buffer = "";
 		String[] array;
-		String fileName = "src/data/isi/ISI-data.txt";
+		String fileName = "src/data/journal/ISI-data.txt";
 		int counter = 1;
 		HashMap<String, String> map = new HashMap<String, String>();
 		int flag;
@@ -39,8 +39,9 @@ public class AddISI {
 					colValue = "\"" + array[0] + "\"," + "\"" + array[1] + "\"," + "\"" + array[2] + "\"";
 
 					sql = "insert into Journal (" + colName + ") values ("+ colValue + ");";
-					//System.out.println("sql - " + counter + " = " + sql);
+					System.out.println("sql - " + counter + " = " + sql);
 					
+					/**
 					flag = 0;
 					if (!map.containsKey(array[3])) {
 						map.put(array[3], array[3]);
@@ -49,17 +50,20 @@ public class AddISI {
 						//System.out.println("sql - " + counter + " = " + sql);
 						flag = 1;
 					}
+					**/
 
 					try
 					{
-						//db.updateTable(conn, sql);
+						db.updateTable(conn, sql);
+						/**
 						if (flag==1) {
-							//db.updateTable(conn, sql2);
+							db.updateTable(conn, sql2);
 						}
+						**/
 					}
 					catch (Exception e)
 					{
-						System.out.println("[addConference] Exception");
+						System.out.println("[addISI] Exception");
 						e.printStackTrace();
 					}
 				}

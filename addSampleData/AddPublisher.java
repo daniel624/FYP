@@ -27,7 +27,7 @@ public class AddPublisher {
 		String publisher_get = "";
 		int counter;
 
-		fileName = "src/data/Publisher.txt";
+		fileName = "src/data/publisher/Publisher.txt";
 		System.out.println(fileName);
 		
 		counter = 1;

@@ -1,4 +1,4 @@
-Start Time = 02:19:30
+Start Time = 00:06:06
 
 ===== testing string 1 =====
 ?Andrej Bogdanov and Youming Qiao: On the security of Goldreich's one-way function. In Computational Complexity, vol. 21, no. 1, 2012. Invited paper. , 
@@ -196,6 +196,7 @@ array[4]:
 Lou S, Ni B, Lo LY, Tsui SK, Chan TF*, and Leung KS: ABMapper: a suffix array-based tool for multi-location searching and splice-junction mapping. Bioinformatics. 2011 27(3):421-2.  (*corresponding author, page special), 
 ===== splitted fields 10 =====
 Title = ABMapper: a suffix array-based tool for multi-location searching and splice-junction mapping. Bioinformatics.
+Journal = BIOINFORMATICS
 Volume = 27
 Issue = 3
 Page = 421-2
@@ -254,7 +255,7 @@ Year = 2012
 
 ***Wrong Authors
 ***Wrong Title
-***Wrong Journal
+***Wrong Proceeding
 ===== remaining fields 12 =====
 array[0]: James Cheng
 array[1]: Zechao Shang
@@ -636,6 +637,7 @@ array[10]:
 T.M. Chan, K.C. Wong, K.H. Lee, M.H. Wong, C.K. Lau, Stephen K.W. Tsui, K.S. Leung, Discovering approximate-associated sequence patterns for protein-DNA interactions. Bioinformatics, 2011, 27(4), pp. 471-478. (IF:5.468), 
 ===== splitted fields 28 =====
 Title = Discovering approximate-associated sequence patterns for protein-DNA interactions. Bioinformatics
+Journal = BIOINFORMATICS
 Volume = 27
 Issue = 4
 Number = .(IF:5.468)
@@ -1287,6 +1289,7 @@ array[4]:
 Ka-Chun Wong, Kwong-Sak Leung, Man Hon Wong: Effect of Spatial Locality on an Evolutionary Algorithm for Multimodal Optimization. EvoApplications (1) 2010: 481-490, 
 ===== splitted fields 53 =====
 Title = Effect of Spatial Locality on an Evolutionary Algorithm for Multimodal Optimization
+Journal = OPTIMIZATION
 Volume = 1
 Page = 481-490
 Year = 2010
@@ -1599,6 +1602,7 @@ array[3]:
 Lei Xu (2009), "Learning Algorithms for RBF Functions and Subspace Based Functions", Ch.3 in "Handbook of Research on Machine Learning Applications and Trends: Algorithms, Methods and Techniques", eds. by Olivas, Guerrero, Sober, Benedito, & Lopez, IGI Global publication, pp60-94, 
 ===== splitted fields 66 =====
 Title = Learning Algorithms for RBF Functions and Subspace Based Functions", Ch.3 in "Handbook of Research on Machine Learning Applications and Trends: Algorithms, Methods and Techniques
+Journal = MACHINE LEARNING
 Page = 60-94
 Year = 2009
 Publisher = Sober
@@ -1991,6 +1995,7 @@ array[5]:
 Long Xu, Sam Kwong and Zhang Yun, Low-Complexity Encoder Framework for Window-Level Rate Control Optimization, accepted for publication in IEEE Trans on Industrial Electronics, 2012, 
 ===== splitted fields 81 =====
 Title = Low-Complexity Encoder Framework for Window-Level Rate Control Optimization
+Journal = OPTIMIZATION
 Year = 2012
 Publisher = accepted for publication in IEEE Trans on Industrial Electronics
 
@@ -2318,6 +2323,7 @@ array[11]:
 Xiaohua Jia, Dongsoo Kim, Sam Makki, Pengjun Wan, and Chihwei Yi, "Power assignment for k-connectivity in wireless ad hoc networks" , IEEE INFOCOM'05, Miami, Mar 2005., 
 ===== splitted fields 94 =====
 Title = Power assignment for k-connectivity in wireless ad hoc networks
+Journal = Ad Hoc Networks
 Volume = 05
 Year = 2005
 Month = March
@@ -2342,6 +2348,7 @@ array[9]:
 Xiaohua Jia, Deying Li, and D. Du, "QoS topology control in ad hoc wireless networks" , IEEE INFOCOM'04, Hong Kong, Mar 2004., 
 ===== splitted fields 95 =====
 Title = QoS topology control in ad hoc wireless networks
+Journal = WIRELESS NETWORKS
 Volume = 04
 Year = 2004
 Authors = & D. Du
@@ -2365,6 +2372,7 @@ array[7]:
 Deying Li, Xiaohua Jia, and H. Liu, "Energy efficient broadcast routing in ad hoc wireless networks" , IEEE Trans on Mobile Computing, Vol.3, No.2, Apr-Jun 2004., 
 ===== splitted fields 96 =====
 Title = Energy efficient broadcast routing in ad hoc wireless networks
+Journal = WIRELESS NETWORKS
 Volume = 3
 Number = 2
 Year = 2004
@@ -2681,10 +2689,11 @@ array[6]:
 ===== testing string 110 =====
 Cheung, M.C., Chan, A.S., Sze, S. L., Leung, W.W., & To, C.Y. (2010). Verbal memory deficits in relation to organization strategy in high- and low-functioning autistic children. Research in Autism Spectrum Disorders, 4, 764-771, 
 ===== splitted fields 110 =====
+Journal = C.Y. (). Verbal memory deficits in relation to organization strategy in high- and low-functioning autistic children. Research in Autism Spectrum Disorders
 Volume = 4
 Page = 764-771
 Year = 2010
-Authors = M.C.& A.S.& S. L.& W.W.& C.Y. (). Verbal memory deficits in relation to organization strategy in high-& low-functioning autistic children. Research in Autism Spectrum Disorders
+Authors = M.C.& A.S.& S. L.& W.W.&
 
 ***Wrong Authors
 ***Wrong Title
@@ -3441,20 +3450,20 @@ array[8]:
 Zhilin Yang, Chen Zhou, and Ling Jiang (2011), "When Do Formal Control and Trust Matter? A Context-Based Analysis of the Effects on Marketing Channel Relationships in China", Industrial Marketing Management, 40, 1, 86-96., 
 ===== splitted fields 144 =====
 Title = When Do Formal Control and Trust Matter? A Context-Based Analysis of the Effects on Marketing Channel Relationships in China
+Journal = Industrial Marketing Management
 Volume = 40
 Number = 1
 Page = 86-96
 Year = 2011
 
 ***Wrong Authors
-***Wrong Journal
 ***Wrong Issue
 ===== remaining fields 144 =====
 array[0]: Zhilin Yang
 array[1]: Chen Zhou
 array[2]: and Ling Jiang ()
 array[3]: 
-array[4]: Industrial Marketing Management
+array[4]: 
 array[5]: 
 array[6]: 1
 array[7]: .
@@ -3778,7 +3787,6 @@ Publisher = Chinese People¡¦s University Press
 
 ***Wrong Authors
 ***Wrong Editors
-***Wrong Publisher
 ===== remaining fields 158 =====
 array[0]: 
 array[1]: Raymond MeLeod
@@ -3974,18 +3982,18 @@ array[7]:
 Dou, Wenyu and David Chou (2001), "A Structural Analysis of Business-to-Business Digital Markets", Industrial Marketing Management, Vol. 31, No.2, pp. 165-176., 
 ===== splitted fields 167 =====
 Title = A Structural Analysis of Business-to-Business Digital Markets
+Journal = Industrial Marketing Management
 Volume = 31
 Number = 2
 Page = 165-176
 Year = 2001
 
 ***Wrong Authors
-***Wrong Journal
 ===== remaining fields 167 =====
 array[0]: Dou
 array[1]: Wenyu and David Chou ()
 array[2]: 
-array[3]: Industrial Marketing Management
+array[3]: 
 array[4]: 
 array[5]: 
 array[6]: .
@@ -4493,6 +4501,7 @@ array[2]:
 Ho, Judy. W.C. , Ho, Samuel. M.Y. , Pau, Barbara. K.Y. , Hui, Bryant. P.H. , Wong, Rosa. S.M. & Chu, Annie. (2012). Hope-based Intervention for Individuals Susceptible to Colorectal Cancer: A Pilot Study. Familial Cancer. 11. 545 - 551., 
 ===== splitted fields 190 =====
 Title = (). Hope-based Intervention for Individuals Susceptible to Colorectal Cancer: A Pilot Study. Familial Cancer. 11.
+Journal = Familial Cancer
 Page = 545-551
 Year = 2012
 Authors = Judy. W.C.& Samuel. M.Y.& Barbara. K.Y.& Bryant. P.H.& Rosa. S.M. & Chu&
@@ -4500,7 +4509,6 @@ Publisher = Pau
 
 ***Wrong Authors
 ***Wrong Title
-***Wrong Journal
 ***Wrong Volume
 ===== remaining fields 190 =====
 array[0]: Ho
@@ -5250,16 +5258,16 @@ array[6]:
 Isabel Yan (with Terence Chong and Ying-Chiu Wong) (2008), "The International Linkages of the Japanese Stock Market", Japan and the World Economy, 20, 601-621., 
 ===== splitted fields 223 =====
 Title = The International Linkages of the Japanese Stock Market
+Journal = Japan and the World Economy
 Volume = 20
 Page = 601-621
 Year = 2008
 
 ***Wrong Authors
-***Wrong Journal
 ===== remaining fields 223 =====
 array[0]: Isabel Yan (with Terence Chong and Ying-Chiu Wong) ()
 array[1]: 
-array[2]: Japan and the World Economy
+array[2]: 
 array[3]: 
 array[4]: .
 array[5]: 
@@ -5543,6 +5551,7 @@ array[9]:
 Chen, Ni (2012) "Branding National Images: The 2008 Beijing Summer Olympics, 2012 Shanghai World Expo, and 2010 Guangzhou Asian Games," Public Relations Review, Vol. 38 (1)., 
 ===== splitted fields 235 =====
 Title = Branding National Images: The 2008 Beijing Summer Olympics, 2012 Shanghai World Expo, and 2010 Guangzhou Asian Games,
+Journal = Ni ()  Public Relations Review
 Volume = 38
 Number = (1).
 Year = 2012
@@ -5553,7 +5562,7 @@ Year = 2012
 ***Wrong Issue
 ===== remaining fields 235 =====
 array[0]: Chen
-array[1]: Ni ()  Public Relations Review
+array[1]: 
 array[2]: (1).
 array[3]: 
 ===== end 235 =====
@@ -7988,6 +7997,7 @@ array[4]:
 "Step Contrast in Low Energy Electron Microscopy", W.F. Chung and M.S. Altman, Ultramicroscopy 74, 237 (1998). , 
 ===== splitted fields 344 =====
 Title = Step Contrast in Low Energy Electron Microscopy
+Journal = Microscopy
 Volume = 237
 Number = Ultramicroscopy74
 Year = 1998
@@ -8060,6 +8070,7 @@ array[10]:
 Recovery of Clean Ordered (111) Surface of Etched Silicon, A. M. C. Ng, L. Dong, W. K. Ho, A. B. Djuri?i?, M. H. Xie, H. S. Wu, N. Lin, S. Y. Tong, Appl. Surf. Sci. DOI: 10.1016/j.apsusc.2013.05.092 (2013)., 
 ===== splitted fields 347 =====
 Title = Recovery of Clean Ordered (111) Surface of Etched Silicon
+Journal = Silicon
 Volume = 10
 Issue = 092
 Number = Appl.Surf.Sci.DOI:.1016/j.apsusc.2013.05..
@@ -8634,7 +8645,6 @@ Page = 111-128
 Year = 2002
 Authors = B. S. He& L.-Z. Liao
 
-***Wrong Title
 ===== remaining fields 370 =====
 array[0]: 
 array[1]: 
@@ -8650,6 +8660,7 @@ array[6]:
 X. Chen and S. Xiang, Implicit solution function of P0 and Z matrix linear complementarity constraints, Math. Programming, 128(2011), 1-18. , 
 ===== splitted fields 371 =====
 Title = Implicit solution function of P0 and Z matrix linear complementarity constraints
+Journal = CONSTRAINTS
 Volume = 128
 Number = 128()
 Page = 1-18
@@ -8858,16 +8869,16 @@ array[6]:
 
 ===== overall statistics =====
 Total Fields: 2303
-Correct Fields: 1376
-Wrong Fields: 927
-Accuracy: 0.59748155
-All correct: 56,69,70,72,97,98,99,372,373,375,376,
+Correct Fields: 1382
+Wrong Fields: 921
+Accuracy: 0.60008687
+All correct: 56,69,70,72,97,98,99,370,372,373,375,376,
 
 ===== fields statistics =====
 Author: 30/366, accuracy: 0.08196721311475409
-Title: 179/378, accuracy: 0.47354497354497355
-Journal: 107/261, accuracy: 0.4099616858237548
-Proceeding: 23/48, accuracy: 0.4791666666666667
+Title: 180/378, accuracy: 0.47619047619047616
+Journal: 111/260, accuracy: 0.4269230769230769
+Proceeding: 23/49, accuracy: 0.46938775510204084
 Volume: 214/247, accuracy: 0.8663967611336032
 Issue: 73/102, accuracy: 0.7156862745098039
 Number: 50/50, accuracy: 1.0
@@ -8877,9 +8888,9 @@ Month: 72/75, accuracy: 0.96
 Thesis: 2/2, accuracy: 1.0
 Chapter: 0/37, accuracy: 0.0
 Editor: 0/31, accuracy: 0.0
-Publisher: 20/69, accuracy: 0.2898550724637681
+Publisher: 21/69, accuracy: 0.30434782608695654
 Year: 374/374, accuracy: 1.0
 
-End Time = 02:28:22
+End Time = 00:15:21
 
-Running Time = 532 seconds
+Running Time = 554 seconds

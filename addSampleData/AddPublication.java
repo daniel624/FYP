@@ -11,7 +11,7 @@ import java.net.*;
 import java.io.*;
 import org.apache.commons.lang3.*;
 
-public class AddSampleData {
+public class AddPublication {
 	static String colName = "";
 	static String colValue = "";
 
@@ -43,7 +43,7 @@ public class AddSampleData {
 		
 		try 
 		{
-			BufferedReader in = new BufferedReader(new InputStreamReader(new FileInputStream("src/data/Publication.txt"), "UTF8"));
+			BufferedReader in = new BufferedReader(new InputStreamReader(new FileInputStream("src/data/publication/Publication.txt"), "UTF8"));
 
 			buffer = in.readLine();
 			while (buffer != null)

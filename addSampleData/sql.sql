@@ -26,6 +26,7 @@ create table Journal (
 	JID int not null auto_increment,
 	FullName varchar(255),
 	ShortName  varchar(255),
+	ShortName2  varchar(255),
 	PRIMARY KEY (JID)
 );
 

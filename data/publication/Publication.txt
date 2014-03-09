@@ -101,7 +101,7 @@ Authors= Kwok PY& TF Chan
 Chapter= Genotyping technologies: the present and the future
 Title= Genetics, Genomics, Proteomics and Bioinformatics
 Year= 2005
-Publisher= John Wiley& Sons Ltd
+Publisher= John Wiley & Sons Ltd.
 Editors= Marsh, J
 
 12.
@@ -110,7 +110,7 @@ KReach: Who is In Your Small World.
 In PVLDB, Volume 5, Number 11, Pages 1292-1303, 2012
 Authors= James Cheng& Zechao Shang& Hong Cheng& Haixun Wang& Jeffrey Xu Yu
 Title= KReach: Who is In Your Small World
-Journal= PVLDB
+Proceeding= PVLDB
 Volume= 5
 Number= 11
 Page= 1292-1303
@@ -547,7 +547,7 @@ Ka-Chun Wong, Kwong-Sak Leung, Man Hon Wong: Effect of Spatial Locality on an Ev
 Authors= Ka-Chun Wong& Kwong-Sak Leung& Man Hon Wong
 Title= Effect of Spatial Locality on an Evolutionary Algorithm for Multimodal Optimization
 Journal= EvoApplications
-Number= 1
+Volume= 1
 Year= 2010
 Page= 481-490
 
@@ -698,7 +698,7 @@ Year= 2008
 Chapter= Combining Classifiers and Learning Mixture-of-Experts
 Title= Encyclopedia of Artificial Intelligence
 Editors= Juan Ramon Rabunal Dopico; Julian Dorado; Alejandro Pazos
-Publisher= IGI Global (IGI)
+Publisher= IGI Global (IGI) publishing company
 Page= 318-326
 
 68.
@@ -1484,7 +1484,7 @@ Title= Service Quality Dimensions of Internet Purchasing: An Exploratory Analysi
 [Conference Papers]
 Yang, Zhilin (2012), "How to Publish Top Tier Journals", 2012 MAG Scholar Conference, Gyor, Hungary, May 28 - June 01.
 Authors= Yang, Zhilin
-Proceeding= MAG Scholar Conference
+Proceeding= 2012 MAG Scholar Conference
 Year= 2012
 Month= May-June
 Title= How to Publish Top Tier Journals
@@ -1539,7 +1539,7 @@ Title= Mismatch between Trust and Interdependence:The Moderating Role of Power I
 [Conference Papers]
 Wu, Jianan, Jie Sun, Yinglu Wu, and Zhilin Yang (2009), "eWOM and Risk Return in Online Markets: A Joint Study on Seller Review and Product Review", 2009 Informs Marketing Science Conference, June 4-6, 2009, University of Michigan, Ann Arbor, Michigan, USA.
 Authors= Wu, Jianan& Jie Sun& Yinglu Wu& Zhilin Yang
-Proceeding= Informs Marketing Science Conference
+Proceeding= 2009 Informs Marketing Science Conference
 Year= 2009
 Month= June
 Title= eWOM and Risk Return in Online Markets: A Joint Study on Seller Review and Product Review
@@ -1576,7 +1576,7 @@ Authors= William G. Zikmund& Raymond MeLeod& Jr.& Faye W. Gilbert
 Year= 2005
 Title= Customer Relationship Management: Integrating marketing strategy and information technology
 Editors= Zuohao Hu, Song Jia, and Zhilin Yang
-Publisher= Beijing: Chinese People’s University Press
+Publisher= Chinese People’s University Press
 
 159.
 [Conference Papers]
@@ -1590,7 +1590,7 @@ Title= Group Identity and Consumer Responses to Advertising in Community Web Sit
 [Conference Papers]
 Dou, Wenyu, Boonghee Yoo, and Liangyu Ma (2002), "Understanding the Patronage of Ethnic Portal Sites: An Exploratory Study of Chinese Internet Users", proceedings of The 2002 Asia-Pacific Association of Consumer Research Conference.
 Authors= Dou, Wenyu& Boonghee Yoo& Liangyu Ma
-Proceeding= The 2002 Asia-Pacific Association of Consumer Research Conference
+Proceeding= 2002 Asia-Pacific Association of Consumer Research Conference
 Year= 2002
 Title= Understanding the Patronage of Ethnic Portal Sites: An Exploratory Study of Chinese Internet Users
 
@@ -1598,7 +1598,7 @@ Title= Understanding the Patronage of Ethnic Portal Sites: An Exploratory Study 
 [Conference Papers]
 Dou, Wenyu, Ollie Nielsen and Chee-Ming Tan (2001), "Building Effective Web Sites for Export Marketing: Evidences from Canada, Denmark, and Malaysia", proceedings of The AMA 2001 Summer Educators Conference, USA.
 Authors= Dou, Wenyu& Ollie Nielsen& Chee-Ming Tan
-Proceeding= The AMA 2001 Summer Educators Conference
+Proceeding= AMA 2001 Summer Educators Conference
 Year= 2001
 Title= Building Effective Web Sites for Export Marketing: Evidences from Canada, Denmark, and Malaysia
 
@@ -1606,7 +1606,7 @@ Title= Building Effective Web Sites for Export Marketing: Evidences from Canada,
 [Conference Papers]
 Dou, Wenyu, Boonghee Yoo, and Naveen Donthu (2000), "Building Global E-commerce Presence Through Ethnic Portals", proceedings of The eCommerce and Global Business Forum (in CD-ROM), sponsored by the University of California -Los Angeles, the University of Washington-Seattle, and Anderson Consulting, USA.
 Authors= Dou, Wenyu& Boonghee Yoo& Naveen Donthu
-Proceeding= The eCommerce and Global Business Forum
+Proceeding= eCommerce and Global Business Forum
 Year= 2000
 Title= Building Global E-commerce Presence Through Ethnic Portals
 
@@ -2722,7 +2722,7 @@ Authors= Nikos Mamoulis& Xin Zhang& David W. Cheung& Yutao Shou
 Year= 2004
 Month= August
 Title= Fast Mining of Spatial Collocations
-Proceeding= The Tenth ACM SIGKDD conference (SIGKDD 2004)
+Proceeding= Tenth ACM SIGKDD conference (SIGKDD 2004)
 
 275.
 R. Cheng, J. Gong and D. Cheung, Managing Uncertainty of XML Schema Matching, IEEE ICDE 2010
@@ -3614,7 +3614,7 @@ Volume= 112
 Issue= 1
 Year= 2002
 Page= 111-128
-Title= Improvements of some projection methods for monotone nonlinear variational inequalitie
+Title= Improvements of some projection methods for monotone nonlinear variational inequalities
 
 371.
 X. Chen and S. Xiang, Implicit solution function of P0 and Z matrix linear complementarity constraints, Math. Programming, 128(2011), 1-18. 

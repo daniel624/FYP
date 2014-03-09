@@ -36,7 +36,7 @@ IEEE Expert Systems,
 IEEE Intelligent Systems,
 IEEE Geoscience and Remote Sensing Letters,
 IEEE Instrumentation & Measurement Magazine,
-IEEE Intelligent Informatics Bulletin
+IEEE Intelligent Informatics Bulletin,
 IEEE Intelligent Transportation Systems Magazine,
 IEEE Internet Computing,
 IEEE Journal of Emerging and Selected Topics in Circuits and Systems,
