@@ -1429,6 +1429,10 @@ public class CheckArray {
 					if (array[i].toLowerCase().indexOf("publication") >= 0)
 					{
 						publisher = array[i].trim();
+						// substring from ":"
+						if (publisher.indexOf(":") >= 0) {
+							publisher = publisher.substring(publisher.indexOf(":")+1);
+						}
 						
 						array[i] = "";
 						break;
@@ -1437,6 +1441,10 @@ public class CheckArray {
 					if (array[i].toLowerCase().indexOf("publishing") >= 0)
 					{
 						publisher = array[i].trim();
+						// substring from ":"
+						if (publisher.indexOf(":") >= 0) {
+							publisher = publisher.substring(publisher.indexOf(":")+1);
+						}
 						
 						array[i] = "";
 						break;
@@ -1445,6 +1453,10 @@ public class CheckArray {
 					if (array[i].toLowerCase().indexOf("publisher") >= 0)
 					{
 						publisher = array[i].trim();
+						// substring from ":"
+						if (publisher.indexOf(":") >= 0) {
+							publisher = publisher.substring(publisher.indexOf(":")+1);
+						}
 						
 						array[i] = "";
 						break;
@@ -1453,6 +1465,10 @@ public class CheckArray {
 					if (array[i].toLowerCase().indexOf("press") >= 0)
 					{
 						publisher = array[i].trim();
+						// substring from ":"
+						if (publisher.indexOf(":") >= 0) {
+							publisher = publisher.substring(publisher.indexOf(":")+1);
+						}
 						
 						array[i] = "";
 						break;
@@ -1461,18 +1477,14 @@ public class CheckArray {
 					if (array[i].toLowerCase().indexOf("ltd") >= 0)
 					{
 						publisher = array[i].trim();
+						// substring from ":"
+						if (publisher.indexOf(":") >= 0) {
+							publisher = publisher.substring(publisher.indexOf(":")+1);
+						}
 						
 						array[i] = "";
 						break;
 					}
-					
-					/**
-					// substring from ":"
-					if (publisher.indexOf(":") >= 0) {
-						publisher = publisher.substring(publisher.indexOf(":")+1);
-					}
-					**/
-					
 				}
 				
 			}
