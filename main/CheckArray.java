@@ -1110,6 +1110,8 @@ public class CheckArray {
 					if (!checkStr.equals("")) {
 						//sql = "select * from journal where fullname like '%" + URLEncoder.encode(checkStr, "UTF8") + "%'";
 						sql = "select * from journal where fullname like '%" + checkStr + "%'";
+						//sql = "select * from journal where fullname like '%" + checkStr + "%'";
+						//System.out.println(sql);
 						rs = db.getResultSet(conn, sql);
 						while (rs.next()) {
 							if (array[i].toLowerCase().contains(rs.getString(2).toLowerCase())) {
@@ -1127,6 +1129,30 @@ public class CheckArray {
 								//array[i] = CommonFunction.removePart(array[i], journal, journal);
 								
 								// if check similar --> use whole string (rather than use db string)
+								journal = array[i].trim();
+								array[i] = "";
+								break;
+							}
+						}
+						
+						if (journal!=null) break;
+						
+						sql = "select * from journal where shortname like '%" + checkStr + "%'";
+						rs = db.getResultSet(conn, sql);
+						while (rs.next()) {
+							if (array[i].toLowerCase().contains(rs.getString(3).toLowerCase())) {
+								journal = array[i].trim();
+								array[i] = "";
+								break;
+							}
+						}
+
+						if (journal!=null) break;
+						
+						sql = "select * from journal where shortname2 like '%" + checkStr + "%'";
+						rs = db.getResultSet(conn, sql);
+						while (rs.next()) {
+							if (array[i].toLowerCase().contains(rs.getString(4).toLowerCase())) {
 								journal = array[i].trim();
 								array[i] = "";
 								break;

@@ -1,4 +1,4 @@
-Start Time = 00:06:06
+Start Time = 01:22:19
 
 ===== testing string 1 =====
 ?Andrej Bogdanov and Youming Qiao: On the security of Goldreich's one-way function. In Computational Complexity, vol. 21, no. 1, 2012. Invited paper. , 
@@ -2084,7 +2084,7 @@ array[10]:
 K S Tang, R J Yin, S Kwong, K T Ng, K F Man, A theoretical development and analysis of jumping gene genetic algorithm, IEEE Transactions on Industrial Informatics, Volume 7, Issue 3, August 2011, Article number 5937032, Pages 408-418, 
 ===== splitted fields 85 =====
 Title = A theoretical development and analysis of jumping gene genetic algorithm
-Journal = IEEE Transactions on Industrial Informatics
+Journal = R J Yin
 Volume = 7
 Issue = 3
 Page = 408-418
@@ -2094,14 +2094,15 @@ Month = August
 Publisher = August
 
 ***Wrong Authors
+***Wrong Journal
 ===== remaining fields 85 =====
 array[0]: K S Tang
-array[1]: R J Yin
+array[1]: 
 array[2]: S Kwong
 array[3]: K T Ng
 array[4]: K F Man
 array[5]: 
-array[6]: 
+array[6]: IEEE Transactions on Industrial Informatics
 array[7]: 
 array[8]: 
 array[9]: 
@@ -2835,10 +2836,11 @@ array[4]:
 Chan, K. L., & Jones, B. J. T. 1975, Distortions of the 3K background radiation spectrum: observational constraints on the early thermal history of the universe, Astrophys. J., 195, 1-11., 
 ===== splitted fields 116 =====
 Title = Distortions of the 3K background radiation spectrum: observational constraints on the early thermal history of the universe
+Journal = Astrophys. J.
 Volume = 195
 Page = 1-11
 Year = 1975
-Authors = K. L.& B. J. T.& Astrophys. J.&
+Authors = K. L.& B. J. T.&
 
 ***Wrong Authors
 ***Wrong Journal
@@ -4279,7 +4281,7 @@ array[10]:
 Luk, C.L., Yau, O.H.M., Sin, L.Y.M., Tse, A.C.B., Chow, R.P.M., & Lee, J.S.Y. (2008), "The effects of social capital and organizational innovativeness in different institutional contexts", Journal of International Business Studies, 39, 4, 589-612., 
 ===== splitted fields 180 =====
 Title = The effects of social capital and organizational innovativeness in different institutional contexts
-Journal = Journal of International Business Studies
+Journal = Tse
 Volume = 39
 Number = 4
 Page = 589-612
@@ -4287,6 +4289,7 @@ Year = 2008
 Authors = C.L.& O.H.M.& L.Y.M.& A.C.B.& R.P.M.& J.S.Y. ()&
 
 ***Wrong Authors
+***Wrong Journal
 ***Wrong Issue
 ===== remaining fields 180 =====
 array[0]: Luk
@@ -4295,14 +4298,14 @@ array[2]: Yau
 array[3]: 
 array[4]: Sin
 array[5]: 
-array[6]: Tse
+array[6]: 
 array[7]: 
 array[8]: Chow
 array[9]: 
 array[10]: & Lee
 array[11]: 
 array[12]: 
-array[13]: 
+array[13]: Journal of International Business Studies
 array[14]: 
 array[15]: 4
 array[16]: .
@@ -5743,9 +5746,9 @@ array[2]:
 ===== testing string 244 =====
 Wang AY, Lai KN. Use of cardiac biomarkers in end-stage renal disease. J Am Soc Nephrol 2008;19:1643-1652. , 
 ===== splitted fields 244 =====
+Journal = Lai KN. Use of cardiac biomarkers in end-stage renal disease. J Am Soc Nephrol;19:.
 Page = 1643-1652
 Year = 2008
-Authors = Lai KN. Use of cardiac biomarkers in end-stage renal disease. J Am Soc Nephrol;19:.&
 Month = March
 
 ***Wrong Authors
@@ -6239,14 +6242,14 @@ array[4]:
 "Application of hierarchical equations of motion (HEOM) to time dependent quantum transport at zero and finite temperatures", H. Tian, G.H. Chen, Eur. Phys. J. B, 86: 411, (2013). DOI:10.1140/epjb/e2013-40333-7, 
 ===== splitted fields 265 =====
 Title = Application of hierarchical equations of motion (HEOM) to time dependent quantum transport at zero and finite temperatures
+Journal = Eur. Phys. J. B
 Volume = 86
 Number = :411
 Page = 2013-40333
 Year = 2013
-Authors = H. Tian& G.H. Chen& Eur. Phys. J. B&
+Authors = H. Tian& G.H. Chen&
 
 ***Wrong Authors
-***Wrong Journal
 ***Wrong Issue
 ***Wrong Page
 ===== remaining fields 265 =====
@@ -6264,18 +6267,19 @@ array[6]:
 "Elementary Excitations for Two-Dimensional Quantum Heisenberg Antiferromagnet", Guanhua Chen, Hong-Qiang Ding and William A. Goddard III*, Phys. Rev. B 46, 2933 (1992). DOI:10.1103/PhysRevB.46.2933, 
 ===== splitted fields 266 =====
 Title = Elementary Excitations for Two-Dimensional Quantum Heisenberg Antiferromagnet
-Volume = 46
+Journal = Phys. Rev. B 46
 Issue = 2933
 Year = 1992
 Authors = Hong-Qiang Ding& William A. Goddard III*. DOI:10.1103/PhysRevB.46.2933&
 
 ***Wrong Authors
 ***Wrong Journal
+***Wrong Volume
 ===== remaining fields 266 =====
 array[0]: 
 array[1]: Guanhua Chen
 array[2]: 
-array[3]: Phys. Rev. B
+array[3]: 
 array[4]: 
 array[5]: 
 ===== end 266 =====
@@ -7024,11 +7028,12 @@ array[6]:
 T.Slee, Lin Zhenyang and D.M.P.Mingos* "Polyhedral skeletal electron pair theory of bare clusters 1: small silicon clusters" Inorg. Chem.,28, 2256-2261(1989) , 
 ===== splitted fields 298 =====
 Title = Polyhedral skeletal electron pair theory of bare clusters 1: small silicon clusters
+Journal = Lin Zhenyang and D.M.P.Mingos*  Inorg. Chem.
 Volume = 28
 Issue = 2261
 Number = 2256-
 Year = 1989
-Authors = T.Slee& Lin Zhenyang& D.M.P.Mingos*  Inorg. Chem.
+Authors = T.Slee&
 
 ***Wrong Authors
 ***Wrong Journal
@@ -7083,11 +7088,11 @@ array[2]:
 "The Design of New Molecular Light Swithces for DNA" J. Biol. Inorg. Chem., 6(2), 143-150 (2001)., 
 ===== splitted fields 301 =====
 Title = The Design of New Molecular Light Swithces for DNA
+Journal = J. Biol. Inorg. Chem.
 Volume = 143
 Issue = 2
 Page = 143-150
 Year = 2001
-Authors = J. Biol. Inorg. Chem.&
 
 ***Wrong Journal
 ***Wrong Volume
@@ -8019,9 +8024,10 @@ array[4]:
 Multi-component assembly of supramolecular coordination polygons on a Au(111) surface, T. Lin, X. S. Shang, P. N. Liu, N. Lin, J. Phys. Chem. C. 117, 23027 (2013)., 
 ===== splitted fields 345 =====
 Title = Multi-component assembly of supramolecular coordination polygons on a Au(111) surface
+Journal = J. Phys. Chem. C. 117
 Issue = 23027
 Year = 2013
-Authors = T. Lin& X. S. Shang& P. N. Liu& N. Lin& J. Phys. Chem. C. 117&
+Authors = T. Lin& X. S. Shang& P. N. Liu& N. Lin&
 
 ***Wrong Authors
 ***Wrong Journal
@@ -8043,13 +8049,14 @@ array[7]:
 Coordination self-assembly of bromo-phenyl and pyridyl functionalized porphyrins with Fe on a Au(111) surface, X. F. Mao, T. Lin, J. Adisoejoso, Z. Shi, X. S. Shang, P. N. Liu, N. Lin, Phys. Chem. Chem. Phys. 15, 12447 (2013)., 
 ===== splitted fields 346 =====
 Title = Coordination self-assembly of bromo-phenyl and pyridyl functionalized porphyrins with Fe on a Au(111) surface
-Volume = 15
+Journal = Phys. Chem. Chem. Phys. 15
 Issue = 12447
 Year = 2013
 Authors = X. F. Mao& T. Lin& J. Adisoejoso& Z. Shi& X. S. Shang& P. N. Liu& N. Lin&
 
 ***Wrong Authors
 ***Wrong Journal
+***Wrong Volume
 ***Wrong Page
 ===== remaining fields 346 =====
 array[0]: 
@@ -8060,7 +8067,7 @@ array[4]:
 array[5]: 
 array[6]: 
 array[7]: 
-array[8]: Phys. Chem. Chem. Phys.
+array[8]: 
 array[9]: .
 array[10]: 
 ===== end 346 =====
@@ -8070,10 +8077,8 @@ array[10]:
 Recovery of Clean Ordered (111) Surface of Etched Silicon, A. M. C. Ng, L. Dong, W. K. Ho, A. B. Djuri?i?, M. H. Xie, H. S. Wu, N. Lin, S. Y. Tong, Appl. Surf. Sci. DOI: 10.1016/j.apsusc.2013.05.092 (2013)., 
 ===== splitted fields 347 =====
 Title = Recovery of Clean Ordered (111) Surface of Etched Silicon
-Journal = Silicon
-Volume = 10
+Journal = Appl. Surf. Sci. DOI: 10.1016/j.apsusc.2013.05..
 Issue = 092
-Number = Appl.Surf.Sci.DOI:.1016/j.apsusc.2013.05..
 Year = 2013
 Authors = A. M. C. Ng& L. Dong& W. K. Ho& A. B. Djuri?i?& M. H. Xie& H. S. Wu& N. Lin& S. Y. Tong&
 Month = May
@@ -8090,7 +8095,7 @@ array[5]:
 array[6]: 
 array[7]: 
 array[8]: 
-array[9]: Appl. Surf. Sci. DOI:.1016/j.apsusc.2013.05..
+array[9]: 
 array[10]: 
 ===== end 347 =====
 
@@ -8175,7 +8180,7 @@ array[9]:
 Yi-Hsin Chen, Meng-Jung Lee, I-Chung Wang, Shengwang Du, Yong-Fan Chen, Ying-Cheng Chen, and Ite A. Yu, "Coherent optical memory with high storage efficiency and large fractional delay," Phys. Rev. Lett. 110, 083601 (2013)., 
 ===== splitted fields 351 =====
 Title = Coherent optical memory with high storage efficiency and large fractional delay,
-Volume = 110
+Journal = Phys. Rev. Lett. 110
 Issue = 083601
 Year = 2013
 Authors = & Ite A. Yu
@@ -8184,6 +8189,7 @@ Month = June
 ***Wrong Authors
 ***Wrong Title
 ***Wrong Journal
+***Wrong Volume
 ***Wrong Page
 ===== remaining fields 351 =====
 array[0]: Yi-Hsin Chen
@@ -8193,7 +8199,7 @@ array[3]: Shengwang Du
 array[4]: Yong-Fan Chen
 array[5]: Ying-Cheng Chen
 array[6]: 
-array[7]: Phys. Rev. Lett.
+array[7]: 
 array[8]: .
 array[9]: 
 ===== end 351 =====
@@ -8203,13 +8209,14 @@ array[9]:
 "A New Electrorheological Fluids: Theory and Experiment", W.Y. Tam, G.H. Yi, W. Wen, H. Ma, M.M.T. Loy and P. Sheng, Phys. Rev. Lett. 78, 2987-2990 (1997)., 
 ===== splitted fields 352 =====
 Title = A New Electrorheological Fluids: Theory and Experiment
-Volume = 78
+Journal = Phys. Rev. Lett. 78
+Volume = 2987
 Issue = 2990
-Number = 2987-.
 Year = 1997
 Authors = W.Y. Tam& G.H. Yi& W. Wen& H. Ma& M.M.T. Loy& P. Sheng
 
 ***Wrong Journal
+***Wrong Volume
 ***Wrong Page
 ===== remaining fields 352 =====
 array[0]: 
@@ -8218,8 +8225,8 @@ array[2]:
 array[3]: 
 array[4]: 
 array[5]: 
-array[6]: Phys. Rev. Lett.
-array[7]: 2987-.
+array[6]: 
+array[7]: -.
 array[8]: 
 ===== end 352 =====
 
@@ -8228,19 +8235,20 @@ array[8]:
 "Universal Topological Properties of Shells in Soap Forth", K.Y. Szeto and W.Y. Tam, Phys. Rev. E 53, 4213-4216 (1996). , 
 ===== splitted fields 353 =====
 Title = Universal Topological Properties of Shells in Soap Forth
-Volume = 53
+Journal = Phys. Rev. E 53
+Volume = 4213
 Issue = 4216
-Number = 4213-.
 Year = 1996
 Authors = K.Y. Szeto& W.Y. Tam
 
 ***Wrong Journal
+***Wrong Volume
 ***Wrong Page
 ===== remaining fields 353 =====
 array[0]: 
 array[1]: 
-array[2]: Phys. Rev. E
-array[3]: 4213-.
+array[2]: 
+array[3]: -.
 array[4]: 
 ===== end 353 =====
 
@@ -8249,12 +8257,13 @@ array[4]:
 "Anisotropic Topological Surface States on High-Index Bi2Se3 Films" Zhongjie Xu, Xin Guo, Mengyu Yao, Hongtao He, Lin Miao, Lu Jiao, Hongchao Liu, Jiannong Wang, Dong Qian, Jinfeng Jia, Wingkin Ho, and Maohai Xie, Adv. Mater. 25 1557 (2013), 
 ===== splitted fields 354 =====
 Title = Anisotropic Topological Surface States on High-Index Bi2Se3 Films
-Volume = 25
+Journal = Adv. Mater. 25
 Issue = 1557
 Year = 2013
 
 ***Wrong Authors
 ***Wrong Journal
+***Wrong Volume
 ***Wrong Page
 ===== remaining fields 354 =====
 array[0]: Zhongjie Xu
@@ -8269,7 +8278,7 @@ array[8]: Dong Qian
 array[9]: Jinfeng Jia
 array[10]: Wingkin Ho
 array[11]: and Maohai Xie
-array[12]: Adv. Mater.
+array[12]: 
 array[13]: 
 ===== end 354 =====
 
@@ -8616,6 +8625,7 @@ array[5]:
 ===== testing string 369 =====
 (with H. Liang) Stability of collocation methods for delay diferential equations with vanishing delays, BIT Numer. Math., 50 (2010), 693-711., 
 ===== splitted fields 369 =====
+Journal = BIT Numer. Math.
 Volume = 50
 Number = 50()
 Page = 693-711
@@ -8624,10 +8634,9 @@ Authors = (with H. Liang) Stability of collocation methods for delay diferential
 
 ***Wrong Authors
 ***Wrong Title
-***Wrong Journal
 ===== remaining fields 369 =====
 array[0]: 
-array[1]: BIT Numer. Math.
+array[1]: 
 array[2]: 50 ()
 array[3]: .
 array[4]: 
@@ -8869,9 +8878,9 @@ array[6]:
 
 ===== overall statistics =====
 Total Fields: 2303
-Correct Fields: 1382
-Wrong Fields: 921
-Accuracy: 0.60008687
+Correct Fields: 1376
+Wrong Fields: 927
+Accuracy: 0.59748155
 All correct: 56,69,70,72,97,98,99,370,372,373,375,376,
 
 ===== fields statistics =====
@@ -8879,7 +8888,7 @@ Author: 30/366, accuracy: 0.08196721311475409
 Title: 180/378, accuracy: 0.47619047619047616
 Journal: 111/260, accuracy: 0.4269230769230769
 Proceeding: 23/49, accuracy: 0.46938775510204084
-Volume: 214/247, accuracy: 0.8663967611336032
+Volume: 208/247, accuracy: 0.8421052631578947
 Issue: 73/102, accuracy: 0.7156862745098039
 Number: 50/50, accuracy: 1.0
 Article: 5/5, accuracy: 1.0
@@ -8891,6 +8900,6 @@ Editor: 0/31, accuracy: 0.0
 Publisher: 21/69, accuracy: 0.30434782608695654
 Year: 374/374, accuracy: 1.0
 
-End Time = 00:15:21
+End Time = 01:35:14
 
-Running Time = 554 seconds
+Running Time = 775 seconds
