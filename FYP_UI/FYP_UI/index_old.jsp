@@ -4,7 +4,7 @@
 <head> 
 <Script> 
 function clearFields(){ 
-document.getElementById("intput_text_id").value=""; 
+document.getElementById("intput_text_id").value="";
 return false; 
 }
 </Script> 
@@ -15,29 +15,39 @@ return false;
 	<font align="center" style="color: #5858FA" size="5"><b>Automatic bibliography field recognition and format conversion</b></font>
 	<hr>
 	
+	<form action="index.jsp" method="post">
 	<table>
 		<tr>
-			<td>
-				<form action="Main" method="post"> 
-					<font color="red" size="3">Type in the raw data in the below given text area and click on Execute button:</font>
-					<br/><br/> 
-
-					<textarea rows="15" cols="50" name="intput_text" id="intput_text_id"></textarea><br><br> 
-
-					<input type="submit" value="Execute">    
-					<input type="button" value="Reset" onClick="clearFields()"> 
-				</form>
+			<td align="center">
+				<font color="red" size="3">Input data:</font>
+			</td>
+			
+			<td align="center">
+				<font color="red" size="3">Output result:</font>
 			</td>
 		</tr>
 		
 		<tr>
 			<td>
-				<font color="red" size="3">Output result:</font>
-					<br/><br/> 
-				<textarea rows="15" cols="50" name="output_text"></textarea><br><br> 
+				<textarea rows="20" cols="70" name="intput_text" id="intput_text_id"></textarea>
+			</td>
+			
+			<td>
+				<textarea rows="20" cols="70" name="output_text" id="output_text_id" disabled="disabled"></textarea>
+			</td>
+		</tr>
+		
+		<tr>
+			<td>
+				<input type="submit" value="Execute">    
+				<input type="button" value="Reset" onClick="clearFields()"> 
+			</td>
+			
+			<td>
 			</td>
 		</tr>
 	</table>
+	</form>
 	
 	<hr>
 	<div align="right">

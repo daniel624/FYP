@@ -1,0 +1,7 @@
+Andrej Bogdanov, Periklis Papakonstantinou, and Andrew Wan: Pseudorandomness for read-once formulas. In Proceedings of the 52nd Annual Symposium on Foundations of Computer Science (FOCS), 2011., 
+
+James Cheng, Zechao Shang, Hong Cheng, Haixun Wang, and Jeffrey Xu Yu.
+KReach: Who is In Your Small World.
+In PVLDB, Volume 5, Number 11, Pages 1292-1303, 2012
+
+

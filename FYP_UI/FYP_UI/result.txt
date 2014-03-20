@@ -1,0 +1,29 @@
+Start Time = 21:02:12
+
+===== testing string 1 =====
+Andrej Bogdanov, Periklis Papakonstantinou, and Andrew Wan: Pseudorandomness for read-once formulas. In Proceedings of the 52nd Annual Symposium on Foundations of Computer Science (FOCS), 2011., , 
+Title = Pseudorandomness for read-once formulas
+Proceeding = 52nd Annual Symposium on Foundations of Computer Science (FOCS)
+Year = 2011
+===== end 1 =====
+
+
+===== testing string 2 =====
+James Cheng, Zechao Shang, Hong Cheng, Haixun Wang, and Jeffrey Xu Yu., KReach: Who is In Your Small World., In PVLDB, Volume 5, Number 11, Pages 1292-1303, 2012, 
+Title = Who is In Your Small World
+Volume = 5
+Number = 11
+Page = 1292-1303
+Year = 2012
+===== end 2 =====
+
+
+===== testing string 3 =====
+
+===== end 3 =====
+
+
+
+End Time = 21:02:13
+
+Running Time = 1 seconds
