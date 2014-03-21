@@ -1,29 +1,70 @@
-Start Time = 21:02:12
+Start Time = 23:05:33
 
 ===== testing string 1 =====
-Andrej Bogdanov, Periklis Papakonstantinou, and Andrew Wan: Pseudorandomness for read-once formulas. In Proceedings of the 52nd Annual Symposium on Foundations of Computer Science (FOCS), 2011., , 
-Title = Pseudorandomness for read-once formulas
-Proceeding = 52nd Annual Symposium on Foundations of Computer Science (FOCS)
+M. Xiao, L. Cai, A.C.C. Yao, Tight Approximation Ratio of a General Greedy Splitting Algorithm for the Minimum k-Way Cut Problem, Algorithmica Vol 59 510-520, 2011. 
+Title = Tight Approximation Ratio of a General Greedy Splitting Algorithm for the Minimum k-Way Cut Problem
+Journal = Algorithmica
+Volume = 59
+Page = 510-520
 Year = 2011
+Authors = M. Xiao and L. Cai and A.C.C. Yao
 ===== end 1 =====
 
 
 ===== testing string 2 =====
-James Cheng, Zechao Shang, Hong Cheng, Haixun Wang, and Jeffrey Xu Yu., KReach: Who is In Your Small World., In PVLDB, Volume 5, Number 11, Pages 1292-1303, 2012, 
-Title = Who is In Your Small World
-Volume = 5
-Number = 11
-Page = 1292-1303
-Year = 2012
+L. Cai, Parameterized Complexity of Cardinality Constrained Optimization Problems, the Computer Journal, 51(1) 102-121, 2008.
+Title = Parameterized Complexity of Cardinality Constrained Optimization Problems
+Journal = Computer Journal
+Volume = 51
+Issue = 1
+Page = 102-121
+Year = 2008
+Authors = L. Cai
 ===== end 2 =====
 
 
 ===== testing string 3 =====
-
+L. Cai and D.G. Corneil, Tree Spanners, SIAM Journal on Discrete Mathematics, 8(3), 359-387, 1995.
+Journal = SIAM Journal on Discrete Mathematics
+Volume = 8
+Issue = 3
+Page = 359-387
+Year = 1995
+Authors = L. Cai and D.G. Corneil
 ===== end 3 =====
 
 
+===== testing string 4 =====
+Zhitang Chen, Laiwan Chan. New Approaches for Solving Permutation Indeterminacy and Scaling Ambiguity in Frequency Domain Separation of Convolved Mixtures, Proceedings of International Joint Conference on Neural Networks, San Jose, California, USA, July 31-August 5, 2011, p911-918
+Title = Laiwan Chan. New Approaches for Solving Permutation Indeterminacy and Scaling Ambiguity in Frequency Domain Separation of Convolved Mixtures
+Proceeding = International Joint Conference on Neural Networks
+Volume = 31
+Number = July-August5
+Page = 911-918
+Year = 2011
+Month = July-August
+===== end 4 =====
 
-End Time = 21:02:13
 
-Running Time = 1 seconds
+===== testing string 5 =====
+Andrej Bogdanov, Periklis Papakonstantinou, and Andrew Wan: Pseudorandomness for read-once formulas. In Proceedings of the 52nd Annual Symposium on Foundations of Computer Science (FOCS), 2011
+Title = Pseudorandomness for read-once formulas
+Proceeding = 52nd Annual Symposium on Foundations of Computer Science (FOCS)
+Year = 2011
+===== end 5 =====
+
+
+===== testing string 6 =====
+Lau, E. Y. Y.* (2013). Mood and behavior. In C. A. Kushida (Eds.), Encyclopedia of Sleep, Vol.3 (pp.413-418). Waltham, MA: Academic Press.
+Volume = 3
+Page = 413-418
+Year = 2013
+Authors = E. Y. Y.* (). Mood and behavior. In C. A. Kushida (Eds.)
+Publisher = Academic Press
+===== end 6 =====
+
+
+
+End Time = 23:05:37
+
+Running Time = 3 seconds

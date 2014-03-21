@@ -1,7 +1,12 @@
-Andrej Bogdanov, Periklis Papakonstantinou, and Andrew Wan: Pseudorandomness for read-once formulas. In Proceedings of the 52nd Annual Symposium on Foundations of Computer Science (FOCS), 2011., 
+M. Xiao, L. Cai, A.C.C. Yao, Tight Approximation Ratio of a General Greedy Splitting Algorithm for the Minimum k-Way Cut Problem, Algorithmica Vol 59 510-520, 2011. 
 
-James Cheng, Zechao Shang, Hong Cheng, Haixun Wang, and Jeffrey Xu Yu.
-KReach: Who is In Your Small World.
-In PVLDB, Volume 5, Number 11, Pages 1292-1303, 2012
+L. Cai, Parameterized Complexity of Cardinality Constrained Optimization Problems, the Computer Journal, 51(1) 102-121, 2008., 
 
+L. Cai and D.G. Corneil, Tree Spanners, SIAM Journal on Discrete Mathematics, 8(3), 359-387, 1995., 
+
+Zhitang Chen, Laiwan Chan. New Approaches for Solving Permutation Indeterminacy and Scaling Ambiguity in Frequency Domain Separation of Convolved Mixtures, Proceedings of International Joint Conference on Neural Networks, San Jose, California, USA, July 31-August 5, 2011, p911-918, 
+
+Andrej Bogdanov, Periklis Papakonstantinou, and Andrew Wan: Pseudorandomness for read-once formulas. In Proceedings of the 52nd Annual Symposium on Foundations of Computer Science (FOCS), 2011
+
+Lau, E. Y. Y.* (2013). Mood and behavior. In C. A. Kushida (Eds.), Encyclopedia of Sleep, Vol.3 (pp.413-418). Waltham, MA: Academic Press., 
 

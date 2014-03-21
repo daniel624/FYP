@@ -116,6 +116,7 @@ public class Main extends HttpServlet {
 		String intput_text = req.getParameter("intput_text"); 
 	
 	
+		////////////////////////////////////////////////////////
 		// Storing the input data in a file
 		////////////////////////////////////////////////////////
 		String input_filename = "webapps/FYP_UI/input.txt";
@@ -128,15 +129,17 @@ public class Main extends HttpServlet {
 		////////////////////////////////////////////////////////
 		
 		
-		// Storing the output data in a txt file
 		////////////////////////////////////////////////////////
-		String output_filename_txt = "webapps/FYP_UI/result.txt";
+		// Storing the output data in a bib file
+		////////////////////////////////////////////////////////
+		String output_filename_bib = "webapps/FYP_UI/result.bib";
 
-		FileWriter file_writer_output = new FileWriter(output_filename_txt);
-		PrintWriter print_writer_output = new PrintWriter(file_writer_output);
+		FileWriter file_writer_output_bib = new FileWriter(output_filename_bib);
+		PrintWriter print_writer_output_bib = new PrintWriter(file_writer_output_bib);
+		
+		
+		
 		////////////////////////////////////////////////////////
-		
-		
 		// Storing the output data in a xls file
 		////////////////////////////////////////////////////////
 		String output_filename_xls = "webapps/FYP_UI/result.xls";
@@ -189,6 +192,17 @@ public class Main extends HttpServlet {
 		cell.setCellValue(new HSSFRichTextString("Editors"));
 		cell = row.createCell(15);
 		cell.setCellValue(new HSSFRichTextString("Publisher"));
+		
+		
+		////////////////////////////////////////////////////////
+		// Storing the output data in a txt file
+		////////////////////////////////////////////////////////
+		String output_filename_txt = "webapps/FYP_UI/result.txt";
+
+		FileWriter file_writer_output_txt = new FileWriter(output_filename_txt);
+		PrintWriter print_writer_output_txt = new PrintWriter(file_writer_output_txt);
+		
+
 
 		
 		
@@ -236,8 +250,10 @@ public class Main extends HttpServlet {
     	webpage_out.println("Start Time = " + sdf.format(cal.getTime()));
     	webpage_out.println();
     	
-    	print_writer_output.println("Start Time = " + sdf.format(cal.getTime()));
-    	print_writer_output.println();
+    	print_writer_output_txt.println("Start Time = " + sdf.format(cal.getTime()));
+    	print_writer_output_txt.println();
+    	
+    	int print_to_bib = 0;
     	
 		int totalFields = 0;
 		int wrongFields = 0;
@@ -320,6 +336,14 @@ public class Main extends HttpServlet {
 				}
 				else
 				{
+					if (data.lastIndexOf(", , ") == data.length()-4) {
+						data = data.substring(0, data.length()-4);
+					}
+					
+					if (data.lastIndexOf(", ") == data.length()-2) {
+						data = data.substring(0, data.length()-2);
+					}
+					
 					/////////////////////////////////////////////////////////////////
 					// Clear the fields
 					title = null;
@@ -338,12 +362,14 @@ public class Main extends HttpServlet {
 					chapter = null;
 					editors = null;
 					publisher = null;
+					
+					print_to_bib = 0;
 					/////////////////////////////////////////////////////////////////
 					
 					webpage_out.println("===== testing string " + count + " =====");
-					print_writer_output.println("===== testing string " + count + " =====");
+					print_writer_output_txt.println("===== testing string " + count + " =====");
 					webpage_out.println(data);
-					print_writer_output.println(data);
+					print_writer_output_txt.println(data);
 					row = spreadSheet.createRow((short) count);
 					cell = row.createCell(0);
 					cell.setCellValue(new HSSFRichTextString(data));
@@ -486,97 +512,106 @@ public class Main extends HttpServlet {
 					if (chapter != null) chapter = chapter.trim();
 					if (editors != null) editors = editors.trim();
 					if (publisher != null) publisher = publisher.trim();
+					
+					
+					if (authors != null) {
+						authors = authors.replaceAll("&", " and");
+						if (authors.lastIndexOf(" and") == authors.length()-4) {
+							authors = authors.substring(0, authors.length()-4);
+						}
+					}
 
 					/////////////////////////////////////////////////////////////////
-					// Print out the field
+					// Print out the field (UI, txt, xls)
+					/////////////////////////////////////////////////////////////////
 					
 					if (title != null) {
 						webpage_out.println("Title = " + title);
-						print_writer_output.println("Title = " + title);
+						print_writer_output_txt.println("Title = " + title);
 						cell = row.createCell(1);
 						cell.setCellValue(new HSSFRichTextString(title));
 					}
 					if (journal != null) {
 						webpage_out.println("Journal = " + journal);
-						print_writer_output.println("Journal = " + journal);
+						print_writer_output_txt.println("Journal = " + journal);
 						cell = row.createCell(2);
 						cell.setCellValue(new HSSFRichTextString(journal));
 					}
 					if (proceeding != null) {
 						webpage_out.println("Proceeding = " + proceeding);
-						print_writer_output.println("Proceeding = " + proceeding);
+						print_writer_output_txt.println("Proceeding = " + proceeding);
 						cell = row.createCell(3);
 						cell.setCellValue(new HSSFRichTextString(proceeding));
 					}
 					if (volume != null) {
 						webpage_out.println("Volume = " + volume);
-						print_writer_output.println("Volume = " + volume);
+						print_writer_output_txt.println("Volume = " + volume);
 						cell = row.createCell(4);
 						cell.setCellValue(new HSSFRichTextString(volume));
 					}
 					if (issue != null) {
 						webpage_out.println("Issue = " + issue);
-						print_writer_output.println("Issue = " + issue);
+						print_writer_output_txt.println("Issue = " + issue);
 						cell = row.createCell(5);
 						cell.setCellValue(new HSSFRichTextString(issue));
 					}
 					if (number != null) {
 						webpage_out.println("Number = " + number);
-						print_writer_output.println("Number = " + number);
+						print_writer_output_txt.println("Number = " + number);
 						cell = row.createCell(6);
 						cell.setCellValue(new HSSFRichTextString(number));
 					}
 					if (page != null) {
 						webpage_out.println("Page = " + page);
-						print_writer_output.println("Page = " + page);
+						print_writer_output_txt.println("Page = " + page);
 						cell = row.createCell(7);
 						cell.setCellValue(new HSSFRichTextString(page));
 					}
 					if (year != null) {
 						webpage_out.println("Year = " + year);
-						print_writer_output.println("Year = " + year);
+						print_writer_output_txt.println("Year = " + year);
 						cell = row.createCell(8);
 						cell.setCellValue(new HSSFRichTextString(year));
 					}
 					if (authors != null) {
 						webpage_out.println("Authors = " + authors);
-						print_writer_output.println("Authors = " + authors);
+						print_writer_output_txt.println("Authors = " + authors);
 						cell = row.createCell(9);
 						cell.setCellValue(new HSSFRichTextString(authors));
 					}
 					if (article != null) {
 						webpage_out.println("Article = " + article);
-						print_writer_output.println("Article = " + article);
+						print_writer_output_txt.println("Article = " + article);
 						cell = row.createCell(10);
 						cell.setCellValue(new HSSFRichTextString(article));
 					}
 					if (month != null) {
 						webpage_out.println("Month = " + month);
-						print_writer_output.println("Month = " + month);
+						print_writer_output_txt.println("Month = " + month);
 						cell = row.createCell(11);
 						cell.setCellValue(new HSSFRichTextString(month));
 					}
 					if (thesis != null) {
 						webpage_out.println("Thesis = " + thesis);
-						print_writer_output.println("Thesis = " + thesis);
+						print_writer_output_txt.println("Thesis = " + thesis);
 						cell = row.createCell(12);
 						cell.setCellValue(new HSSFRichTextString(thesis));
 					}
 					if (chapter != null) {
 						webpage_out.println("Chapter = " + chapter);
-						print_writer_output.println("Chapter = " + chapter);
+						print_writer_output_txt.println("Chapter = " + chapter);
 						cell = row.createCell(13);
 						cell.setCellValue(new HSSFRichTextString(chapter));
 					}
 					if (editors != null) {
 						webpage_out.println("Editors = " + editors);
-						print_writer_output.println("Editors = " + editors);
+						print_writer_output_txt.println("Editors = " + editors);
 						cell = row.createCell(14);
 						cell.setCellValue(new HSSFRichTextString(editors));
 					}
 					if (publisher != null) {
 						webpage_out.println("Publisher = " + publisher);
-						print_writer_output.println("Publisher = " + publisher);
+						print_writer_output_txt.println("Publisher = " + publisher);
 						cell = row.createCell(15);
 						cell.setCellValue(new HSSFRichTextString(publisher));
 						
@@ -586,7 +621,250 @@ public class Main extends HttpServlet {
 					/////////////////////////////////////////////////////////////////
 					
 					webpage_out.println("===== end " + count + " =====\n\n");
-					print_writer_output.println("===== end " + count + " =====\n\n");
+					print_writer_output_txt.println("===== end " + count + " =====\n\n");
+					
+					
+					
+					/////////////////////////////////////////////////////////////////
+					// Print out the field (bib)
+					/////////////////////////////////////////////////////////////////
+					
+					if ((journal != null) && (print_to_bib == 0)) {
+						print_writer_output_bib.println("@article{" + "Input_" + count + ",");
+						if (authors != null) {
+							print_writer_output_bib.println("\tauthor\t\t=\t\"" + authors + "\"");
+						}
+						if (title != null) {
+							print_writer_output_bib.println("\ttitle\t\t=\t\"" + title + "\"");
+						}
+						if (journal != null) {
+							print_writer_output_bib.println("\tjournal\t\t=\t\"" + journal + "\"");
+						}
+						if (volume != null) {
+							print_writer_output_bib.println("\tvolume\t\t=\t\"" + volume + "\"");
+						}
+						if (issue != null) {
+							print_writer_output_bib.println("\tissue\t\t=\t\"" + issue + "\"");
+						}
+						if (number != null) {
+							print_writer_output_bib.println("\tnumber\t\t=\t\"" + number + "\"");
+						}
+						if (article != null) {
+							print_writer_output_bib.println("\tarticle\t\t=\t\"" + article + "\"");
+						}
+						if (page != null) {
+							print_writer_output_bib.println("\tpages\t\t=\t\"" + page + "\"");
+						}
+						if (year != null) {
+							print_writer_output_bib.println("\tyear\t\t=\t\"" + year + "\"");
+						}
+						if (month != null) {
+							print_writer_output_bib.println("\tmonth\t\t=\t\"" + month + "\"");
+						}
+						if (chapter != null) {
+							print_writer_output_bib.println("\tchapter\t\t=\t\"" + chapter + "\"");
+						}
+						if (editors != null) {
+							print_writer_output_bib.println("\teditor\t\t=\t\"" + editors + "\"");
+						}
+						if (publisher != null) {
+							print_writer_output_bib.println("\tpublisher\t=\t\"" + publisher + "\"");
+						}
+						
+						print_writer_output_bib.println("\tnote\t\t=\t\"" + ca.originalInput + "\"");
+						print_writer_output_bib.println("}");
+						print_writer_output_bib.println("");
+						
+						print_to_bib = 1;
+					}
+					
+					if ((proceeding != null) && (print_to_bib == 0)) {
+						print_writer_output_bib.println("@inproceedings{" + "Input_" + count + ",");
+						if (authors != null) {
+							print_writer_output_bib.println("\tauthor\t\t=\t\"" + authors + "\"");
+						}
+						if (title != null) {
+							print_writer_output_bib.println("\ttitle\t\t=\t\"" + title + "\"");
+						}
+						if (proceeding != null) {
+							print_writer_output_bib.println("\tbooktitle\t=\t\"" + proceeding + "\"");
+						}
+						if (volume != null) {
+							print_writer_output_bib.println("\tvolume\t\t=\t\"" + volume + "\"");
+						}
+						if (issue != null) {
+							print_writer_output_bib.println("\tissue\t\t=\t\"" + issue + "\"");
+						}
+						if (number != null) {
+							print_writer_output_bib.println("\tnumber\t\t=\t\"" + number + "\"");
+						}
+						if (article != null) {
+							print_writer_output_bib.println("\tarticle\t\t=\t\"" + article + "\"");
+						}
+						if (page != null) {
+							print_writer_output_bib.println("\tpages\t\t=\t\"" + page + "\"");
+						}
+						if (year != null) {
+							print_writer_output_bib.println("\tyear\t\t=\t\"" + year + "\"");
+						}
+						if (month != null) {
+							print_writer_output_bib.println("\tmonth\t\t=\t\"" + month + "\"");
+						}
+						if (chapter != null) {
+							print_writer_output_bib.println("\tchapter\t\t=\t\"" + chapter + "\"");
+						}
+						if (editors != null) {
+							print_writer_output_bib.println("\teditor\t\t=\t\"" + editors + "\"");
+						}
+						if (publisher != null) {
+							print_writer_output_bib.println("\tpublisher\t=\t\"" + publisher + "\"");
+						}
+						
+						print_writer_output_bib.println("\tnote\t\t=\t\"" + ca.originalInput + "\"");
+						print_writer_output_bib.println("}");
+						print_writer_output_bib.println("");
+						
+						print_to_bib = 1;
+					}
+					
+					if ((thesis != null) && (print_to_bib == 0)) {
+						print_writer_output_bib.println("@phdthesis{" + "Input_" + count + ",");
+						if (authors != null) {
+							print_writer_output_bib.println("\tauthor\t\t=\t\"" + authors + "\"");
+						}
+						if (title != null) {
+							print_writer_output_bib.println("\ttitle\t\t=\t\"" + title + "\"");
+						}
+						if (volume != null) {
+							print_writer_output_bib.println("\tvolume\t\t=\t\"" + volume + "\"");
+						}
+						if (issue != null) {
+							print_writer_output_bib.println("\tissue\t\t=\t\"" + issue + "\"");
+						}
+						if (number != null) {
+							print_writer_output_bib.println("\tnumber\t\t=\t\"" + number + "\"");
+						}
+						if (article != null) {
+							print_writer_output_bib.println("\tarticle\t\t=\t\"" + article + "\"");
+						}
+						if (page != null) {
+							print_writer_output_bib.println("\tpages\t\t=\t\"" + page + "\"");
+						}
+						if (year != null) {
+							print_writer_output_bib.println("\tyear\t\t=\t\"" + year + "\"");
+						}
+						if (month != null) {
+							print_writer_output_bib.println("\tmonth\t\t=\t\"" + month + "\"");
+						}
+						if (chapter != null) {
+							print_writer_output_bib.println("\tchapter\t\t=\t\"" + chapter + "\"");
+						}
+						if (editors != null) {
+							print_writer_output_bib.println("\teditor\t\t=\t\"" + editors + "\"");
+						}
+						if (publisher != null) {
+							print_writer_output_bib.println("\tpublisher\t=\t\"" + publisher + "\"");
+						}
+						
+						print_writer_output_bib.println("\tnote\t\t=\t\"" + ca.originalInput + "\"");
+						print_writer_output_bib.println("}");
+						print_writer_output_bib.println("");
+						
+						print_to_bib = 1;
+					}
+					
+					if ((chapter != null) && (print_to_bib == 0)) {
+						print_writer_output_bib.println("@inbook{" + "Input_" + count + ",");
+						if (authors != null) {
+							print_writer_output_bib.println("\tauthor\t\t=\t\"" + authors + "\"");
+						}
+						if (title != null) {
+							print_writer_output_bib.println("\ttitle\t\t=\t\"" + title + "\"");
+						}
+						if (volume != null) {
+							print_writer_output_bib.println("\tvolume\t\t=\t\"" + volume + "\"");
+						}
+						if (issue != null) {
+							print_writer_output_bib.println("\tissue\t\t=\t\"" + issue + "\"");
+						}
+						if (number != null) {
+							print_writer_output_bib.println("\tnumber\t\t=\t\"" + number + "\"");
+						}
+						if (article != null) {
+							print_writer_output_bib.println("\tarticle\t\t=\t\"" + article + "\"");
+						}
+						if (page != null) {
+							print_writer_output_bib.println("\tpages\t\t=\t\"" + page + "\"");
+						}
+						if (year != null) {
+							print_writer_output_bib.println("\tyear\t\t=\t\"" + year + "\"");
+						}
+						if (month != null) {
+							print_writer_output_bib.println("\tmonth\t\t=\t\"" + month + "\"");
+						}
+						if (chapter != null) {
+							print_writer_output_bib.println("\tchapter\t\t=\t\"" + chapter + "\"");
+						}
+						if (editors != null) {
+							print_writer_output_bib.println("\teditor\t\t=\t\"" + editors + "\"");
+						}
+						if (publisher != null) {
+							print_writer_output_bib.println("\tpublisher\t=\t\"" + publisher + "\"");
+						}
+						
+						
+						print_writer_output_bib.println("\tnote\t\t=\t\"" + ca.originalInput + "\"");
+						print_writer_output_bib.println("}");
+						print_writer_output_bib.println("");
+						
+						print_to_bib = 1;
+					}
+					
+					if (((editors != null) || (publisher != null)) && (print_to_bib == 0)) {
+						print_writer_output_bib.println("@book{" + "Input_" + count + ",");
+						if (authors != null) {
+							print_writer_output_bib.println("\tauthor\t\t=\t\"" + authors + "\"");
+						}
+						if (title != null) {
+							print_writer_output_bib.println("\ttitle\t\t=\t\"" + title + "\"");
+						}
+						if (volume != null) {
+							print_writer_output_bib.println("\tvolume\t\t=\t\"" + volume + "\"");
+						}
+						if (issue != null) {
+							print_writer_output_bib.println("\tissue\t\t=\t\"" + issue + "\"");
+						}
+						if (number != null) {
+							print_writer_output_bib.println("\tnumber\t\t=\t\"" + number + "\"");
+						}
+						if (article != null) {
+							print_writer_output_bib.println("\tarticle\t\t=\t\"" + article + "\"");
+						}
+						if (page != null) {
+							print_writer_output_bib.println("\tpages\t\t=\t\"" + page + "\"");
+						}
+						if (year != null) {
+							print_writer_output_bib.println("\tyear\t\t=\t\"" + year + "\"");
+						}
+						if (month != null) {
+							print_writer_output_bib.println("\tmonth\t\t=\t\"" + month + "\"");
+						}
+						if (editors != null) {
+							print_writer_output_bib.println("\teditor\t\t=\t\"" + editors + "\"");
+						}
+						if (publisher != null) {
+							print_writer_output_bib.println("\tpublisher\t=\t\"" + publisher + "\"");
+						}
+						
+						
+						print_writer_output_bib.println("\tnote\t\t=\t\"" + ca.originalInput + "\"");
+						print_writer_output_bib.println("}");
+						print_writer_output_bib.println("");
+						
+						print_to_bib = 1;
+					}
+					
+					
 					
 					count++;
 					data = "";
@@ -610,15 +888,15 @@ public class Main extends HttpServlet {
     	webpage_out.println("End Time = " + sdf.format(cal2.getTime()));
     	webpage_out.println();
     	
-    	print_writer_output.println();
-    	print_writer_output.println("End Time = " + sdf.format(cal2.getTime()));
-    	print_writer_output.println();
+    	print_writer_output_txt.println();
+    	print_writer_output_txt.println("End Time = " + sdf.format(cal2.getTime()));
+    	print_writer_output_txt.println();
     	
     	long timeDifInMilliSec = cal2.getTimeInMillis() - cal.getTimeInMillis();
     	long timeDifSeconds = timeDifInMilliSec / (long) 1000;
     	webpage_out.println("Running Time = " + timeDifSeconds + " seconds");
     	
-    	print_writer_output.println("Running Time = " + timeDifSeconds + " seconds");
+    	print_writer_output_txt.println("Running Time = " + timeDifSeconds + " seconds");
     	
     	webpage_out.println("</textarea>");
     	webpage_out.println("</td>");
@@ -627,7 +905,7 @@ public class Main extends HttpServlet {
 		webpage_out.println("<tr>");
 			webpage_out.println("<td>");
 				webpage_out.println("<input type=\"submit\" value=\"Execute\">");
-				webpage_out.println("<input type=\"button\" value=\"Reset\" onClick=\"clearFields()\">");
+				webpage_out.println("<input type=\"button\" value=\"Reset\" onClick=\"javascript:location.href='index.jsp'\">");
 			webpage_out.println("</td>");
 			
 			webpage_out.println("<td>");
@@ -654,14 +932,26 @@ public class Main extends HttpServlet {
 	webpage_out.println("</body>");
 webpage_out.println("</html>");
 
-	print_writer_output.close();
-	
-	
-	
+
+
+	/////////////////////////////////////////////////////////////////
+	// Close the file (bib)
+	/////////////////////////////////////////////////////////////////
+	print_writer_output_bib.close();
+
+	/////////////////////////////////////////////////////////////////
+	// Close the file (txt)
+	/////////////////////////////////////////////////////////////////
+	print_writer_output_txt.close();
+
+	/////////////////////////////////////////////////////////////////
+	// Close the file (xls)
+	/////////////////////////////////////////////////////////////////
 	workBook.write(outputStream);
 
 	outputStream.writeTo(fout);
 	outputStream.close();
 	fout.close();
+	
 	}
 }
