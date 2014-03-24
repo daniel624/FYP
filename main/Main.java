@@ -15,6 +15,7 @@ package main;
 //http://admin-apps.webofknowledge.com/JCR/JCR?PointOfEntry=Home&SID=W1tJXu9AXkRKrQRMXR8
 
 import db.*;
+import weka.*;
 
 import java.lang.*;
 import java.text.DecimalFormat;
@@ -34,6 +35,7 @@ public class Main {
 		////////////////////////////////////////////////////////
 		// output console result to file
 		String output_filename = "src/main/output.txt";
+		PrintStream out = System.out;
 					
 		try {
 			System.setOut(new PrintStream(new FileOutputStream(output_filename)));
@@ -108,7 +110,17 @@ public class Main {
 		int totalyear = 0, wrongyear = 0;
 		
 		CheckArray ca;
+		CheckArray.constructMap();
 		String tmp;
+		
+		String strbuf;
+		String[] array = null;
+		
+		ProcessData process = new ProcessData();
+		TestWeka weka = new TestWeka();
+		weka.buildTree();
+		double[] label;
+		double[][] distribution;
 		
 		//"[A-Z]{1}\\." - short form name
 		
@@ -120,9 +132,10 @@ public class Main {
 			String filename;
 			
 			// 100 records (4,13,18,56,63,69,70,98,99)
+			filename = "src/data/freelist_20.txt";
 			//filename = "src/data/freelist_100.txt";
 			//filename = "src/data/freelist_200.txt";
-			filename = "src/data/freelist_380.txt";
+			//filename = "src/data/freelist_380.txt";
 			//filename = "src/data/freelist_test.txt";
 
 			in = new BufferedReader(new InputStreamReader(new FileInputStream(filename), "UTF-8"));
@@ -156,6 +169,8 @@ public class Main {
 					editors = null;
 					publisher = null;
 					/////////////////////////////////////////////////////////////////
+
+					out.print(count + "\n");
 					
 					System.out.println("===== testing string " + count + " =====");
 					System.out.println(data);
@@ -198,7 +213,7 @@ public class Main {
 						tmp = ca.getVolumeIssue();
 						if (tmp != null) {
 							if (tmp.indexOf(",") == tmp.lastIndexOf(",")) {
-								if (tmp.substring(0,1).equalsIgnoreCase("y")) {
+								if (tmp.toLowerCase().startsWith("y")) {
 									if (issue == null) {
 										issue = tmp.substring(1, tmp.indexOf(","));
 									}
@@ -518,6 +533,34 @@ public class Main {
 
 					System.out.println("===== remaining fields " + count + " =====");
 					ca.printArray();
+					strbuf = "";
+					array = ca.getArray();
+					
+					for (int i=0; i<array.length; i++) {
+						if (array[i].trim().length()>0) {
+							strbuf += array[i].trim() + "%%";
+						}
+					}
+					
+					process.makeArff2(strbuf);
+					weka.runResult_new();
+					label = weka.getClassLabel();
+					distribution = weka.getClassDistribution();
+					out.println(strbuf);
+					
+					for (int i=0; i<label.length; i++) {
+						System.out.print("Predicted as: ");
+						if (label[i]==0) System.out.println("Author");
+						else if (label[i]==1) System.out.println("Title");
+						else if (label[i]==2) System.out.println("Journal");
+						else if (label[i]==3) System.out.println("Proceeding");
+						
+						System.out.println("Distribution:");
+						System.out.println("Author: " + distribution[i][0]);
+						System.out.println("Title: " + distribution[i][1]);
+						System.out.println("Journal: " + distribution[i][2]);
+						System.out.println("Proceeding: " + distribution[i][3]);
+					}
 					
 					System.out.println("===== end " + count + " =====\n\n");
 					
@@ -556,6 +599,9 @@ public class Main {
 			System.out.println("Publisher: " + (totalpublisher-wrongpublisher) + "/" + totalpublisher + ", accuracy: " + (double) (totalpublisher-wrongpublisher) / totalpublisher);
 			System.out.println("Year: " + (totalyear-wrongyear) + "/" + totalyear + ", accuracy: " + (double) (totalyear-wrongyear) / totalyear);
 			
+			/*System.setOut(out);
+			TestWeka test = new TestWeka();
+			test.checkResult();*/
 		} 
 		catch (IOException e)
 		{
