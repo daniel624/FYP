@@ -1,0 +1,230 @@
+Web and Wireless Geographical Information Systems{W2GIS
+W3C Workshops{
+Conference on Web Accessibility{W4A
+Wavelet Analysis and Its Applications{WAA
+Workshop on Algorithms in Bioinformatics{WABI
+Workshop on Autonomic Communication{WAC
+Work Activities Coordination and Collaboration{WACC
+Workshop on Applied Computational Geometry{WACG
+Workshop on Applications of Computer Vision{WACV
+Workshop on Applications of Discrete Geometry and Mathematical Morphology{WADGMM
+Workshop on Algorithms and Data Structures{WADS
+Workshop on Architecting Dependable Systems{WADS
+Workshop on Recent Trends in Algebraic Development Techniques{WADT
+Workshop on Algorithm Engineering{WAE
+Workshop de Agentes Físicos{WAF
+Workshop on the Algorithmic Foundations of Robotics{WAFR
+Attribute Grammars and their Applications{WAGA
+Workshop on Arithmetic of Finite Fields{WAIFI
+Web-Age Information Management{WAIM
+Workshop on Algorithms and Computation{WALCOM
+Workshop on Advanced Learning Technologies for Disabled and Non-Disabled People{WALTD
+Workshop on Approximation and Online Algorithms{WAOA
+Workshop on Attention and Performance in Computational Vision{WAPCV
+Wireless Algorithms, Systems, and Applications{WASA
+Workshop on Applications of Signal Processing to Audio and Acoustics{WASPAA
+Workshop on Algorithms and Models for the Web-Graph{WAW
+Web Based Collaboration{WBC
+Web Based Communities{WBC
+Web-based Education{WBE
+Workshop on Biomedical Image Registration{WBIR
+Workshop on Blended Learning{WBL
+Workshop On Computer Architecture Education{WCAE
+Workshop on Coding and Cryptography{WCC
+World Conference on Computers in Education{WCCE
+World Congress on Computational Intelligence{WCCI
+World Congress on Engineering{WCE
+Worst-Case Execution Time Analysis{WCET
+Workshop on Curry and Functional Logic Programming{WCFLP
+Workshop on Conditionals, Information, and Inference{WCII
+Workshop on Constraint Logic Programming{WCLP
+Wireless Communications and Networking Conference{WCNC
+Wireless Communications, Networking and Information Security{WCNIS
+Workshop on Cyber-Physical Systems{WCPS
+Working Conference on Reverse Engineering{WCRE
+Web Content Caching and Distribution Workshop{WCW
+Workshop on Distributed Algorithms{WDAG
+Workshop on Distributed Data and Structures{WDAS
+Workshop on Digital Forensics and Incident Analysis{WDFIA
+Workshop on Advances in Depth Image Analysis and Applications{WDIA
+Workshop on Experimental and Efficient Algorithms{WEA
+Web Engineering{
+3D Technologies for the World Wide Web{Web3D
+Workshop on E-Business{WEB
+International Workshop on the Web and Databases{WebDB
+Approaches and Architectures for Web Data Integration and Mining in Life Sciences{WebDIM4LS
+Web Information Systems and Technologies{WEBIST
+Web Mining and Web Usage Analysis{WebKDD
+Web-Scale Knowledge Representation, Retrieval, and Reasoning{Web-KR3
+Brazilian Symposium on Multimedia and the Web{WebMedia
+Workshop on Web Mining{WebMine
+World Conference on the WWW and Internet{WebNet
+Web Personalization and Recommender Systems{WebPRES
+Web Semantics{WebS
+Web Science Conference{WebSci
+World Enformatika Conference{WEC
+Workshop on Advanced Issues of E-Commerce and Web/based Information Systems{WECWIS
+Web Delivering of Music{WEDELMUSIC
+Workshop on Exception Handling{WEH
+Workshop on the Economics of Information Security{WEIS
+Workshop on Enterprise Information Systems Engineering{WEISE
+Workshop-School on Theoretical Computer Science{WEIT
+International Workshop on Electronic Commerce{WELCOM
+Workshop em Engenharia de Requisitos{WER
+Web Services, E-Business, and the Semantic Web{WES
+Workshops on Enabling Technologies: Infrastracture for Collaborative Enterprises{WETICE
+Western European Workshop on Research in Cryptology{WEWoRC
+Workshop on Functional and Constraint Logic Programming{WFLP
+Workshop on Graph-Theoretic Concepts in Computer Science{WG
+Genetic and Evolutionary Computing{WGEC
+Wireless Health{WH
+World Haptics Conference{WHC
+High Performance Computational Finance{WHPCF
+Web Intelligence{WI
+Workshop on Implementing Automata{WIA
+Workshop on Image Analysis for Multimedia Interactive Services{WIAMIS
+International Wireless Internet Conference{WICON
+Workshop on Information Credibility on the Web{WICOW
+Workshop on Internet Comunications Security{WICS
+Working IEEE/IFIP Conference on Software Architecture{WICSA
+Workshop on Issues & Challenges in Social Computing{WICSOC
+Wide Area Networks and High Performance Computing{
+Web Information and Data Management{WIDM
+USENIX Workshop on Industrial Experiences with Systems Software{WIESS
+Wireless Access Flexibility{WiFlex
+Workshop on Information Forensics and Security{WIFS
+Workshop on Industrial-Strength Formal Specification Techniques{WIFT
+WI-IAT Doctoral Workshop{WI-IAT DW
+Workshop on Information Integration on the Web{WIIW
+International Workshop on Fuzzy Logic and Applications{WILF
+Wireless Mesh and Ad Hoc Networks{WiMAN
+Management der Anwendungsentwicklung und -wartung im Fachbereich Wirtschaftsinformatik{WI-MAW
+Web Intelligence Meets Brain Informatics{WImBI
+Wireless and Mobile Computing, Networking and Communications{WiMob
+Wissensbasierte Methoden für Produktion, Engineering and Logistik{WIMPEL
+Web Intelligence, Mining and Semantics{WIMS
+Workshop on Internet and Network Economics{WINE
+Wireless Information Networks and Systems{WINSYS
+Modeling and Optimization in Mobile, Ad-Hoc and Wireless Networks{WiOpt
+Wireless Days{
+Wireless Mobile Internet{
+Web Information Retrieval and Integration{wiri
+Italian Workshop on Neural Nets{WIRN
+Web Information Retrieval Support Systems{WIRSS
+Wirtschaftsinformatik{
+Wirtschaftsinformatik (Multikonferenz){
+Wireless Information Systems{WIS
+Workshop on Information Security Applications{WISA
+ACM Workshop on Wireless Security{WISE
+Web Information Systems Engineering{WISE
+World Conference on Information Security Education{WISE
+Wireless Network Security{WISEC
+Workshop on Interdisciplinary Software Engineering Research{WISER
+Workshop on Intelligent Solutions in Embedded Systems{WISES
+Workshop on Intelligence and Security Informatics{WISI
+Web Information Systems and Mining{WISM
+Web Information Systems Modeling{WISM
+Workshop in Software Model Engineering{WiSME
+Wireless Security and Privacy{WiSP
+Wissensbasierte Systeme{
+Workshop in Information Security Theory and Practice{WISTP
+Workshop on Internet Technologies, Applications, and Social Impact{WITASI
+Workshop on Information Technologies and Systems{WITS
+Workshop on Issues in the Theory of Security{WITS
+WSMO Implementation Workshop{WIW
+Workshop on Knowledge Discovery and Data Mining{WKDD
+Words, Languages & Combinatorics{WLC
+Workshop on Logics for Intelligent Agents and Multi-agent Systems{WLIAMAS
+Workshop Logische Programmierung{WLP
+Workshop on Logic Programming Environments{WLPE
+Wissensmanagement{WM
+Workshop über Mobile Ad-Hoc Netzwerke{WMAN
+Wireless Mobile Applications and Services on WLAN Hotspots{WMASH
+Workshop on Membrane Computing{WMC
+Workshop on Membrane Computing at Curtea de Arges{WMC-CdeA
+Workshop on Mobile Computing Systems and Applications{WMCSA
+Workshop on Mobile Information Systems{WMIS
+Workshop on Multiset Processing{WMP
+Workshop on Memory Performance Issues{WMPI
+Wireless and Mobile Technologies in Education{WMTE
+Wireless Multimedia Networking and Performance Modeling{WMuNeP
+Wireless, Mobile and Ubiquitous Technologies in Education{WMUTE
+Workshop on Nonlinear Speech Processing{WNSP
+Workshop From Objects to Agents{WOA
+Brazilian Workshop on Bioinformatics{WOB
+IASTED International Multi-Conference on Wireless and Optical Communications{WOC
+Wireless and Optical Communications Conference{WOCC
+World Conference on the Fundamentals of Artificial Intelligence{WOCFAI
+Wireless and Optical Communications Networks{WOCN
+Workshop on Open Data{WOD
+Workshop on Optimization and Implementation of Declarative Programs{WOID
+Workshop on Logic, Language, Information and Computation{WoLLIC
+Woman into Computing{
+Workshop on Meta-Modelling{WoMM
+Workshop on Modular Ontologies{WoMO
+Workshop on OpenMP Applications and Tools{WOMPAT
+Wireless on Demand Network Systems and Service{WONS
+Wireless On-Demand Network Systems{WONS
+Workshop on Ontologies and their Applications{WONTO
+Open Distribute Processing: Enterprise, Computation, Knowledge, Engineering and Realisation{WOODPECKER
+Workshop on Offensive Technologies{WOOT
+Workshop on Parallel Processing: Logic, Organization, and Technology{WOPPLOT
+Combinatorics on Words{WORDS
+Workshop on Object-Oriented Real-Time Dependable Systems{WORDS
+Workflow Management{
+Workflows in Support of Large-Scale Science{WORKS
+Workshop Farbbildverarbeitung{
+Workshop Mobile Commerce{
+Workshop on Database Issues for Data Visualization{
+Workshop on Parallel and Distributed Debugging{
+Workshop on Parallel Lisp{
+Workshop on the Management of Replicated Data{
+Workshop Software Reengineering{
+Workstations for Experiments{
+Workshop on Rapid Malcode{WORM
+Security in Information Systems{WOSIS
+Workshop on Online Social Networks{WOSN
+Workshop on Software and Performance{WOSP
+Workshop on Self-Healing Systems{WOSS
+Web of Things{WoT
+Workshop On Trustworthy Elections{WOTE
+Workshop Ontologie-basiertes Wissensmanagement{WOW
+World of Wireless, Mobile and Multimedia Networks{WoWMoM
+International Workshop on Program Comprehension{WPC
+Workshop on Privacy in the Electronic Society{WPES
+Wireless Personal Multimedia Communications{WPMC
+Workshop on Positioning Navigation and Communication{WPNC
+Workshop on Radical Agent Concepts{WRAC
+Workshop on Research on Enterprise Networking{WREN
+Workshop on Rewriting Logic and Its Applications{WRLA
+Workshop on Reduction Strategies in Rewriting and Programming{WRS
+Workshop on Static Analysis{WSA
+Workshop Business Intelligence{WSBI
+Winter Simulation Conference{WSC
+World Conference on Soft Computing in Industrial Applications{WSC
+International Conference in Central Europe on Computer Graphics and Visualization{WSCG
+Web Search and Data Mining{WSDM
+Symposium on Web Systems Evolution{WSE
+Workshop on Web Site Evolution{WSE
+World Scientific and Engineering Academy and Society{WSEAS
+Web Services and Formal Methods{WS-FM
+World Summit on the Knowledge Society{WSKS
+Web Services: Modeling, Architecture and Infrastructure{WSMAI
+Web Services and Model-Driven Enterprise Information Services{WSMDEIS
+Wireless Sensor Networks and Applications{WSNA
+Workshop on Self-Organizing Maps{WSOM
+Workshop on String Processing{WSP
+Workshop on Philosophy and Informatics{WSPI
+International Workshop on RESTful Design{WS-REST
+Workshop on RESTful Design{WS-REST
+Workshop on Self-Stabilizing Systems{WSS
+Workshop on Software Technologies for Embedded and Ubiquitous Computing Systems{WSTFEUS
+Workshop on Soft Computing as Transdisciplinary Science and Technology{WSTST
+Web Technologies, Applications, and Services{WTAS
+Workshop on Universal Accessibility of Ubiquitous Computing{WUAUC
+Workshop on Wireless Ad Hoc and Sensor Networking{WWASN
+Worldwide Computing and Its Applications{WWCA
+Wired/Wireless Internet Communications{WWIC
+Workshop on Workstation Operating Systems{WWOS
+Workshop on Automated Specification and Verification of Web Sites{WWV
+International World Wide Web Conferences{WWW

@@ -33,9 +33,10 @@ public class CheckArray {
 			cnt=1;
 			while (rs.next()) {
 				list = new ArrayList();
-				list.add(rs.getString(1));
-				list.add(rs.getString(2));
-				list.add(rs.getString(3));
+				list.add(rs.getString(1)==null?"":rs.getString(1));
+				list.add(rs.getString(2)==null?"":rs.getString(2));
+				list.add(rs.getString(3)==null?"":rs.getString(3));
+				list.add(rs.getString(4)==null?"":rs.getString(4));
 				jmap.put(cnt, list);
 				cnt++;
 			}
@@ -45,8 +46,9 @@ public class CheckArray {
 			cnt=1;
 			while (rs.next()) {
 				list = new ArrayList();
-				list.add(rs.getString(1));
-				list.add(rs.getString(2));
+				list.add(rs.getString(1)==null?"":rs.getString(1));
+				list.add(rs.getString(2)==null?"":rs.getString(2));
+				list.add(rs.getString(3)==null?"":rs.getString(3));
 				cmap.put(cnt, list);
 				cnt++;
 			}
@@ -57,6 +59,7 @@ public class CheckArray {
 			while (rs.next()) {
 				list = new ArrayList();
 				list.add(rs.getString(1));
+				list.add(rs.getString(2));
 				pmap.put(cnt, list);
 				cnt++;
 			}
@@ -1151,6 +1154,7 @@ public class CheckArray {
 		String[] checkJournal;
 		String checkStr;
 		ArrayList list = new ArrayList();
+		String fullname, short1, short2;
 		
 		try
 		{			
@@ -1174,10 +1178,13 @@ public class CheckArray {
 					if (!checkStr.equals("")) {
 						for (int k=1; k<=jmap.size(); k++) {
 							list = jmap.get(k);
-							if (list.get(0).toString().indexOf(checkStr) >=0 ||
-								list.get(1).toString().indexOf(checkStr) >=0 ||
-								list.get(2).toString().indexOf(checkStr) >=0) {
-								journal = list.get(0).toString();
+							fullname = list.get(1).toString();
+							short1 = list.get(2).toString();
+							short2 = list.get(3).toString();
+							if (fullname.indexOf(checkStr) >=0 ||
+								short1.toString().indexOf(checkStr) >=0 ||
+								short2.toString().indexOf(checkStr) >=0) {
+								journal = fullname;
 							}
 						}
 					}
@@ -1354,6 +1361,7 @@ public class CheckArray {
 		String[] checkProc;
 		String checkStr;
 		ArrayList list = new ArrayList();
+		String fullname, shortname;
 		
 		try
 		{		
@@ -1376,9 +1384,11 @@ public class CheckArray {
 					if (!checkStr.equals("")) {
 						for (int k=1; k<=cmap.size(); k++) {
 							list = cmap.get(k);
-							if (list.get(0).toString().indexOf(checkStr) >=0 ||
-								list.get(1).toString().indexOf(checkStr) >=0) {
-								proceeding = list.get(0).toString();
+							fullname = list.get(1).toString();
+							shortname = list.get(2).toString();
+							if (fullname.indexOf(checkStr) >=0 ||
+								shortname.indexOf(checkStr) >=0) {
+								proceeding = fullname;
 							}
 						}
 					}
@@ -1574,8 +1584,8 @@ public class CheckArray {
 					if (!checkStr.equals("")) {
 						for (int k=1; k<=pmap.size(); k++) {
 							list = pmap.get(k);
-							if (list.get(0).toString().indexOf(checkStr) >=0) {
-								publisher = list.get(0).toString();
+							if (list.get(1).toString().indexOf(checkStr) >=0) {
+								publisher = list.get(1).toString();
 							}
 						}
 					}

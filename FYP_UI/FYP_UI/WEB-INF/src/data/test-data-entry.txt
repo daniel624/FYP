@@ -1,0 +1,49 @@
+Andrej Bogdanov, Periklis Papakonstantinou, and Andrew Wan: Pseudorandomness for read-once formulas. In Proceedings of the 52nd Annual Symposium on Foundations of Computer Science (FOCS), 2011.
+
+Hao Ma, Irwin King, and Michael R. Lyu, "Learning to Recommend with Explicit and Implicit Social Relations," ACM Transactions on Intelligent Systems and Technology (TIST), vol. 2, iss. 3, p. 29:1-29:19, 2011.
+
+Bo Yu, Terrence Mak, Xiangyu Li, Leslie Smith, Yihe Sun and Chi-Sang Poon, Stream-based Hebbian Eigenfilter for Real-Time Neuronal Spike Discrimination, BioMedical Engineering OnLine, vol. 11, no. 18, 2012
+
+Zhaorong Li, Kin-Hong Wong, Yibo Gong, and Ming-Yuen Chang, "An Effective Method for Movable Projector Keystone Correction", IEEE Transactions on Multimedia, VOL. 13, NO. 1, Feb 2011
+
+F. S. Chim, T. K. Lam, Y.L. Wu, and F, H. Fan, "On Structural Analysis and Efficiency for Graph-Based Rewiring Techniques," IEICE Transactions on Fundamentals of Electronics, Communications and Computer Sciences, Vol. E94-A, No. 12, pp. 2853-2865 Dec. 2011
+
+Optimizing Wirelength and Routability by Searching Alternative Packings in Floorplanning , Chiu-Wing Sham, Evangeline F.Y. Young and Hai Zhou, ACM Transaction on Design Automation of Electronic Systems, Vol.13, No.1, Article No.21 (21:1-21:13), January, 2008
+
+Ziqiu Yun, Xiaole Bai, Dong Xuan, Weijia Jia and Wei Zhao, "Pattern Mutation in Wireless Sensor Deployment", IEEE/ACM Transactions on Networking, 20(6), 2012, pp.1964-1977.
+
+Wong, O.L., & Ma , J.L.C. (2013). Development of family therapy in Hong Kong. Contemporary Family Therapy.
+
+Mathematical Biology. Springer-Verlag, Heidelberg, 1989 (767 pages) (2nd printing 1990, 3rd printing 1993); Mathematics Book Club (U.S.A.) adoption, 1991. 
+
+Su, Chenting and James E. Littlefield (2001), "Entering Guanxi: A Business Ethical Dilemma in Mainland China?", Journal of Business Ethics, Vol. 33, No.3, pp. 199-210.
+
+Jia, Fang and Zhilin Yang (2011), "Mismatch between Trust and Interdependence:The Moderating Role of Power Imbalance", Cambridge Business & Economics Conference, Cambridge, United Kingdom, 27-28 June.
+
+Ghose, Sanjoy, Dou, Wenyu. (1998), "Interactive Functions and Their Impact on the Appeal of Internet Presence Sites", Journal of Advertising Research, Vol. 38, Issue 2, pp. 29-44.
+
+Hofstede, G., Bond, M.H., & Luk, C.L. (1993), "Individual Perceptions of Organizational Cultures: A Methodological Treatise on Levels of Analysis", Organization Studies, 14, 4, 483-503.
+
+Wong, F.K.D. (2007). Crucial individuals in the help-seeking pathway of the Chinese caregivers with relatives suffering from early psychosis in Hong Kong: Implications for social work Practice. Social Work. 52, 2. 127 - 138.
+
+"Conflict-of-Interest Reforms and Investment Bank Analysts¡¦ Research Biases", Journal of Accounting Auditing and Finance, October 2012, Vol. 27, Iss. 4, pp. 443-470 (jointly with H. Lu and F. Wong)
+
+Chang, K. L., N. K. Chen and Charles Ka Yui Leung, (2010), "Monetary Policy, Asset Return Dynamics and the General Equilibrium Effect", in Daniel Rosch and Harald Scheule ed., Model Risk in Financial Crises - Challenges and Solution for Financial Risk Models, Risk Books and Journals. ISBN: 978-1-906348-25-0.
+
+Yung S, Chan TM. Anti-DNA antibodies in the pathogenesis of lupus nephritis--the emerging mechanisms. Autoimmun Rev 2008; 7: 317-321.
+
+Lau, E. Y. Y.*, Eskes G. A., Morrison, D. L., Rajda, M., Spurr, K. F. (2010). Executive function in patients with obstructive sleep apnea treated with continuous positive airway pressure. Journal of International Neuropsychological Society, 16, 1077-1088.
+
+D.W. Cheung, K. Hu, and S. Xia, An Adaptive Algorithm for Mining Association Rules on Shared-memory Multi-processors Parallel Machine, Distributed and Parallel Databases, Kluwer Academic Publishers, 9: 99-132, March 2001
+
+M. K. Chan and M. Hamdi, "An Active Queue Management Scheme Based on a Capture-Recapture Model," IEEE Journal on Selected Areas in Communications, May 2003. 
+
+"Iridium(III) silyl alkyl and iridacyclic compounds supported by 4,4'-di-tert-butyl-2,2'-bipyridyl" Chemistry - A European Journal, 12, 9323 (2006).
+
+Kong, S.C. (2011). A knowledge-based approach of modeling an Internet-based intelligent learning environment for comprehending common fraction operations. In S. Graf, F.H. Lin, Kinshuk & R. McGreal (Eds.), Intelligent and adaptive learning systems: technology enhanced support for learners and teachers (pp. 101-118). Hershey, PA: IGI Global.
+
+Tsai, J.L., Louie, J.Y., Chen, E.E., & Uchida, Y. (2007). Learning what feelings to desire: Socialization of ideal affect through children¡¦s storybooks. Personality and Social Psychology Bulletin, 33, 17-30.
+
+J. F. Chen, Heejeong Jeong,  M. M. T. Loy, and Shengwang Du, Optical Precursors: From Classical Waves to Single Photons, Springer Briefs in Physics, Springer (2013).
+
+Improved numerical solver for Kansa's method based on affine space decomposition.

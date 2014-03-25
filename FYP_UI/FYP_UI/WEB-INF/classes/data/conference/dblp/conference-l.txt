@@ -1,0 +1,83 @@
+L systems{
+Logical Aspects and Applications of Integrity Constraints{LAAIC
+Logical Aspects of Computational Linguistics{LACL
+Latin-American Symposium on Dependable Computing{LADC
+Languages, Methodologies and Development Tools for Multi-Agent Systems{LADS
+Latin-American Algorithms, Graphs and Optimization Symposium{LAGOS
+Learning Analytics and Knowledge{LAK
+Learning and Adaption in Multi-Agent Systems{LAMAS
+Lambda-Calculus Symposium{
+Latin American Networking Conference{LANC
+Language Design and Programming Methodology{
+Languages, Compilers, and Run-Time Environments for Distributed Memory Multiprocessors{
+Latin-American Workshop on Non-Monotonic Reasoning{LA-NMR
+Latin American Network Operations and Management Symposium{LANOMS
+Local Area Network Security{LANSEC
+Logic Applied to Technology{LAPTEC
+Latin American Robotics Symposium{LARC
+International Workshop on Larch{Larch
+LASER Summer School{
+Language and Automata Theory and Applications{LATA
+Learning and Teaching in Computing and Engineering{LaTiCE
+Latin American Symposium on Theoretical Informatics{LATIN
+International Conference on Cryptology and Information Security in Latin America{LATINCRYPT
+Latin American Test Workshop{LATW
+Linguistic Annotation Workshop{LAW
+Latin American Web Congress{LA-WEB
+Languages in Biology and Medicine{LBM
+Logical and Computational Complexity{LCC
+Local Computer Networks{LCN
+Languages and Compilers for Parallel Computing{LCPC
+Languages, Compilers, and Run-Time Systems for Scalable Computers{LCR
+Languages, Compilers, and Tools for Embedded Systems{LCTES
+Languages, Compilers, & Tools for Real-Time Systems{LCT-RTS
+Large Data Analysis and Visualization{LDAV
+Language Design for Reliable Software{LDRS
+Language Descriptions, Tools and Applications{LDTA
+Learning Language in Logic{
+Language Engineering Conference{LEC
+Learning GRID of Excellence{LeGE-WG
+LerNet ALFA Project{
+Lean Enterprise Software and Systems{LESS
+Logical Foundations of Computer Science{LFCS
+Logical Frameworks and Meta-Languages: Theory and Practice{LFMTP
+LISP and Functional Programming{LFP
+Logic in Computer Science{LICS
+Logic in Databases{LID
+Lightweight Cryptography for Security and Privacy{LightSec
+Learning and Intelligent Optimization{LION
+Lipari Summer School{
+USENIX Large Installation Systems Administration Conference{LISA
+Logistics, Informatics and Service Science{LISS
+Leipziger Informatik-Tage{LIT
+LITP Spring School on Theoretical Computer Science{
+Living Machines{
+Large-Scale Knowledge Resources{LKR
+Langages et Modèles à Objets{LMO
+Location- and Context-Awareness{LoCA
+Location and the Web{LocWeb
+Logic and the Foundations of Game and Decision Theory{LOFT
+Logic, Action, and Information{
+Logic and Machines{
+Logic at Work{
+Logic Colloquium{
+Logic of Theory Change{
+Logics of Programs{
+Logical and Operational Methods in the Analysis of Programs and Systems{LOMAPS
+Logic-based Program Synthesis and Transformation{LOPSTR
+Logic, Rationality, and Interaction{LORI
+Logic Programming - Japanese Conference{LP
+Logic Programming and Automated Reasoning{LPAR
+Workshop on Logic Programming Environments{LPE
+Logic Programming and Knowledge Representation{LPKR
+Logic Programming and Non-Monotonic Reasoning{LPNMR
+Logic Programming Summer School{LPSS
+Language Resources and Evaluation{LREC
+Large-Scale Distributed Systems for Information Retrieval{LSDS-IR
+Grid Computing in Life Science{LSGRID
+Life System Modeling and Simulation{LSMS
+Learning Software Organizations{LSO
+Large-Scale Scientific Computing{LSSC
+Language and Technology Conference{LTC
+Latent Variable Analysis and Signal Separation{LVA/ICA
+Lernen, Wissensentdeckung und Adaptivität{LWA

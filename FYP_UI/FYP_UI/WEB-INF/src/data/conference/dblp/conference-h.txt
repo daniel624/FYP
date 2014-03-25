@@ -1,0 +1,91 @@
+High Availiability of Distributed Systems{HADIS
+Human Aspects in Ambient Intelligence{HAI
+Haptic and Audio Interaction Design{HAID
+Hybrid Artificial Intelligence Systems{HAIS
+Human Aspects of Information Security and Assurance{HAISA
+Haptic Interfaces for Virtual Environment and Teleoperator Systems{HAPTICS
+Hardware and Software Architectures for Fault Tolerance{
+High-Assurance Systems Engineering{HASE
+Symposium/Workshop on Haskell{Haskell
+Human Behavior Unterstanding{HBU
+Human Choice and Computers{HCC
+Human-Centered Computing{HCC
+Human-Centric Computing Languages and Environments{HCC
+Human-Centered Computer Environments{HCCE
+Human-Computer Interaction{HCI
+Human-Computer Interaction (CSREA){HCI
+Human-Computer Interaction, Tourism and Cultural Heritage{HCITOCH
+Human-Centered Software Engineering{HCSE
+Health Informatics{HEALTHINF
+Heidelberger Akademie der Wissenschaften{
+Heinz Nixdorf Symposium{
+Hellenic-European Conference on Computer Mathematics and its Applications{HERCMA
+Human Error, Safety and Systems Development{HESSD
+Heterogeneous Computing Workshop{
+Algorithms, Models and Tools for Parallel Computing on Heterogeneous Platforms{HeteroPar
+Haptic Human-Computer Interaction{HHCI
+High Performance Bioinformatics and Biomedicine{HiBB
+Hawaii International Conference on System Sciences{HICSS
+High Performance Graphics{
+High-Performance Web Databases{
+Healthcare Information and Knowledge Management{HIKM
+Hypertext, Information Retrieval, Multimedia{HIM
+Human Interactive Proofs{HIP
+High Performance Computing{HiPC
+High Performance Embedded Architectures and Compilers{HiPEAC
+High-Level Parallel Programming Models and Supportive Environments{HIPS
+Health Information Science{HIS
+Hybrid Intelligent Systems{HIS
+Healthcare Informatics, Imaging and Systems Biology{HISB
+History of Medical Informatics{
+History of Nordic Computing{
+High Level Design Validation and Test{HLDVT
+Higher-Level Knowledge in 3D Modeling and Motion Analysis{HLK
+Human Language Technology Conference and Conference on Empirical Methods in Natural Language Processing{HLT/EMNLP
+Human Language Technology{HLT
+Human Language Technology: Conference of the North American Chapter of the Association of Computational Linguistics{HLT-NAACL
+Hybrid Metaheuristics{HM
+Higher-Order Algebra, Logic and Term Rewriting{HOA
+Home Oriented Informatics and Telematics{HOIT
+Holonic and Multi-Agent Systems for Manufacturing{HoloMAS
+History of Programming Languages{HOPL
+Hardware-Oriented Security and Trust{HOST
+Hot Topics in System Dependability{HotDep
+High Performance Interconnects{HOTI
+Mobile Computing Systems and Applications{HotMobile
+Hot Topics in Networks{HotNets
+Hot Topics in Operating Systems{HotOS
+Hot Topics in Peer-to-Peer Systems{HOT-P2P
+Hot Topics in Software Upgrades{HotSWUp
+High Performance Architecture and Grid Computing{HPAGC
+High Performance Computing{HPC
+High Performance Computing Workshop{hpc
+High Performance Computing and Applications{HPCA
+High-Performance Computer Architecture{HPCA
+High Performance Computing and Communications{HPCC
+High-Performance Computing Applied to Finance{HPCF
+High-Performance Computing and Networking{HPCN Europe
+High Performance Computing, Networking and Communication Systems{HPCNCS
+High Performance Computing & Simulation{HPCS
+High Performance Computing Systems and Applications{HPCS
+High Performance Distributed Computing{HPDC
+High Performance Extreme Computing{HPEC
+High Performance Networking{HPN
+Highly Parallel Processing on a Chip{HPPC
+High-Performance Reconfigurable Computing Technology and Applications{HPRTCA
+High Performance Switching and Routing{HPSR
+High Performance Transaction Systems Workshop{HPTS
+Human-Robot Interaction{HRI
+Human-Robot Personal Relationships{HRPR
+Huntsville Simulation Conference{HSC
+Hybrid Systems{HSCC
+Human.Society@Internet{HSI
+High Speed Networks and Multimedia Communications{HSNMC
+Handheld and Ubiquitous Computing{HUC
+Human Vision and Electronic Imaging{
+IEEE-RAS International Conference on Humanoid Robots{Humanoids
+Human Motion{HUMO
+Haifa Verification Conference{HVC
+Hybrid Systems {
+ACM Conference on Hypertext{Hypertext
+UK Conference on Hypertext{Hypertext

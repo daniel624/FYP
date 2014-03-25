@@ -1,0 +1,188 @@
+Discourse Anaphora and Anaphor Resolution Colloquium{DAARC
+Distributed Applications for B2B Integration{DABI
+Design Automation Conference{DAC
+D-A-CH Security{
+DAGM Symposium for Pattern Recognition{
+Dagstuhl Seminars{
+Distributed Artificial Intelligence{DAI
+Distributed Applications and Interoperable Systems{DAIS
+International Workshop on the Deductive Approach to Information Systems and Databases{DAISD
+Declarative Agent Languages and Technologies{DALT
+Defence Applications of Multi-Agent Systems{DAMAS
+Data Management on New Hardware{DaMoN
+DARPA Active Networks Conference and Exposition{DANCE
+Database Applications in Non-Traditional Environments{DANTE
+Distributed and Parallel Systems{DAPSYS
+Designing Augmented Reality Environments{DARE
+Distributed Auto-Adaptive and Reconfigurable Systems{DARES
+DARPA Publications{
+Distributed Autonomous Robotic Systems{DARS
+Document Analysis Systems{DAS
+Dependable Autonomic and Secure Computing{DASC
+Defence against Spam in Electronic Communication{DaSECo
+Database Systems for Advanced Applications{DASFAA
+Design & Architectures for Signal & Image Processing{DASIP
+Data Semantics in Web Information Systems{DASWIS
+Data Base Workshops{
+Data Communications and their Performance{
+International Conference on Data Technologies and Applications{DATA
+Database Machine Performance{
+Datalog{
+Design, Automation, and Test in Europe{DATE
+Datenbanktechnologie{
+Datenschutz und Datensicherung{
+Datenverarbeitung im Marketing{
+Databases, Texts, Specifications, Objects{DATESO
+Data Warehousing and Knowledge Discovery{DaWaK
+Databases and Applications{DBA
+Baltic Conference on Databases and Information Systems{DB&IS
+Databases and Crowdsourcing{DBCrowd
+Databases, Information Systems, and Peer-to-Peer Computing{DBISP2P
+Databases, Knowledge, and Data Applications{DBKDA
+Database Technology for Data Management in Life Sciences and Medicine{DBLM
+Database Programming Languages{DBPL
+Database Security{DBSec
+Databases and Social Networks{DBSocial
+Database Technology and Applications{DBTA
+Databases in Telecommunications{DBTel
+Distributed Computing and Artificial Intelligence{DCAI
+Data Compression Conference{DCC
+Dependable Computing and Communications Symposium{DCCS
+Distributed Computing Environment{DCE
+ICEIS Doctoral Consortium{DCEIS
+Descriptional Complexity of Formal Systems{DCFS
+Database Challenges in Biodiversity Informatics{DCIBI
+Distributed Computing in Sensor Systems{DCOSS
+Data Center Performance{DCperf
+Computer Supported Cooperative Work{D-CSCW
+Digital and Computational Video{DCV
+Distributed Communities on the Web{DCW
+Distributed Data Bases{DDB
+Design and Diagnostics of Electronic Circuits and Systems{DDECS
+Digital Documents and Electronic Publishing{DDEP
+Didaktik der Informatik{DDI
+Development and Deployment of Product Software{DDoPS
+Informatik in der DDR{DDR
+Data Distribution for Real-Time Systems{DDRTS
+Distributed Data Sharing Systems{DDSS
+Domain Engineering{DE@ER
+Distributed Event-Based Systems{DEBS
+Deductive Database Workshops{
+Data Engineering Issues in E-Commerce{DEEC
+Deformable Avatars{DEFORM
+Digital Enterprise and Information Systems{DEIS
+Fachtagung "e-Learning" der Gesellschaft für Informatik{DeLFI
+DELOS Workshops / Conferences{
+Symposium/Workshop on Electronic Design, Test and Applications{DELTA
+Digital Earth Moving{DEM
+Deontic Logic in Computer Science{DEON
+International Conference on Dependability of Computer Systems{DepCoS-RELCOMEX
+Distributed Event Processing, Systems and Applications{DEPSA
+Network Conference on Creativity and Innovation in Design{DESIRE
+Design Science Research in Information Systems and Technology{DESRIST
+Digital Enterprise Technology{DET
+Deterministic and Statistical Methods in Machine Learning{
+ACM Symposium on Computing for Development{DEV
+Database and Expert Systems Applications{DEXA
+DFG Projects{
+DFKI Publications{
+Distributed Frameworks for Multimedia Applications{DFMA
+DFN Tagungen{
+Digital Forensic Research Workshop{DFRWS
+Defect and Fault Tolerance in VLSI and Nanotechnology Systems{DFT
+Dependability and Fault Tolerance{DFT
+DFVLR Seminars{
+Digital Government Research{DG.O
+Discrete Geometry for Computer Imagery{DGCI
+Digital Government: Systems and Technologies{DGOV
+Diagrams{
+Document Image Analysis for Libraries{DIAL
+Discrete Algorithms and Methods for Mobile Computing and Communications{DIAL-M
+Design Issues in Anonymity and Unobservability{DIAU
+DICS Program{
+Digital Image Computing: Techniques and Applications{DICTA
+Digital Information and Communication Technology and Its Applications{DICTAP
+Digital Business{DigiBiz
+Digital Cities{
+Digital Content Creation{
+Digital Curation Curriculum Conference{
+Digital Forensics {
+Digital Image Processing Systems{
+Digital Photography{
+Digital Game and Intelligent Toy Enhanced Learning{DIGITEL
+Digital Games Research Association{DIGRA
+Design of Information Infrastructure Systems for Manufacturing{DIISM
+Data Integration in the Life Sciences{DILS
+Digital Identity Management{DIM
+DIMACS Series in Discrete Mathematics and Theoretical Computer Science{
+Digital Interactive Media in Entertainment and Arts{DIMEA
+Distributed and Parallel Embedded Systems{DIPES
+Designing Interactive Systems{DIS
+Disappearing Computer{
+International Symposium on Distributed Computing{DISC
+DARPA Information Survivability Conference and Exposition{DISCEX
+Design and Implementation of Symbolic Computation Systems{DISCO
+Deutsche Sektion der Internationalen Gesellschaft für Wissensorganisation{D-ISKO
+Distributed Interactive Simulation and Real-Time Applications{DIS-RT
+Data Integration and the Semantic Web{DisWeb
+Data Integration over the Web{DIWeb
+Data and Knowledge Systems for Manufacturing and Engineering{DKSME
+Digital Libraries{DL
+Description Logics{DLog
+Dynamic Languages Symposium{DLS
+Developments in Language Theory{DLT
+Discrete Models: Combinatorics, Computation, and Geometry{DM-CCG
+Discrete Models for Complex Systems{DMCS
+Data Mining and Knowledge Discovery: Theory, Tools, and Technology{DMDKTTT
+Design and Management of Data Warehouses{DMDW
+Data Management in Grids{DMG
+International Conference on Data Mining{DMIN
+Detection of Intrusions and Malware & Vulnerability Assessment{DMIVA
+Workshop on Research Issues on Data Mining and Knowledge Discovery{DMKD
+Data Mining and Optimization{DMO
+Distributed Multimedia Systems{DMS
+Data Management for Sensor Networks{DMSN
+Discrete Mathematics and Theoretical Computer Science{DMTCS
+Data Management in Virtual Engineering{DMVE
+DNA Computing{
+Databases in Networked Information Systems{DNIS
+Distributed Objects and Applications{DOA
+Doctoral Conference on Computing, Electrical and Industrial Systems{DoCEIS
+Document Engineering{DocEng
+Data Warehousing and OLAP{DOLAP
+Deductive and Object-Oriented Databases{DOOD
+Domain Specific Approaches to Software Test Automation{DOSTA
+Abstractions for Distributed Systems{DPA
+Data Processing Clinic{DPC
+Databases in Parallel and Distributed Systems{DPDS
+Designing Pleasurable Products and Interfaces{DPPI
+Design of Reliable Communication Networks{DRCN
+Digital Rights Management{DRM
+Digital Rights Management: Technology, Issues, Challenges and Systems{DRMTICS
+Document Recognition and Retrieval{DRR
+Discrete Random Walks{DRW
+Database Semantics{DS
+Discovery Science{DS
+Software Development for Enhancing Accessibility and Fighting Info-exclusion{DSAI
+Digital Systems Design{DSD
+Data Storage and Data Engineering{DSDE
+Desarrollo de Software Dirigido por Modelos{DSDM
+Domain-Specific Languages{DSL
+Distributed Shared Memory{DSM
+Domain-Specific Modeling Languages{DSML
+Data-Intensive Software Management and Mining{DSMM
+Dependable Systems and Networks{DSN
+Distributed Systems: Operations and Management{DSOM
+Distributed Simulation and Real-Time Applications{DS-RT
+Decision Support Systems{DSS
+Deep Structure, Singularities, and Computer Vision{DSSCV
+Decision Support in Structural Health Monitoring and Flexible Query Processing in Information Systems{DSSHM
+Design, Specification, and Verification of Interactive Systems{DSV-IS
+Data and Text Mining in Bioinformatics{DTMBIO
+Delay/Disruption-Tolerant Mobile Networks{DTMN
+Data Integration over the Web{DTWeb
+Dublin Core Conference{
+Dutch-Belgian Workshop on Information Retrieval{
+Designing for User eXperiences{DUX
+Data Warehousing{DW
+Dynamic and Adaptive Compilation and Optimization{Dynamo

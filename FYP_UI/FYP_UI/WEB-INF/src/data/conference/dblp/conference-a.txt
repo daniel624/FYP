@@ -1,0 +1,329 @@
+A Half-Century of Automata Theory{
+Amrita ACM-W Celebration on Women in Computing in India{A2CWiC
+Algorithmic Algebra and Logic{A3L
+AAAI Fall Symposia{
+AAAI Spring Symposia{
+National Conference on Artificial Intelligence{AAAI
+Advanced Architectures and Algorithms for Internet Delivery and Applications{AAA-IDEA
+Asian Applied Computing Conference{AACC
+Aachener Kolloquium {
+Automated and Algorithmic Debugging{AADEBUG
+Applied Algebra, Algebraic Algorithms and Error-Correcting Codes{AAECC
+Algorithmic Applications in Management{AAIM
+Approaches and Applications of Inductive Programming{AAIP
+Adaptive Agents and Multi-Agent Systems{AAMAS
+Autonomous Agents & Multiagent Systems{AAMAS
+Algebraic Biology{AB
+Anticipatory Behavior in Adaptive Learning Systems{ABiALS
+Abstract State Machines, Alloy, B and Z{ABZ
+Advanced Courses{AC
+Agent Communication{AC
+Applied Computing{AC
+Australasian Computer Architecture Conference{ACAC
+Advances in Computing and Artificial Intelligence{ACAI
+Australian Conference on Artificial Life{ACAL
+Advances in Computing and Communications{ACC
+International Conference on Access Networks{AccessNets
+Accurate Scientific Computations{
+Asian Conference on Computer Vision{ACCV
+Advances in Computer Entertainment Technology{ACE
+Australasian Computing Education Conference{ACE
+Annual Conference of Fuzzy Information and Engineering{ACFIE
+Advances in Computer Games{ACG
+Advances in Computer-Human Interaction{ACHI
+Algorithms and Complexity in Durham{ACiD
+Affective Computing and Intelligent Interaction{ACII
+Asian Conference on Intelligent Information and Database Systems{ACIIDS
+Advances in Computational Intelligence and Learning{ACIL
+Australasian Conference on Information Security and Privacy{ACISP
+Automation, Control, and Information Technology{ACIT
+Advances in Computing and Information Technology{ACITY
+Advanced Concepts for Intelligent Vision Systems{ACIVS
+Advances in Conceptual Knowledge Engineering{ACKE
+Workshop on the ACL2 Theorem Prover and Its Applications{ACL2
+Meeting of the Association for Computational Linguistics{ACL
+ACM Pacific{
+ACM Policy{
+ACM Southeast Regional Conference{
+Computer Science Conference{ACM
+Active Conceptual Modeling of Learning{ACM-L
+Asian Conference on Machine Learning{ACML
+Applied Cryptography and Network Security{ACNS
+Automated Configuration and Tailoring of Applications{ACoTA
+Aspects, Components, and Patterns for Infrastructure Software{ACP4IS
+ACPC Conference{
+Cellular Automata for Research and Industry{ACRI
+Annual Computer Security Applications Conference{ACSAC
+Asia-Pacific Computer Systems Architecture Conference{ACSAC
+Australasian Computer Science Conference{ACSC
+International Conference on Application of Concurrency to System Design{ACSD
+Australasian Conference on Computer Science Education{ACSE
+Advances in Computer Science and Technology{ACST
+ACSW Frontiers{
+Active Mining{
+Ada Deutschland Tagung{
+International Conference on Reliable Software Technologies{Ada-Europe
+Adaptive Web, The{
+Applications of Databases{ADB
+Advances in Databases and Information Systems{ADBIS
+Advances in Data Base Theory{ADBT
+Australasian Database Conference{ADC
+Application and Development of Computer Games{ADCOG
+Advanced Computing, Networking and Security{ADCONS
+Australasian Document Computing Symposium{ADCS
+Automated Deduction in Geometry{ADG
+Ad Hoc Networks{ADHOCNETS
+Ad-Hoc, Mobile and Wireless Networks{ADHOC-NOW
+Apoyo a la Decisión en Ingeniería del Software / Decision Support in Software Engineering{ADIS
+Advances in Digital Libraries{ADL
+Advanced Data Mining and Applications{ADMA
+Agents and Data Mining Interaction{ADMI
+Accelerating Data Management Systems Using Modern Processor and Storage Architectures{ADMS
+Advances in New Technologies, Interactive Interfaces, and Communicability{ADNTIIC
+Affective Dialogue Systems{ADS
+Agent-Directed Simulation{ADS
+Assurance in Grids and Networks{ADSN
+Algorithmic Decision Theory{ADT
+Workshop on Specification of Abstract Data Types{ADT
+Advances in Computer Graphics Hardware{
+Advances in Computer Graphics{
+Advances in Information Systems{ADVIS
+Artificial Evolution{AE
+Agents for Educational Games and Simulations{AEGS
+AES (Candidate) Conference{
+American Federation of Information Processing Societies National Computer Conferences{AFIPS
+Automata and Formal Languages{AFL
+International Joint Conference on Natural Language Processing of the AFNLP{AFNLP
+Advanced Functional Programming School{AFP
+Algebraic Frames for the Perception-Action Cycle{AFPAC
+International Conference on Cryptology in Africa{AFRICACRYPT
+AFRICOM{
+Computer Graphics, Virtual Reality, Visualisation and Interaction in Africa{Afrigraph
+Advances in Soft Computing{AFSS
+Advanced Geographic Data Modelling{AGDM
+AgentLink{
+International Conference on Autonomous Agents{Agents
+Artificial General Intelligence{AGI
+Agile Development Conference{AGILE
+Association of Geographic Information Laboratories for Europe Conferences{AGILE
+APPIA-GULP-PRODE Joint Conference on Declarative Programming{AGP
+Agents for Games and Simulations{AGS
+Applications of Graph Transformations with Industrial Relevance{AGTIVE
+Adaptive Hypermedia and Adaptive Web-Based Systems{AH
+Augmented Human International Conference{AH
+Adaptive Hardware and Systems{AHS
+Applied Informatics{AI
+Artificial Intelligence in Theory and Practice{AI
+Canadian Conference on Artificial Intelligence{AI
+50 Years of Artificial Intelligence{AI@50
+Artificial Intelligence and Applications{AIA
+Artificial Intelligence Applications and Innovations{AIAI
+Artificial Intelligence and Mathematics{AI&M
+ACS/IEEE International Conference on Computer Systems and Applications{AICCSA
+Artificial Intelligence and Computational Intelligence{AICI
+AI Approaches to the Complexity of Legal Systems{AICOL
+Artificial Intelligence and Cognitive Science{AICS
+Advanced Industrial Conference on Telecommunications{AICT
+Artificial Intelligence in Education{AIED
+Automated Information Extraction in Media Production{AIEMPro
+Artificial Intelligence from the Information Processing Perspective{AIFIPP
+Analogical and Inductive Inference{AII
+Congress of the Italian Association for Artificial Intelligence{AI*IA
+Artificial Intelligence and Interactive Digital Entertainment Conference{AIIDE
+Conference of the Association Information and Management{AIM
+Artificial Intelligence in Medicine and Medical Decision Making{AIMDM
+Artificial Intelligence in Medicine in Europe{AIME
+Advances in Modal Logic{AIML
+Autonomous Infrastructure, Management and Security{AIMS
+Artificial Intelligence: Methodology, Systems, Applications{AIMSA
+Advanced Information Networking and Applications{AINA
+Asian Internet Engineering Conference{AINTEC
+Applied Imagery Pattern Recognition Workshop{AIPR
+Artificial Intelligence and Pattern Recognition{AIPR
+Artificial Intelligence Planning Systems{AIPS
+Advanced Information Processing Techniques for LAN and MAN Management{AIPT
+Asia Information Retrieval Symposium{AIRS
+Adversarial Information Retrieval on the Web{AIRWeb
+Artificial Intelligence and Simulation{AIS
+Autonomous and Intelligent Systems{AIS
+Advanced Internet Services and ApplicationsAISA{AISA
+Autonomous Intelligent Systems: Agents and Data Mining{AIS-ADM
+Artificial Intelligence and the Simulation of Behaviour{AISB
+Artificial Intelligence and Symbolic Computation{AISC
+Security and Artificial Intelligence{AISec
+Australian Information Security Management Conference{AISM
+Artificial Intelligence and Symbolic Mathematical Computation{AISMC
+Academia/Industry Working Conference on Research Challenges{AIWoRC
+Architekturen, Komponenten, Anwendungen{AKA
+Adaptive and Learning Agents{ALA
+Automatic Learning and Real-Time{ALaRT
+Algorithm Engineering and Experimentation{ALENEX
+Algebraic and Coalgebraic Methods in the Mathematics of Program Construction{
+Algebraic Logic and Universal Algebra in Computer Science{
+Algebraic Methods{
+ALGOL 68 Implementation{
+Algorithmic Languages and Calculi{
+Algorithmic Aspects of Wireless Sensor Networks{ALGOSENSORS
+Workshop on the Synthesis and Simulation of Living Systems{ALIFE
+Allerton Conference on Communication, Control, and Computing{
+Algorithms and Models for Distributed Event Processing{AlMoDEP
+Algebraic and Logic Programming{ALP
+Advanced Language Processing and Web Information Technology{ALPIT
+Applications of Logic Programming to the Web, Semantic Web and Semantic Web Services{ALPSWS
+UK Conference on Logic Programming{ALPUK
+Algorithmic Learning Theory{ALT
+Audio Mostly Conference{AM
+Artificial Intelligence and Mathematics{AMAI
+Algebraic Methodology and Software Technology{AMAST
+AMAST Workshops{
+Ambient Media and Systems{AMBI-SYS
+Americas Conference on Information Systems{AMCIS
+Advanced Multimedia Content Processing{AMCP
+Algorithmic Mathematics and Computer Science{AMCS
+Articulated Motion and Deformable Objects{AMDO
+Agent-Mediated Electronic Commerce{AMEC
+Agent Mediated Electronic Trading{AMET
+Analysis and Modeling of Faces and Gestures{AMFG
+Ambient Intelligence{AmI
+Ambient Intelligence Forum{AMIF
+Autonomous Minirobots for Research and Edutainment{AMiRE
+Agent Mediated Knowledge Management{AMKM
+Advanced Machine Learning Technologies and Applications{AMLTA
+International Conference on Development and Learning and on Epigenetic Robotics{AMLTA
+Auctions, Market Mechanisms and Their Applications{AMMA
+Advances in Model-Based Software Testing{A-MOST
+Adaptive Multimedia Retrieval{AMR
+Active Middleware Services{AMS
+Asia International Conference on Modelling and Simulation{AMS
+Autonome Mobile Systeme{AMS
+Agent and Multi-Agent Systems: Technologies and Applications{AMSTA
+Amsterdam Colloquium{
+Active Media Technology{AMT
+Conference of the Association for Machine Translation in the Americas{AMTA
+Alberto Mendelzon Workshop on Foundations of Data Management{AMW
+Autonomic Networking{AN
+Analytic Algorithmics and Combinatorics{ANALCO
+Analysis and Visualization Tools for Constraint Programming{
+Analysis of Concurrent Systems, The{
+Algebraic and Numeric Biology{ANB
+Architectures for Networking and Communications Systems{ANCS
+Analytics for Noisy Unstructured Text Data{AND
+Agents, Norms and Institutions for Regulated Multi-Agent Systems{ANIREM
+Applied Natural Language Processing Conference{ANLP
+Artificial Neural Networks{ANN
+Analysis of Neural Network Applications{ANNA
+Artificial Neural Networks and Expert Systems{ANNES
+Artificial Neural Networks and Intelligent Information Processing{ANNIIP
+Artificial Neural Networks in Pattern Recognition{ANNPR
+Artificial Neural Networks{ANNs
+Annual Simulation Symposium{ANSS
+Ambient Systems, Networks and Technologies{ANT
+Algorithmic Number Theory Symposium{ANTS
+Ant Algorithms{ANTS
+Ant Colony Optimization and Swarm Intelligence{ANTS
+Australian New Zealand Conference on Intelligent Information Systems{ANZIIS
+Agent-Oriented Information Systems{AOIS
+Aspect-Oriented Software Development{AOSD
+Agent-Oriented Software Engineering{AOSE
+Agents and Peer-to-Peer Computing{AP2PC
+Advances in P2P Systems{AP2PS
+Asia-Pacific Conference on Quality Software{APAQS
+Asia-Pacific Bioinformatics Conference{APBC
+Asia Pacific Conference on Circuits and Systems{APCCAS
+Asia-Pacific Conference on Conceptual Modelling{APCCM
+Asia-Pacific Computer and Human Interaction{APCHI
+Advances / Applications in Parallel and Distributed Computing{APDC
+Applied Perception in Graphics and Visualization{APGV
+APL Conference{
+Asian Symposium on Programming Languages and Systems{APLAS
+Advances in Production Management Systems{APMS
+Applications and Theory of Petri Nets{APN
+Asia-Pacific Network Operations and Management Symposium{APNOMS
+Applications of Invariance in Computer Vision{
+Applications of Uncertainty Formalisms{
+Approximation Algorithms for Combinatorial Optimization{APPROX
+Advanced Parallel Programming Technologies{APPT
+Asia-Pacific Services Computing Conference{APSCC
+Asia-Pacific Software Engineering Conference{APSEC
+Asia Pacific Workshop on Systems{APSys
+Asia-Pacific Workshop on Systems{ApSys
+Asia Pacific Symposium on Information Visualisation{APVIS
+Asia-Pacific Conference on Wearable Computing Systems{APWCS
+Asia-Pacific Web Conference{APWeb
+The New Technologies for Aquileia{Aquileia
+Arbeitsplätze morgen{
+Applied Reconfigurable Computing{ARC
+Architektur von Rechensystemen{ARCS
+Automation, Robotics and Control Systems{ARCS
+Analysis and Retrieval of Events/Actions and Workflows in Video Streams{AREA
+Availability, Reliability and Security{ARES
+Argumentation in Multi-Agent Systems{ArgMAS
+Symposium on Computer Arithmetic{ARITH
+Adaptive and Reflective Middleware{ARM
+Advanced Robotics and its Social Impacts{ARSO
+Automated Reasoning for Security Protocol Analysis{ARSPA
+Advances in Recent Technologies in Communication and Computing{ARTCom
+Active and Real-Time Database Systems{ARTDB
+Artifical Intelligence for Human Computing{
+Artificial Intelligence in Structural Engineering{
+Architectures for Quality of Service in the Internet{Art-QoS
+AMAST Workshop{ARTS
+Arts and Technology{ArtsIT
+Advanced Research in VLSI{ARVLSI
+Agent Systems and Applications{ASA
+Application-Specific Systems, Architectures, and Processors{ASAP
+Artificial Intelligence and Soft Computing{ASC
+Australian Society for Computers in Tertiary Education{ASCILITE
+Asian Symposium on Computer Mathematics{ASCM
+Automated Software Engineering{ASE
+ACM Symposium on Information, Computer and Communications Security{ASIACCS
+ASIACRYPT{
+Asian Computing Science Conference{ASIAN
+Asian Simulation Conference{AsiaSim
+ASIS SIG/CR Classification Research Workshop{
+Workshops on Abstract State Machines{ASM
+Analytical and Stochastic Modeling Techniques and Applications{ASMTA
+Advances in Social Networks Analysis and Mining{ASONAM
+Answer Set Programming{ASP
+Asia and South Pacific Design Automation Conference{ASP-DAC
+Aspekte der Selbstorganisation{
+Architectural Support for Programming Languages and Operating Systems{ASPLOS
+Automatic Speech Recognition & Understanding{ASRU
+Conference on Computers and Accessibility{ASSETS
+Assistive Technology and Artificial Intelligence{
+Aachener Symposium für Signaltheorie{ASST
+Automation of Software Test{AST
+Asian Semantic Web Conference{ASWC
+Australian Software Engineering Conference{ASWEC
+Automotive Software Workshop{ASWSD
+Symposium on Asynchronous Circuits and Systems{ASYNC
+Agreement Technologies{AT
+Agent Theories, Architectures, and Languages{ATAL
+Autonomic and Trusted Computing{ATC
+Automated Theory Engineering{ATE
+Modelling and Evaluation of ATM Networks{ATM Networks
+Algorithmic Approaches for Transportation Modeling, Optimization, and Systems{ATMOS
+Asian Test Symposium{ATS
+Automated Technology for Verification and Analysis{ATVA
+Australasian User Interface Conference{AUIC
+Australian Joint Conference on Artificial Intelligence{AUS-AI
+Australasian Data Mining Conference{AusDM
+Combinatorial Optimization{Aussois
+Australian Computer, Network & Information Forensics Conference{
+Austrographics{
+Automatic Identification Advanced Technologies{AutoID
+Automata Theory and Formal Languages / Automatentheorie und Formale Sprachen{
+Automatic Verification Methods for Finite State Systems{
+Safety & Security{Automotive
+Automotive User Interfaces and Interactive Vehicular Applications{AutomotiveUI
+Autonomic Computing and Communication Systems{Autonomics
+Computational Autonomy - Potential, Risks, Solutions{AUTONOMY
+AVATARS Workshop{
+Audio- and Video-Based Biometric Person Authentication{AVBPA
+Advanced Visual Interfaces{AVI
+Advanced Video and Signal Based Surveillance{AVSS
+Advanced Workshop on Content Computing{AWCC
+Atlantic Web Intelligence Conference{AWIC
+Aegean Workshop on Computing{AWOC
+Algorithmen und Werkzeuge für Petrinetze{AWPN
+Automated Production of Cross Media Content for Multi-channel Distribution{AXMEDIS

@@ -1,0 +1,19 @@
+Add
+(1) ISI-data (fullname, shortname, shortname2)
+(2) PubMed (fullname[not same as previous], shortname[not null & not same as previous])
+(3) dblp (fullname[not same as previous], shortname[not null & not same as previous])
+(4)	elsevier_journal (fullname[not same as previous])
+
+16975
+
+
+
+8471
+
+9935
+
+10821
+
+12445
+
+

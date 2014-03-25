@@ -1,0 +1,564 @@
+Instance no. 1
+class Author: 0.0
+class Title: 0.6
+class Journal: 0.4
+class Proceeding: 0.0
+
+Instance no. 2
+class Author: 1.0
+class Title: 0.0
+class Journal: 0.0
+class Proceeding: 0.0
+
+Instance no. 3
+class Author: 0.0
+class Title: 0.9333333333333333
+class Journal: 0.06666666666666667
+class Proceeding: 0.0
+
+Instance no. 4
+class Author: 0.0
+class Title: 0.2
+class Journal: 0.0
+class Proceeding: 0.8
+
+Instance no. 5
+class Author: 1.0
+class Title: 0.0
+class Journal: 0.0
+class Proceeding: 0.0
+
+Instance no. 6
+class Author: 1.0
+class Title: 0.0
+class Journal: 0.0
+class Proceeding: 0.0
+
+Instance no. 7
+class Author: 0.0
+class Title: 1.0
+class Journal: 0.0
+class Proceeding: 0.0
+
+Instance no. 8
+class Author: 0.0
+class Title: 0.3
+class Journal: 0.7
+class Proceeding: 0.0
+
+Instance no. 9
+class Author: 1.0
+class Title: 0.0
+class Journal: 0.0
+class Proceeding: 0.0
+
+Instance no. 10
+class Author: 1.0
+class Title: 0.0
+class Journal: 0.0
+class Proceeding: 0.0
+
+Instance no. 11
+class Author: 0.7908032708032707
+class Title: 0.0
+class Journal: 0.20919672919672924
+class Proceeding: 0.0
+
+Instance no. 12
+class Author: 1.0
+class Title: 0.0
+class Journal: 0.0
+class Proceeding: 0.0
+
+Instance no. 13
+class Author: 0.0
+class Title: 0.4666666666666667
+class Journal: 0.5333333333333333
+class Proceeding: 0.0
+
+Instance no. 14
+class Author: 0.0
+class Title: 0.06666666666666667
+class Journal: 0.8666666666666667
+class Proceeding: 0.06666666666666667
+
+Instance no. 15
+class Author: 0.8196536796536797
+class Title: 0.0
+class Journal: 0.18034632034632037
+class Proceeding: 0.0
+
+Instance no. 16
+class Author: 0.8714049839049839
+class Title: 0.12859501609501608
+class Journal: 0.0
+class Proceeding: 0.0
+
+Instance no. 17
+class Author: 1.0
+class Title: 0.0
+class Journal: 0.0
+class Proceeding: 0.0
+
+Instance no. 18
+class Author: 0.8019047619047619
+class Title: 0.0
+class Journal: 0.19809523809523807
+class Proceeding: 0.0
+
+Instance no. 19
+class Author: 0.0
+class Title: 0.9333333333333333
+class Journal: 0.0
+class Proceeding: 0.06666666666666667
+
+Instance no. 20
+class Author: 0.0
+class Title: 0.0
+class Journal: 1.0
+class Proceeding: 0.0
+
+Instance no. 21
+class Author: 1.0
+class Title: 0.0
+class Journal: 0.0
+class Proceeding: 0.0
+
+Instance no. 22
+class Author: 1.0
+class Title: 0.0
+class Journal: 0.0
+class Proceeding: 0.0
+
+Instance no. 23
+class Author: 1.0
+class Title: 0.0
+class Journal: 0.0
+class Proceeding: 0.0
+
+Instance no. 24
+class Author: 0.0
+class Title: 1.0
+class Journal: 0.0
+class Proceeding: 0.0
+
+Instance no. 25
+class Author: 0.0
+class Title: 0.9333333333333333
+class Journal: 0.06666666666666667
+class Proceeding: 0.0
+
+Instance no. 26
+class Author: 0.0
+class Title: 1.0
+class Journal: 0.0
+class Proceeding: 0.0
+
+Instance no. 27
+class Author: 1.0
+class Title: 0.0
+class Journal: 0.0
+class Proceeding: 0.0
+
+Instance no. 28
+class Author: 0.0
+class Title: 0.8
+class Journal: 0.2
+class Proceeding: 0.0
+
+Instance no. 29
+class Author: 1.0
+class Title: 0.0
+class Journal: 0.0
+class Proceeding: 0.0
+
+Instance no. 30
+class Author: 1.0
+class Title: 0.0
+class Journal: 0.0
+class Proceeding: 0.0
+
+Instance no. 31
+class Author: 1.0
+class Title: 0.0
+class Journal: 0.0
+class Proceeding: 0.0
+
+Instance no. 32
+class Author: 1.0
+class Title: 0.0
+class Journal: 0.0
+class Proceeding: 0.0
+
+Instance no. 33
+class Author: 0.0
+class Title: 0.8666666666666667
+class Journal: 0.13333333333333333
+class Proceeding: 0.0
+
+Instance no. 34
+class Author: 0.0
+class Title: 0.3333333333333333
+class Journal: 0.6666666666666666
+class Proceeding: 0.0
+
+Instance no. 35
+class Author: 1.0
+class Title: 0.0
+class Journal: 0.0
+class Proceeding: 0.0
+
+Instance no. 36
+class Author: 0.0
+class Title: 0.13333333333333333
+class Journal: 0.8666666666666667
+class Proceeding: 0.0
+
+Instance no. 37
+class Author: 0.0
+class Title: 0.9333333333333333
+class Journal: 0.06666666666666667
+class Proceeding: 0.0
+
+Instance no. 38
+class Author: 0.0
+class Title: 0.0
+class Journal: 1.0
+class Proceeding: 0.0
+
+Instance no. 39
+class Author: 0.0
+class Title: 0.0
+class Journal: 1.0
+class Proceeding: 0.0
+
+Instance no. 40
+class Author: 0.0
+class Title: 1.0
+class Journal: 0.0
+class Proceeding: 0.0
+
+Instance no. 41
+class Author: 1.0
+class Title: 0.0
+class Journal: 0.0
+class Proceeding: 0.0
+
+Instance no. 42
+class Author: 0.0
+class Title: 0.06666666666666667
+class Journal: 0.0
+class Proceeding: 0.9333333333333333
+
+Instance no. 43
+class Author: 0.0
+class Title: 1.0
+class Journal: 0.0
+class Proceeding: 0.0
+
+Instance no. 44
+class Author: 0.0
+class Title: 0.0
+class Journal: 1.0
+class Proceeding: 0.0
+
+Instance no. 45
+class Author: 0.0
+class Title: 1.0
+class Journal: 0.0
+class Proceeding: 0.0
+
+Instance no. 46
+class Author: 1.0
+class Title: 0.0
+class Journal: 0.0
+class Proceeding: 0.0
+
+Instance no. 47
+class Author: 1.0
+class Title: 0.0
+class Journal: 0.0
+class Proceeding: 0.0
+
+Instance no. 48
+class Author: 0.0
+class Title: 0.0
+class Journal: 1.0
+class Proceeding: 0.0
+
+Instance no. 49
+class Author: 0.0
+class Title: 1.0
+class Journal: 0.0
+class Proceeding: 0.0
+
+Instance no. 50
+class Author: 0.895892255892256
+class Title: 0.0
+class Journal: 0.10410774410774412
+class Proceeding: 0.0
+
+Instance no. 51
+class Author: 0.0
+class Title: 1.0
+class Journal: 0.0
+class Proceeding: 0.0
+
+Instance no. 52
+class Author: 1.0
+class Title: 0.0
+class Journal: 0.0
+class Proceeding: 0.0
+
+Instance no. 53
+class Author: 1.0
+class Title: 0.0
+class Journal: 0.0
+class Proceeding: 0.0
+
+Instance no. 54
+class Author: 0.0
+class Title: 0.0
+class Journal: 1.0
+class Proceeding: 0.0
+
+Instance no. 55
+class Author: 0.0
+class Title: 0.8
+class Journal: 0.13333333333333333
+class Proceeding: 0.06666666666666667
+
+Instance no. 56
+class Author: 1.0
+class Title: 0.0
+class Journal: 0.0
+class Proceeding: 0.0
+
+Instance no. 57
+class Author: 1.0
+class Title: 0.0
+class Journal: 0.0
+class Proceeding: 0.0
+
+Instance no. 58
+class Author: 0.0
+class Title: 1.0
+class Journal: 0.0
+class Proceeding: 0.0
+
+Instance no. 59
+class Author: 1.0
+class Title: 0.0
+class Journal: 0.0
+class Proceeding: 0.0
+
+Instance no. 60
+class Author: 1.0
+class Title: 0.0
+class Journal: 0.0
+class Proceeding: 0.0
+
+Instance no. 61
+class Author: 1.0
+class Title: 0.0
+class Journal: 0.0
+class Proceeding: 0.0
+
+Instance no. 62
+class Author: 0.0
+class Title: 0.9333333333333333
+class Journal: 0.06666666666666667
+class Proceeding: 0.0
+
+Instance no. 63
+class Author: 1.0
+class Title: 0.0
+class Journal: 0.0
+class Proceeding: 0.0
+
+Instance no. 64
+class Author: 1.0
+class Title: 0.0
+class Journal: 0.0
+class Proceeding: 0.0
+
+Instance no. 65
+class Author: 1.0
+class Title: 0.0
+class Journal: 0.0
+class Proceeding: 0.0
+
+Instance no. 66
+class Author: 1.0
+class Title: 0.0
+class Journal: 0.0
+class Proceeding: 0.0
+
+Instance no. 67
+class Author: 0.0
+class Title: 0.13333333333333333
+class Journal: 0.8666666666666667
+class Proceeding: 0.0
+
+Instance no. 68
+class Author: 0.0
+class Title: 1.0
+class Journal: 0.0
+class Proceeding: 0.0
+
+Instance no. 69
+class Author: 1.0
+class Title: 0.0
+class Journal: 0.0
+class Proceeding: 0.0
+
+Instance no. 70
+class Author: 1.0
+class Title: 0.0
+class Journal: 0.0
+class Proceeding: 0.0
+
+Instance no. 71
+class Author: 1.0
+class Title: 0.0
+class Journal: 0.0
+class Proceeding: 0.0
+
+Instance no. 72
+class Author: 0.0
+class Title: 0.13333333333333333
+class Journal: 0.8666666666666667
+class Proceeding: 0.0
+
+Instance no. 73
+class Author: 0.0
+class Title: 0.9333333333333333
+class Journal: 0.06666666666666667
+class Proceeding: 0.0
+
+Instance no. 74
+class Author: 1.0
+class Title: 0.0
+class Journal: 0.0
+class Proceeding: 0.0
+
+Instance no. 75
+class Author: 0.0
+class Title: 0.13333333333333333
+class Journal: 0.8666666666666667
+class Proceeding: 0.0
+
+Instance no. 76
+class Author: 0.0
+class Title: 0.9333333333333333
+class Journal: 0.06666666666666667
+class Proceeding: 0.0
+
+Instance no. 77
+class Author: 0.0
+class Title: 0.03333333333333333
+class Journal: 0.7666666666666667
+class Proceeding: 0.2
+
+Instance no. 78
+class Author: 0.0
+class Title: 0.8666666666666667
+class Journal: 0.06666666666666667
+class Proceeding: 0.06666666666666667
+
+Instance no. 79
+class Author: 0.0
+class Title: 1.0
+class Journal: 0.0
+class Proceeding: 0.0
+
+Instance no. 80
+class Author: 1.0
+class Title: 0.0
+class Journal: 0.0
+class Proceeding: 0.0
+
+Instance no. 81
+class Author: 1.0
+class Title: 0.0
+class Journal: 0.0
+class Proceeding: 0.0
+
+Instance no. 82
+class Author: 1.0
+class Title: 0.0
+class Journal: 0.0
+class Proceeding: 0.0
+
+Instance no. 83
+class Author: 0.0
+class Title: 0.6666666666666666
+class Journal: 0.3333333333333333
+class Proceeding: 0.0
+
+Instance no. 84
+class Author: 0.0
+class Title: 1.0
+class Journal: 0.0
+class Proceeding: 0.0
+
+Instance no. 85
+class Author: 1.0
+class Title: 0.0
+class Journal: 0.0
+class Proceeding: 0.0
+
+Instance no. 86
+class Author: 1.0
+class Title: 0.0
+class Journal: 0.0
+class Proceeding: 0.0
+
+Instance no. 87
+class Author: 1.0
+class Title: 0.0
+class Journal: 0.0
+class Proceeding: 0.0
+
+Instance no. 88
+class Author: 0.0
+class Title: 1.0
+class Journal: 0.0
+class Proceeding: 0.0
+
+Instance no. 89
+class Author: 1.0
+class Title: 0.0
+class Journal: 0.0
+class Proceeding: 0.0
+
+Instance no. 90
+class Author: 0.0
+class Title: 0.5333333333333333
+class Journal: 0.4666666666666667
+class Proceeding: 0.0
+
+Instance no. 91
+class Author: 0.0
+class Title: 1.0
+class Journal: 0.0
+class Proceeding: 0.0
+
+Instance no. 92
+class Author: 1.0
+class Title: 0.0
+class Journal: 0.0
+class Proceeding: 0.0
+
+Instance no. 93
+class Author: 0.0
+class Title: 0.0
+class Journal: 1.0
+class Proceeding: 0.0
+
+Instance no. 94
+class Author: 0.0
+class Title: 1.0
+class Journal: 0.0
+class Proceeding: 0.0
+

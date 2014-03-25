@@ -1,0 +1,97 @@
+Theorem Proving with Analytic Tableaux and Related Methods{TABLEAUX
+Workshop on Tabletops and Interactive Surfaces{Tabletop
+Tools and Algorithms for Construction and Analysis of Systems{TACAS
+Theoretical Aspects of Computer Software{TACS
+Trading Agent Design and Analysis{TADA
+Theoretical Aspects of Dynamic Distributed Systems{TADDS
+Theorie and Applications of Formal Argumentation{TAFA
+Theory and Application of Graph Transformations{TAGT
+Testing: Academic & Industrial Conference - Practice And Research Techniques{TAIC PART
+Turkish Symposium on Artificial Intelligence and Neural Networks{TAINN
+Theory and Applications of Knowledge Management{TAKMA
+Natural Language Processing{TAL
+Theory and Applications of Models of Computation{TAMC
+Techniques and Applications for Mobile Commerce{TAMoCo
+Task Models and Diagrams for User Interface Design{TAMODIA
+Tests and Proofs{TAP
+Theory and Practice of Algorithms in (Computer) Systems{TAPAS
+Tabulation in Parsing and Deduction{TAPD
+Richard Tapia Celebration of Diversity in Computing Conference{Tapia
+Theory and Practice of Software Development{TAPSOFT
+Theoretical Aspects of Rationality and Knowledge{TARK
+Towards Autonomous Robotic Systems{TAROS
+Theoretical Aspects of Software Engineering{TASE
+Transputer-Anwender-Treffen{TAT
+Symposium on Testing, Analysis, and Verification{TAV
+Tbilisi Symposium on Logic, Language, and Computation{TbiLLC
+Theory of Cryptography Conference{TCC
+International Conference on E-Government{TCGOV
+Technologies for Collaborative Business Process Management{TCoB
+IFIP International Conference on Theoretical Computer Science{TCS
+Workshop on Temporal Databases{TDB
+Twente Data Management Workshop{TDM
+Trends in Enterprise Application Architecture{TEAA
+Workshop on Teaching Logic Programming{TeachLP
+Trends in Enterprise Architecture Research{TEAR
+Tangible and Embedded Interaction{TEI
+Tele-Care and Collaborative Virtual Communities in Elderly Care{TELECARE
+Teleteaching{
+Temporal Logic in Specification{
+Telecommunications and Networking{TeNe
+TERENA Networking Conference{
+Technologies for E-Services{TES
+International Conference on Testing (of Software and) Communication Systems{TestCom
+Testen, Analysieren und Verifizieren von Software{
+TEX for Scientific Documentation{
+TEX , XML, and Digital Typography{
+Graph-based Methods for Natural Language Processing{TextGraphs
+Information Systems - Theoretical and Formal Aspects{TFAIS
+Theoretical Foundations of Computer Vision{TFCV
+Teaching Formal Methods{TFM
+Trends in Functional Programming{TFP
+Trustworthy Global Computing{TGC
+The Adaptive Web{
+The Analysis of Concurrent Systems{
+Theoretical Computer Science{
+Three-Dimensional Image Capture and Applications{
+Types in Compilation{TIC
+Tools for Teaching Logic{TICTTL
+Technologies for Interactive Digital Storytelling and Entertainment{TIDSE
+International Symposium on Temporal Representation and Reasoning{TIME
+Timing Issues In The Specification And Synthesis Of Digital Systems{
+Text-based Information Retrieval{TIR
+Terminology and Knowledge Engineering{TKE
+Typed Lambda Calculus and Applications{TLCA
+Types In Languages Design And Implementation{TLDI
+Traffic Monitoring and Analysis{TMA
+Theoretical and Mathematical Foundations of Computer Science{TMFCS
+Topic Maps Research and Applications{TMRA
+Symposium on Theory of Modeling & Simulation: DEVS Integrative M&S Symposium{TMS-DEVS
+Technology of Object-Oriented Languages and Systems{TOOLS
+Theory of Security and Applications{TOSCA
+Toward Category-Level Object Recognition{
+Theorem Provers in Circuit Design{TPCD
+Theory and Practice of Computer Graphics{TPCG
+TPC Technology Conference{TPCTC
+Theory and Practice of Digital Libraries{TPDL
+Theorem Proving in Higher Order Logics{TPHOLs
+Theory and Practice of Natural Computing{TPNC
+Theory and Practice of Parallel Programming{TPPP
+Theory of Quantum Computation, Communication, and Cryptography{TQC
+Trust and Reputation Management in Massively Distributed Computing Systems{TRAM
+Text Retrieval Conference{TREC
+TREC Video Retrieval Evaluation{TRECVID
+Trends in Distributed Systems{TreDS
+TRI-Ada Conference{
+Testbeds and Research Infrastructures for the DEvelopment of NeTworks and COMmunities{TRIDENTCOM
+International Workshop on Trust in Agent Societies{TRUST
+Trust and Trustworthy Computing{TRUST
+Trust and Privacy in Digital Business{TrustBus
+Trust, Security and Privacy in Computing and Communications{TrustCom
+Text, Speech and Dialogue{TSD
+Temporal, Spatial, and Spatio-Temporal Data Mining{TSDM
+Telecommunications and Signal Processing{TSP
+Transport Systems Telematics{TST
+Video Summarization{TVS
+Twente Workshop on Graphs and Combinatorial Optimization{TW
+Types for Proofs and Programs{TYPES

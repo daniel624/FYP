@@ -1,0 +1,432 @@
+﻿Andrej Bogdanov and Youming Qiao: On the security of Goldreich's one-way function. In Computational Complexity, vol. 21, no. 1, 2012. Invited paper. 
+
+Andrej Bogdanov, Periklis Papakonstantinou, and Andrew Wan: Pseudorandomness for read-once formulas. In Proceedings of the 52nd Annual Symposium on Foundations of Computer Science (FOCS), 2011.
+
+M. Xiao, L. Cai, A.C.C. Yao, Tight Approximation Ratio of a General Greedy Splitting Algorithm for the Minimum k-Way Cut Problem, Algorithmica Vol 59 510-520, 2011.
+
+L. Cai, Parameterized Complexity of Cardinality Constrained Optimization Problems, the Computer Journal, 51(1) 102-121, 2008.
+
+L. Cai and D.G. Corneil, Tree Spanners, SIAM Journal on Discrete Mathematics, 8(3), 359-387, 1995.
+
+Zhenxing Wang, Laiwan Chan. Learning Causal Relationship in Multivariate time series Data, ACM Transactions on Intelligent Systems and Technology (TIST) , 2012: Vol 3, No 4, article no 76
+
+Zhitang Chen, Laiwan Chan. Causal Discovery for Linear Non-Gaussian Acyclic Models in the Presence of Latent Gaussian Confounders. LVA/ICA, 2012: 17-24 
+
+Zhitang Chen, Laiwan Chan. New Approaches for Solving Permutation Indeterminacy and Scaling Ambiguity in Frequency Domain Separation of Convolved Mixtures, Proceedings of International Joint Conference on Neural Networks, San Jose, California, USA, July 31-August 5, 2011, p911-918
+
+Laiwan Chan. A Study of the Activity Levels in E-learning Using Data Mining Approach. Australian Quality Forum 2010 Higher Education, p.28-34. Gold Coast, Australia, 2010.06
+
+Lou S, Ni B, Lo LY, Tsui SK, Chan TF*, and Leung KS: ABMapper: a suffix array-based tool for multi-location searching and splice-junction mapping. Bioinformatics. 2011 27(3):421-2.  (*corresponding author, page special)
+
+Kwok PY and TF Chan: Genotyping technologies: the present and the future. In Genetics, Genomics, Proteomics and Bioinformatics, Marsh, J (Ed.). 2005, John Wiley & Sons Ltd., London
+
+James Cheng, Zechao Shang, Hong Cheng, Haixun Wang, and Jeffrey Xu Yu.
+KReach: Who is In Your Small World.
+In PVLDB, Volume 5, Number 11, Pages 1292-1303, 2012
+
+J. Tang and A. Fu, "Query Rewriting Using Views for XPath queries, framework, and methodologies", Information Systems, 35:3, May, 2010, pages 315-334
+
+"Using Time-Varying Texels to Simulate Withering Grassland,"
+S. Jiao, W. Wu, P. A. Heng and E. Wu, 
+IEEE Computer Graphics and Applications, pp. 36 - 48, 2012
+
+"Structure-Aware Halftoning", 
+W. M. Pang, Y. Qu, T. T. Wong, D. Cohen-Or and P. A. Heng,
+ACM Transactions on Graphics (SIGGRAPH 2008 issue), Vol.27, No.3:Article 89, 2008, pp.89-1.
+
+Mingzhen Mo, Irwin King, and Kwong-Sak Leung, "Empirical Comparisons of Attack and Protection Algorithms for Online Social Networks," Procedia CS, vol. 5, pp. 705-712, 2011
+
+Hao Ma, Irwin King, and Michael R. Lyu, "Learning to Recommend with Explicit and Implicit Social Relations," ACM Transactions on Intelligent Systems and Technology (TIST), vol. 2, iss. 3, p. 29:1-29:19, 2011.
+
+I. King, "Report on the Computer Strategy Game Programming Workshop," International Computer Chess Association Journal, pp. 113-115, June 1995
+
+Ho Yee Cheung, Lap Chi Lau, Kai Man Leung
+SIAM Journal on Computing, 42(3), 733-751, 2013 
+
+On linear and semidefinite programming relaxation for hypergraph matching
+Yuk Hei Chan, Lap Chi Lau
+Mathematical Programming, 135(1-2), 123-148, 2012
+
+Y. C. Law and J. H. M. Lee. Algebraic Properties of CSP Model Operators, in Proceedings of the International Workshop on Reformulating Constraint Satisfaction Problems: Towards Systematisation and Automation (held in conjunction with CP-2002), pages 57-71, 2002.
+
+X. Dupont, A. Lallouet, Y. C. Law, J. H. M. Lee, and C. F. K. Siu. Programmation par Contraintes sur les Sequences Infinies, in Proceedings of Huitiemes Journees Francophones de Programmation par Contraintes (JFPC-2012), pages 107-116, 2012.
+
+Y. C. Law, J. H. M. Lee, and M. H. C. Woo. Redundant Modeling in Permutation Weighted Constraint Satisfaction Problems. Constraints, 15(3), pages 354-403, 2010.
+
+Y.C. Law, J.H.M. Lee, T. Walsh and M.H.C. Woo.  Multiset Variable Representations and Constraint Propagation, CONSTRAINTS, 18(3):307-343, 2013
+
+J.H.M. Lee and K.L. Leung.  Consistency Techniques for Flow-Based Projection-Safe Global Cost Functions in Weighted Constraint Satisfaction, Journal of Artificial Intelligence Research, 43:257-292, 2012
+
+Morris S.Y. Jong, Junjie Shang, Fong-lok Lee, and Jimmy H.M. Lee.  An Evaluative Study on VISOLE Virtual Interactive Student-Oriented Learning Environment, IEEE Transactions on Learning Technologies, 3(4):307-318, 2010
+
+Xudong Luo, Jimmy Ho-man Lee, Ho-fung Leung, and Nicholas R. Jennings.  Prioritised Fuzzy Constraint Satisfaction Problems: Axioms, Instantiation and Validation,  Fuzzy Sets and Systems, 136(2), pages 151-188, Elsevier Science Ltd, 2003
+
+T.M. Chan, K.C. Wong, K.H. Lee, M.H. Wong, C.K. Lau, Stephen K.W. Tsui, K.S. Leung, Discovering approximate-associated sequence patterns for protein-DNA interactions. Bioinformatics, 2011, 27(4), pp. 471-478. (IF:5.468)
+
+(S. M. Cheang), K. H. Lee and K.S. Leung Applying Genetic Parallel Programming to Synthesize Combinational Logic Circuits,IEEE Transactions on Evolutionary Computation, Vol.11, No.4, pp.503-520, August 2007.
+
+(Y.Y. Wong), K.S. Leung, and K.H. Lee  "Stochastic load balancing algorithm for i-Computing", Concurrency and Computation: Practice and Experience,  15(1), 55-78, Jan. 2003.
+
+Raaed Al-Dujaily, Terrence Mak, Kai-Pui Lam, Fei Xia, Alex Yakovlev, Chi-Sang Poon, Dynamic On-Chip Thermal Optimization for Three Dimensional Networks-on-Chip, Computer Journal, 55(10), 1-15, 2012
+
+Bo Yu, Terrence Mak, Xiangyu Li, Leslie Smith, Yihe Sun and Chi-Sang Poon, Stream-based Hebbian Eigenfilter for Real-Time Neuronal Spike Discrimination, BioMedical Engineering OnLine, vol. 11, no. 18, 2012
+
+Terrence Mak, Kai-Pui Lam, H.S. Ng, Guy Rachmuth, Chi-Sang Poon, A CMOS Current-Mode Dynamic Programming Circuit, IEEE Trans. Circuits and Systems I, Vol 57, No. 22, pp. 3112-3123, 2010
+
+Capacity regions of two new classes of 2-receiver broadcast channels
+C. Nair. 
+IEEE Transactions on Information Theory, vol. IT-56, pp. 4207-4214, 2010.
+Proceedings of the International Symposium on Information Theory, pp. 1839-1843, 2009.
+
+Proof of the local REM conjecture for number partitioning I: Constant energy scales,
+C. Borgs, J. T. Chayes, S. Mertens, and C. Nair. 
+Random Structures and Algorithms, vol. 34(2), pp. 217-240, 2009.
+
+Ying Kin Yu, Kin Hong Wong, Siu Hang Or and Junzhou Chen, "Controlling Virtual Cameras Based on a Robust Model-free Pose Acquisition Technique", IEEE Transactions on Multimedia, No. 1, January 2009, pp. 184-190.
+
+Ying Kin Yu, Kin Hong Wong, Siu Hang Or, and Michael Ming Yuen Chang, "Robust 3-D Motion Tracking From Stereo Images: A Model-Less Method", IEEE Transaction on Instrumentation and Measurement, Vol. 57, No. 3, March 2008.
+
+B. Sheng, W. Meng, H. Sun, E. Wu, "Sketch-based Design for Green Geometry and Image Deformation", Journal of Multimedia Tools and Applications, 2012.
+
+B. Sheng, H. Sun, S. Chen, X. Liu, E. Wu, "Colorization Using the Rotation-invariant Feature Space", IEEE Journal of Computer Graphics and Applications, 31(2): 24-35, 2011.
+
+B. Sheng, H. Sun, G. Yang, E. Wu, "Furstyling on Angle-Split Shell Textures", Journal of Computer Animation and Virtual Worlds, (selected from International Conference on CASA '2009, special issue on CASA), 20(2-3): 205-213, 2009.
+
+H. Wang, H. Sun, KH Qin, "Estimating Recursion Depth for Loop Subdivision", International Journal of CAD/CAM, 4(1): 11-18, 2004.
+
+X. Jin, H. Sun, Q. Peng, "Subdivision Interpolating Implicit Surfaces", Journal of Computers & Graphics, Vol. 27, No. 5, p. 763-772, 2003.
+
+A. M.-C. So, Moment Inequalities for Sums of Random Matrices and Their Applications in Optimization, Mathematical Programming, Series A 130(1):125-151, 2011
+
+Le, W., Li, F., Tao, Y., Christensen, R. 
+Optimal Splitters for Temporal and Multi-version Databases. 
+Proceedings of ACM Conference on Management of Data (SIGMOD), pages 109-120, 2013.
+
+Jiang, B., Pei, J., Tao, Y., Lin, X. 
+Clustering Uncertain Data Based on Probability Distribution Similarity. 
+IEEE Transactions on Knowledge and Data Engineering (TKDE), 25(4): 751-763, 2013. 
+
+Tao, Y., Papadias, D., Lian, X., Xiao, X. 
+Multi-dimensional Reverse kNN Search. 
+Very Large Data Base Journal (VLDBJ), 16(3): 293-316, 2007
+
+Zhaorong Li, Kin-Hong Wong, Yibo Gong, and Ming-Yuen Chang, "An Effective Method for Movable Projector Keystone Correction", IEEE Transactions on Multimedia, VOL. 13, NO. 1, Feb 2011
+
+Chi Hang Wong, Wai Man Szeto and Kin Hong Wong, "Automatic lyrics alignment for Cantonese popular music",  Multimedia Systems, Springer, Volume 12, Numbers 4-5, March 2007 , pp. 307-323
+
+Ying Kin YU, Kin Hong Wong and Michael MingYuen Chang, "Pose Estimation for Augmented Reality Applications Using Genetic Algorithm", IEEE Transactions on Systems, Man, and Cybernetics, Part B, Dec. 2005, Volume: 35,  Issue: 6, PP. 1295- 1301
+
+Mohammad Ehab Ragab, Kin Hong Wong, Jun Zhou Chen, Michael Ming-Yuen Chang, "EKF Pose estimation: how many filters and cameras to use?", IEEE International Conference on Image Processing (ICIP08), San Diego, California, U.S.A, October 12?5, 2008
+
+Yee Leung, Man Hon Wong, Ka-Chun Wong, Wei Zhang, Kwong-Sak Leung: A novel web-based system for tropical cyclone analysis and prediction. International Journal of Geographical Information Science 26(1): 75-97 (2012)
+
+Po-Yuen Wong, Tak-Ming Chan, Man Hon Wong, Kwong-Sak Leung: Predicting Approximate Protein-DNA Binding Cores Using Association Rule Mining. ICDE 2012: 965-976
+
+Ka-Chun Wong, Kwong-Sak Leung, Man Hon Wong: Effect of Spatial Locality on an Evolutionary Algorithm for Multimodal Optimization. EvoApplications (1) 2010: 481-490
+
+Mi Zhou, Man Hon Wong: Boundary-Based Lower-Bound Functions for Dynamic Time Warping and Their Indexing. ICDE 2007: 1307-1311
+
+" Binocular Tone Mapping",
+X. Yang, L. Zhang, T. T. Wong and P. A. Heng,
+ACM Transactions on Graphics (SIGGRAPH 2012 issue), Vol. 31, No. 4, July 2012, pp. 93:1-93:10.
+
+" Deringing Cartoons by Image Analogies",
+G. Wang, T. T. Wong and P. A. Heng,
+ACM Transactions on Graphics, Vol. 25, No. 4, October 2006, pp. 1360-1379.
+
+T.Y. Wong, M.H. Wong, and John C.S. Lui, "A Precise Termination Condition of the Probabilistic Packet Marking Algorithm", IEEE Transactions of Secure and Dependable Computing, Vol.5, No.1, pp.6-21, January-March, 2008
+
+M.R. Lyu and T.Y. Wong, "A Progressive Fault Tolerant Mechanism in Mobile Agent Systems", Proceedings of the 7th World Multiconference on Systemics, Cybernetics and Informatics (SCI'03). Vol. IX. Orlando, Florida, 2003, pp. 299-306
+
+T.Y.Wong, "A Progressive Fault Detection and Service Recovery Mechanism in Mobile Agent Systems", A Master Thesis, The Chinese University of Hong Kong, June 2002
+
+H.W. Chan, K.M. Wong, T.Y. Wong, and M.R. Lyu, "Securing Mobile Agents for Electronic Commerce: An Experiment", Information Security for Global Information Infrastructures, IFIP TC11 Fifteenth Annual Working Conference on Information Security, August 22-24, 2000, Beijing, China, pp.471-480
+
+H. Fan, C.C. Cheung, and Y.L. Wu, "Design Automation Framework for Reconfigurable 3D Interconnection Networks," The Computer Journal pg 1-12, Oct. 2012
+
+F. S. Chim, T. K. Lam, Y.L. Wu, and F, H. Fan, "On Structural Analysis and Efficiency for Graph-Based Rewiring Techniques," IEICE Transactions on Fundamentals of Electronics, Communications and Computer Sciences, Vol. E94-A, No. 12, pp. 2853-2865 Dec. 2011
+
+X. Xiong, Y. L. Wu and W. B. Jone, "Yield analysis for self-repairable MEMS devices," Analog Integrated Circuits and Signal Processing 56:1/2 pp.1-11, August. 2008
+
+Y.L. Wu and M. Marek-Sadowska, "Routing for Array Type FPGAs," IEEE Transactions on Computer Aided Design. pp. 506-518, May 1997
+
+Lei Xu (2012), " On essential topics of BYY harmony learning: Current status, challenging issues, and gene analysis applications ", Journal of Frontiers of Electrical and Electronic Engineering 7(1) (2012) 147-196
+
+Lei Xu (2009), "Learning Algorithms for RBF Functions and Subspace Based Functions", Ch.3 in "Handbook of Research on Machine Learning Applications and Trends: Algorithms, Methods and Techniques", eds. by Olivas, Guerrero, Sober, Benedito, & Lopez, IGI Global publication, pp60-94
+
+Lei Xu  and  Shun-ichi Amari (2008), "Combining Classifiers and Learning Mixture-of-Experts", in Encyclopedia of Artificial Intelligence,  Edited By: Juan Ramon Rabunal Dopico; Julian Dorado; Alejandro Pazos, IGI Global (IGI) publishing company,  pp318-326
+
+L. Huang, F. Yuan, and Q. Xu, "On Task Allocation and Scheduling for Lifetime Extension of Platform-Based MPSoC Designs", IEEE Transactions on Parallel and Distributed Systems, vol 22, pp. 2088-2099,  Dec. 2011
+
+Q. Xu, Y. Zhang and K. Chakrabarty, "SOC Test-Architecture Optimization for the Testing of Embedded Cores and Signal-Integrity Faults on Core-External Interconnects", ACM Transactions on Design Automation of Electronic Systems, vol. 14, article No. 4, Jan. 2009
+
+Q. Xu and N. Nicolici, "Resource-Constrained System-on-a-Chip Test: A Survey", IEEE Proceedings: Computers and Digital Techniques. vol. 152, pp. 67-81, Jan. 2005
+
+Ken Kai-Yuen Tso*, Kevin Y. Yip*, Cathy Mak, Grace Tin-Yun Chung, Sau-Dan Lee, Siu-Tim Cheung, Ka-Fai To and Kwok-Wai Lo,
+Complete Genomic Sequence of Epstein-Barr Virus in Nasopharyngeal Carcinoma Cell Line C666-1,
+Infectious Agents and Cancer, vol. 8, issue 1, no. 29, (2013).
+
+The ENCODE Project Consortium,
+A User's Guide to the Encyclopedia of DNA Elements (ENCODE),
+PLoS Biology, vol. 9, issue 4, e1001046, (2011)
+
+Justin Jee*, Joel Rozowsky*, Kevin Y. Yip*, Lucas Lochovsky, Robert Bjornson, Guoneng Zhong, Zhengdong Zhang, Yutao Fu, Jie Wang, Zhiping Weng and Mark Gerstein,
+ACT: Aggregation and Correlation Toolbox for Analyses of Genome Tracks,
+Bioinformatics, vol. 27, no 8, pp. 1152-1154, (2011)
+
+Kevin Y. Yip*, Prianka Patel*, Philip M. Kim, Donald M. Engelman, Drew McDermott and Mark Gerstein,
+An Integrated System for Studying Residue Coevolution in Proteins,
+Bioinformatics, vol. 24, no. 2, pp. 290-292, (2008)
+
+Postgrid Clock Routing for High Performance Microprocessor Designs, Haitong Tian, W.-C. Tang, Evangeline F.Y. Young and C. N. Sze, IEEE Transactions of Computer-Aided Design of Integrated Circuits and Systems, 31(2):255-259, 2012
+
+Block Flipping and White Space Distribution for Wirelength Minimization , Chiu-Wing Sham and Evangeline F.Y. Young, Integration, the VLSI Journal, Vol. 42, No. 2, p246-253, February, 2009
+
+Optimizing Wirelength and Routability by Searching Alternative Packings in Floorplanning , Chiu-Wing Sham, Evangeline F.Y. Young and Hai Zhou, ACM Transaction on Design Automation of Electronic Systems, Vol.13, No.1, Article No.21 (21:1-21:13), January, 2008
+
+Lijun Chang, Jeffrey Xu Yu, and Lu Qin: "Fast Maximal Cliques Enumeration in Sparse Graphs", Vol. 66, No. 1, Algorithmica, 2013
+
+Lijun Chang, Jeffrey Xu Yu, Lu Qin, Hong Cheng, and Miao Qiao: "The Exact Distance to Destination in Undirected World", VLDB Journal, Vol. 21, No. 6, 2012
+
+Pei Li, Laks V.S. Lakshmanan, and Jeffrey Xu Yu: "On Top-k Structural Similarity Search", in Proceedings of the 28th International Conference on Data Engineering (ICDE'12), 2012
+
+Long Xu, Sam Kwong and Zhang Yun, Low-Complexity Encoder Framework for Window-Level Rate Control Optimization, accepted for publication in IEEE Trans on Industrial Electronics, 2012
+
+Sudeng Hu, Hanli Wang, Sam Kwong, Adaptive Quantization Parameter Clip Scheme for Smooth Quality in H.264/AVC, accepted for publication in IEEE Trans on Image Processing. 2012
+
+Tiesong Zhao, Sam Kwong, Hanli Wang and C.-C. Jay Kuo, H.264/SVC mode decision based on optimal stopping theory, accepted for publication in IEEE Trans on Image Processing. 2012
+
+S Hu, H Wang, S Kwong, T Zhao and C-C J Kuo, Rate control optimization for temporal-layer scalable video coding, IEEE Transactions on Circuits and Systems for Video Technology, Volume 21, Issue 8, August 2011, Pages 1152-1162
+
+K S Tang, R J Yin, S Kwong, K T Ng, K F Man, A theoretical development and analysis of jumping gene genetic algorithm, IEEE Transactions on Industrial Informatics, Volume 7, Issue 3, August 2011, Article number 5937032, Pages 408-418
+
+G Zhu, S Kwong, J Huang, J Yang, Random Gray code and its performance for Image Hashing, Signal processing, Volume 91, Issue 9, September 2011, Pages 2178-2193
+
+H Li, Y Hong, S Kwong, Subspace estimation of distribution algorithms: To perturb part of all variables in estimation of distribution algorithms, Applied Soft Computing Journal, Volume 11, Issue 3, April 2011, Pages 2974-2989
+
+H Li, S Kwong and Y Hong, The convergence analysis and specification of the Population-Based Incremental Learning algorithm, Neurocomputing, Volume 74, Issue 11, May 2011, Pages 1868-1873
+
+Zhenyon Fu, Zhiwu Lu and Horace H S Ip, "Symmetric Graph Regularized Constraint Propagation", Proceedings of 25th Conference on Artificial Intelligence (AAAI 2011), 7-11 August, 2011, San Francisco, USA
+
+Zhiwu Lu and Horace H S Ip, "Spatial Markov Kernels for Image Categorization and Annotation", IEEE Transactions on Systems, Man and Cybernetics, Vol. 41, No. 4, pp. 976-989, August 2011.
+
+Lin Cui, Posco Tso, Di Yao and Weijia Jia, "WeFiLab: A Web-based WiFi Laboratory Platform for Wireless Networking Education", IEEE Transactions on Learning Technologies, 5(4): 291-303 (2012).
+
+Ziqiu Yun, Xiaole Bai, Dong Xuan, Weijia Jia and Wei Zhao, "Pattern Mutation in Wireless Sensor Deployment", IEEE/ACM Transactions on Networking, 20(6), 2012, pp.1964-1977.
+
+Z. Lin, J. Luo, X. Fu,  W. Yu, D. Xuan, W. Jia, "A New Cell Counting Based Attack Against Tor", IEEE/ACM Transactions on Networking, August 2012, 20(4), pp.1245-1261.
+
+Xiaohua Jia, Dongsoo Kim, Sam Makki, Pengjun Wan, and Chihwei Yi, "Power assignment for k-connectivity in wireless ad hoc networks" , IEEE INFOCOM'05, Miami, Mar 2005.
+
+Xiaohua Jia, Deying Li, and D. Du, "QoS topology control in ad hoc wireless networks" , IEEE INFOCOM'04, Hong Kong, Mar 2004.
+
+Deying Li, Xiaohua Jia, and H. Liu, "Energy efficient broadcast routing in ad hoc wireless networks" , IEEE Trans on Mobile Computing, Vol.3, No.2, Apr-Jun 2004.
+
+C. H. Yuen, E. Chan, K. Y. Lam and H. W. Leung, "Cache Invalidation Scheme for Mobile Computing Systems with Real-time Data", ACM SIGMOD RECORD, Vol. 29 No. 4, Dec. 2000.
+
+K. Y. Lam, E. Chan and C. H. Yuen, "Approaches for Broadcasting Temporal Data in Mobile Computing Systems", Journal of Systems and Software, Vol. 51, pp. 175-189, 2000.
+
+E. Chan, D. Chen, C. S. Lee, J. Cao and C. H. Lee, "On the Effectiveness of the FDDI-M Medium Access Protocol for Real-Time Traffic", The Journal of Supercomputing, Vol. 11, pp. 371-389, 1997.
+
+Kwok L F, Cheung C H and Longley D, "An Object-Oriented Framework for Risk Data Repository", Proc. IFIP/SEC2000: Information Security for Global Information Infrastructures, Beijing, PRC, 21-25 August 2000, Editors: Qing S & Eloff J H P, International Academic Publishers, pp.98-101
+
+Multi-dimensional Diplomacy of Contemporary China (ed. With Jean-Marc Blanchard). New York: Rowman & Littlefield (Lexington Books), 2010.
+
+Redefining Nationalism in Modern China: Sino-American Relations and the Emergence of Chinese Public Opinions in the 21st Century. London: Palgrave Macmillan, 2007.
+
+Ma, J. L. C., Wan, E. S. F., & Wong, M. M. C. (2013). Experiencing multiple family groups in a Chinese context: the clients’ perception of its helpful and unhelpful impact. Journal of Social Work Practice: Psychotherapeutic Approaches in Health, Welfare and Community, 27(1), 34-47. 
+
+Ma, J. L.C. & Lai, K. (2009).  Applicability of family therapy for Chinese children and adolescents suffering from anorexia nervosa in a Chinese context: A preliminary study. Social Work in Mental Health, 7(4), 402-423.
+
+Ngai, S.Y.S., Ngai, N.P., Cheung, C.K., & To, S.M. (2008). The effects of service participation, friendship networks and family support on developmental outcomes: A study of young people from low-income families in Hong Kong. Adolescence, 43, 399-416.
+
+(2003). To Tell or Not to Tell; Disability Disclosure and Job Application Outcomes (with Veronica Pearson, Nelson Yip, Frances Ip, K.K. Ho and Heidi Hui). The Journal of Rehabilitation, 69(4), 35-38.
+
+Wong, O.L., & Ma , J.L.C. (2013). Development of family therapy in Hong Kong. Contemporary Family Therapy.
+
+Wong, O.L. (2011). Gendered power in eating habits: Insight into childhood obesity in a Chinese context. Journal of Family Therapy, 33, 332-352.
+
+To, S.M., & Chan, T.S. (2013). Searching for the meaning of parenthood: An existential approach to parent education in the Hong Kong-Chinese context. International Social Work, 56(4), 467-481.
+
+Cheung, M.C., Chan, A.S., Sze, S. L., Leung, W.W., & To, C.Y. (2010). Verbal memory deficits in relation to organization strategy in high- and low-functioning autistic children. Research in Autism Spectrum Disorders, 4, 764-771
+
+J.F. Cai, R.H. Chan, and Z.W. Shen, A Framelet-Based Image Inpainting Algorithm, Appl. Com-put. Harmon. Anal., 24 (2008), 131-149.
+
+R.H. Chan, C.W. Ho, and M. Nikolova, Salt-and-Pepper Noise Removal by Median-type Noise Detectors and Detail-preserving Regularization, IEEE Trans. Image Proc., 14 (2005), 1479-1485.
+
+With A. Lorz and P. Markowich: Global Solutions to the coupled chemotaxis-fluid equations, Communications in Partial Differential Equations, 35 (2010), no. 9, 1635-1673.
+
+With C.-J. Zhu: Existence and uniqueness of entropy solution to initial boundary value problem for the inviscid Burgers equation, Journal of Physics. A. 36 (2003), no. 8, 2099-2107.
+
+With T. Yang and C.-J. Zhu: Boltzmann equation with external force and Vlasov-Poisson-Boltzmann system in infinite vacuum, Discrete and Continuous Dynamical Systems 16 (2006), no. 1, 253-277.
+
+Chan, K. L., & Jones, B. J. T. 1975, Distortions of the 3K background radiation spectrum: observational constraints on the early thermal history of the universe, Astrophys. J., 195, 1-11.
+
+Bentkus, V., Jing, B.-Y., Shao, Q.M., and Zhou, W. (2007). Limiting distributions of non-centralt-statistics and their applications to the power of t-tests under non-normality. Bernoulli, 13, 346-364.  
+
+Thrainsson, Hjortor, "Modeling of Earthquake Ground Motion in the Frequency Domain," Ph.D. Thesis, Report 134, Blume Earthquake Engineering Center, Stanford University, 2000
+
+Asymptotic Analysis (Applied Mathematical Sciences, Vol.48). Springer-Verlag, New York, 1984 (165 pages). (2nd edition of 1974 volume with further material) 2nd printing 1996. 
+
+The Mathematics of Marriage: Dynamic Nonlinear Models(J. M. Gottman, J.D. Murray, Catherine C. Swanson, Rebecca Tyson, Kristin R. Swanson). MIT Press, Cambridge, MA, 2002.
+
+Theories of Biological Pattern Formation (editors S. Brenner, J.D. Murray and L. Wolpert). Proceedings of the Royal Society meeting of that name at the Royal Society, London, 1981.
+
+Modelling of Patterns in Space and Time (editors W. Jager and J.D. Murray). Proceedings of a workshop of that name in Heidelberg, 1983. Springer-Verlag, Heidelberg, 1984 (405 pages). 
+
+Mathematical Biology. Springer-Verlag, Heidelberg, 1989 (767 pages) (2nd printing 1990, 3rd printing 1993); Mathematics Book Club (U.S.A.) adoption, 1991. 
+
+Bolton, Kingsley (2003) Chinese Englishes: A Sociolinguistic History. Cambridge: Cambridge University Press. 
+
+Bolton, Kingsley (2005) A Dictionary of Cantonese Slang: Language of Hong Kong Movies, Street Gangs and City Life (co-authored with Christopher Hutton). London: C. Hurst and Co.; Hawaii: University of Hawaii Press. 
+
+Davis, Rocío G. Relative Histories: Mediating History in Asian American Family Memoirs (forthcoming, University of Hawaii Press, 2011). 
+
+Weisser, Martin (2009) Essential Programming for Linguistics. Edinburgh Advanced Textbooks in Linguistics. Edinburgh: EUP. 
+
+Xu Xi (ed.) (2003) City Voices: Hong Kong Writing in English (an anthology of prose and poetry from 1945 till present). Hong Kong: Hong Kong University Press.
+
+Xu Xi (2004) Overleaf Hong Kong: Stories & Essays of the Chinese, Overseas. Hong Kong: Chameleon Press.
+
+Bhatia, Aditi (2006) Language and ideology in political press conferences. In English in Southeast Asia Prospects, Perspectives and Possibilities. Edited by Azirah Hashim and Norizah Hassan. Kuala Lumpur: University of Malaya Press, pp. 163-79.
+
+Bhatia, Vijay K. (2003) Socio-political development of the legal system in India. In Multilingual and Multicultural Contexts of Legislation: An International Perspective. Edited by Vijay K. Bhatia, Christopher N. Candin, Jan Engberg, and Anna Trosborg. Frankfurt am Main; New York: Peter Lang, pp. 169-91. 
+
+Miller, Lindsay (2007) What's in it for me? A performance management system to please everyone and (co-authored with Jean Young). In Evaluating Teacher Effectiveness in EF/SL Contexts. Edited by Christine Coombe, Mashael Al-Hamly, Peter Davidson, and Salah Troudi. The University of Michigan Press, pp. 74-88. 
+
+Davis, Rocío G. Academic Autobiography and Transdisciplinary Crossings in Shirley Geok-lin Lim's Among the White Moon Faces. Journal of American Studies 43.3 (December 2009): 1-17.
+
+Davis, Rocío G. Locating Family: Asian Canadian Historical Revisioning in Linda Ohama's Obaachan's Garden and Ann Marie Fleming's The Magical Life of Long Tack Sam. Journal of Canadian Studies 42.1 (Winter 2008): 1-22. 
+
+Bolton, Kingsley (2008a) Comment 2. World Englishes, 27(2), 270-71.
+
+Bolton, Kingsley (2008b) English in Asia, Asian Englishes, and the issue of proficiency. English Today, 94, 3-12
+
+Du-Babcock, Bertha (2006c) An analysis of topic management strategies and turn-taking behavior in the Hong Kong bilingual environment: The impact of culture and language use. Journal of Business Communication, 43(1), 21-42. 
+
+Su, Chenting and James E. Littlefield (2001), "Entering Guanxi: A Business Ethical Dilemma in Mainland China?", Journal of Business Ethics, Vol. 33, No.3, pp. 199-210.
+
+Su, Chenting, Joe Sirgy, and James E. Littlefield (2003), "Is Guanxi Orientation Bad, Ethically Speaking? A Study of Chinese Enterprises", Journal of Business Ethics, Vol. 44, No.4, pp. 303-312.
+
+Ding, Min, John R. Hauser, Songting Dong, Daria Silinskaia, Zhilin Yang, Chenting Su, and Steven Gaskin (2011), "Unstructured Direct Elicitation of Decision Rules ", Journal of Marketing Research, 48, 1, 116-127.
+
+Yang, Zhilin, Chenting Su, and Kim Fam (May 2012), "Dealing with Institutional Distances in International Marketing Channels: Governance Strategies That Engender Legitimacy and Efficiency ", Journal of Marketing, 76, 3, 41-55.
+
+Su, Chenting, Zhilin Yang, Nan Zhou, Guijun Zhuang, and Wenyu Dou (2009), "Interpersonal Influence as an Alternative Channel Communication Behavior in Emerging Markets: The Case of China", Journal of International Business Studies, 40 (4), May, 668-689.
+
+Yonggui Wang, Fiona Chan, and Zhilin Yang (2013), "Customers’ Perceived Benefits of Interacting in a Virtual Brand Community in China", Journal of Electronic Commerce Research, 14, 1, 39-56.
+
+Zhilin Yang, Chen Zhou, and Ling Jiang (2011), "When Do Formal Control and Trust Matter? A Context-Based Analysis of the Effects on Marketing Channel Relationships in China", Industrial Marketing Management, 40, 1, 86-96.
+
+Xuehua Wang, and Zhilin Yang. (2010), "The Effect of Brand Credibility on Consumers’ Brand Purchase Intention in Emerging Economies: The Moderating Role of Brand Awareness and Brand Image", Journal of Global Marketing, 23, 3, 177-188.
+
+Yang, Zhilin, Robin T. Peterson, and Lily Huang (Summer 2001), "Taking the Pulse of Internet Pharmacies: Online Consumers Speak Out on Pharmacy Services,", Marketing Health Services, Vol. 21, pp. 4-10.
+
+Yang, Zhilin, Robin T. Peterson, and Shaohan Cai (2003), "Service Quality Dimensions of Internet Purchasing: An Exploratory Analysis", Journal of Services Marketing, Vol. 17, Issue. 7, pp.685-698.
+
+Yang, Zhilin (2012), "How to Publish Top Tier Journals", 2012 MAG Scholar Conference, Gyor, Hungary, May 28 - June 01.
+
+Yang, Zhilin (2001), "Global Promotion Mix Strategy: Understanding Customers and Products", Third Biennial Academy of Marketing/American Marketing Association Conference, Cardiff, Wales.
+
+Yang, Zhilin (2001), "Sales Forecasting: An Analysis of the Political Process and Output Control", Professional Sales and Sales Management Practices Leading into the 21st Century (National Conference in Sales Management) (John M. Hawes, ed.). Dallas, Texas: Fisher Institute for Professional Selling, pp. 110-120.
+
+Fam, Kim-shyan, Brendan J. Gray, Regan Lam, and Zhilin Yang (2002), "Consumers' Views of University Promotion Campaign - Evidence from Malaysia, Singapore, and Hong Kong", Advances in Consumer Research (Rami Zwick and Tu Ping, eds.), Vol. 5, p.159.
+
+Zhou, Kevin, Laura Poppo, and Zhilin Yang (2005), "Examining Governance Choice in China: A Focus on Longstanding Ties, Relational Governance, and Contracts", Strategic Management Society’s 25th Annual International Conference, Orlando, Florida, U.S.A.
+
+Jia, Fang and Zhilin Yang (2011), "Mismatch between Trust and Interdependence:The Moderating Role of Power Imbalance", Cambridge Business & Economics Conference, Cambridge, United Kingdom, 27-28 June.
+
+Wu, Jianan, Jie Sun, Yinglu Wu, and Zhilin Yang (2009), "eWOM and Risk Return in Online Markets: A Joint Study on Seller Review and Product Review", 2009 Informs Marketing Science Conference, June 4-6, 2009, University of Michigan, Ann Arbor, Michigan, USA.
+
+Yang, Zhilin (2010), "Measuring E-Service Quality and its Linkage to Customer Loyalty", LAP Lambert Academic Publishing, Germany.
+
+Kim-Shyan Fam, Zhilin Yang, and Mike Hyman (2009), "A Handbook of Confucian/Chopsticks Marketing", Asia Business Research Corporation Ltd, Wellington, New Zealand.
+
+Originally Written by Ray Wright, Chinese Version Translated by Zuohao Hu, Zhilin Yang, et al. (2006), "Business-to-Business Marketing: A Step-by-Step Guide", Beijing: Chinese People’s University Press.
+
+Originally by William G. Zikmund, Raymond MeLeod, Jr. and Faye W. Gilbert, Chinese Version Translated by Zuohao Hu, Song Jia, and Zhilin Yang (2005), "Customer Relationship Management: Integrating marketing strategy and information technology", Beijing: Chinese People’s University Press.
+
+Dou, Weyu, Li Huang, Fue Zeng (2008), "Group Identity and Consumer Responses to Advertising in Community Web Sites", proceedings of Marketing Science Conference, Marketing Science Institute, USA.
+
+Dou, Wenyu, Boonghee Yoo, and Liangyu Ma (2002), "Understanding the Patronage of Ethnic Portal Sites: An Exploratory Study of Chinese Internet Users", proceedings of The 2002 Asia-Pacific Association of Consumer Research Conference.
+
+Dou, Wenyu, Ollie Nielsen and Chee-Ming Tan (2001), "Building Effective Web Sites for Export Marketing: Evidences from Canada, Denmark, and Malaysia", proceedings of The AMA 2001 Summer Educators Conference, USA.
+
+Dou, Wenyu, Boonghee Yoo, and Naveen Donthu (2000), "Building Global E-commerce Presence Through Ethnic Portals", proceedings of The eCommerce and Global Business Forum (in CD-ROM), sponsored by the University of California -Los Angeles, the University of Washington-Seattle, and Anderson Consulting, USA.
+
+Dou, Wenyu and Denny Bristow (September 2000), "A Call for Electronic Marketing Training Camp", Academy of Business Education Conference, Bermuda.
+
+Dou, Wenyu, Boonghee Yoo, and Naveen Donthu (May 2000), "Building Global E-commerce Presence Through Ethnic Portals", JIBS Special Conference and Symposium on E-Commerce and Global Business, Santa Cruz.
+
+Dou, Wenyu (2002), "E-Marketing Around World: Country Profile for People's Republic of China.", in "E-Marketing" 3rd ed., Judy Strauss, Adel El-Ansary, and Raymond Frost, Prentice- Hall.
+
+Ghose, Sanjoy and Wenyu Dou (2000), "Interactive Functions and Their Impacts on the Appeal of Internet Presence Sites", in "Internet Marketing: Readings and Online Resources," ed. Paul Richardson, McGraw-Hill, Boston, MA, USA.
+
+Dou, Wenyu and David Chou (2001), "A Structural Analysis of Business-to-Business Digital Markets", Industrial Marketing Management, Vol. 31, No.2, pp. 165-176.
+
+Ghose, Sanjoy, Dou, Wenyu. (1998), "Interactive Functions and Their Impact on the Appeal of Internet Presence Sites", Journal of Advertising Research, Vol. 38, Issue 2, pp. 29-44.
+
+Walter Wang, Wenyu Dou, and Nan Zhou (2008), "Consumption Attitudes and Adoption of New Consumer Products: An Empirical Study", European Journal of Marketing, 42, 1/2, 238-254.
+
+Quan, Xiaojun, Liu Wenyin, Dou, Wenyu, Xiong, Hui, Ge, Yong (2012), "Link Graph Analysis for Business Site Selection", Computer, 45, 3, 64 - 69.
+
+Yau, Oliver H M and Leung J W K (2002), "Service Marketing in the 21st Century", The City University Press.
+
+Leung J W K (2002) & Oliver Yau (2002), "The Profitable Delightful Services", The City University Press, (in progress).
+
+J Leung and K K Lai (Aug 1997), "Comparison of Assembly Systems with Different Parallel Configurations", proceedings of the IASTED International Conference on Modelling, Simulation and Optimisation, Singapore, p159-164.
+
+K K Lai and J Leung (April 1996), "Analysis of Gate House Operations in a Container Terminal", proceedings of International Conference on Modelling and Simulation, IASTED, Pittsburgh.
+
+J. Leung (1987), "Simulation Analysis of Automatic Assembly Systems with Tandem-gated Stations", invited presentation in the China-Japan Reliability Symposium, Shanghai, China.
+
+J.L. Sanders & J. Leung (April 1, 1984), "Optimal Performance Characteristics for parallel stations in Automatic Transfer Line", published in the Transactions of the ASME International Conference on Computing in Mechanical Engineering, p. 247-252.
+
+J.L. Sanders & W.K. Leung (1986), "Simulation Analysis of Free-transfer Assembly System with Tunnel-Gated Stations", Journal of Manufacturing Systems, Vol 5, No. 3, p 191-201, (SCI).
+
+Leung, John W. K. and Kenneth K. Kwong (2009), "A Structured Approach to Describing Service for Creating a Delightful Experience", Computers & Industrial Engineering, 57 (2), 563-570.
+
+Hui, H., & Luk, C.L. (1997), "Industrial/Organizational Psychology", Handbook of Cross-Cultural Psychology, Allyn and Bacon, USA, 3, 371-411.
+
+Luk, C.L., Yau, O.H.M., Sin, L.Y.M., Tse, A.C.B., Chow, R.P.M., & Lee, J.S.Y. (2008), "The effects of social capital and organizational innovativeness in different institutional contexts", Journal of International Business Studies, 39, 4, 589-612.
+
+Wendy Wan, C.L. Luk, Oliver Yau, Alan Tse, Leo Sin, Kenneth Kwong, & Raymond Chow (2008), "Do Traditional Chinese Cultural Values Nourish a Market for Pirated CDs?", Journal of Business Ethics.
+
+Luk, Chung-leung, D W Chan and H C B Lee (1999), "Developing a Chinese Vocabulary test as a WAIS-R subtest for adults in Hong Kong", Psychologia, Vol. 42, pp. 89-100.
+
+Hofstede, G., Bond, M.H., & Luk, C.L. (1993), "Individual Perceptions of Organizational Cultures: A Methodological Treatise on Levels of Analysis", Organization Studies, 14, 4, 483-503.
+
+Lo, T.W. & Kwok, S.I. (in press). Chinese triads and tongs. G. Bruinsma & D. Weisburd (Eds.) Encyclopedia of criminology and criminal justice. New York. Springer.
+
+Lo, T.W. & Kwok, S.I. (2013). Chinese triad society. Richard Wright (Ed.) Oxford bibliographies in criminology. New York. Oxford University Press. 
+
+Lo, T.W. , Wong, S.W. & Maxwell, G. (Eds.). (2005). Alternatives to prosecution: Rehabilitative and restorative models of youth justice. Singapore & London:  Marshall Cavendish Academic.
+
+Lo, T. W. (1993). Corruption and politics in Hong Kong and China. Buckingham & Philadelphia: Open University Press. 
+
+Lo, T.W. (2012). Resistance to the mainlandization of criminal justice practices: A barrier to the development of restorative justice in Hong Kong. International Journal of Offender Therapy and Comparative Criminology. 56(4). 627 - 645.
+
+Lo, T.W. (2012). Triadization of youth gangs in Hong Kong. British Journal of Criminology. 52 (3). 556 - 576. 
+
+Ho, Judy. W.C. , Ho, Samuel. M.Y. , Pau, Barbara. K.Y. , Hui, Bryant. P.H. , Wong, Rosa. S.M. & Chu, Annie. (2012). Hope-based Intervention for Individuals Susceptible to Colorectal Cancer: A Pilot Study. Familial Cancer. 11. 545 - 551.
+
+Chua, Hannah. D.P. , Ho, Samuel. M.Y. & Cheung, L.K. (2012). The Comparison of Psychological Adjustment of Cleft Lip and Palate Patients after Maxillary Distraction Osteogenesis and Conventional Orthognathic Surgery. Oral Surgery, Oral Medicine, Oral Pathology, Oral Radiology and Endodontology. 114/5. S5 - S10.
+
+Duan, Wenjie. , Tang, X. , Siu, P.Y. , Chan, Raymond. K.H. & Ho, Samuel. M.Y. (2012). Virtues and positive mental health. Hong Kong Journal of Mental Health. 38/2. 24 - 31. 
+
+Ho, Samuel. M.Y. , Rochelle, Tina. Louisa. , Law, Lawrence. S.C. , Duan, Wenjie. , Bai, Yu. , Shih, Shih-ming. & Wang, G.L. (in press). Methodological Issues in Positive Psychology Research among the Chinese. Perspectives on the Intersection of Multiculturalism & Positive Psychology. New York. Springer Science + Business Media B.V.
+
+Ho, Samuel M.Y. , Duan, Wenjie. & Tang, Sandy T.M. (in press). The Psychology of Virtue and Happiness in Western and Asian Thought. The Philosophy and Psychology of Character and Happiness. 
+
+Ho, Samuel. M.Y. (Oct 2013). The Application of Positive Psychology in facilitating offenders to change. Keynote address at the NGO Forum 2013 cum Outstanding NGO Volunteer Award Presentation. Hong Kong Correctional Services Department, HKSAR Government & Department of Applied Social Studies, City University of Hong Kong.
+
+Ho, Samuel. M.Y. (Aug 2013). Recovery, Resistance, and Thrive: Three possible outcomes in Community Work. Plenary presentation at the HKEC Symposium on Community Engagement VIII 2013. Hong Kong: Hospital Authority.
+
+Ho, Samuel. M.Y. (Jun 2013). From Public Issue to Personal Challenge: Maintaining Well-being in Crisis. Keynote address at the Hong Kong Psychological Society Annual Conference 2013. Hong Kong: Hong Kong Psychological Society. 
+
+Wong, F.K.D. (2007). Crucial individuals in the help-seeking pathway of the Chinese caregivers with relatives suffering from early psychosis in Hong Kong: Implications for social work Practice. Social Work. 52, 2. 127 - 138.
+
+Wong, F.K.D. , Chang, Y.L. & He, X.S. (2007). Rural migrant works in urban China: Living a marginalized life. International Journal of Social Welfare. 16, 7. 32 - 40.
+
+Wong, F.K.D. (2007). Uncovering socio-cultural factors influencing the pathway to care of Chinese caregivers with relatives suffering from early psychosis in Hong Kong. Culture, Medicine and Psychiatry. 31, 1. 51 - 71. 
+

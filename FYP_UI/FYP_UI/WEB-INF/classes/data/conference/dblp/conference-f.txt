@@ -1,0 +1,137 @@
+Facial Analysis and Animation{FAA
+Formal Approaches to Agent-Based Systems{FAABS
+Formal Aspects of Component Software{FACS
+Fundamentals of Artificial Intelligence Research{FAIR
+Fall Joint Computer Conference{
+Formal and Applied Practical Reasoning{FAPR
+Fundamental Approaches to Software Engineering{FASE
+Formal Aspects of Security{FASec
+File and Storage Technologies{FAST
+Formal Aspects in Security and Trust{FAST
+Formal Approaches to Testing of Software{FATES
+Fault-Tolerant Computing Systems{
+Fault-Tolerant Distributed Computing{
+Facets of Virtual Environments{FaVE
+Frontiers in Algorithmics{FAW
+Frontiers in the Convergence of Bioscience and Information Technologies{FBIT
+Formale Beschreibungstechniken{FBT
+Financial Cryptography{FC
+Field-Programmable Custom Computing Machines{FCCM
+Foundations of Computer Science{FCS
+Frontier of Computer Science and Technology{FCST
+Fundamentals of Computation Theory{FCT
+Föderierte Datenbanken{FDBS
+Foundations of Digital Games{FDG
+Forum on specification and Design Languages{FDL
+Fault Diagnosis and Tolerance in Cryptography{FDTC
+Frontiers in Education: Computer Science & Computer Engineering{FECS
+Federated Conference on Computer Science and Information Systems{FedCSIS
+Fehlertolerierende Rechensysteme{
+Forest and Environmental Information and Decision Support Systems{FEIDSS
+Finding Experts on the Web with Semantics{FEWS
+Formal Grammar{FG
+Future Generation Communication and Networking{FGCN
+Fifth Generation Computer Systems{FGCS
+Future Generation Information Technology{FGIT
+Automatic Face and Gesture Recognition{FG(R)
+Foundations of Health Informatics Engineering and Systems{FHIES
+Fixed Points in Computer Science{FICS
+FIDJI Project{
+FIFF Jahrestagung{
+Functional Imaging and Modeling of the Heart{FIMH
+Frequent Itemset Mining Implementations{FIMI
+Enterprise Applications and Services in the Finance Industry{FinanceCom
+Dynamic Taxonomies and Faceted Search{FIND
+Natural Language Processing{FinTAL
+FIRA RoboWorld Congress{
+Techniques, Methodologies and Tools for Performance Evaluation of Complex Systems{FIRB-Perf
+FIRE/EULER Workshops{
+Forum for Information Retrieval Evaluation{FIRE
+Firmware Engineering{
+First French-Israeli Workshop on Algebraic Coding{
+Future Internet Symposium{FIS
+Frontiers of Information Technology{FIT
+Traffic Management and Traffic Engineering for the Future Internet{FITraMEn
+Feature Interactions in Telecommunications and Software Systems{FIW
+Forschungskolloquium Business Intelligence{FKBI
+Fuzzy Logic in Artificial Intelligence{FLAI
+The Florida AI Research Society{FLAIRS
+Flexible Database and Information Systems Technology{FlexDBIST
+International Symposium on Functional and Logic Programming{FLOPS
+Formal Methods and Agile Methods{FM+AM
+Formal Methods{FM
+Formal Methods in Computer-Aided Design{FMCAD
+Formal Methods for Components and Objects{FMCO
+Formal Methods Europe{FME
+Formal Methods for Industrial Critical Systems{FMICS
+Foundations of Models and Languages for Data and Objects{FMLDO
+Future Multimedia Networking{FMN
+Formal Methods for Open Object-Based Distributed Systems{FMOODS
+Formal Methods in Systems Biology{FMSB
+Formal Methods in Security Engineering{FMSE
+Formal Methods in Software Practice{FMSP
+Current Trends in Applied Formal Method{FM-Trends
+Foundations of Aspect-Oriented Languages{FOAL
+Foundations of Computational Intelligence{FOCI
+Foundations of Coordination Languages and Software Architectures{FOCLASA
+Foundations of Computer Science{FOCS
+Foundations of Data Organization and Algorithms{FODO
+Foundations of Genetic Algorithms{FOGA
+Foundations of Information and Knowledge Systems{FoIKS
+Formal Ontology in Information Systems{FOIS
+Foundations of Mobile Computing{FOMC
+Formal Ontologies Meet Industry{FOMI
+Foundational and Practical Aspects of Resource Analysis{FOPARA
+Formal Aspects of Cognitive Processes{
+Formal Concept Analysis{
+Formal Hardware Verification{
+Formal to Practical Security{
+Formal Modeling and Analysis of Timed Systems{FORMATS
+Formal Methods for Automation and Safety in Railway and Automotive Systems{FORMS/FORMAT
+Formal Description Techniques for Distributed Systems and Communication Protocols{FORTE
+Formal Techniques for (Networked and) Distributed Systems{FORTE
+FORTEST Network: Formal Methods and Testing{
+Forum Wissenschaft und Technik{
+Foundations of Security Analysis and Design{FOSAD
+Future of Software Engineering{FOSE
+Future of Software Engineering Research{FoSER
+Foundations of Software Science and Computation Structure{FoSSaCS
+Foundations of Logic and Functional Programming{
+Formal Verification of Object-Oriented Software{FoVeOOS
+Functional Programming Languages and Computer Architecture{FPCA
+Field Programmable Gate Arrays{FPGA
+Field-Programmable Logic and Applications{FPL
+Functional Programming Languages in Education{FPLE
+Foundations and Practice of Security{FPS
+Field-Programmable Technology{FPT
+Foundations and Practices of UML{FP-UML
+Finite Fields and Applications{Fq
+Flexible Query Answering Systems{FQAS
+Natural Language Processing{FracTAL
+Fractals in the Natural and Applied Sciences{
+Frauenarbeit und Informatik{
+Frontiers of Combining Systems{FroCoS
+Fast Software Encryption{FSE
+Foundations of Software Engineering{FSE
+Fundamentals of Software Engineering{FSEN
+French Singaporean Workshop on Formal Methods and Applications{FSFMA
+Fuzzy Systems and Knowledge Discovery{FSKD
+Finite-State Methods and Natural Language Processing{FSMNLP
+Field and Service Robotics{FSR
+Foundations of Software Technology and Theoretical Computer Science{FSTTCS
+Symposium on Fault-Tolerant Computing{FTCS
+Future Trends of Distributed Computer Systems{FTDCS
+First Order Theorem Proving{FTP
+Formal Techniques in Real-Time and Fault-Tolerant Systems{FTRTFT
+Fachtagung Verwaltungsinformatik / Fachtagung Rechtsinformatik{FTVI/FTRI
+Fun and Games{
+Fun with Algorithms{FUN
+Functional Programming, Concurrency, Simulation and Automated Reasoning{
+Functional Programming Workshops{
+International Conference on Information Fusion{FUSION
+Future Databases{
+Future Internet Assembly{
+Future Play{
+Security Research Conference{Future Security
+IEEE International Conference on Fuzzy Systems{FUZZ-IEEE
+Fuzzy Days{

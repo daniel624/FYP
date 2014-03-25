@@ -132,8 +132,8 @@ public class Main {
 			String filename;
 			
 			// 100 records (4,13,18,56,63,69,70,98,99)
-			filename = "src/data/freelist_20.txt";
-			//filename = "src/data/freelist_100.txt";
+			//filename = "src/data/freelist_20.txt";
+			filename = "src/data/freelist_100.txt";
 			//filename = "src/data/freelist_200.txt";
 			//filename = "src/data/freelist_380.txt";
 			//filename = "src/data/freelist_test.txt";
@@ -541,6 +541,8 @@ public class Main {
 							strbuf += array[i].trim() + "%%";
 						}
 					}
+					
+					System.out.println("===== weka prediction =====\n");
 					
 					process.makeArff2(strbuf);
 					weka.runResult_new();

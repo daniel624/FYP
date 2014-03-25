@@ -1,0 +1,69 @@
+Computers in Human Behavior,
+Cyberpsychology, Behavior, and Social Networking,
+International Journal of Cyber Behavior, Psychology and Learning,IJCBPL
+Paladyn, Journal of Behavioral Robotics,
+Adaptive Behaviour,
+Behaviour & Information Technology,
+Bell Labs Technical Journal,
+International Journal of Bifurcation and Chaos,
+International Journal of Bio-Inspired Computation,IJBIC
+BioData Mining,
+Bioinformatics,
+Advances in Bioinformatics,
+BMC Bioinformatics,
+Evolutionary Bioinformatics,
+IEEE/ACM Transactions on Computational Biology and Bioinformatics,
+International Journal of Data Mining and Bioinformatics,IJDMB
+International Journal of Knowledge Discovery in Bioinformatics,IJKDB
+Journal of Clinical Bioinformatics,
+Journal of Integrative Bioinformatics,
+Journal of Bioinformatics and Computational Biology,
+EURASIP Journal on Bioinformatics and Systems Biology,
+International Journal of Bioinformatics Research and Applications,IJBRA
+Biological Cybernetics,
+Medical and Biological Engineering and Computing,
+In Silico Biology,
+Journal of Computational Biology,JCB
+Journal of Molecular Biology,
+OMICS A Journal of Integrative Biology,
+PLoS Computational Biology,
+Transactions on Computational Systems Biology,LNCS
+IEEE/ACM Transactions on Computational Biology and Bioinformatics,
+International Journal of Computational Biology and Drug Design,IJCBDD
+Computers in Biology and Medicine,
+Source Code for Biology and Medicine,
+IEEE Transactions on Biomedical Circuits and Systems,
+IEEE Transactions on Biomedical Engineering,
+International Journal of Biomedical Imaging,
+Journal of Biomedical Informatics,
+Journal of Biomedical Semantics,
+Computer Methods and Programs in Biomedicine,
+IEEE Journal of Biomedical and Health Informatics,
+Informatik, Biometrie und Epidemiologiein Medizin und Biologie,
+Theory in Biosciences,
+Biosystems,
+BIT - Computer Science Section,
+BMC Bioinformatics,
+BMC Medical Imaging,
+BMC Medical Informatics & Decision Making,
+Brain Connectivity,
+Journal of the Brazilian Computer Society,
+Briefings in Bioinformatics,
+International Journal of Wireless Networks and Broadband Technologies,IJWNBT
+IEEE Transactions on Broadcasting,
+International Journal of Digital Multimedia Broadcasting,
+Journal of Virtual Reality and Broadcasting,
+Bulletin d'Informatique Approfondie et Applications,BIAA
+The Bulletin of Symbolic Logic,
+Bulletin of the EATCS,
+Logic Journal of the IGPL,
+Bulletin of the IGPL,
+International Journal of Asian Business and Information Management,IJABIM
+Business & Information Systems Engineering,
+International Journal of Business Data Communications and Networking,IJBDCN
+International Journal of Business Information Systems,IJBIS
+International Journal of Business Intelligence and Data Mining,
+International Journal of Business Intelligence Research,IJBIR
+International Journal of Business Performance and Supply Chain Modelling,IJBPSCM
+Business Process Management Journal,
+e-Journal of Practical Business Research,

@@ -37,6 +37,7 @@ public class TestWeka {
 	private RandomForest tree = new RandomForest();
 	
 	public double[] getClassLabel() {
+		//System.out.println("get class label\n");
 		return clsLabel;
 	}
 	
@@ -85,7 +86,7 @@ public class TestWeka {
 	
 	public void buildTree() {
 		try {
-	    	String filename = "src/data/publication-train.arff";
+	    	String filename = "webapps/FYP_UI/WEB-INF/classes/data/publication-train.arff";
 	    	BufferedReader buf = new BufferedReader(new FileReader(filename));
 	    	Instances train = new Instances(buf);
 	    	train.setClassIndex(0);
@@ -102,12 +103,13 @@ public class TestWeka {
 	
 	public void runResult_new() {
 		try {
-			String filename = "src/data/out-data.arff";
+			//String filename = "src/data/out-data.arff";
+			String filename = "webapps/FYP_UI/WEB-INF/classes/data/out-data.arff";
 	    	BufferedReader buf = new BufferedReader(new FileReader(filename));
 	    	Instances test = new Instances(buf);
 	    	test.setClassIndex(0);
 	    	test_size = test.size();
-	    	System.out.println("TestWeka: test_size: " + test_size);
+	    	//System.out.println("TestWeka: test_size: " + test_size);
 	    	buf.close();
 			
 			Instances labeled = new Instances(test);

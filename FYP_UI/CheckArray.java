@@ -5,19 +5,75 @@ import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.sql.*;
-
 import db.*;
-
 import java.net.*;
 import java.io.*;
-
 import org.apache.commons.lang3.*;
-
 import common.CommonFunction;
 
 public class CheckArray {
 	String originalInput;
-	String[] array;
+	private String[] array;
+	
+	private static HashMap<Integer, ArrayList> jmap = new HashMap<Integer, ArrayList>();
+	private static HashMap<Integer, ArrayList> cmap = new HashMap<Integer, ArrayList>();
+	private static HashMap<Integer, ArrayList> pmap = new HashMap<Integer, ArrayList>();
+	
+	public static void constructMap() {
+		try {
+			DBConnection db = new DBConnection();
+			Connection conn = db.getConnection();
+			String sql;
+			ResultSet rs;
+			ArrayList list = new ArrayList();
+			int cnt;
+			
+			sql = "select * from journal";
+			rs = db.getResultSet(conn, sql);
+			cnt=1;
+			while (rs.next()) {
+				list = new ArrayList();
+				list.add(rs.getString(1)==null?"":rs.getString(1));
+				list.add(rs.getString(2)==null?"":rs.getString(2));
+				list.add(rs.getString(3)==null?"":rs.getString(3));
+				list.add(rs.getString(4)==null?"":rs.getString(4));
+				jmap.put(cnt, list);
+				cnt++;
+			}
+
+			sql = "select * from conference";
+			rs = db.getResultSet(conn, sql);
+			cnt=1;
+			while (rs.next()) {
+				list = new ArrayList();
+				list.add(rs.getString(1)==null?"":rs.getString(1));
+				list.add(rs.getString(2)==null?"":rs.getString(2));
+				list.add(rs.getString(3)==null?"":rs.getString(3));
+				cmap.put(cnt, list);
+				cnt++;
+			}
+
+			sql = "select * from publisher";
+			rs = db.getResultSet(conn, sql);
+			cnt=1;
+			while (rs.next()) {
+				list = new ArrayList();
+				list.add(rs.getString(1));
+				list.add(rs.getString(2));
+				pmap.put(cnt, list);
+				cnt++;
+			}
+			
+			conn.close();
+			rs.close();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public String[] getArray() {
+		return array;
+	}
 	
 	/**
 	 * CheckArray - constructor
@@ -61,6 +117,7 @@ public class CheckArray {
 		Matcher monthYearOnly_1;
 		Matcher yearMonthOnly_2;
 		Matcher monthYearOnly_2;
+		int flag = 0;
 		
 		for (int i=0; i<array.length; i++)
 		{
@@ -82,6 +139,8 @@ public class CheckArray {
 						if (monthNum.equals(monthNumWords_1[j]))
 						{
 							yearMonth = yearMonth.substring(0, yearMonth.indexOf(".")) + "," + monthWords[j].substring(0, 1).toUpperCase() + monthWords[j].substring(1);
+							flag = 1;
+							break;
 						}
 					}
 				} else {
@@ -101,6 +160,8 @@ public class CheckArray {
 							if (monthNum.equals(monthNumWords_1[j]))
 							{
 								yearMonth = yearMonth.substring(yearMonth.indexOf(".") + 1) + "," + monthWords[j].substring(0, 1).toUpperCase() + monthWords[j].substring(1);
+								flag = 1;
+								break;
 							}
 						}
 					} else {
@@ -120,6 +181,8 @@ public class CheckArray {
 								if (monthNum.equals(monthNumWords_2[j]))
 								{
 									yearMonth = yearMonth.substring(0, yearMonth.indexOf(".")) + "," + monthWords[j].substring(0, 1).toUpperCase() + monthWords[j].substring(1);
+									flag = 1;
+									break;
 								}
 							}
 						} else {
@@ -139,6 +202,8 @@ public class CheckArray {
 									if (monthNum.equals(monthNumWords_2[j]))
 									{
 										yearMonth = yearMonth.substring(yearMonth.indexOf(".") + 1) + "," + monthWords[j].substring(0, 1).toUpperCase() + monthWords[j].substring(1);
+										flag = 1;
+										break;
 									}
 								}
 							} else {
@@ -148,6 +213,8 @@ public class CheckArray {
 					}
 				}
 			}
+			
+			if (flag==1) break;
 		}
 		
 		return yearMonth;
@@ -166,6 +233,8 @@ public class CheckArray {
 		
 		Matcher dateTodate;
 		String dateString;
+		String startMonth, endMonth;
+		int flag = 0;
 		
 		
 		for (int i=0; i<array.length; i++)
@@ -173,10 +242,8 @@ public class CheckArray {
 			// month - month
 			if (array[i].contains("-")) {
 				
-				String startMonth = array[i].substring(0, array[i].indexOf("-"));
-				String endMonth = array[i].substring(array[i].indexOf("-")+1);;
-				
-				int getMonthornot = 0;
+				startMonth = array[i].substring(0, array[i].indexOf("-"));
+				endMonth = array[i].substring(array[i].indexOf("-")+1);
 				
 				for (int j=0; j<12; j++) {
 					if ((startMonth.toLowerCase().contains(monthWords[j])) | (startMonth.toLowerCase().contains(monthWords[j].substring(0, 3))))
@@ -186,8 +253,7 @@ public class CheckArray {
 						} else {
 							month = month + monthWords[j].substring(0, 1).toUpperCase() + monthWords[j].substring(1);
 						}
-						
-						getMonthornot = getMonthornot + 1;
+						break;
 					}
 				}
 				
@@ -199,8 +265,7 @@ public class CheckArray {
 						} else {
 							month = month + monthWords[j].substring(0, 1).toUpperCase() + monthWords[j].substring(1);
 						}
-						
-						getMonthornot = getMonthornot + 1;
+						break;
 					}
 				}
 
@@ -272,6 +337,7 @@ public class CheckArray {
 								month = month + monthWords[j].substring(0, 1).toUpperCase() + monthWords[j].substring(1);
 							}
 						}
+						break;
 					}
 				}
 			}
@@ -923,7 +989,7 @@ public class CheckArray {
 	/**
 	 *  checkYear(String year)
 	 *  - check if the year found is between 1900 and system current year
-	 *  @return if year is valid
+	 *  @return true if year is valid
 	 */
 	private boolean checkYear(String year)
 	{
@@ -1011,7 +1077,7 @@ public class CheckArray {
 				break;
 			}
 			
-            /**
+            /*
 			// 12(2-5)
 			volmultiIssueBracket = Pattern.compile("[0-9]+\\([0-9]+-[0-9]+\\)").matcher(array[i]);
 			//if (array[i].indexOf("(")>0 && array[i].indexOf(")")>0 && array[i].indexOf("(")<array[i].indexOf(")"))
@@ -1066,7 +1132,7 @@ public class CheckArray {
 				//System.out.println("volIssue: " + volIss); 
 				break;
 			}
-			**/
+			*/
 			
 		}
 		
@@ -1087,9 +1153,11 @@ public class CheckArray {
 		String sql = "";
 		String[] checkJournal;
 		String checkStr;
+		ArrayList list = new ArrayList();
+		String fullname, short1, short2;
 		
 		try
-		{
+		{			
 			for (int i=0; i<array.length; i++)
 			{
 				checkJournal = array[i].split(" ");
@@ -1108,14 +1176,26 @@ public class CheckArray {
 					//System.out.println(checkStr);
 					
 					if (!checkStr.equals("")) {
+						for (int k=1; k<=jmap.size(); k++) {
+							list = jmap.get(k);
+							fullname = list.get(1).toString();
+							short1 = list.get(2).toString();
+							short2 = list.get(3).toString();
+							if (fullname.indexOf(checkStr) >=0 ||
+								short1.toString().indexOf(checkStr) >=0 ||
+								short2.toString().indexOf(checkStr) >=0) {
+								journal = fullname;
+							}
+						}
+					}
+					
+					/*if (!checkStr.equals("")) {
 						//sql = "select * from journal where fullname like '%" + URLEncoder.encode(checkStr, "UTF8") + "%'";
 						sql = "select * from journal where fullname like '%" + checkStr + "%'";
-						//sql = "select * from journal where fullname like '%" + checkStr + "%'";
-						//System.out.println(sql);
 						rs = db.getResultSet(conn, sql);
 						while (rs.next()) {
 							if (array[i].toLowerCase().contains(rs.getString(2).toLowerCase())) {
-								/*
+								
 								journal = rs.getString(2);	
 								if (rs.getString(3)!=null && array[i].contains(rs.getString(3))) {
 									journal += " (" + rs.getString(3) + ")";
@@ -1123,7 +1203,7 @@ public class CheckArray {
 									break;
 								}
 								array[i] = CommonFunction.removePart(array[i], journal, journal);
-								*/
+								
 	
 								//journal = rs.getString(2);
 								//array[i] = CommonFunction.removePart(array[i], journal, journal);
@@ -1135,43 +1215,16 @@ public class CheckArray {
 							}
 						}
 						
-						/**
-						if (journal!=null) break;
-						
-						sql = "select * from journal where shortname like '%" + checkStr + "%'";
-						rs = db.getResultSet(conn, sql);
-						while (rs.next()) {
-							if (array[i].toLowerCase().contains(rs.getString(3).toLowerCase())) {
-								journal = array[i].trim();
-								//array[i] = "";
-								break;
-							}
-						}
-
-						if (journal!=null) break;
-						
-						sql = "select * from journal where shortname2 like '%" + checkStr + "%'";
-						rs = db.getResultSet(conn, sql);
-						while (rs.next()) {
-							if (array[i].toLowerCase().contains(rs.getString(4).toLowerCase())) {
-								journal = array[i].trim();
-								//array[i] = "";
-								break;
-							}
-						}
-						**/
-						
-						
-						rs.close();
-					}
+					}*/
 					
 					if (journal!=null) break;
 				}
+
+				if (rs!=null) rs.close();
 				
-				if (journal!=null) break;
-				
-				if (journal==null)
-				{
+				if (journal!=null) {
+					break;
+				} else {
 					
 					if (array[i].toLowerCase().indexOf("journal") >= 0)
 					{
@@ -1264,11 +1317,11 @@ public class CheckArray {
 						}
 					}
 					
-					rs.close();
 				}
 				
 				if (journal!=null) break;
 			}
+			if (rs!=null) rs.close();
 		}
 		catch (SQLException e)
 		{
@@ -1307,6 +1360,8 @@ public class CheckArray {
 		String sql = "";
 		String[] checkProc;
 		String checkStr;
+		ArrayList list = new ArrayList();
+		String fullname, shortname;
 		
 		try
 		{		
@@ -1327,11 +1382,23 @@ public class CheckArray {
 					checkStr = checkStr.replaceAll("'", "\\\\'");
 					
 					if (!checkStr.equals("")) {
+						for (int k=1; k<=cmap.size(); k++) {
+							list = cmap.get(k);
+							fullname = list.get(1).toString();
+							shortname = list.get(2).toString();
+							if (fullname.indexOf(checkStr) >=0 ||
+								shortname.indexOf(checkStr) >=0) {
+								proceeding = fullname;
+							}
+						}
+					}
+					
+					/*if (!checkStr.equals("")) {
 						sql = "select * from conference where fullname like '%" + URLEncoder.encode(checkStr, "UTF8") + "%'";
 						rs = db.getResultSet(conn, sql);
 						while (rs.next()) {
 							if (array[i].toLowerCase().contains(rs.getString(2).toLowerCase())) {
-								/*
+								// comment block
 								proceeding = rs.getString(2);	
 								if (rs.getString(3)!=null && array[i].contains(rs.getString(3))) {
 									proceeding += " (" + rs.getString(3) + ")";
@@ -1339,17 +1406,15 @@ public class CheckArray {
 									break;
 								}
 								array[i] = CommonFunction.removePart(array[i], proceeding, proceeding);
-								*/
+								// comment block
 								
 								// if check similar --> use whole string (rather than use db string)
 								proceeding = array[i].trim();
 								array[i] = "";
 								break;		
 							}
-						}
-						
-						rs.close();
-					}
+						}						
+					}*/
 					
 					if (proceeding!=null) break;
 				}
@@ -1419,17 +1484,19 @@ public class CheckArray {
 					}
 				}
 			}
+
+			if (rs!=null) rs.close();
 		}
 		catch (SQLException e)
 		{
 			System.out.println("[CheckArray.getJournal()] SQLException");
 			e.printStackTrace();
 		}
-		catch (UnsupportedEncodingException e)
+		/*catch (UnsupportedEncodingException e)
 		{
 			System.out.println("[CheckArray.getJournal()] UnsupportedEncodingException");
 			e.printStackTrace();
-		}
+		}*/
 		finally
 		{
 			db.closeConnection(conn);
@@ -1494,6 +1561,7 @@ public class CheckArray {
 		String sql = "";
 		String[] checkPublisher;
 		String checkStr;
+		ArrayList list = new ArrayList();
 		
 		try
 		{		
@@ -1512,8 +1580,17 @@ public class CheckArray {
 						checkStr = checkPublisher[j];
 					}
 					checkStr = checkStr.replaceAll("'", "\\\\'");
-
+					
 					if (!checkStr.equals("")) {
+						for (int k=1; k<=pmap.size(); k++) {
+							list = pmap.get(k);
+							if (list.get(1).toString().indexOf(checkStr) >=0) {
+								publisher = list.get(1).toString();
+							}
+						}
+					}
+
+					/*if (!checkStr.equals("")) {
 						//sql = "select * from publisher where pubname like '%" + URLEncoder.encode(checkStr, "UTF8") + "%'";
 						sql = "select * from publisher where pubname like '%" + checkStr + "%'";
 						rs = db.getResultSet(conn, sql);
@@ -1529,10 +1606,8 @@ public class CheckArray {
 								
 								break;		
 							}
-						}
-						
-						rs.close();
-					}
+						}						
+					}*/
 					
 					if (publisher != null) break;
 				}
@@ -1603,17 +1678,19 @@ public class CheckArray {
 				}
 				
 			}
+
+			if (rs!=null) rs.close();
 		}
 		catch (SQLException e)
 		{
 			System.out.println("[CheckArray.getPublisher()] SQLException");
 			e.printStackTrace();
 		}
-		/**catch (UnsupportedEncodingException e)
+		/*catch (UnsupportedEncodingException e)
 		{
 			System.out.println("[CheckArray.getPublisher()] UnsupportedEncodingException");
 			e.printStackTrace();
-		}**/
+		}*/
 		finally
 		{
 			db.closeConnection(conn);
@@ -1787,6 +1864,7 @@ public class CheckArray {
 				}
 			
 				array[i] = "";
+				break;
 			}
 		}
 		
@@ -1806,7 +1884,9 @@ public class CheckArray {
 	 */
 	public void printArray()
 	{
-		for (int i=0; i<array.length; i++) System.out.println("array[" + i + "]: " + array[i]);
+		for (int i=0; i<array.length; i++) {
+			System.out.println("array[" + i + "]: " + array[i]);			
+		}
 		
 		/*try {
 			String filename = "C:/Users/Lenovo/Desktop/remain.txt";

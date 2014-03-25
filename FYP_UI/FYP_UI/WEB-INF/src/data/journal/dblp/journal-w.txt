@@ -1,0 +1,41 @@
+Wasserwirtschaft,
+International Journal of Wavelets, Multiresolution and Information Processing,IJWMIP
+ACM Transactions on the Web,
+International Journal of Web and Grid Services,IJWGS
+International Journal of Web Applications,IJWA
+International Journal of Web Based Communities,IJWBC
+International Journal of Web-Based Learning and Teaching Technologies,IJWLTT
+International Journal of Information Technology and Web Engineering,IJITWE
+Journal of Web Engineering,
+International Journal of Web Engineering and Technology,
+International Journal of Web Information Systems,
+International Journal of Knowledge and Web Intelligence,IJKWI
+Web Intelligence and Agent Systems: An International Journal,WIAS
+International Journal of Web Portals,IJWP
+Foundations and Trends in Web Science,
+International Journal of Web Science,IJWS
+Journal of Web Semantics,
+International Journal of Web Services Research,
+Webology,
+Social Choice and Welfare,
+Wiley Interdisciplinary Reviews: Data Mining and Knowledge Discovery,
+International Journal of Wireless and Mobile Computing,IJWMC
+International Journal on Wireless & Optical Communications,
+IEEE Transactions on Wireless Communications,
+IEEE Wireless Communications,
+Wireless Communications and Mobile Computing,
+EURASIP Journal on Wireless Communications and Networking,
+Wireless Engineering and Technology,
+International Journal of Wireless Information Networks,
+Wireless Networks,
+International Journal of Wireless Networks and Broadband Technologies,IJWNBT
+Wireless Personal Communications,
+Wireless Sensor Network,
+IET Wireless Sensor Systems,
+WIRTSCHAFTSINFORMATIK,
+Angewandte Informatik,
+HMD - Praxis der Wirtschaftsinformatik,
+World Digital Libraries,
+World Wide Web,
+World Wide Web Journal,
+Journal of WSCG,

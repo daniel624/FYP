@@ -1,0 +1,30 @@
+@relation test
+
+@attribute type {A,T,J,P}
+@attribute no-of-word numeric
+@attribute length numeric
+@attribute initials {0,1}
+@attribute key-journal {0,1}
+@attribute key-proceeding {0,1}
+@attribute key-ieee {0,1}
+@attribute key-symposium {0,1}
+@attribute key-workshop {0,1}
+@attribute key-meeting {0,1}
+@attribute key-conference {0,1}
+@attribute key-transaction {0,1}
+@attribute key-ordinal {0,1}
+@attribute preposition {0,1}
+@attribute longest-word numeric
+@attribute colon-in-title {0,1}
+@attribute ordinal {0,1}
+
+@data
+A,3,8,1,0,0,0,0,0,0,0,0,0,0,4,0,0
+A,6,24,1,0,0,0,0,0,0,0,0,0,0,7,0,0
+A,8,75,0,0,0,0,0,0,0,0,0,0,0,15,1,0
+A,1,7,0,0,0,0,0,0,0,0,0,0,0,7,0,0
+A,1,3,0,0,0,0,0,0,0,0,0,0,0,3,0,0
+A,1,6,0,0,0,0,0,0,0,0,0,0,0,6,0,0
+A,8,29,1,0,0,0,0,0,0,0,0,0,0,8,1,0
+A,3,33,0,0,0,0,0,0,0,0,0,0,0,13,0,0
+A,1,9,0,0,0,0,0,0,0,0,0,0,0,9,0,0

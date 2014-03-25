@@ -1,0 +1,32 @@
+Journées Automates Cellulaires{JAC
+Japanese Discovery Science Project{
+Java Grande{
+JavaCard Workshop{
+Jornadas de BioInformática{JBI
+Jornadas de Bibliotecas Digitales{JBIDI
+Joint Conference on Artificial Intelligence{JCAI
+Japanese Conference on Discrete and Computational Geometry{JCDCG
+International Conference on Data and Knowledge Bases{JCDKB
+ACM/IEEE Joint Conference on Digital Libraries{JCDL
+Joint Conference on Information Sciences{JCIS
+Jerusalem Conference on Information Technology{JCIT
+Joint Conference on Knowledge-Based Software Engineering{JCKBSE
+Logics in Artificial Intelligence (Journées Européennes sur la Logique en Intelligence Artificielle){JELIA
+Journées francophones des langages applicatifs{JFLA
+Journées Francophones de Programmation Logique par Contraintes{JFPLC
+Journees Francophones sur les Systemes Multi-Agents{JFSMA
+Joint International Conference on Cognitive and Systematic Musicology{JIC
+Joint International Conference and Symposium on Logic Programming{JICSLP
+Jornadas de Investigación y Docencia en Bases de Datos{JIDBD
+Jornadas Iberoamericanas de Ingeniería de Software e Ingeniería del Conocimiento{JIISIC
+Jornadas de Ingeniería del Software y Bases de Datos{JISBD
+Java-Informations-Tage{JIT
+Joint Modular Languages Conference{JMLC
+International Conference on Biology, Informatics, and Mathematics{JOBIM
+JSAI Conferences and Workshops{
+Job Scheduling Strategies for Parallel Processing{JSSPP
+Java Technologies for Real-time and Embedded Systems{JTRES
+International Conference on Legal Knowledge and Information Systems{JURIX
+John Vincent Atanasoff Symposium{JVA
+Java Virtual Machine Research and Technology Symposium{JVM
+Joint Workshop on Computer Communications{JWCC

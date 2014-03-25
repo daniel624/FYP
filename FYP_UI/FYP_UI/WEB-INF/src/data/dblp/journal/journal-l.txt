@@ -1,0 +1,86 @@
+Computer Speech & Language,
+International Journal of Asian Language Processing,
+Language and Linguistics Compass,
+International Journal of Computer-Assisted Language Learning and Teaching,IJCALLT
+ACM Transactions on Speech and Language Processing,TSLP
+International Journal of Asian Language Processing,
+Language Resources and Evaluation,
+Journal for Language Technology and Computational Linguistics,
+Traitement Automatique des Langues,
+Transactions on  Large-Scale Data- and Knowledge-Centered Systems,LNCS
+Artificial Intelligence and Law,
+Journal on Telecommunications and High Technology Law,
+International Journal of Law and Information Technology,
+European Journal of Law and Technology,EJLT
+European Journal of Law and Technology,EJLT
+Journal for Language Technology and Computational Linguistics,
+International Journal of Advanced Corporate Learning,iJAC
+International Journal of Cyber Behavior, Psychology and Learning,IJCBPL
+International Journal of Emerging Technologies in Learning,iJET
+International Journal of Game-Based Learning,IJGBL
+International Journal of Knowledge and Learning,
+International Journal of Mobile and Blended Learning,IJMBL
+Journal of Computer Assisted Learning,
+Machine Learning,
+Research and Practice in Technology Enhanced Learning,
+International Journal of Web-Based Learning and Teaching Technologies,IJWLTT
+Interactive Learning Environments,
+International Journal of Virtual and Personal Learning Environments,IJVPLE
+Journal of Interactive Learning Research,
+Journal of Machine Learning Research,
+Journal of Intelligent Learning Systems and Applications JILSA,
+IEEE Transactions on Learning Technologies,
+International Journal of Learning Technology,IJLT
+Lecture Notes in Computer Science,LNCS
+Applied Mathematics Letters,
+Engineering Letters,
+IEEE Communications Letters,
+Computer Architecture Letters,
+Embedded Systems Letters,
+IEEE Geoscience and Remote Sensing Letters,
+IEEE Signal Processing Letters,
+Information Processing Letters,
+Neural Processing Letters,
+Operations Research Letters,
+Optimization Letters,
+Parallel Processing Letters,
+Pattern Recognition Letters,
+Systems & Control Letters,
+ACM Letters on Programming Languages and Systems,LOPLAS
+College & Research Libraries,
+International Journal on Digital Libraries,JODL
+Library Hi Tech,
+International Journal of Digital Library Systems,IJDLS
+Library Trends,
+LIBRES,
+Literary & Linguistic Computing,
+Computational Linguistics,
+Journal for Language Technology and Computational Linguistics,
+Journal of Quantitative Linguistics,
+The Prague Bulletin of Mathematical Linguistics,
+International Journal of Computational Linguistics & Chinese Language Processing,
+Language and Linguistics Compass,
+Higher-Order and Symbolic Computation,
+Lisp and Symbolic Computation,
+International Journal of Digital Literacy and Digital Competence,IJDLDC
+Literary & Linguistic Computing,
+Journal of Location Based Services,
+LOG IN,
+Journal of Applied Logic,
+Journal of Philosophical Logic,
+Journal of Logic and Computation,
+Methods of Logic in Computer Science,
+Logic Journal of the IGPL,
+Bulletin of the IGPL,
+Journal of Logic, Language and Information,JoLLI
+Journal of Logic Programming,
+Journal of Functional and Logic Programming,
+Theory and Practice of Logic Programming,TPLP
+Studia Logica - An International Journal for Symbolic Logic,
+Logica Universalis,
+Logical Methods in Computer Science,
+Journal of Applied Non-Classical Logics,
+International Journal of Applied Logistics,IJAL
+Logistics Research,
+Journal of the London Mathematical Society,
+Journal of Low Power Electronics,

@@ -1,0 +1,104 @@
+D-Lib Magazine,
+Dagstuhl Manifestos,
+Dagstuhl Reports,
+Advances in Adaptive Data Analysis,AADA
+Computational Statistics & Data Analysis,
+Intelligent Data Analysis,
+Advances in Data Analysis and Classification,
+Journal of Data and Information Quality,
+Data & Knowledge Engineering,
+DATA BASE,
+IEEE Transactions on Knowledge and Data Engineering,
+Transactions on Data Hiding and Multimedia Security,LNCS
+International Journal of Business Intelligence and Data Mining,
+International Journal of Knowledge Engineering and Data Mining,IJKEDM
+Statistical Analysis and Data Mining,
+Transactions on Machine Learning and Data Mining,
+International Journal of Data Mining and Bioinformatics,IJDMB
+Data Mining and Knowledge Discovery,
+Wiley Interdisciplinary Reviews: Data Mining and Knowledge Discovery,
+International Journal of Data Mining, Modelling and Management,
+Transactions on Data Privacy,
+Data Quality Journal,
+Data Science Journal,
+Journal on Data Semantics,
+Industrial Management and Data Systems,
+International Journal of Data Warehousing and Mining,
+IEEE Data,base
+Journal of Database Management,
+ACM Transactions on Database Systems,TODS
+Distributed and Parallel Databases,
+Foundations and Trends in Databases,
+Datenbank Rundbrief,GI-FG 2.5.1
+Datenbank-Spektrum,
+Datenschutz und Datensicherheit,dud
+Decision Analysis,
+Risk and Decision Analysis,
+BMC Medical Informatics & Decision Making,
+Fuzzy Optimization and Decision Making,
+International Journal of Information Technology and Decision Making,
+Decision Sciences,
+Advances in Decision Sciences,
+International Journal of Information and Decision Sciences,IJIDS
+International Journal of Strategic Decision Sciences,IJSDS
+International Journal of Decision Support System Technology,IJDSST
+Decision Support Systems,
+Journal of Decision Systems,
+Intelligent Decision Technologies,
+International Journal of Intelligent Defence Support Systems,IJIDSS
+IEEE Transactions on Dependable and Secure Computing,
+International Journal of Dependable and Trustworthy Information Systems,IJDTIS
+IEEE Design & Test of Computers,
+Design Automation for Embedded Systems,
+ACM Transactions on Design Automation of Electronic Systems,TODAES
+International Journal of Art, Culture and Design Technologies,IJACDT
+Designs, Codes and Cryptography,
+IET Circuits, Devices & Systems,
+Informatica Didactica,
+Rhino Didactics,
+Journal of Digital Content Technology and its Applications,
+Digital Creativity,
+International Journal of Digital Crime and Forensics,IJDCF
+International Journal of Digital Curation,IJDC
+International Journal of Digital Earth,
+International Journal of Innovation in the Digital Economy,IJIDE
+International Journal of Digital Evidence,
+Journal of Digital Forensic Practice,
+Journal of Digital Imaging,
+Journal of Digital Information,
+Journal of Digital Information Management,
+Digital Investigation,
+International Journal on Digital Libraries,JODL
+World Digital Libraries,
+International Journal of Digital Library Systems,IJDLS
+International Journal of Digital Literacy and Digital Competence,IJDLDC
+International Journal of Digital Multimedia Broadcasting,
+ACM SIGMOD Digital Review,
+Digital Signal Processing,
+Digital Technical Journal,
+IET Computers & Digital Techniques,
+Journal of Discrete Algorithms,
+Discrete & Computational Geometry,
+Discrete Applied Mathematics,
+Discrete Event Dynamic Systems,
+Discrete Mathematics,
+Contributions to Discrete Mathematics,
+Electronic Notes in Discrete Mathematics,
+SIAM Journal on Discrete Mathematics,
+Discrete Mathematics, Algorithms and Applications,
+Discrete Mathematics & Theoretical Computer Science,
+Discrete Optimization,
+Discussiones Mathematicae Graph Theory,
+International Journal of Distance Education Technologies,IJDET
+Distributed and Parallel Databases,
+Distributed Computing,
+Journal of Parallel and Distributed Computing,
+International Journal of Distributed Sensor Networks,
+International Journal of Parallel, Emergent and Distributed Systems,
+International Journal of Distributed Systems and Technologies,IJDST
+Distributed Systems Engineering,
+IEEE Distributed Systems Online,
+International Journal on Document Analysis and Recognition,IJDAR
+International Journal of Computational Biology and Drug Design,IJCBDD
+SIAM Journal on Applied Dynamical Systems,
+International Journal of Social and Organizational Dynamics in IT,IJSODIT

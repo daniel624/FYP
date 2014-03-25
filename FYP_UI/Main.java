@@ -37,6 +37,9 @@ import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 
+import weka.ProcessData;
+import weka.TestWeka;
+
 //4,13,18,56,63,69,70,98,99
 public class Main extends HttpServlet {
 	public void doGet (HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
@@ -312,6 +315,14 @@ public class Main extends HttpServlet {
 		
 		CheckArray ca;
 		String tmp;
+		String strbuf;
+		String[] array = null;
+		
+		ProcessData process = new ProcessData();
+		TestWeka weka = new TestWeka();
+		weka.buildTree();
+		double[] label;
+		double[][] distribution;
 		
 		//"[A-Z]{1}\\." - short form name
 		
@@ -615,6 +626,38 @@ public class Main extends HttpServlet {
 						cell = row.createCell(15);
 						cell.setCellValue(new HSSFRichTextString(publisher));
 						
+					}
+					
+					
+					webpage_out.println("===== weka result " + count + " =====\n");
+					//ca.printArray();
+					strbuf = "";
+					array = ca.getArray();
+					
+					for (int i=0; i<array.length; i++) {
+						if (array[i].trim().length()>0) {
+							strbuf += array[i].trim() + "%%";
+						}
+					}
+					
+					process.makeArff2(strbuf);
+					weka.runResult_new();
+					label = weka.getClassLabel();
+					distribution = weka.getClassDistribution();
+					//out.println(strbuf);
+					
+					for (int i=0; i<label.length; i++) {
+						webpage_out.print("Predicted as: ");
+						if (label[i]==0) webpage_out.println("Author");
+						else if (label[i]==1) webpage_out.println("Title");
+						else if (label[i]==2) webpage_out.println("Journal");
+						else if (label[i]==3) webpage_out.println("Proceeding");
+						
+						webpage_out.println("Distribution:");
+						webpage_out.println("Author: " + distribution[i][0]);
+						webpage_out.println("Title: " + distribution[i][1]);
+						webpage_out.println("Journal: " + distribution[i][2]);
+						webpage_out.println("Proceeding: " + distribution[i][3]);
 					}
 					
 					

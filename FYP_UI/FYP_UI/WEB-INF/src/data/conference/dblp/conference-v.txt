@@ -1,0 +1,79 @@
+Validation of Stochastic Systems{
+Performance Evaluation Methodolgies and Tools{VALUETOOLS
+Variability Modelling of Software-Intensive Systems{VaMoS
+Virtual Reality, Archaeology and Intelligent Cultural Heritage{VAST
+Visual Analytics Science and Technology{VAST
+Visualization in Biomedical Computing{VBC
+Visual Computing for Biomedicine{VCBM
+Vienna Conference on Human Compter Interaction{VCHCI
+Visual Communications and Image Processing{VCIP
+Visualization and Data Analysis{VDA
+VLSI Design and Test{VDAT
+Visual Database Systems{VDB
+VDM Europe Symposium{
+VLDB Workshop on Data Mining in Bioinformatics{VDMB
+Virtual Environments, Human-Computer Interfaces and Measurement Systems{VECIMS
+High Performance Computing for Computational Science (Vector and Parallel Processing){VECPAR
+Virtual Execution Environments{VEE
+Verwaltung & IT{
+Natural Language Processing{VexTAL
+Virtualization in High-Performance Cloud Computing{VHPC
+International Conference on Cryptology in Vietnam{VIETCRYPT
+Visual Information Expert Workshop{VIEW
+Workshop on Materialized Views{VIEWS
+Visualization, Imaging and Image Processing{VIIP
+Visual Information Communication and Interaction{VINCI
+Visual Information Processing{VIP
+Visual Information Processing (SPIE){VIP
+e-learning and Virtual and Remote Laboratories{VIRTUAL-LAB
+Virtuelle Maschinen{
+Verlässliche Informationssysteme{VIS
+Virtualized Infrastructure Systems and Architectures{VISA
+Computer Vision Theory and Applications{VISAPP
+International Conference on Computer Vision{VISION
+Visualization and Information Security Management{VISM
+Verification of Infinite-State Systems with Applications to Security{VISSAS
+Visualizing Software for Understanding and Analysis{VISSOFT
+Visualization Symposium{VisSym
+International Conference on Visual Information and Information Systems{VISUAL
+Visualisierungstechniken und Algorithmen{
+Visualization (IEEE){
+Visualization for Computer Security{VizSEC
+Visual Languages / Human-Centric Computing Languages and Environments{VL/HCC
+Visual Languages{VL
+Very Low Bitrate Video Coding{VLBV
+Very Large Data Bases{VLDB
+Very Large Data Search{VLDS
+Very Large Scale Integration{VLSI
+International Conference on VLSI Design{VLSID
+Very Large Scale Integration of System-on-Chip{VLSI-SOC
+Variational, Geometric, and Level Set Methods in Computer Vision{VLSM
+Visualization of Large and Unstructured Data Sets{VLUDS
+Virtual Machine Research and Technology Symposium{VM
+Verification, Model Checking and Abstract Interpretation{VMCAI
+Virtual Machines and Intermediate Languages for Emerging Modularization Mechanisms{VMIL
+Virtual Machine Security{VMSec
+Vision Modeling and Visualization{VMV
+Vision Networks for Behavior Analysis{VNBA
+Vehicular Networking Conference{VNC
+Volume Graphics{
+Volume Visualization and Graphics{VolVis
+E-Voting and Identity{VOTE-ID
+Virtuelle Realität und Augmented Reality{VR/AR
+IEEE Virtual Reality Conference{VR
+IEEE Virtual Reality Annual International Symposium{VRAIS
+Virtual Reality Continuum and its Applications in Industry{VRCAI
+Virtual Reality Continuum and its Applications{VRCIA
+Virtual Reality International Conference{VRIC
+Virtual Reality Interactions and Physical Simulations{VRIPHYS
+Symposium on The Virtual Reality Modeling Language{VRML
+Virtual Reality Software and Technology{VRST
+Games and Virtual Worlds for Serious Applications{VS-GAMES
+Virtual Systems and MultiMedia{VSMM
+Verified Software: Theories, Tools, Experiments{VSTTE
+Vehicular Technology Conference{VTC
+VLSI Test Symposium{VTS
+Verification and Validation of Enterprise Information Systems{VVEIS
+Vision, Video and Graphics{VVG
+Symposium on Volume Visualization{VVS
+Virtual Worlds{VW

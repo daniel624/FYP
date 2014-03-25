@@ -1,0 +1,84 @@
+Robotics and Applications{RA
+Recent Advances in Intrusion Detection{RAID
+Robotics, Automation and Mechatronics{RAM
+Relational and Algebraic Methods in Computer Science{RAMiCS
+Randomization and Approximation Techniques in Computer Science{RANDOM
+Recent Advances in Natural Language Processing{RANLP
+Regulated Agent-Based Social Systems{RASTA
+Reconfigurable Architectures Workshop{RAW
+Role-Based Access Control{RBAC
+Reversible Computation{RC
+Russian Conference on Digital Libraries{RCDL
+RECOMB International Workshop on Comparative Genomics{RCG
+Research Challenges in Information Science{RCIS
+Russian Conference on Logic Programming{RCLP
+Requirements Engineering{RE
+Reading and Learning{
+Real-World Wireless Sensor Networks{REALWSN
+Reason Maintenance{
+Reasoning Web{
+Rechenzentren{
+Rechnergestützter Entwurf und Architektur mikroelektronischer Systeme{
+Research in Computational Molecular Biology{RECOMB
+Reconfigurable Computing and FPGAs{ReConFig
+Reconfigurable Communication-centric Systems-on-Chip{ReCoSoC
+Conference on Recommender Systems{RecSys
+Resource Discovery{RED
+Referenzmodellierung{
+Meta-Level Architectures and Reflection{REFLECTION
+Requirements Engineering: Foundation for Software Quality{REFSQ
+Relational Methods in Computer Science{RelMiCS
+Regulations Modelling and their Validation and Verification{ReMo2V
+Replication{
+Repräsentation und Verarbeitung räumlichen Wissens{
+Research Directions in High-Level Parallel Programming Languages{
+Research and Education in Concurrent Systems{REX
+Radio Frequency Identification: Security and Privacy Issues{RFIDSec
+RFID-Technologies and Applications{RFID-TA
+Rechner-Gestützter Unterricht{RGU
+Recherche d'Information Assistée par Ordinateur{RIAO
+Research Issues in Data Engineering{RIDE
+International Workshop on Rules in Database Systems{RIDS
+Requirements, Intentions and Goals in Conceptual Modeling{RIGiM
+Rigorous Object-Oriented Methods{
+RIMS Symposia on Software Science and Engineering{
+Rapid Integration of Software Engineering Techniques{RISE
+Radical Innovations of Software and Systems Engineering in the Future{RISSEF
+Conference on Research, Innovation and Vision for the Future in Computing & Communication Technologies{RIVF
+Rencontres en Informatique Vietnam-France{RIVF
+Robotics and Biomimetics{ROBIO
+International Conference on Robot Communication and Coordination{ROBOCOMM
+Robot Soccer World Cup{RoboCup
+German Conference on Robotics{ROBOTIK
+Robot Vision{RobVis
+ROC Analysis in Artificial Intelligence{ROCAI
+Taiwan Conference on Computational Linguistics and Speech Processing{ROCLING
+RODIN Project{
+Real-Time Interactive Applications on the Grid{ROIA
+Robot and Human Interactive Communication{RO-MAN
+Robotic and Sensors Environments{ROSE
+Reachability Problems{RP
+Web Reasoning and Rule Systems{RR
+RECOMB International Workshop on Regulatory Genomics{RRG
+Rough Sets and Current Trends in Computing{RSCTC
+Rough Sets and Intelligent Systems Paradigms{RSEISP
+Rough Sets, Fuzzy Sets, Data Mining, and Granular Computing{RSFDGrC
+Rough Sets and Knowledge Discovery{RSKD
+Rough Sets and Knowledge Technology{RSKT
+Rapid System Prototyping{RSP
+Robotics: Science and Systems{RSS
+Reliable Software Technologies{RST
+Rewriting Techniques and Applications{RTA
+Real Time Technology and Applications Symposium{RTAS
+Embedded and Real-Time Computing Systems and Applications{RTCSA
+Real-Time Databases{RTDB
+Real-Time and Network Systems{RTNS
+Requirements Targeting Software and Systems Engineering{RTSE
+Real-Time Systems Symposium{RTSS
+Rule-Based Programming{RULE
+East European Workshop on Rule-Based Applications{RuleApps
+Rules and Rule Markup Languages for the Semantic Web{RuleML
+Reasoning with Uncertainty in Robotics{RUR
+(Russian) Conference on Smart Spaces{ruSMART
+Runtime Verification{RV
+Radio and Wireless Symposium{RWS

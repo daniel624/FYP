@@ -1,0 +1,44 @@
+Uncertainty in Artificial Intelligence{UAI
+Ubiquitous Computing{UbiComp
+Journées Francophones Mobilité et Ubiquité{UbiMob
+Unconventional Computing{UC
+Ubiquitous Computing and Ambient Intelligence{UCAmI
+Utility and Cloud Computing{UCC
+UnConventional High Performance Computing{UCHPC
+User Centric Media{UCMedia
+Ubiquitous Computing Systems{UCS
+Ubiquitous Data Management{UDM
+Urban Data Modelling and Visualisation{UDMV
+Unternehmen Hochschule{UH
+Ubiquitous Intelligence and Computing{UIC
+User Interfaces to Data Intensive Systems{UIDIS
+User Interface Software and Technology{UIST
+UK Workshop on Case-Based Reasoning{
+Workshop on Foundations and Applications of Multi-Agent Systems{UKMAS
+International Conference on Modelling and Simulation{UKSim
+Upper Layer Protocols, Architectures and Applications{ULPAA
+User Modeling{UM
+User Modeling, Adaptation, and Personalization{UMAP
+Unconventional Models of Computation{UMC
+Ubiquitous Mobile Information and Collaboration Systems{UMICS
+International Conference on the Unified Modeling Language{UML
+Informatik für den Umweltschutz{Umweltinformatik
+Unendliche Bibliothek, Die{
+UNESCO-CEPES Publications{
+UNICORE Summit{
+International United Information Systems Conference{UNISCON
+Konzepte und Anwendungen{UNIX
+UNU/IIST Anniversary Colloquium{
+Use of P2P, GRID and Agents for the Development of Content Networks{UPGRADE-CN
+Unconventional Programming Paradigms{UPP
+Ubiquitous Robots and Ambient Intelligence{URAI
+Uncertainty Reasoning for the Semantic Web{URSW
+Usability Symposium{USAB
+USENIX Security Symposium{
+USENIX Annual Technical Conference{
+User Interfaces for All{
+USENIX Symposium on Internet Technologies and Systems{USITS
+Universal Service Market{USM
+Unifying Theories of Programming{UTP
+Ubiquitous Web Systems and Intelligence{UWSI
+International Conference on Designing Interactive User Experiences for TV and Video{UXTV

@@ -1,0 +1,44 @@
+Knowledge Management for Health Care Procedures{K4HelP
+Knowledge Acquisition from Multimedia Content{KAMC
+Knowledge Based Computer Systems{KBCS
+Knowledge-Based Software Engineering Conference{KBSE
+International Conference on Knowledge Capture{K-CAP
+Knowledge Discovery and Data Mining{KDD
+Knowledge Discovery and Emergent Complexity in Bioinformatics{KDECB
+IEEE Knowledge and Data Engineering Exchange Workshop{KDEX
+International Workshop on Knowledge Discovery in Inductive Databases{KDID
+Knowledge Discovery from XML Documents{KDXD
+Knowledge Exploration in Life Science Informatics{KELSI
+Knowledge-Based Intelligent Information & Engineering Systems{KES
+Agent and Multi-Agent Systems: Technologies and Applications{KES-AMSTA
+Knowledge Engineering and the Semantic Web{KESW
+Kurt Gödel Colloquium{KGC
+Deutsche Jahrestagung für Künstliche Intelligenz{KI
+Knowledge Intensive CAD{KIC
+Knowledge, Information, and Creativity Support Systems{KICSS
+Künstliche Intelligenz, Frühjahrsschule{KIFS
+Karlsruhe Institute of Technology - Proceedings{KIT
+Kommunikation in Verteilten Systemen{KiVS
+Knowledge Management in Electronic Government{KMGov
+Knowledge Management in Organizations{KMO
+Knowledge Based Hybrid Systems in Engineering and Manufacturing{KNOWHSEM
+Knowledge and Information Visualization{
+Knowledge Representation and Organization in Machine Learning{
+KnowRight{
+Kognitive Aspekte der Mensch-Computer-Interaktion{
+European Conference on Modelling and Simulation{Koli Calling
+Knowledge Processing and Data Analysis{KONT
+Sprachkommunikation{KONVENS
+KORSO{
+Knowledge Processing in Practice{KPP
+Knowledge Representation for Health-Care{KR4HC
+Principles of Knowledge Representation and Reasoning{KR
+Knowledge Representation for Agents and Multi-Agent Systems{KRAMAS
+Research in Knowledge Representation for Autonomous Systems{KRAS
+Knowledge Representation Meets Databases{KRDB
+Knowledge Representation in Medicine{KR-MED
+Knowledge and Systems Engineering{KSE
+Knowledge Science, Engineering and Management{KSEM
+Knowledge Management and Discovery for Ubiquitous and Pervasive Applications{KUPA
+Kyoto International Conference on Digital Libraries{
+Computational Geometry and Graph Theory{KyotoCGGT

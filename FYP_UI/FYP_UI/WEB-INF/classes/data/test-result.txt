@@ -1,0 +1,564 @@
+Instance no. 1
+class Author: [D@e40293
+class Title: [D@1652020
+class Journal: [D@2023f3
+class Proceeding: [D@1854be
+
+Instance no. 2
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@2023f3
+class Proceeding: [D@1854be
+
+Instance no. 3
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@1854be
+
+Instance no. 4
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 5
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 6
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 7
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 8
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 9
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 10
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 11
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 12
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 13
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 14
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 15
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 16
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 17
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 18
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 19
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 20
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 21
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 22
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 23
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 24
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 25
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 26
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 27
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 28
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 29
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 30
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 31
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 32
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 33
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 34
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 35
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 36
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 37
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 38
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 39
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 40
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 41
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 42
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 43
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 44
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 45
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 46
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 47
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 48
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 49
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 50
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 51
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 52
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 53
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 54
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 55
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 56
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 57
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 58
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 59
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 60
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 61
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 62
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 63
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 64
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 65
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 66
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 67
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 68
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 69
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 70
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 71
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 72
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 73
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 74
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 75
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 76
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 77
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 78
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 79
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 80
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 81
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 82
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 83
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 84
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 85
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 86
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 87
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 88
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 89
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 90
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 91
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 92
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 93
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+
+Instance no. 94
+class Author: [D@e40293
+class Title: [D@163c17d
+class Journal: [D@342b99
+class Proceeding: [D@11a542b
+

@@ -1,0 +1,166 @@
+TAPOS - Theory and Practice of Object Systems,
+Journal of Computers in Mathematics and Science Teaching,
+International Journal of Web-Based Learning and Teaching Technologies,IJWLTT
+Technique et Science Informatiques,
+International Journal of Technoethics,IJT
+Technology Analysis & Strategic Management,
+International Journal of Technology and Educational Marketing,IJTEM
+International Journal of Technology and Human Interaction,IJTHI
+IEEE Technology and Society Magazine,
+International Journal of Information Technology, Communications and Convergence,IJITCC
+International Journal of Technology Diffusion,IJTD
+Research and Practice in Technology Enhanced Learning,
+Foundations and Trends in Technology, Information and Operations Management,
+International Journal of Technology Management,IJTM
+International Journal on Software Tools for Technology Transfer,STTT
+Revista Iberoamericana de Tecnologías del Aprendizaje,
+Telecommunication Systems,
+Annales des Télécommunications,
+Transactions on Emerging Telecommunications Technologies,
+Journal on Telecommunications and High Technology Law,
+International Journal of Interdisciplinary Telecommunications and Networking,IJITN
+Transactions on Emerging Telecommunications Technologies,
+Telematics and Informatics,
+Presence: Teleoperators and Virtual Environments,
+International Journal of Cyber Warfare and Terrorism,IJCWT
+Journal of Electronic Testing,
+Software Testing, Verification & Reliability,STVR
+The American Mathematical Monthly,
+Journal of Theoretical and Applied Electronic Commerce Research,
+Journal of Theoretical and Applied Information Technology,
+Theoretical Computer Science,
+Chicago Journal of Theoretical Computer Science,
+Discrete Mathematics & Theoretical Computer Science,
+Electronic Proceedings in Theoretical Computer Science,
+Foundations and Trends in Theoretical Computer Science,
+RAIRO - Theoretical Informatics and Applications,
+Informatique Théorique et Applications,ITA
+Theory and Practice of Logic Programming,TPLP
+Theory in Biosciences,
+Theory of Computing,
+Theory of Computing Systems,
+Mathematical Systems Theory,
+Advances in Internet of Things,
+Tiny Transactions on Computer Science,
+Journal of Information Technology & Tourism,
+Traitement Automatique des Langues,
+IEICE Transactions,
+Transactions in GIS,
+ACM Transactions on Accessible Computing,TACCESS
+IEEE Transactions on Signal Processing,
+IEEE Transactions on Affective Computing,
+ACM Transactions on Algorithms,
+ICST Transactions on Ambient Systems,
+ACM Transactions on Applied Perception,TAP
+ACM Transactions on Architecture and Code Optimization,TACO
+Electronic Transactions on Artificial Intelligence,ETAI
+ACM Transactions on Asian Language Information Processing,
+Transactions on Aspect-Oriented Software Development,LNCS
+IEEE Transactions on Audio, Speech and Language Processing,
+IEEE Transactions on Automatic Control,
+IEEE Transactions on Automation Science and Engineering,
+ACM Transactions on Autonomous and Adaptive Systems,TAAS
+IEEE Transactions on Autonomous Mental Development,
+IEEE Transactions on Biomedical Circuits and Systems,
+IEEE Transactions on Biomedical Engineering,
+IEEE Transactions on Broadcasting,
+Transactions on Case-Based Reasoning,
+IEEE Transactions on Circuits and Systems,
+IEEE Transactions on Circuits and Systems for Video Technology,
+IEEE Transactions on Communications,
+ACM Transactions on Computation Theory,TOCT
+IEEE/ACM Transactions on Computational Biology and Bioinformatics,
+Transactions on Computational Collective Intelligence,LNCS
+IEEE Transactions on Computational Intelligence and AI in Games,
+ACM Transactions on Computational Logic,TOCL
+Transactions on Computational Science,LNCS
+Transactions on Computational Systems Biology,LNCS
+IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems,
+ACM Transactions on Computer-Human Interaction,TOCHI
+Tiny Transactions on Computer Science,
+ACM Transactions on Computer Systems,TOCS
+IEEE Transactions on Computers,
+ACM Transactions on Computing Education,TOCE
+IEEE Transactions on Consumer Electronics,
+IEEE Transactions on Control Systems Technology,TCST
+IEEE Transactions on Cybernetics,
+Transactions on Data Hiding and Multimedia Security,LNCS
+Transactions on Data Privacy,
+ACM Transactions on Database Systems,TODS
+IEEE Transactions on Dependable and Secure Computing,
+ACM Transactions on Design Automation of Electronic Systems,TODAES
+ICST Transactions on e-Education and e-Learning,
+ACM Transactions on Economics and Computation,
+IEEE Transactions on Education,
+Transactions on Edutainment,LNCS
+ACM Transactions on Embedded Computing Systems,
+Transactions on Emerging Telecommunications Technologies,
+IEEE Transactions on Evolutionary Computation,
+IEEE Transactions on Fuzzy Systems,
+IEEE Transactions on Geoscience and Remote Sensing,
+ACM Transactions on Graphics,TOG
+IEEE Transactions on Haptics,
+Transactions on High-Performance Embedded Architectures and Compilers,LNCS
+IEEE Transactions on Human-Machine Systems,
+IEEE Transactions on Image Processing,
+IEEE Transactions on Industrial Electronics,
+IEEE Transactions on Industrial Informatics,
+ACM Transactions on Information and System Security,TISSEC
+IEEE Transactions on Information Forensics and Security,
+ACM Transactions on Information Systems,TOIS
+IEEE Journal of Biomedical and Health Informatics,
+IEEE Transactions on Information Theory,
+IEEE Transactions on Instrumentation and Measurement,
+ACM Transactions on Intelligent Systems and Technology,
+IEEE Transactions on Intelligent Transportation Systems,
+ACM Transactions on Interactive Intelligent Systems,
+KSII Transactions on Internet and Information Systems,
+ACM Transactions on Internet Technology,TOIT
+IEEE Transactions on Knowledge and Data Engineering,
+ACM Transactions on Knowledge Discovery from Data,TKDD
+Transactions on  Large-Scale Data- and Knowledge-Centered Systems,LNCS
+IEEE Transactions on Learning Technologies,
+Transactions on Machine Learning and Data Mining,
+ACM Transactions on Management Information Systems,
+Transactions on Mass-Data Analysis of Images and Signals,
+ACM Transactions on Mathematical Software,TOMS
+IEEE Transactions on Medical Imaging,
+ICST Transactions on Mobile Communications and Applications,
+IEEE Transactions on Mobile Computing,TMC
+ACM Transactions on Modeling and Computer Simulation,TOMACS
+IEEE Transactions on Multimedia,TMM
+ACM Transactions on Multimedia Computing, Communications, and Applications,TOMCCAP
+IEEE Transactions on Network and Service Management,
+IEEE/ACM Transactions on Networking,TON
+IEEE Transactions on Neural Networks and Learning Systems,
+ACM Transactions on Information Systems,TOIS
+IEEE Transactions on Parallel and Distributed Systems,TPDS
+IEEE Transactions on Pattern Analysis and Machine Intelligence,TPAMI
+Transactions on Petri Nets and Other Models of Concurrency - ToPNoC,LNCS
+IEEE Transactions on Professional Communication,TPC
+ACM Transactions on Programming Languages and Systems,TOPLAS
+ACM Transactions on Reconfigurable Technology and Systems,
+IEEE Transactions on Reliability,
+IEEE Transactions on Robotics,
+Transactions on Rough Sets,LNCS
+ICST Transactions on Security and Safety,
+ACM Transactions on Sensor Networks,TOSN
+IEEE Transactions on Services Computing,
+IEEE Transactions on Smart Grid,TSG
+IEEE Transactions on Software Engineering,TSE
+ACM Transactions on Software Engineering and Methodology,TOSEM
+IEEE Transactions on Audio, Speech and Language Processing,
+ACM Transactions on Speech and Language Processing,TSLP
+ACM Transactions on Storage,
+IEEE Transactions on Systems, Man, and Cybernetics: Systems,
+International Transactions on Systems Science and Applications,
+IEEE Transactions on Systems Science and Cybernetics,
+Transactions on Emerging Telecommunications Technologies,
+ACM Transactions on the Web,
+IEEE Transactions on Vehicular Technology,
+IEEE Transactions on Very Large Scale Integration,VLSI
+IEEE Transactions on Visualization and Computer Graphics,
+IEEE Transactions on Wireless Communications,
+Transportation Science,
+IEEE Intelligent Transportation Systems Magazine,
+International Journal of Dependable and Trustworthy Information Systems,IJDTIS

@@ -1,0 +1,142 @@
+International Journal of E-Adoption,IJEA
+Information Systems and E-Business Management,
+International Journal of E-Business Research,IJEBR
+International Journal of e-Collaboration,IJeC
+ICST Transactions on e-Education and e-Learning,
+International Journal of E-Entrepreneurship and Innovation,IJEEI
+International Journal of E-Health and Medical Communications,IJEHMC
+e-Informatica Software Engineering Journal,
+e-Journal of Practical Business Research,
+ICST Transactions on e-Education and e-Learning,
+e-Minds: International Journal on Human-Computer Interaction,
+International Journal of E-Politics,IJEP
+International Journal of E-Services and Mobile Applications,IJESMA
+International Arab Journal of e-Technology,
+International Journal of Applied Earth Observation and Geoinformation,
+Earth Science Informatics,
+Bulletin of the EATCS,
+Ecological Informatics,
+Games and Economic Behavior,
+Journal of Economic Theory,
+ACM Transactions on Economics and Computation,
+Information Economics and Policy,
+International Journal of Innovation in the Digital Economy,IJIDE
+ACM Transactions on Computing Education,TOCE
+Computers & Education,
+IEEE Transactions on Education,
+Informatics in Education,
+Interactive Technology and Smart Education,
+International Journal of Cyber Ethics in Education,IJCEE
+International Journal of Information and Communication Technology Education,IJICTE
+International Journal of Quality Assurance in Engineering and Technology Education,IJQAETE
+Journal of Computing in Higher Education,
+Journal of Information Technology Education,
+International Journal of Adult Vocational Education and Technology,IJAVET
+Education for Information,
+International Journal of Technology and Educational Marketing,IJTEM
+Journal of Educational Multimedia and Hypermedia,
+ACM Transactions on Computing Education,TOCE
+Educational Technology & Society,
+Transactions on Edutainment,LNCS
+Egyptian Computer Science Journal,
+eLearn Magazine,
+Journal of Electrical and Computer Engineering,
+International Journal of Electronic Business,IJEB
+International Journal of Electronic Business Management,IJEBM
+Electronic Colloquium on Computational Complexity,ECCC
+Journal of Organizational Computing and Electronic Commerce,
+Journal of Electronic Commerce in Organizations,JECO
+Electronic Commerce Research,
+Journal of Electronic Commerce Research,
+Journal of Theoretical and Applied Electronic Commerce Research,
+Electronic Commerce Research and Applications,
+Electronic Communication of the European Association of Software Science and Technology,
+Foundations and Trends in Electronic Design Automation,
+IEICE Electronic Express,
+Electronic Government, an International Journal,EG
+International Journal of Electronic Government Research,IJEGR
+International Journal of Electronic Healthcare,IJEH
+Journal of Electronic Imaging,
+The Electronic Journal of Combinatorics,
+The Electronic Library,
+Electronic Markets,
+Electronic Networking: Research, Applications and Policy,
+Electronic Notes in Discrete Mathematics,
+Electronic Proceedings in Theoretical Computer Science,
+Journal of Electronic Publishing,
+Electronic Publishing - Origination, Dissemination and Design,EPodd
+Journal of Electronic Testing,
+Electronic Transactions on Artificial Intelligence,ETAI
+IEEE Transactions on Industrial Electronics,
+Journal of Information Processing and Cybernetics,
+Elektronische Informationsverarbeitung und Kybernetik,
+Elektrotechnik und Informationstechnik,
+International Journal of Embedded and Real-Time Communication Systems,IJERTCS
+Journal of Embedded Computing,
+ACM Transactions on Embedded Computing Systems,
+Design Automation for Embedded Systems,
+EURASIP Journal on Embedded Systems,
+International Journal of Embedded Systems,IJES
+Embedded Systems Letters,
+International Journal of Parallel, Emergent and Distributed Systems,
+IEEE Journal of Emerging and Selected Topics in Circuits and Systems,
+ACM Journal on Emerging Technologies in Computing Systems,
+Transactions on Emerging Telecommunications Technologies,
+EMISA Forum,
+International Journal of Synthetic Emotions,IJSE
+Empirical Software Engineering,
+Journal of Organizational and End User Computing,JOEUC
+International Journal of Energy Optimization and Engineering,IJEOE
+Integrated Computer-Aided Engineering,
+International Journal of Computational Science and Engineering,IJCSE
+Journal of Computational Methods in Science and Engineering,
+Journal of Computing Science and Engineering,JCSE
+Production Engineering,
+International Journal of Computer Aided Engineering and Technology,IJCAET
+Engineering Applications of Artificial Intelligence,
+Advanced Engineering Informatics,
+International Journal of Intelligent Engineering Informatics,IJIEI
+Engineering Letters,
+International Journal of Engineering Pedagogy,iJEP
+Engineering with Computers,
+Journal of Enterprise Information Management,
+Enterprise Information Systems,
+International Journal of Enterprise Information Systems,IJEIS
+Enterprise Modelling and Information Systems Architectures - An International Journal,
+Computers in Entertainment,
+Entropy,
+International Journal of Agricultural and Environmental Information Systems,IJAEIS
+Environmental Modelling and Software,
+Informatik, Biometrie und Epidemiologiein Medizin und Biologie,
+ERCIM News,
+Science and Engineering Ethics,
+Journal of Information, Communication and Ethics in Society,
+EURASIP Journal on Advances in Signal Processing,
+EURASIP Journal on Audio, Speech, and Music Processing,
+EURASIP Journal on Bioinformatics and Systems Biology,
+EURASIP Journal on Embedded Systems,
+EURASIP Journal on Image and Video Processing,
+EURASIP Journal on Information Security,
+EURASIP Journal on Wireless Communications and Networking,
+Electronic Communication of the European Association of Software Science and Technology,
+European Journal of Combinatorics,
+European Journal of Control,
+European Journal of Information Systems,
+European Journal of Law and Technology,EJLT
+European Journal of Operational Research,
+Transactions on Emerging Telecommunications Technologies,
+Evolutionary Bioinformatics,
+Evolutionary Computation,
+IEEE Transactions on Evolutionary Computation,
+International Journal of Applied Evolutionary Computation,IJAEC
+Swarm and Evolutionary Computation,
+Evolutionary Intelligence,
+Genetic Programming and Evolvable Machines,
+Evolving Systems,
+ACM Journal of Experimental Algorithmics,JEA
+Journal of Experimental and Theoretical Artificial Intelligence,JETAI
+Experimental Mathematics,
+IEEE Expert,
+IEEE Intelligent Systems,
+Expert Systems - The Journal of Knowledge Engineering,
+Expert Systems with Applications,

@@ -1,0 +1,287 @@
+Energy Efficient Data Centers{E2DC
+End-to-End Monitoring Techniques and Services{E2EMON
+Environments for Multi-Agent Systems{E4MAS
+Evolution Artificielle{EA
+Conference of the European Chapter of the Association for Computational Linguistics{EACL
+Enterprise Application Integration{EAI
+Advanced School on Artificial Intelligence{EAIA
+Emerging M&S Applications in Industry and Academia{EAIA
+European Association for Machine Translation Conferences/Workshops{EAMT
+Evaluation & Assessment in Software Engineering{EASE
+European Agent Systems Summer School{EASSS
+Easter Conference on Model Theory{
+Euro American Conference on Telematics and Information Systems{EATIS
+Web Information Systems Engineering for Electronic Businesses and Governments{E-BAG
+Ebernburger Gespräche{
+European Business Intelligence Summer School{eBISS
+Elektronische Geschäftsprozesse{EBP
+Electronic Commerce{EC
+European Conference on Artificial Intelligence{ECAI
+European Conference on Artificial Life{ECAL
+Engineering of Computer-Based Systems{ECBS
+European Conference on Computational Biology{ECCB
+European Conference on Case-Based Reasoning{ECCBR
+European Conference on Cognitive Ergonomics{ECCE
+European Conference on Circuit Theory and Design{ECCTD
+European Conference on Computer Vision{ECCV
+European Conference on Research and Advanced Technology for Digital Libraries{ECDL
+Evolution and Change in Data Management{ECDM
+European Conference On e-Government{ECEG
+European Conference on eHealth{ECEH
+European Conference on Hypertext{ECHT
+Fachtagung des gemeinsamen Fachausschusses Echtzeitsysteme von Gesellschaft für Informatik e.V. (GI){Echtzeit
+Conference of the European Cooperation in Informatics{ECI
+European Conference on Information Retrieval{ECIR
+European Conference on Information Systems{ECIS
+European Conference on Information Warfare and Security{ECIW
+European Conference on Knowledge Management{ECKM
+Information Technologies for Performing Arts, Media Access, and Entertainment{ECLAP
+European Conference on Multimedia Applications, Services and Techniques{ECMAST
+European Conference on Model Driven Architecture - Foundations and Applications{ECMDA-FA
+European Conference on Modelling Foundations and Applications{ECMFA
+European Conference on Machine Learning{ECML
+European Conference on Mobile Robots{ECMR
+European Conference on Modelling and Simulation{ECMS
+E-Commerce Agents{
+Conceptual Modeling Approaches for e-Business{eCOMO
+European Conference on Object-Oriented Programming{ECOOP
+European Conference on Web Services{ECOWS
+European Conference on Planning{ECP
+eCrime Researchers Summit{
+Euromicro Conference on Real-Time Systems{ECRTS
+European Conference on Software Architecture{ECSA
+European Conference on Computer Supported Cooperative Work{ECSCW
+European Conference on Software Quality{ECSQ
+European Conference on Symbolic and Quantitative Approaches to Reasoning and Uncertainty{ECSQARU
+European Conference on Speech Technology{ECST
+European Conference on Technology Enhanced Learning{EC-TEL
+European Conference on Universal Multiservice Networks{ECUMN
+Electronic Commerce and Web Technologies{EC-Web
+Journées Francophones sur les Entrepôts de Données et l'Analyse en ligne{EDA
+Embedded Data-Centric Systems{EDACS
+Extending Database Technology{EDBT
+European Dependable Computing Conference{EDCC
+Engineering and Deployment of Cooperative Information Systems{EDCIS
+e-Democracy{
+Educational Data Mining{EDM
+European Distributed Memory Computing Conference{EDMCC
+Engineering Distributed Objects{EDO
+Enterprise Distributed Object Computing{EDOC
+Expert Database Systems{EDS
+International Conference on E-learning and Games{Edutainment
+EDUTECH{
+E-Learning, E-Business, Enterprise Information Systems, & E-Government{EEE
+e-Technology, e-Commerce and e-Service{EEE
+European Educational Forum{EEF
+Emergence and Evolution of Linguistic Communication{EELC
+Engineering Environment-Mediated Multi-Agent Systems{EEMMAS
+Energy-Efficient Computing and Networking{E-Energy
+Energy-Efficient Computing and Networking{e-Energy
+Enterprise Engineering Working Conference{EEWC
+Efficiency and Effectiveness of XML Tools and Techniques{EEXTT
+Engineering Federated Database Systems{EFDBS
+Engineering Federated Information (Database) Systems{EFIS/EFDBS
+Forensics in Telecommunications, Information and Multimedia{e-Forensics
+Engineering Fault Tolerant Systems{EFTS
+European Grid Conference{EGC
+Extraction et Gestion des Connaissances{EGC
+Spanish Meeting on Computational Geometry{EGC
+Electronic Government and Commerce: Design, Modeling, Analysis and Security{EGCDMAS
+Intelligent Computing in Engineering and Architecture{EG-ICE
+Electronic Government{EGOV
+Electronic Government and the Information Systems Perspective{EGOVIS
+eBusiness Processes{EGP
+Eurographics Workshop on Parallel Graphics and Visualization{EGPGV
+Eurographics Symposium on Rendering Techniques{EGSR
+Eurographics Symposium on Virtual Environments{EGVE
+Evolvable Hardware{EH
+Engineering for Human-Computer Interaction{EHCI
+Electronic Healthcare{eHealth
+Engineering Education, Instructional Technology, Assessment, and E-learning{EIAE
+Engineering Interactive Computing System{EICS
+Emerging Intelligent Data and Web Technologies{EIDWT
+Eiffel{
+Encuentro Informática y Gestión{EIG
+European Intelligence and Security Informatics Conference{EISIC
+European Information Security Multi-Conference{EISMC
+Enterprise Information Systems and Web Technologies{EISWT
+Electro/Information Technology{EIT
+European-Japanese Conference on Information Modelling and Knowledge Bases{EJC
+Knowledge Acquisition, Modeling and Management{EKAW
+International Conference on Information, Process, and Knowledge Management{eKNOW
+International Conference on e-Learning{e-Learning
+Electronic Commerce{
+Electronic Imaging{
+Electronic Technology Directions to the Year 2000{
+Electronic Voting in Europe{
+European Learning Grid Infrastructure{ELeGI
+Extensions of Logic Programming{ELP
+International Conference on Electronic Publishing{ELPUB
+ELSNET Summer School{
+E-Learning Systems: Research and Tools, from Theory to Practice{ELSys
+International Conference on Embedded Computing{EmbeddedCom
+European Conference on Mobile Robots{EMCR
+Electronic and Mechanical Engineering and Information Technology{EMEIT
+Emergent Neural Computational Architectures Based on Neuroscience{
+Entwicklungsmethoden für Informationssysteme und deren Anwendung: Fachtagung{EMISA
+Energy Minimization Methods in Computer Vision and Pattern Recognition{EMMCVPR
+Exploring Modeling Methods for Systems Analysis and Design{EMMSAD
+Embedded Networked Sensors{EmNets
+Empirical Methods in Natural Language Processing{EMNLP
+Evolutionary Multi-Criterion Optimization{EMO
+Interop Workshop on Enterprise Modelling and Ontologies for Interoperability{EMOI - INTEROP
+European Symposium on Computer Modeling and Simulation{EMS
+Embedded Software{EMSOFT
+Elektromagnetische Verträglichkeit{EMV
+Elektromagnetische Verträglichkeit in der KFZ-Technik{EMV
+Evaluation of Novel Approaches to Software Engineering{ENASE
+Mexican International Conference on Computer Science{ENC
+Engineering Non-Functional Information for Emerging Systems{EN-FINES
+Information and Communication Technologies in Tourism{ENTER
+Environmental Informatics for Environmental Protection, Sustainable Development and Risk Management{EnviroInfo
+Enterprise and Organizational Modeling and Simulation{EOMAS
+Evaluation of Ontology-based Tools{EON
+Equation-Based Object-Oriented Modeling Languages and Tools{EOOLT
+Electronic Publishing{EP
+Evolutionary Programming{EP
+Electronic Participation{ePart
+European Performance Engineering Workshop{EPEW
+Portuguese Conference on Artificial Intelligence{EPIA
+Geschäftsprozessmanagement mit Ereignisgesteuerten Prozessketten{EPK
+Epistemological Aspects of Computer Simulation in the Social Sciences{EPOS
+International Conference on Conceptual Modeling{ER
+Erlang Workshop{
+Error Control, Cryptology, and Speech Compression{
+Engineering of Reconfigurable Systems and Algorithms{ERSA
+Embedded Systems and Applications{ESA
+European Symposium on Algorithms{ESA
+Exploiting Semantic Annotations in Information Retrieval{ESAIR
+The European Symposium on Artificial Neural Networks{ESANN
+European Workshop on Security in Ad-hoc and Sensor Networks{ESAS
+Engineering Societies in the Agent World{ESAW
+European Simulation Congress{ESC
+Combinatorics, Algorithms, Probabilistic and Experimental Methodologies{ESCAPE
+e-Science and Grid Computing{E-Science
+European Software Engineering Conference{ESEC
+Empirical Software Engineering and Measurement{ESEM
+Experimental Software Engineering Network{ESERNET
+ESF Exploratory Workshops{
+Environmental Science and Information Application Technology{ESIAT
+European Simulation Multiconference{ESM
+Research in Smart Cards{E-smart
+Engineering Self-Organising Applications{ESOA
+Engineering Self-Organising Systems{ESOA
+European Conference on Service-Oriented and Cloud Computing{ESOCC
+Emergent Semantics and Ontology Evolution{ESOE
+European Symposium on Programming{ESOP
+European Symposium on Research in Computer Security{ESORICS
+ESPRIT ARES Workshops{
+European Solid-State Circuits Conference{ESSCIRC
+European Solid-State Device Research Conference{ESSDERC
+Essen Symposium{
+European Summer School in Information Retrieval{ESSIR
+European Summer School in Logic, Language and Information{ESSLLI
+Engineering Secure Software and Systems{ESSoS
+Engineering of Software Services for Pervasive Environments{ESSPE
+Emerging Security Technologies{EST
+Natural Language Processing{EsTAL
+Embedded Systems for Real-Time Multimedia{ESTIMedia
+European Smalltalk User Group{ESUG
+European Semantic Web Conference{ESWC
+Extended Semantic Web Conference{ESWC
+European Semantic Web Symposium{ESWS
+European Joint Conference on Theory And Practice of Software{ETAPS
+International Conference on eHealth, Telemedicine, and Social Medicine{eTELEMED
+Emerging Technologies and Factory Automation{ETFA
+Evolving Theories of Conceptual Modelling{ETheCoM
+Ethics in Computer Age{
+Evolutionary Techniques in Data-Processing{ETID
+Economic Traffic Management{ETM
+Education and Training for Quality Software Engineering{ETQSE
+Eye Tracking Research & Application{ETRA
+Emerging Trends in Information and Communication Security{ETRICS
+European Test Symposium{ETS
+Education Technology and Training{ETT
+Emerging Trends in Visual Computing{ETVC
+Eclipse Technology eXchange{ETX
+EU Projects{
+Embedded and Ubiquitous Computing{EUC
+European Workshop on Multi-Agent Systems{EUMAS
+EUNICE Open European Summer School{
+European University Information Systems{EUNIS
+EurAsian Conference on Information and Communication Technology{EurAsia-ICT
+EURASIP Workshop{
+International Conference on Research and Education in Robotics{EUROBOT
+European Conference on Computer Algebra{EUROCAL
+Computer Aided Systems Theory{EUROCAST
+European Workshop on Computational Geometry{EuroCG
+Coding Theory and Applications{EUROCODE
+European Conference on Computational Learning Theory{EuroCOLT
+Conference on Computer as a Tool{EUROCON
+Theory and Application of Cryptographic Techniques{EUROCRYPT
+European Design and Test Conference{EURO-DAC
+European Conference on Genetic Programming{EuroGP
+Eurographics Italian Chapter Conference{
+Eurographics Conferences, Symposia, & Workshops{
+Haptics: Perception, Devices and Scenarios{EuroHaptics
+European Workshop on Human-Computer Interaction and Information Retrieval{EuroHCIR
+Internet, Multimedia Systems and Applications{EuroIMSA
+European Conference on Intelligence and Security Informatics{EuroISI
+European Conference on Interactive TV{EuroITV
+International Euro-Mediterranean Conference{EuroMed
+EUROMICRO{
+Network of Excellence{EuroNGI
+EuroPACS{
+European Conference on Parallel Processing{Euro-Par
+Parallel and Distributed Systems{Euro-PDS
+European Across Grids Conference{
+European Summer School on Multi-Agent Control{
+European Wireless{
+Communications Infrastructure. Systems and Applications in Europe{EuropeComm
+European Public Key Infrastructure Workshop{EuroPKI
+European Conference on Pattern Languages of Programs{EuroPLoP
+European PVM/MPI Users Group Meeting{EuroPVM/MPI
+European Robotics Symposium{EUROS
+Symbolic and Algebraic Computation{EUROSAM
+European Workshop on System Security{EUROSEC
+EUROSIM{
+European Conference on Speech Communication and Technology{EUROSPEECH
+European Conference on Software Process Improvement{EuroSPI
+European Conference on Smart Sensing and Context{EuroSSC
+European Conference on Computer Systems{EuroSys
+European Symposium on Validation and Verification of Knowledge Based Systems{EUROVAV
+Eurographics Symposium on Virtual Environments{EuroVE
+Joint Eurographics/IEEE-VGTC Symposium on Visualization{EuroVis
+EuroWeb{
+European Society for Fuzzy Logic and Technology{EUSFLAT
+Evaluation of Natural Language and Speech Tools for Italian{EVALITA
+Detection and Recognition of Events in Video{EVENT
+Applications of Evolutionary Computation{EvoApplications
+Evolutionary Computation, Machine Learning and Data Mining in Bioinformatics{EvoBIO
+Evolutionary Computation in Combinatorial Optimization{EvoCOP
+ERCIM Workshop on Software Evolution{EVOL
+Evolution and Biocomputation{
+AISB Workshop{Evolutionary Computing
+A Bridge between Probability, Set Oriented Numerics and Evolutionary Computation{EVOLVE
+Electronic Voting{EVOTE
+European Workshop on Case-Based Reasoning{EWCBR
+European Workshop on Computational Geometry{EWCG
+European Workshop on Dependable Computing{EWDC
+East-West Design & Test Symposium{EWDTS
+East/West Database Workshops{EWDW
+Euro Working Group Workshop - Decision Support Systems{EWG-DSS
+EWHCI{
+European Workshop on the Integration of Knowledge, Semantic and Digital Media Technologies{EWIMT
+European Workshop on Learning Robots{EWLR
+European Web Mining Forum{EWMF
+European Workshop on Natural Language Generation{EWNLG
+European Workshop on Reinforcement Learning{EWRL
+European Workshop on Software Architecture{EWSA
+European Conference/Workshop on Wireless Sensor Networks{EWSN
+European Workshop on Planning{EWSP
+European Workshop on Software Process Technology{EWSPT
+Explanation-aware Computing{ExaCt
+Evaluation of Data Management Systems{ExpDB
+Experimental Computer Science{
+Expert Systems in Engineering{
+Extreme Markup Languages®{
