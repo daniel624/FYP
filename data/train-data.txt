@@ -1,4 +1,4 @@
-ï»¿1.
+ï»þý.
 Andrej Bogdanov and Youming Qiao: On the security of Goldreich's one-way function. In Computational Complexity, vol. 21, no. 1, 2012. Invited paper. 
 Authors= Andrej Bogdanov& Youming Qiao
 Title= On the security of Goldreich's one-way function
@@ -980,14 +980,14 @@ Publisher= Palgrave Macmillan
 Year= 2007
 
 103.
-Ma, J. L. C., Wan, E. S. F., & Wong, M. M. C. (2013). Experiencing multiple family groups in a Chinese context: the clientsâ€™ perception of its helpful and unhelpful impact. Journal of Social Work Practice: Psychotherapeutic Approaches in Health, Welfare and Community, 27(1), 34-47. 
+Ma, J. L. C., Wan, E. S. F., & Wong, M. M. C. (2013). Experiencing multiple family groups in a Chinese context: the clientsþýþýperception of its helpful and unhelpful impact. Journal of Social Work Practice: Psychotherapeutic Approaches in Health, Welfare and Community, 27(1), 34-47. 
 Authors= Ma, J. L. C.& Wan, E. S. F.& Wong, M. M. C
 Journal= Journal of Social Work Practice: Psychotherapeutic Approaches in Health, Welfare and Community
 Volume= 27
 Year= 2013
 Page= 34-47
 Issue= 1
-Title= Experiencing multiple family groups in a Chinese context: the clientsâ€™ perception of its helpful and unhelpful impact
+Title= Experiencing multiple family groups in a Chinese context: the clientsþýþýperception of its helpful and unhelpful impact
 
 104.
 Ma, J. L.C. & Lai, K. (2009).  Applicability of family therapy for Chinese children and adolescents suffering from anorexia nervosa in a Chinese context: A preliminary study. Social Work in Mental Health, 7(4), 402-423.
@@ -1331,14 +1331,14 @@ Title= Interpersonal Influence as an Alternative Channel Communication Behavior 
 
 143.
 [Journal Articles]
-Yonggui Wang, Fiona Chan, and Zhilin Yang (2013), "Customersâ€™ Perceived Benefits of Interacting in a Virtual Brand Community in China", Journal of Electronic Commerce Research, 14, 1, 39-56.
+Yonggui Wang, Fiona Chan, and Zhilin Yang (2013), "CustomersþýþýPerceived Benefits of Interacting in a Virtual Brand Community in China", Journal of Electronic Commerce Research, 14, 1, 39-56.
 Authors= Yonggui Wang& Fiona Chan& Zhilin Yang
 Journal= Journal of Electronic Commerce Research
 Volume= 14
 Issue= 1
 Year= 2013
 Page= 39-56
-Title= Customersâ€™ Perceived Benefits of Interacting in a Virtual Brand Community in China
+Title= CustomersþýþýPerceived Benefits of Interacting in a Virtual Brand Community in China
 
 144.
 [Journal Articles]
@@ -1353,14 +1353,14 @@ Title= When Do Formal Control and Trust Matter? A Context-Based Analysis of the 
 
 145.
 [Journal Articles]
-Xuehua Wang, and Zhilin Yang. (2010), "The Effect of Brand Credibility on Consumersâ€™ Brand Purchase Intention in Emerging Economies: The Moderating Role of Brand Awareness and Brand Image", Journal of Global Marketing, 23, 3, 177-188.
+Xuehua Wang, and Zhilin Yang. (2010), "The Effect of Brand Credibility on ConsumersþýþýBrand Purchase Intention in Emerging Economies: The Moderating Role of Brand Awareness and Brand Image", Journal of Global Marketing, 23, 3, 177-188.
 Authors= Xuehua Wang& Zhilin Yang
 Journal= Journal of Global Marketing
 Volume= 23
 Issue= 3
 Year= 2010
 Page= 177-188
-Title= The Effect of Brand Credibility on Consumersâ€™ Brand Purchase Intention in Emerging Economies: The Moderating Role of Brand Awareness and Brand Image
+Title= The Effect of Brand Credibility on ConsumersþýþýBrand Purchase Intention in Emerging Economies: The Moderating Role of Brand Awareness and Brand Image
 
 146.
 [Journal Articles]
@@ -1423,9 +1423,9 @@ Page= 159
 
 152.
 [Conference Papers]
-Zhou, Kevin, Laura Poppo, and Zhilin Yang (2005), "Examining Governance Choice in China: A Focus on Longstanding Ties, Relational Governance, and Contracts", Strategic Management Societyâ€™s 25th Annual International Conference, Orlando, Florida, U.S.A.
+Zhou, Kevin, Laura Poppo, and Zhilin Yang (2005), "Examining Governance Choice in China: A Focus on Longstanding Ties, Relational Governance, and Contracts", Strategic Management Societyþý™s 25th Annual International Conference, Orlando, Florida, U.S.A.
 Authors= Zhou, Kevin& Laura Poppo& Zhilin Yang
-Proceeding= Strategic Management Societyâ€™s 25th Annual International Conference
+Proceeding= Strategic Management Societyþý™s 25th Annual International Conference
 Year= 2005
 Title= Examining Governance Choice in China: A Focus on Longstanding Ties, Relational Governance, and Contracts
 
@@ -1456,21 +1456,21 @@ Publisher= Asia Business Research Corporation Ltd
 
 157.
 [Books and Book Chapters]
-Originally Written by Ray Wright, Chinese Version Translated by Zuohao Hu, Zhilin Yang, et al. (2006), "Business-to-Business Marketing: A Step-by-Step Guide", Beijing: Chinese Peopleâ€™s University Press.
+Originally Written by Ray Wright, Chinese Version Translated by Zuohao Hu, Zhilin Yang, et al. (2006), "Business-to-Business Marketing: A Step-by-Step Guide", Beijing: Chinese Peopleþý™s University Press.
 Authors= Ray Wright
 Year= 2006
 Title= Business-to-Business Marketing: A Step-by-Step Guide
 Editors= Zuohao Hu, Zhilin Yang
-Publisher= Chinese Peopleâ€™s University Press
+Publisher= Chinese Peopleþý™s University Press
 
 158.
 [Books and Book Chapters]
-Originally by William G. Zikmund, Raymond MeLeod, Jr. and Faye W. Gilbert, Chinese Version Translated by Zuohao Hu, Song Jia, and Zhilin Yang (2005), "Customer Relationship Management: Integrating marketing strategy and information technology", Beijing: Chinese Peopleâ€™s University Press.
+Originally by William G. Zikmund, Raymond MeLeod, Jr. and Faye W. Gilbert, Chinese Version Translated by Zuohao Hu, Song Jia, and Zhilin Yang (2005), "Customer Relationship Management: Integrating marketing strategy and information technology", Beijing: Chinese Peopleþý™s University Press.
 Authors= William G. Zikmund& Raymond MeLeod& Jr.& Faye W. Gilbert
 Year= 2005
 Title= Customer Relationship Management: Integrating marketing strategy and information technology
 Editors= Zuohao Hu, Song Jia, and Zhilin Yang
-Publisher= Beijing: Chinese Peopleâ€™s University Press
+Publisher= Beijing: Chinese Peopleþý™s University Press
 
 159.
 [Conference Papers]
@@ -2142,14 +2142,14 @@ Title= Is there a Geography of Thought for East-West Differences? Why or Why not
 
 231.
 [Journal]
-Sue-Chan, C and Dasborough, M (July 2006), "The Influence of Relation-and Rule-Based Regulation on Hiring Decisions in Australia and Hong Kong, Chinese Cultural Contexts", International Journal of Human Resource Management, Vol. 17, No. 7, pp. 1267 â€“ 1292.
+Sue-Chan, C and Dasborough, M (July 2006), "The Influence of Relation-and Rule-Based Regulation on Hiring Decisions in Australia and Hong Kong, Chinese Cultural Contexts", International Journal of Human Resource Management, Vol. 17, No. 7, pp. 1267 þýþý1292.
 Authors= Sue-Chan, C& Dasborough, M
 Journal= International Journal of Human Resource Management
 Volume= 17
 Number= 7
 Year= 2006
 Month= July
-Page= 1267â€“1292
+Page= 1267þýþý292
 Title= The Influence of Relation-and Rule-Based Regulation on Hiring Decisions in Australia and Hong Kong, Chinese Cultural Contexts
 
 232.
@@ -2190,21 +2190,21 @@ Year= 2012
 Title= Branding National Images: The 2008 Beijing Summer Olympics, 2012 Shanghai World Expo, and 2010 Guangzhou Asian Games
 
 236.
-Chen, Ni (2012) "Beijingâ€™s Political Crisis Communication: An Analysis of Chinese Government Communication in the 2009 Xinjiang Riot," Journal of Contemporary China, Vol. 21 (75), pp. 461-480.
+Chen, Ni (2012) "Beijingþý™s Political Crisis Communication: An Analysis of Chinese Government Communication in the 2009 Xinjiang Riot," Journal of Contemporary China, Vol. 21 (75), pp. 461-480.
 Authors= Chen, Ni
 Journal= Journal of Contemporary China
 Volume= 21
 Issue= 75
 Year= 2012 
 Page= 461-480
-Title= Beijingâ€™s Political Crisis Communication: An Analysis of Chinese Government Communication in the 2009 Xinjiang Riot
+Title= Beijingþý™s Political Crisis Communication: An Analysis of Chinese Government Communication in the 2009 Xinjiang Riot
 
 237.
 [Books] **with**
-Tsan-Kuo Chang with Jian Wang & Yanru Chen. (2002). Chinaâ€™s Window on the World: TV News, Social Knowledge and International Spectacles. Cresskill, NJ: Hampton Press, Inc.
+Tsan-Kuo Chang with Jian Wang & Yanru Chen. (2002). Chinaþý™s Window on the World: TV News, Social Knowledge and International Spectacles. Cresskill, NJ: Hampton Press, Inc.
 Authors= Tsan-Kuo Chang& Jian Wang& Yanru Chen
 Year= 2002
-Title= Chinaâ€™s Window on the World: TV News, Social Knowledge and International Spectacles
+Title= Chinaþý™s Window on the World: TV News, Social Knowledge and International Spectacles
 Publisher= Hampton Press
 
 238.
@@ -2217,10 +2217,10 @@ Publisher= Ablex Publishing Corporation
 
 239.
 [Book Chapters]
-Tsan-Kuo Chang & Chen Yanru. (2000). Constructing international spectacle on television: CCTV news and Chinaâ€™s window on the world, 1992-1996. In Abbas Malek & Anandam P. Kavoori (eds.), The global dynamics of news: Studies in international news coverage and news agenda (pp. 197-221). Stamford, CT: Ablex Publishing Corporation.
+Tsan-Kuo Chang & Chen Yanru. (2000). Constructing international spectacle on television: CCTV news and Chinaþý™s window on the world, 1992-1996. In Abbas Malek & Anandam P. Kavoori (eds.), The global dynamics of news: Studies in international news coverage and news agenda (pp. 197-221). Stamford, CT: Ablex Publishing Corporation.
 Authors= Tsan-Kuo Chang& Chen Yanru
 Year= 2000
-Chapter= Constructing international spectacle on television: CCTV news and Chinaâ€™s window on the world
+Chapter= Constructing international spectacle on television: CCTV news and Chinaþý™s window on the world
 Title= The global dynamics of news: Studies in international news coverage and news agenda
 Publisher= Ablex Publishing Corporation.
 Editors= Abbas Malek & Anandam P. Kavoori
@@ -2339,10 +2339,10 @@ Title= Impregnation of moist and dry unconsolidated clay samples using Spurr res
 
 252.
 [Book]
-Li, Y. (2011). Seeking the Sacred from the Profane: A Phenomenology of Touristsâ€™ Travel Experiences. Lambert Academic Publishing. ISBN: 978-3-8443-0177-9
+Li, Y. (2011). Seeking the Sacred from the Profane: A Phenomenology of TouristsþýþýTravel Experiences. Lambert Academic Publishing. ISBN: 978-3-8443-0177-9
 Authors= Li, Y.
 Year= 2011
-Title= Seeking the Sacred from the Profane: A Phenomenology of Touristsâ€™ Travel Experiences
+Title= Seeking the Sacred from the Profane: A Phenomenology of TouristsþýþýTravel Experiences
 Publisher= Lambert Academic Publishing
 
 253.
@@ -2962,8 +2962,8 @@ Title= Diffusion of Absence: The Official Appropriation of Yuan Zhen in Modern T
 
 325.
 [Journal] **Isuue&Issue**
-"Documenting Three Gorges Migrants: Gendered Voices of Dis/placement and Citizenship in Rediscovering the Yangtze River and Bingai," WSQ: Womenâ€™s Studies Quarterly 38.1&2 (Spring/Summer 2010): 27-47. 
-Journal= WSQ: Womenâ€™s Studies Quarterly
+"Documenting Three Gorges Migrants: Gendered Voices of Dis/placement and Citizenship in Rediscovering the Yangtze River and Bingai," WSQ: Womenþý™s Studies Quarterly 38.1&2 (Spring/Summer 2010): 27-47. 
+Journal= WSQ: Womenþý™s Studies Quarterly
 Volume= 38
 Issue= 1&2
 Year= 2010
@@ -2996,13 +2996,13 @@ Title= BACK-ALLEY BANKING: Private Entrepreneurs in China
 Publisher=Cornell University Press
 
 329.
-Chen, E.E., Corriveau, K.H., & Harris, P.L. (2013). Children trust a consensus composed of outgroup members â€“ but do not retain that trust. Child Development, 84, 269-282.
+Chen, E.E., Corriveau, K.H., & Harris, P.L. (2013). Children trust a consensus composed of outgroup members þýþýbut do not retain that trust. Child Development, 84, 269-282.
 Authors= Chen, E.E.& Corriveau, K.H.& Harris, P.L.
 Journal= Child Development
 Volume= 84
 Year= 2013
 Page= 269-282
-Title= Children trust a consensus composed of outgroup members â€“ but do not retain that trust
+Title= Children trust a consensus composed of outgroup members þýþýbut do not retain that trust
 
 330.
 Dunham, Y., Chen, E.E., & Banaji, M.R. (2013). Two signatures of implicit intergroup attitudes: Developmental invariance and early enculturation. Psychological Science, 24, 860-868.
@@ -3052,10 +3052,10 @@ Proceeding= 65th World Organization for Early Childhood Education (OMEP) World A
 
 336.
 [Conference] **Paper presented at the**
-Chen, E.E., Corriveau, K.H., Banaji, M.R., & Harris, P.L. (2013). Childrenâ€™s inference and retention of trait information across two cultures. Paper presented at the Society of Research on Child Development Biennial Meeting, Seattle, WA.
+Chen, E.E., Corriveau, K.H., Banaji, M.R., & Harris, P.L. (2013). Childrenþý™s inference and retention of trait information across two cultures. Paper presented at the Society of Research on Child Development Biennial Meeting, Seattle, WA.
 Authors= Chen, E.E.& Corriveau, K.H.& Banaji, M.R.& Harris, P.L.
 Year= 2013
-Title= Childrenâ€™s inference and retention of trait information across two cultures
+Title= Childrenþý™s inference and retention of trait information across two cultures
 Proceeding= Society of Research on Child Development Biennial Meeting
 
 337.
@@ -3152,8 +3152,8 @@ Title= Coordination self-assembly of bromo-phenyl and pyridyl functionalized por
 
 347.
 [Journal]
-Recovery of Clean Ordered (111) Surface of Etched Silicon, A. M. C. Ng, L. Dong, W. K. Ho, A. B. DjuriÅ¡iÄ‡, M. H. Xie, H. S. Wu, N. Lin, S. Y. Tong, Appl. Surf. Sci. DOI: 10.1016/j.apsusc.2013.05.092 (2013).
-Authors= A. M. C. Ng& L. Dong& W. K. Ho& A. B. DjuriÅ¡iÄ‡& M. H. Xie& H. S. Wu& N. Lin& S. Y. Tong
+Recovery of Clean Ordered (111) Surface of Etched Silicon, A. M. C. Ng, L. Dong, W. K. Ho, A. B. DjuriÅ¡iþý, M. H. Xie, H. S. Wu, N. Lin, S. Y. Tong, Appl. Surf. Sci. DOI: 10.1016/j.apsusc.2013.05.092 (2013).
+Authors= A. M. C. Ng& L. Dong& W. K. Ho& A. B. DjuriÅ¡iþý& M. H. Xie& H. S. Wu& N. Lin& S. Y. Tong
 Journal= Appl. Surf. Sci
 Year= 2013
 Title= Recovery of Clean Ordered (111) Surface of Etched Silicon
@@ -3435,20 +3435,20 @@ Title= Prediction of Open Turbulent Premixed Flames Stabilized by Swirl
 
 379.
 [Journal]
-Wang, A., & Kong, S.C. (2013). A study of studentsâ€™ CMC behaviors for incorporating CMC in teaching and learning. International Journal of Innovation and Learning, 13(3), 339-352.
+Wang, A., & Kong, S.C. (2013). A study of studentsþýþýCMC behaviors for incorporating CMC in teaching and learning. International Journal of Innovation and Learning, 13(3), 339-352.
 Authors= Wang, A.& Kong, S.C.
 Journal= International Journal of Innovation and Learning
 Volume= 13
 Issue= 3
 Year= 2013
 Page= 339-352
-Title= A study of studentsâ€™ CMC behaviors for incorporating CMC in teaching and learning
+Title= A study of studentsþýþýCMC behaviors for incorporating CMC in teaching and learning
 
 380.
 [Journal]
-Kong, S.C. (2011). Opportunities of e-learning in school education. Hong Kong Teachersâ€™ Centre Journal, 10, 1-8. 
+Kong, S.C. (2011). Opportunities of e-learning in school education. Hong Kong TeachersþýþýCentre Journal, 10, 1-8. 
 Authors= Kong, S.C.
-Journal= Hong Kong Teachersâ€™ Centre Journal
+Journal= Hong Kong TeachersþýþýCentre Journal
 Volume= 10
 Year= 2011
 Page= 1-8

@@ -139,7 +139,7 @@ Title= Crucial individuals in the help-seeking pathway of the Chinese caregivers
 
 213.
 [Journal]
-"Conflict-of-Interest Reforms and Investment Bank Analystsâ€™ Research Biases", Journal of Accounting Auditing and Finance, October 2012, Vol. 27, Iss. 4, pp. 443-470 (jointly with H. Lu and F. Wong)
+"Conflict-of-Interest Reforms and Investment Bank AnalystsþýþýResearch Biases", Journal of Accounting Auditing and Finance, October 2012, Vol. 27, Iss. 4, pp. 443-470 (jointly with H. Lu and F. Wong)
 Authors= H. Lu& F. Wong
 Journal= Journal of Accounting Auditing and Finance
 Volume= 27
@@ -147,7 +147,7 @@ Issue= 4
 Year= 2012
 Month= October
 Page= 443-470
-Title= Conflict-of-Interest Reforms and Investment Bank Analystsâ€™ Research Biases
+Title= Conflict-of-Interest Reforms and Investment Bank AnalystsþýþýResearch Biases
 
 228.
 [Books and Book Chapters]
@@ -218,13 +218,13 @@ Editors= S. Graf, F.H. Lin, Kinshuk & R. McGreal
 Page= 101-118
 
 333.
-Tsai, J.L., Louie, J.Y., Chen, E.E., & Uchida, Y. (2007). Learning what feelings to desire: Socialization of ideal affect through childrenâ€™s storybooks. Personality and Social Psychology Bulletin, 33, 17-30.
+Tsai, J.L., Louie, J.Y., Chen, E.E., & Uchida, Y. (2007). Learning what feelings to desire: Socialization of ideal affect through childrenþý™s storybooks. Personality and Social Psychology Bulletin, 33, 17-30.
 Authors= Tsai, J.L.& Louie, J.Y.& Chen, E.E.& Uchida, Y.
 Journal= Personality and Social Psychology Bulletin
 Volume= 33
 Year= 2007
 Page= 17-30
-Title= Learning what feelings to desire: Socialization of ideal affect through childrenâ€™s storybooks
+Title= Learning what feelings to desire: Socialization of ideal affect through childrenþý™s storybooks
 
 348.
 [Book]

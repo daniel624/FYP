@@ -1,4 +1,0 @@
-Formal Specification and Development in Z and B{ZB
-Central-European Workshop on Services and their Composition{ZEUS
-ZiF Workshop{
-Z Users Conference{ZUM

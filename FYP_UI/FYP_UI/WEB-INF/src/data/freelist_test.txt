@@ -1,2 +1,0 @@
-Lou S, Ni B, Lo LY, Tsui SK, Chan TF*, and Leung KS: ABMapper: a suffix array-based tool for multi-location searching and splice-junction mapping. Bioinformatics. 2011 27(3):421-2.  (*corresponding author, page special), 
-

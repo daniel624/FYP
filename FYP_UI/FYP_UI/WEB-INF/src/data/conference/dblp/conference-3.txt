@@ -1,8 +1,0 @@
-3D Geoinformation Systems{3D-GIS
-3D System Integration{3DIC
-3D Imaging and Modeling{3DIM
-3D Object Retrieval{3DOR
-3D Physiological Human Workshop{3DPH
-3D Data Processing Visualization and Transmission{3DPVT
-3D User Interfaces{3DUI
-P2P, Parallel, Grid, Cloud and Internet Computing{3PGCIC
