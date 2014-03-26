@@ -88,6 +88,12 @@ public class HtmlCode extends HttpServlet {
 			webpage_out.println("<form name=\"htmlcode_form\" action=\"htmlcode.jsp\" method=\"post\">");
 			webpage_out.println("<table>");
 
+			webpage_out.println("<tr>");
+			webpage_out.println("<td colspan=2>");
+			webpage_out.println("We will provide 2 types of format for HTML display (<a href=\"table_sample.JPG\"><b>Table format</b></a> & <a href=\"text_sample.JPG\"><b>Text format</b></a>)");
+			webpage_out.println("</td>");
+			webpage_out.println("</tr>");
+			
 webpage_out.println("<tr>");
 webpage_out.println("<td colspan=2>");
 webpage_out.println("Please select the order of different fields (Total 16 fields):");
@@ -165,6 +171,22 @@ webpage_out.println("</tr>");
 	public void doPost (HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
 		PrintWriter webpage_out = res.getWriter();
 
+		////////////////////////////////////////////////////////
+		// Storing the input data in a table.html, text.html
+		////////////////////////////////////////////////////////
+		String output_filename_table = "webapps/FYP_UI/table.html";
+
+		FileWriter file_writer_output_table = new FileWriter(output_filename_table);
+		PrintWriter print_writer_output_table = new PrintWriter(output_filename_table);
+		
+		String output_filename_text = "webapps/FYP_UI/text.html";
+
+		FileWriter file_writer_output_text = new FileWriter(output_filename_text);
+		PrintWriter print_writer_output_text = new PrintWriter(output_filename_text);
+		////////////////////////////////////////////////////////
+
+		String text_format_html = "";
+		
 		String[] header_string = {"InputText", "Title", "Journal", "Proceeding", "Volume", "Issue", "Number", "Page", "Year", "Authors", "Article", "Month", "Thesis","Chapter", "Editors", "Publisher"};
 		int[] user_order = new int[16];
 		int[] sort_order_with_correspond_field = new int[16];
@@ -189,8 +211,11 @@ webpage_out.println("</tr>");
 			webpage_out.println("<font align=\"center\" style=\"color: #5858FA\" size=\"5\"><b>Automatic bibliography field recognition and format conversion</b></font>");
 			webpage_out.println("<hr>");
 			
+		webpage_out.println("<table><tr>");
+		webpage_out.println("<td><b>Table format</b></td>");
+		webpage_out.println("<td><a href=\"table.html\">Right Click to download \"table.html\"</a></td><tr>");
 		
-		webpage_out.println("<textarea rows=\"20\" cols=\"70\" name=\"htmlcode\" id=\"htmlcode_id\">");
+		webpage_out.println("<tr><td colspan=2><textarea rows=\"20\" cols=\"70\" name=\"htmlcode_table_format\" id=\"htmlcode_table_forma_id\">");
 		
 		// Print out the html code into textbox
 		//////////////////////////////////
@@ -205,16 +230,29 @@ webpage_out.println("</tr>");
 		
 		webpage_out.println("<table border=\"1\"><tr>");
 		
+		print_writer_output_table.println("<html>");
+		print_writer_output_table.println("<head>");
+		print_writer_output_table.println("<meta http-equiv=\"Content-Type\" content=\"text/html; charset=ISO-8859-1\">");
+		print_writer_output_table.println("<title>HTML Code - Title</title>");
+		print_writer_output_table.println("</head>");
+		print_writer_output_table.println("<body>");
+		
+		print_writer_output_table.println("<h1>HTML Code - Header</h1>");
+		
+		print_writer_output_table.println("<table border=\"1\"><tr>");
+		
 		for (int i=0; i<sort_order_with_correspond_field.length; i++) {
 			if (sort_order_with_correspond_field[i] != -1) {
 				webpage_out.println("<td>" + header_string[sort_order_with_correspond_field[i]] +"</td>");
+				print_writer_output_table.println("<td>" + header_string[sort_order_with_correspond_field[i]] +"</td>");
 			}
 		}
 		
 		webpage_out.println("</tr>");
+		print_writer_output_table.println("</tr>");
 		
 		try {
-		    POIFSFileSystem fs = new POIFSFileSystem(new FileInputStream("webapps/FYP_UI/result_html.xls"));
+		    POIFSFileSystem fs = new POIFSFileSystem(new FileInputStream("webapps/FYP_UI/result.xls"));
 		    HSSFWorkbook wb = new HSSFWorkbook(fs);
 		    HSSFSheet sheet = wb.getSheet("result");
 		    HSSFRow row;
@@ -248,13 +286,18 @@ webpage_out.println("</tr>");
 			        		cell_arr[sort_order_with_correspond_field[i]] = row.getCell((short) sort_order_with_correspond_field[i]);
 							if (cell_arr[sort_order_with_correspond_field[i]] != null) {
 								webpage_out.println("<td>" + cell_arr[sort_order_with_correspond_field[i]].getStringCellValue() +"</td>");
+								print_writer_output_table.println("<td>" + cell_arr[sort_order_with_correspond_field[i]].getStringCellValue() +"</td>");
 							} else {
 								webpage_out.println("<td></td>");
+								print_writer_output_table.println("<td></td>");
 							}
+		        		} else {
+		        			break;
 		        		}
 		    		}
 					
 					webpage_out.println("</tr>");
+					print_writer_output_table.println("</tr>");
 		        }
 		    }
 		} catch(Exception ioe) {
@@ -265,9 +308,119 @@ webpage_out.println("</tr>");
 		
 		webpage_out.println("</body>");
 		webpage_out.println("</html>");
+		
+		print_writer_output_table.println("</table>");
+		
+		print_writer_output_table.println("</body>");
+		print_writer_output_table.println("</html>");
+		
 		//////////////////////////////////
 		
-		webpage_out.println("</textarea>");
+		
+		webpage_out.println("</textarea></td></tr><tr><td colspan=2><br/></td></tr><tr>");
+		
+		webpage_out.println("<td><b>Text format</b></<td>");
+		webpage_out.println("<td><a href=\"text.html\">Right Click to download \"text.html\"</a><td>");
+
+		webpage_out.println("<tr><td colspan=2><textarea rows=\"20\" cols=\"70\" name=\"htmlcode_text_format\" id=\"htmlcode_text_format_id\">");
+		
+		// Print out the html code into textbox
+		//////////////////////////////////
+		webpage_out.println("<html>");
+		webpage_out.println("<head>");
+		webpage_out.println("<meta http-equiv=\"Content-Type\" content=\"text/html; charset=ISO-8859-1\">");
+		webpage_out.println("<title>HTML Code - Title</title>");
+		webpage_out.println("</head>");
+		webpage_out.println("<body>");
+		
+		webpage_out.println("<h1>HTML Code - Header</h1>");
+		
+		webpage_out.println("<table>");
+		
+		print_writer_output_text.println("<html>");
+		print_writer_output_text.println("<head>");
+		print_writer_output_text.println("<meta http-equiv=\"Content-Type\" content=\"text/html; charset=ISO-8859-1\">");
+		print_writer_output_text.println("<title>HTML Code - Title</title>");
+		print_writer_output_text.println("</head>");
+		print_writer_output_text.println("<body>");
+		
+		print_writer_output_text.println("<h1>HTML Code - Header</h1>");
+		
+		print_writer_output_text.println("<table>");
+
+		try {
+		    POIFSFileSystem fs = new POIFSFileSystem(new FileInputStream("webapps/FYP_UI/result.xls"));
+		    HSSFWorkbook wb = new HSSFWorkbook(fs);
+		    HSSFSheet sheet = wb.getSheet("result");
+		    HSSFRow row;
+		    HSSFCell cell;
+		    
+			HSSFCell[] cell_arr = new HSSFCell[16];
+
+		    int rows; // No of rows
+		    rows = sheet.getPhysicalNumberOfRows();
+
+		    int cols = 0; // No of columns
+		    int tmp = 0;
+
+		    // This trick ensures that we get the data properly even if it doesn't start from first few rows
+		    for(int i = 0; i < 10 || i < rows; i++) {
+		        row = sheet.getRow(i);
+		        if(row != null) {
+		            tmp = sheet.getRow(i).getPhysicalNumberOfCells();
+		            if(tmp > cols) cols = tmp;
+		        }
+		    }
+
+		    for(int r = 1; r < rows; r++) {
+		        row = sheet.getRow(r);
+		        if(row != null) {
+
+		        	webpage_out.println("<tr><td>");
+		        	print_writer_output_text.println("<tr><td>");
+		        	
+		        	text_format_html = "";
+		        	
+		        	for (int i=0; i<sort_order_with_correspond_field.length; i++) {
+		        		if (sort_order_with_correspond_field[i] != -1) {
+			        		cell_arr[sort_order_with_correspond_field[i]] = row.getCell((short) sort_order_with_correspond_field[i]);
+							if (cell_arr[sort_order_with_correspond_field[i]] != null) {
+								text_format_html = text_format_html + cell_arr[sort_order_with_correspond_field[i]].getStringCellValue() + ", ";
+							}
+		        		} else {
+		        			break;
+		        		}
+		    		}
+
+		        	if (text_format_html.length() > 2) {
+		        		text_format_html = text_format_html.substring(0, text_format_html.length()-2);
+		        		webpage_out.println(text_format_html);
+		        	}
+					
+					webpage_out.println("</td></tr>");
+					
+					print_writer_output_text.println(text_format_html);
+					
+					print_writer_output_text.println("</td></tr>");
+		        }
+		    }
+		} catch(Exception ioe) {
+		    ioe.printStackTrace();
+		}
+		
+		webpage_out.println("</table>");
+		
+		webpage_out.println("</body>");
+		webpage_out.println("</html>");
+		
+		print_writer_output_text.println("</table>");
+		
+		print_writer_output_text.println("</body>");
+		print_writer_output_text.println("</html>");
+		
+		//////////////////////////////////
+		
+		webpage_out.println("</textarea></td></tr></table>");
 
 		
 		webpage_out.println("<hr>");
@@ -284,6 +437,12 @@ webpage_out.println("</tr>");
 			
 		webpage_out.println("</body>");
 	webpage_out.println("</html>");
+	
+	/////////////////////////////////////////////////////////////////
+	// Close the file (table, text)
+	/////////////////////////////////////////////////////////////////
+	print_writer_output_table.close();
+	print_writer_output_text.close();
 
 	}
 }

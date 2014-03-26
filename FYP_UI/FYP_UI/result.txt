@@ -1,4 +1,4 @@
-Start Time = 14:31:29
+Start Time = 02:32:32
 
 ===== testing string 1 =====
 M. Xiao, L. Cai, A.C.C. Yao, Tight Approximation Ratio of a General Greedy Splitting Algorithm for the Minimum k-Way Cut Problem, Algorithmica Vol 59 510-520, 2011. 
@@ -64,6 +64,6 @@ Publisher = Academic Press
 
 
 
-End Time = 14:31:33
+End Time = 02:32:35
 
 Running Time = 3 seconds

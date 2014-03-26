@@ -95,6 +95,7 @@ public class Main extends HttpServlet {
 							webpage_out.println("</td>");
 						webpage_out.println("</tr>");
 					webpage_out.println("</table>");
+					webpage_out.println("</form>");
 					
 
 					webpage_out.println("<hr>");
@@ -644,7 +645,7 @@ public class Main extends HttpServlet {
 					weka.runResult_new();
 					label = weka.getClassLabel();
 					distribution = weka.getClassDistribution();
-					//out.println(strbuf);
+					webpage_out.println(strbuf);
 					
 					for (int i=0; i<label.length; i++) {
 						webpage_out.print("Predicted as: ");
@@ -952,12 +953,14 @@ public class Main extends HttpServlet {
 			webpage_out.println("</td>");
 			
 			webpage_out.println("<td>");
+			webpage_out.println("<a href=\"htmlcode.jsp\">Click to generate HTML code</a><br/><br/>");
 			webpage_out.println("<a href=\"result.bib\">Click to download \"result.bib\"</a><br/>");
 			webpage_out.println("<a href=\"result.xls\">Click to download \"result.xls\"</a><br/>");
 			webpage_out.println("<a href=\"result.txt\">Click to download \"result.txt\"</a>");
 			webpage_out.println("</td>");
 		webpage_out.println("</tr>");
 	webpage_out.println("</table>");
+	webpage_out.println("</form>");
 	
 
 	webpage_out.println("<hr>");
