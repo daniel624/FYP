@@ -1,16 +1,35 @@
-Start Time = 02:32:32
+Start Time = 20:24:59
 
 ===== testing string 1 =====
-M. Xiao, L. Cai, A.C.C. Yao, Tight Approximation Ratio of a General Greedy Splitting Algorithm for the Minimum k-Way Cut Problem, Algorithmica Vol 59 510-520, 2011. 
+Andrej Bogdanov and Youming Qiao: On the security of Goldreich's one-way function. In Computational Complexity, vol. 21, no. 1, 2012. Invited paper. (Preliminary version in Proceedings of the 13th International Workshop on Randomization and Computation (RANDOM), 2009.)
+Title = On the security of Goldreich's one-way function
+Proceeding = 13th International Workshop on Randomization and Computation (RANDOM)
+Volume = 21
+Number = 1
+Year = 2012
+Month = November
+===== end 1 =====
+
+
+===== testing string 2 =====
+Andrej Bogdanov, Periklis Papakonstantinou, and Andrew Wan: Pseudorandomness for read-once formulas. In Proceedings of the 52nd Annual Symposium on Foundations of Computer Science (FOCS), 2011.
+Title = Pseudorandomness for read-once formulas
+Proceeding = 52nd Annual Symposium on Foundations of Computer Science (FOCS)
+Year = 2011
+===== end 2 =====
+
+
+===== testing string 3 =====
+M. Xiao, L. Cai, and A.C.C. Yao, Tight Approximation Ratio of a General Greedy Splitting Algorithm for the Minimum k-Way Cut Problem, Algorithmica Vol 59 510-520, 2011.
 Title = Tight Approximation Ratio of a General Greedy Splitting Algorithm for the Minimum k-Way Cut Problem
 Volume = 59
 Page = 510-520
 Year = 2011
 Authors = M. Xiao
-===== end 1 =====
+===== end 3 =====
 
 
-===== testing string 2 =====
+===== testing string 4 =====
 L. Cai, Parameterized Complexity of Cardinality Constrained Optimization Problems, the Computer Journal, 51(1) 102-121, 2008.
 Title = Parameterized Complexity of Cardinality Constrained Optimization Problems
 Journal = Computer Journal
@@ -19,10 +38,10 @@ Issue = 1
 Page = 102-121
 Year = 2008
 Authors = L. Cai
-===== end 2 =====
+===== end 4 =====
 
 
-===== testing string 3 =====
+===== testing string 5 =====
 L. Cai and D.G. Corneil, Tree Spanners, SIAM Journal on Discrete Mathematics, 8(3), 359-387, 1995.
 Journal = SIAM Journal on Discrete Mathematics
 Volume = 8
@@ -30,10 +49,28 @@ Issue = 3
 Page = 359-387
 Year = 1995
 Authors = L. Cai and D.G. Corneil
-===== end 3 =====
+===== end 5 =====
 
 
-===== testing string 4 =====
+===== testing string 6 =====
+Zhenxing Wang, Laiwan Chan. Learning Causal Relationship in Multivariate time series Data, ACM Transactions on Intelligent Systems and Technology (TIST) , 2012: Vol 3, No 4, article no 76
+Title = Laiwan Chan. Learning Causal Relationship in Multivariate time series Data
+Volume = 3
+Number = 4
+Year = 2012
+Article = 76
+===== end 6 =====
+
+
+===== testing string 7 =====
+Zhitang Chen, Laiwan Chan. Causal Discovery for Linear Non-Gaussian Acyclic Models in the Presence of Latent Gaussian Confounders. LVA/ICA, 2012: 17-24 
+Title = Causal Discovery for Linear Non-Gaussian Acyclic Models in the Presence of Latent Gaussian Confounders
+Page = 17-24
+Year = 2012
+===== end 7 =====
+
+
+===== testing string 8 =====
 Zhitang Chen, Laiwan Chan. New Approaches for Solving Permutation Indeterminacy and Scaling Ambiguity in Frequency Domain Separation of Convolved Mixtures, Proceedings of International Joint Conference on Neural Networks, San Jose, California, USA, July 31-August 5, 2011, p911-918
 Title = Laiwan Chan. New Approaches for Solving Permutation Indeterminacy and Scaling Ambiguity in Frequency Domain Separation of Convolved Mixtures
 Proceeding = International Joint Conference on Neural Networks
@@ -42,28 +79,137 @@ Number = July-August5
 Page = 911-918
 Year = 2011
 Month = July-August
-===== end 4 =====
+===== end 8 =====
 
 
-===== testing string 5 =====
-Andrej Bogdanov, Periklis Papakonstantinou, and Andrew Wan: Pseudorandomness for read-once formulas. In Proceedings of the 52nd Annual Symposium on Foundations of Computer Science (FOCS), 2011
-Title = Pseudorandomness for read-once formulas
-Proceeding = 52nd Annual Symposium on Foundations of Computer Science (FOCS)
+===== testing string 9 =====
+Laiwan Chan. A Study of the Activity Levels in E-learning Using Data Mining Approach. Australian Quality Forum 2010 Higher Education, p.28-34. Gold Coast, Australia, 2010.06
+Title = A Study of the Activity Levels in E-learning Using Data Mining Approach
+Volume = 2010
+Number = 2010.06
+Page = 28-34
+Year = 2010
+Month = June
+===== end 9 =====
+
+
+===== testing string 10 =====
+Lou S, Ni B, Lo LY, Tsui SK, Chan TF*, and Leung KS: ABMapper: a suffix array-based tool for multi-location searching and splice-junction mapping. Bioinformatics. 2011 27(3):421-2.  (*corresponding author, page special)
+Title = ABMapper: a suffix array-based tool for multi-location searching and splice-junction mapping. Bioinformatics.
+Journal = BIOINFORMATICS
+Volume = 27
+Issue = 3
+Page = 421-2
 Year = 2011
-===== end 5 =====
+Month = June
+===== end 10 =====
 
 
-===== testing string 6 =====
-Lau, E. Y. Y.* (2013). Mood and behavior. In C. A. Kushida (Eds.), Encyclopedia of Sleep, Vol.3 (pp.413-418). Waltham, MA: Academic Press.
-Volume = 3
-Page = 413-418
+===== testing string 11 =====
+Kwok PY and TF Chan: Genotyping technologies: the present and the future. In Genetics, Genomics, Proteomics and Bioinformatics, Marsh, J (Ed.). 2005, John Wiley & Sons Ltd., London
+Title = Genotyping technologies: the present and the future
+Year = 2005
+Month = March
+Publisher = John Wiley & Sons Ltd
+===== end 11 =====
+
+
+===== testing string 12 =====
+James Cheng, Zechao Shang, Hong Cheng, Haixun Wang, and Jeffrey Xu Yu., KReach: Who is In Your Small World., In PVLDB, Volume 5, Number 11, Pages 1292-1303, 2012
+Title = Who is In Your Small World
+Volume = 5
+Number = 11
+Page = 1292-1303
+Year = 2012
+===== end 12 =====
+
+
+===== testing string 13 =====
+J. Tang and A. Fu, "Query Rewriting Using Views for XPath queries, framework, and methodologies", Information Systems, 35:3, May, 2010, pages 315-334
+Title = Query Rewriting Using Views for XPath queries, framework, and methodologies
+Volume = 35
+Number = :3
+Page = 315-334
+Year = 2010
+Authors = J. Tang and A. Fu
+Month = May
+===== end 13 =====
+
+
+===== testing string 14 =====
+"Using Time-Varying Texels to Simulate Withering Grassland",, S. Jiao, W. Wu, P. A. Heng and E. Wu, , IEEE Computer Graphics and Applications, pp. 36 - 48, 2012
+Title = Using Time-Varying Texels to Simulate Withering Grassland
+Page = 36-48
+Year = 2012
+Authors = S. Jiao
+===== end 14 =====
+
+
+===== testing string 15 =====
+"Structure-Aware Halftoning", , W. M. Pang, Y. Qu, T. T. Wong, D. Cohen-Or and P. A. Heng,, ACM Transactions on Graphics (SIGGRAPH 2008 issue), Vol.27, No.3:Article 89, 2008, pp.89-1.
+Title = Structure-Aware Halftoning
+Volume = 27
+Number = 3
+Page = 89-1
+Year = 2008
+Authors = W. M. Pang
+Article = 89
+===== end 15 =====
+
+
+===== testing string 16 =====
+Mingzhen Mo, Irwin King, and Kwong-Sak Leung, "Empirical Comparisons of Attack and Protection Algorithms for Online Social Networks", Procedia CS, vol. 5, pp. 705-712, 2011
+Title = Empirical Comparisons of Attack and Protection Algorithms for Online Social Networks
+Journal = Social Networks
+Volume = 5
+Page = 705-712
+Year = 2011
+===== end 16 =====
+
+
+===== testing string 17 =====
+Hao Ma, Irwin King, and Michael R. Lyu, "Learning to Recommend with Explicit and Implicit Social Relations", ACM Transactions on Intelligent Systems and Technology (TIST), vol. 2, iss. 3, p. 29:1-29:19, 2011.
+Title = Learning to Recommend with Explicit and Implicit Social Relations
+Volume = 2
+Issue = 3
+Page = 29:1-29:19
+Year = 2011
+Authors =  and Michael R. Lyu
+===== end 17 =====
+
+
+===== testing string 18 =====
+I. King, "Report on the Computer Strategy Game Programming Workshop", International Computer Chess Association Journal, pp. 113-115, June 1995
+Title = Report on the Computer Strategy Game Programming Workshop
+Journal = International Computer Chess Association Journal
+Page = 113-115
+Year = 1995
+Authors = I. King
+Month = June
+===== end 18 =====
+
+
+===== testing string 19 =====
+Graph connectivities, network coding, and expander graphs, Ho Yee Cheung, Lap Chi Lau, Kai Man Leung, SIAM Journal on Computing, 42(3), 733-751, 2013 
+Journal = SIAM Journal on Computing
+Volume = 42
+Issue = 3
+Page = 733-751
 Year = 2013
-Authors = E. Y. Y.* (). Mood and behavior. In C. A. Kushida (Eds.)
-Publisher = Academic Press
-===== end 6 =====
+===== end 19 =====
+
+
+===== testing string 20 =====
+On linear and semidefinite programming relaxation for hypergraph matching, Yuk Hei Chan, Lap Chi Lau, Mathematical Programming, 135(1-2), 123-148, 2012
+Title = On linear and semidefinite programming relaxation for hypergraph matching
+Volume = 135
+Issue = 1-2
+Page = 123-148
+Year = 2012
+===== end 20 =====
 
 
 
-End Time = 02:32:35
+End Time = 20:25:08
 
-Running Time = 3 seconds
+Running Time = 8 seconds

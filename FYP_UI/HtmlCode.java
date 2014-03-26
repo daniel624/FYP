@@ -213,7 +213,7 @@ webpage_out.println("</tr>");
 			
 		webpage_out.println("<table><tr>");
 		webpage_out.println("<td><b>Table format</b></td>");
-		webpage_out.println("<td><a href=\"table.html\">Right Click to download \"table.html\"</a></td><tr>");
+		webpage_out.println("<td><a href=\"table.html\">Right click to download \"table.html\"</a></td><tr>");
 		
 		webpage_out.println("<tr><td colspan=2><textarea rows=\"20\" cols=\"70\" name=\"htmlcode_table_format\" id=\"htmlcode_table_forma_id\">");
 		
@@ -241,10 +241,13 @@ webpage_out.println("</tr>");
 		
 		print_writer_output_table.println("<table border=\"1\"><tr>");
 		
+		webpage_out.println("<th></th>");
+		print_writer_output_table.println("<th></th>");
+		
 		for (int i=0; i<sort_order_with_correspond_field.length; i++) {
 			if (sort_order_with_correspond_field[i] != -1) {
-				webpage_out.println("<td>" + header_string[sort_order_with_correspond_field[i]] +"</td>");
-				print_writer_output_table.println("<td>" + header_string[sort_order_with_correspond_field[i]] +"</td>");
+				webpage_out.println("<th>" + header_string[sort_order_with_correspond_field[i]] +"</th>");
+				print_writer_output_table.println("<th>" + header_string[sort_order_with_correspond_field[i]] +"</th>");
 			}
 		}
 		
@@ -280,6 +283,10 @@ webpage_out.println("</tr>");
 		        if(row != null) {
 
 		        	webpage_out.println("<tr>");
+		        	print_writer_output_table.println("<tr>");
+		        	
+		        	webpage_out.println("<td>" + r + "</td>");
+		        	print_writer_output_table.println("<td>" + r + "</td>");
 		        	
 		        	for (int i=0; i<sort_order_with_correspond_field.length; i++) {
 		        		if (sort_order_with_correspond_field[i] != -1) {
@@ -320,7 +327,7 @@ webpage_out.println("</tr>");
 		webpage_out.println("</textarea></td></tr><tr><td colspan=2><br/></td></tr><tr>");
 		
 		webpage_out.println("<td><b>Text format</b></<td>");
-		webpage_out.println("<td><a href=\"text.html\">Right Click to download \"text.html\"</a><td>");
+		webpage_out.println("<td><a href=\"text.html\">Right click to download \"text.html\"</a><td>");
 
 		webpage_out.println("<tr><td colspan=2><textarea rows=\"20\" cols=\"70\" name=\"htmlcode_text_format\" id=\"htmlcode_text_format_id\">");
 		
@@ -379,20 +386,31 @@ webpage_out.println("</tr>");
 		        	webpage_out.println("<tr><td>");
 		        	print_writer_output_text.println("<tr><td>");
 		        	
-		        	text_format_html = "";
+		        	text_format_html = "(" + r + ") ";
 		        	
 		        	for (int i=0; i<sort_order_with_correspond_field.length; i++) {
 		        		if (sort_order_with_correspond_field[i] != -1) {
 			        		cell_arr[sort_order_with_correspond_field[i]] = row.getCell((short) sort_order_with_correspond_field[i]);
 							if (cell_arr[sort_order_with_correspond_field[i]] != null) {
-								text_format_html = text_format_html + cell_arr[sort_order_with_correspond_field[i]].getStringCellValue() + ", ";
+								
+								if (sort_order_with_correspond_field[i] == 4) {
+									text_format_html = text_format_html + "vol." + cell_arr[sort_order_with_correspond_field[i]].getStringCellValue() + ", ";
+								} else if (sort_order_with_correspond_field[i] == 5) {
+									text_format_html = text_format_html + "iss." + cell_arr[sort_order_with_correspond_field[i]].getStringCellValue() + ", ";
+								} else if (sort_order_with_correspond_field[i] == 6) {
+									text_format_html = text_format_html + "no." + cell_arr[sort_order_with_correspond_field[i]].getStringCellValue() + ", ";
+								}  else if (sort_order_with_correspond_field[i] == 7) {
+									text_format_html = text_format_html + "p." + cell_arr[sort_order_with_correspond_field[i]].getStringCellValue() + ", ";
+								} else {
+									text_format_html = text_format_html + cell_arr[sort_order_with_correspond_field[i]].getStringCellValue() + ", ";
+								}
 							}
 		        		} else {
 		        			break;
 		        		}
 		    		}
 
-		        	if (text_format_html.length() > 2) {
+		        	if (text_format_html.length() > 6) {
 		        		text_format_html = text_format_html.substring(0, text_format_html.length()-2);
 		        		webpage_out.println(text_format_html);
 		        	}
