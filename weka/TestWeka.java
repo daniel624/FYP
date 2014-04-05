@@ -53,8 +53,10 @@ public class TestWeka {
 		/** check result and test arff **/
     	int[] result = {0,0};
 		try {
-	    	BufferedReader buf1 = new BufferedReader(new FileReader("/WEB-INF/classes/data/publication-test.arff"));
-	    	BufferedReader buf2 = new BufferedReader(new FileReader("/WEB-INF/classes/data/publication-result.arff"));
+	    	//BufferedReader buf1 = new BufferedReader(new FileReader("/WEB-INF/classes/data/publication-test.arff"));
+	    	//BufferedReader buf2 = new BufferedReader(new FileReader("/WEB-INF/classes/data/publication-result.arff"));
+			BufferedReader buf1 = new BufferedReader(new FileReader("src/data/publication-test.arff"));
+	    	BufferedReader buf2 = new BufferedReader(new FileReader("src/classes/data/publication-result.arff"));
 	    	String in1, in2;
 	    	int correct=0, total=0;
 	    	
@@ -86,7 +88,8 @@ public class TestWeka {
 	
 	public void buildTree() {
 		try {
-	    	String filename = "webapps/FYP_UI/WEB-INF/classes/data/publication-train.arff";
+	    	//String filename = "webapps/FYP_UI/WEB-INF/classes/data/publication-train.arff";
+			String filename = "src/data/publication-train.arff";
 	    	BufferedReader buf = new BufferedReader(new FileReader(filename));
 	    	Instances train = new Instances(buf);
 	    	train.setClassIndex(0);
@@ -103,8 +106,8 @@ public class TestWeka {
 	
 	public void runResult_new() {
 		try {
-			//String filename = "src/data/out-data.arff";
-			String filename = "webapps/FYP_UI/WEB-INF/classes/data/out-data.arff";
+			String filename = "src/data/out-data.arff";
+			//String filename = "webapps/FYP_UI/WEB-INF/classes/data/out-data.arff";
 	    	BufferedReader buf = new BufferedReader(new FileReader(filename));
 	    	Instances test = new Instances(buf);
 	    	test.setClassIndex(0);

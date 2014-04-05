@@ -10,6 +10,7 @@ import java.net.*;
 import java.io.*;
 import org.apache.commons.lang3.*;
 import common.CommonFunction;
+import weka.*;
 
 public class CheckArray {
 	String originalInput;
@@ -18,6 +19,9 @@ public class CheckArray {
 	private static HashMap<Integer, ArrayList> jmap = new HashMap<Integer, ArrayList>();
 	private static HashMap<Integer, ArrayList> cmap = new HashMap<Integer, ArrayList>();
 	private static HashMap<Integer, ArrayList> pmap = new HashMap<Integer, ArrayList>();
+	
+	private ProcessData process = new ProcessData();
+	private TestWeka test = new TestWeka();
 	
 	public static void constructMap() {
 		try {
@@ -73,6 +77,10 @@ public class CheckArray {
 	
 	public String[] getArray() {
 		return array;
+	}
+	
+	public void processData() {
+		test.buildTree();
 	}
 	
 	/**
@@ -1181,10 +1189,19 @@ public class CheckArray {
 							fullname = list.get(1).toString();
 							short1 = list.get(2).toString();
 							short2 = list.get(3).toString();
+							
+							// check exact match of journal name
+							if (fullname.equals(checkStr)) {
+								journal = checkStr;
+								break;
+							}
+							
+							// check partial match of journal name
 							if (fullname.indexOf(checkStr) >=0 ||
 								short1.toString().indexOf(checkStr) >=0 ||
 								short2.toString().indexOf(checkStr) >=0) {
 								journal = fullname;
+								break;
 							}
 						}
 					}
@@ -1851,6 +1868,20 @@ public class CheckArray {
 		}
 		*/
 		
+		/** to be modified (Daniel 2014-04-02) **/
+		/*double[][] dist;
+		
+		for (int i=0; i<array.length; i++) {
+			process.makeArff2(array[i]);
+			test.runResult_new();
+			dist = test.getClassDistribution();
+			for (int j=0; j<dist.length; j++) {
+				if (dist[j][0] > 0.9) {
+					authors += array[i].trim() + " and ";
+				}
+			}
+		}*/
+		
 		for (int i=0; i<array.length; i++)
 		{
 			leadingLetter = Pattern.compile("[A-Z]\\.( )*").matcher(array[i]);
@@ -1860,7 +1891,7 @@ public class CheckArray {
 					array[i] = (array[i].substring(0, array[i].indexOf("and"))).trim() + "& " + (array[i].substring(array[i].indexOf("and") + 3)).trim();
 					authors += array[i].trim();
 				} else {
-					authors += array[i].trim() + "& ";
+					authors += array[i].trim() + " and ";
 				}
 			
 				array[i] = "";

@@ -280,7 +280,8 @@ public class ProcessData {
 	 */
 	public void makeArff2(String data) {
 		try {
-			String outfile = "webapps/FYP_UI/WEB-INF/classes/data/out-data.arff";
+			//String outfile = "webapps/FYP_UI/WEB-INF/classes/data/out-data.arff";
+			String outfile = "src/data/out-data.arff";
 			BufferedWriter out = new BufferedWriter(new FileWriter(outfile));
 			String[] chunk = data.split("%%");
 			String input, output, str, type;

@@ -548,7 +548,7 @@ public class Main {
 					weka.runResult_new();
 					label = weka.getClassLabel();
 					distribution = weka.getClassDistribution();
-					out.println(strbuf);
+					//out.println(strbuf);
 					
 					for (int i=0; i<label.length; i++) {
 						System.out.print("Predicted as: ");
