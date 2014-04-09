@@ -89,20 +89,18 @@ public class HtmlCode extends HttpServlet {
 			webpage_out.println("<table>");
 
 			webpage_out.println("<tr>");
-			webpage_out.println("<td colspan=2>");
+			webpage_out.println("<td colspan=3>");
 			webpage_out.println("We will provide 2 types of format for HTML display (<a href=\"table_sample.JPG\"><b>Table format</b></a> & <a href=\"text_sample.JPG\"><b>Text format</b></a>)");
 			webpage_out.println("</td>");
 			webpage_out.println("</tr>");
 			
 webpage_out.println("<tr>");
-webpage_out.println("<td colspan=2>");
-webpage_out.println("Please select the order of different fields (Total 16 fields):");
-webpage_out.println("</td>");
+	webpage_out.println("<td colspan=3><br></td>");
 webpage_out.println("</tr>");
 
-
 webpage_out.println("<tr>");
-	webpage_out.println("<td colspan=2><br></td>");
+webpage_out.println("<td colspan=2><u>Order of different fields</u></td>");
+webpage_out.println("<td><u>Wording for Text format</u></td>");
 webpage_out.println("</tr>");
 
 for (int i=0; i<header_string.length; i++) {
@@ -131,17 +129,95 @@ for (int i=0; i<header_string.length; i++) {
 				webpage_out.println("<option value=\"15\">16</option>");
 			webpage_out.println("</select>");
 		webpage_out.println("</td>");
+		
+		
+		webpage_out.println("<td>");
+		if (i==4) {
+			webpage_out.println("<select name=\"vol_wording_1\" style=\"width: 100px\">");
+			webpage_out.println("<option value=\"0\">vol</option>");
+			webpage_out.println("<option value=\"1\">volume</option>");
+			webpage_out.println("<option value=\"2\">Vol</option>");
+			webpage_out.println("<option value=\"3\">Volume</option>");
+			webpage_out.println("</select>");
+			webpage_out.println("<select name=\"vol_wording_2\">");
+			webpage_out.println("<option value=\"0\"></option>");
+			webpage_out.println("<option value=\"1\">. (fullstop)</option>");
+			webpage_out.println("<option value=\"2\">: (colon)</option>");
+			webpage_out.println("</select>");
+		} else {
+			if (i==5) {
+				webpage_out.println("<select name=\"iss_wording_1\" style=\"width: 100px\">");
+				webpage_out.println("<option value=\"0\">iss</option>");
+				webpage_out.println("<option value=\"1\">issue</option>");
+				webpage_out.println("<option value=\"2\">Iss</option>");
+				webpage_out.println("<option value=\"3\">Issue</option>");
+				webpage_out.println("</select>");
+				webpage_out.println("<select name=\"iss_wording_2\">");
+				webpage_out.println("<option value=\"0\"></option>");
+				webpage_out.println("<option value=\"1\">. (fullstop)</option>");
+				webpage_out.println("<option value=\"2\">: (colon)</option>");
+				webpage_out.println("</select>");
+			} else {
+				if (i==6) {
+					webpage_out.println("<select name=\"num_wording_1\" style=\"width: 100px\">");
+					webpage_out.println("<option value=\"0\">no</option>");
+					webpage_out.println("<option value=\"1\">nubmer</option>");
+					webpage_out.println("<option value=\"2\">No</option>");
+					webpage_out.println("<option value=\"3\">Nubmer</option>");
+					webpage_out.println("</select>");
+					webpage_out.println("<select name=\"num_wording_2\">");
+					webpage_out.println("<option value=\"0\"></option>");
+					webpage_out.println("<option value=\"1\">. (fullstop)</option>");
+					webpage_out.println("<option value=\"2\">: (colon)</option>");
+					webpage_out.println("</select>");
+				} else {
+					if (i==7) {
+						webpage_out.println("<select name=\"page_wording_1\" style=\"width: 100px\">");
+						webpage_out.println("<option value=\"0\">p</option>");
+						webpage_out.println("<option value=\"1\">pp</option>");
+						webpage_out.println("<option value=\"2\">page</option>");
+						webpage_out.println("<option value=\"3\">P</option>");
+						webpage_out.println("<option value=\"4\">PP</option>");
+						webpage_out.println("<option value=\"5\">Page</option>");
+						webpage_out.println("</select>");
+						webpage_out.println("<select name=\"page_wording_2\">");
+						webpage_out.println("<option value=\"0\"></option>");
+						webpage_out.println("<option value=\"1\">. (fullstop)</option>");
+						webpage_out.println("<option value=\"2\">: (colon)</option>");
+						webpage_out.println("</select>");
+					}
+				}
+			}
+		}
+		webpage_out.println("</td>");
 	webpage_out.println("</tr>");
 }
 
 
 webpage_out.println("<tr>");
-	webpage_out.println("<td colspan=2><br></td>");
+	webpage_out.println("<td colspan=3><br></td>");
+webpage_out.println("</tr>");
+
+webpage_out.println("<tr>");
+webpage_out.println("<td colspan=2></td>");
+webpage_out.println("<td><b>Seperator</b>");
+webpage_out.println("<select name=\"seperator\">");
+webpage_out.println("<option value=\"0\">, (comma)</option>");
+webpage_out.println("<option value=\"1\">; (semicolon)</option>");
+webpage_out.println("<option value=\"2\"></option>");
+webpage_out.println("</select>");
+webpage_out.println("</td>");
+webpage_out.println("</tr>");
+
+webpage_out.println("<tr>");
+webpage_out.println("<td colspan=3><br></td>");
 webpage_out.println("</tr>");
 
 
+
+
 				webpage_out.println("<tr>");
-							webpage_out.println("<td colspan=2>");
+							webpage_out.println("<td colspan=3>");
 								webpage_out.println("<input type=\"button\" value=\"Create HTML Code\" onclick=\"submit_func()\">");
 								//webpage_out.println("<input type=\"button\" value=\"Reset\" onClick=\"clearFields()\">");
 							webpage_out.println("</td>");
@@ -201,6 +277,18 @@ webpage_out.println("</tr>");
 				sort_order_with_correspond_field[user_order[i]] = i;
 			}
 		}
+		
+		int volume_get_1 = Integer.parseInt(req.getParameter("vol_wording_1"));
+		int issue_get_1 = Integer.parseInt(req.getParameter("iss_wording_1"));
+		int number_get_1 = Integer.parseInt(req.getParameter("num_wording_1"));
+		int page_get_1 = Integer.parseInt(req.getParameter("page_wording_1"));
+		
+		int volume_get_2 = Integer.parseInt(req.getParameter("vol_wording_2"));
+		int issue_get_2 = Integer.parseInt(req.getParameter("iss_wording_2"));
+		int number_get_2 = Integer.parseInt(req.getParameter("num_wording_2"));
+		int page_get_2 = Integer.parseInt(req.getParameter("page_wording_2"));
+		
+		int seperator_get = Integer.parseInt(req.getParameter("seperator"));
 
 		webpage_out.println("<html>");
 		webpage_out.println("<head>");
@@ -394,15 +482,140 @@ webpage_out.println("</tr>");
 							if (cell_arr[sort_order_with_correspond_field[i]] != null) {
 								
 								if (sort_order_with_correspond_field[i] == 4) {
-									text_format_html = text_format_html + "vol." + cell_arr[sort_order_with_correspond_field[i]].getStringCellValue() + ", ";
+									if (volume_get_1 == 0) {
+										text_format_html = text_format_html + "vol";
+									} else {
+										if (volume_get_1 == 1) {
+											text_format_html = text_format_html + "volume";
+										} else {
+											if (volume_get_1 == 2) {
+												text_format_html = text_format_html + "Vol";
+											} else {
+												if (volume_get_1 == 3) {
+													text_format_html = text_format_html + "Volume";
+												}
+											}
+										}
+									}
+									
+									if (volume_get_2 == 0) {
+										text_format_html = text_format_html + " ";
+									} else {
+										if (volume_get_2 == 1) {
+											text_format_html = text_format_html + ". ";
+										} else {
+											if (volume_get_2 == 2) {
+												text_format_html = text_format_html + ": ";
+											}
+										}
+									}
 								} else if (sort_order_with_correspond_field[i] == 5) {
-									text_format_html = text_format_html + "iss." + cell_arr[sort_order_with_correspond_field[i]].getStringCellValue() + ", ";
+									if (issue_get_1 == 0) {
+										text_format_html = text_format_html + "iss";
+									} else {
+										if (issue_get_1 == 1) {
+											text_format_html = text_format_html + "issue";
+										} else {
+											if (issue_get_1 == 2) {
+												text_format_html = text_format_html + "Iss";
+											} else {
+												if (issue_get_1 == 3) {
+													text_format_html = text_format_html + "Issue";
+												}
+											}
+										}
+									}
+									
+									if (issue_get_2 == 0) {
+										text_format_html = text_format_html + " ";
+									} else {
+										if (issue_get_2 == 1) {
+											text_format_html = text_format_html + ". ";
+										} else {
+											if (issue_get_2 == 2) {
+												text_format_html = text_format_html + ": ";
+											}
+										}
+									}
 								} else if (sort_order_with_correspond_field[i] == 6) {
-									text_format_html = text_format_html + "no." + cell_arr[sort_order_with_correspond_field[i]].getStringCellValue() + ", ";
+									if (number_get_1 == 0) {
+										text_format_html = text_format_html + "no";
+									} else {
+										if (number_get_1 == 1) {
+											text_format_html = text_format_html + "number";
+										} else {
+											if (number_get_1 == 2) {
+												text_format_html = text_format_html + "No";
+											} else {
+												if (number_get_1 == 3) {
+													text_format_html = text_format_html + "Number";
+												}
+											}
+										}
+									}
+									
+									if (number_get_2 == 0) {
+										text_format_html = text_format_html + " ";
+									} else {
+										if (number_get_2 == 1) {
+											text_format_html = text_format_html + ". ";
+										} else {
+											if (number_get_2 == 2) {
+												text_format_html = text_format_html + ": ";
+											}
+										}
+									}
 								}  else if (sort_order_with_correspond_field[i] == 7) {
-									text_format_html = text_format_html + "p." + cell_arr[sort_order_with_correspond_field[i]].getStringCellValue() + ", ";
+									if (page_get_1 == 0) {
+										text_format_html = text_format_html + "p";
+									} else {
+										if (page_get_1 == 1) {
+											text_format_html = text_format_html + "pp";
+										} else {
+											if (page_get_1 == 2) {
+												text_format_html = text_format_html + "page";
+											} else {
+												if (page_get_1 == 3) {
+													text_format_html = text_format_html + "P";
+												} else {
+													if (page_get_1 == 4) {
+														text_format_html = text_format_html + "PP";
+													} else {
+														if (page_get_1 == 5) {
+															text_format_html = text_format_html + "Page";
+														}
+													}
+												}
+											}
+										}
+									}
+									
+									if (page_get_2 == 0) {
+										text_format_html = text_format_html + " ";
+									} else {
+										if (page_get_2 == 1) {
+											text_format_html = text_format_html + ". ";
+										} else {
+											if (page_get_2 == 2) {
+												text_format_html = text_format_html + ": ";
+											}
+										}
+									}
+								}
+								
+								
+								text_format_html = text_format_html + cell_arr[sort_order_with_correspond_field[i]].getStringCellValue();
+								
+								if (seperator_get == 0) {
+									text_format_html = text_format_html + ", ";
 								} else {
-									text_format_html = text_format_html + cell_arr[sort_order_with_correspond_field[i]].getStringCellValue() + ", ";
+									if (seperator_get == 1) {
+										text_format_html = text_format_html + "; ";
+									}  else {
+										if (seperator_get == 2) {
+											text_format_html = text_format_html + " ";
+										}
+									}
 								}
 							}
 		        		} else {
