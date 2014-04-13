@@ -200,7 +200,7 @@ webpage_out.println("</tr>");
 
 webpage_out.println("<tr>");
 webpage_out.println("<td colspan=2></td>");
-webpage_out.println("<td><b>Seperator</b>");
+webpage_out.println("<td><b>Separator</b>");
 webpage_out.println("<select name=\"seperator\">");
 webpage_out.println("<option value=\"0\">, (comma)</option>");
 webpage_out.println("<option value=\"1\">; (semicolon)</option>");
