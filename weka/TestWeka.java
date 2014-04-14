@@ -109,6 +109,8 @@ public class TestWeka {
 			String filename = "src/data/out-data.arff";
 			//String filename = "webapps/FYP_UI/WEB-INF/classes/data/out-data.arff";
 	    	BufferedReader buf = new BufferedReader(new FileReader(filename));
+	    	//buildTree();
+	    	
 	    	Instances test = new Instances(buf);
 	    	test.setClassIndex(0);
 	    	test_size = test.size();
@@ -118,6 +120,7 @@ public class TestWeka {
 			Instances labeled = new Instances(test);
 	    	clsLabel = new double[test_size];
 	    	distribution = new double[test_size][4];
+	    	//System.out.println("test size: " + test_size);
 	    	for (int i=0; i<test_size; i++) {
 	    		clsLabel[i] = tree.classifyInstance(test.instance(i));
 	    		labeled.instance(i).setClassValue(clsLabel[i]);
