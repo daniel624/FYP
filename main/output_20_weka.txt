@@ -1,0 +1,920 @@
+Start Time = 00:35:23
+
+746
+353
+242
+46
+343
+
+46
+26
+20
+2
+24
+
+===== testing string 1 =====
+Andrej Bogdanov and Youming Qiao: On the security of Goldreich's one-way function. In Computational Complexity, vol. 21, no. 1, 2012. Invited paper. (Preliminary version in Proceedings of the 13th International Workshop on Randomization and Computation (RANDOM), 2009.), 
+===== remaining fields 1 =====
+===== weka prediction =====
+Andrej Bogdanov and Youming Qiao:In Computational Complexity
+Predicted as: Title
+Distribution:
+Author: 0.0
+Title: 1.0
+Journal: 0.0
+Proceeding: 0.0
+. Invited paper. (Preliminary version 
+Predicted as: Journal
+Distribution:
+Author: 0.3333333333333333
+Title: 0.06666666666666667
+Journal: 0.5333333333333333
+Proceeding: 0.06666666666666667
+2009.)
+Predicted as: Journal
+Distribution:
+Author: 0.49111111111111116
+Title: 0.0
+Journal: 0.5088888888888888
+Proceeding: 0.0
+===== splitted fields 1 =====
+Title = On the security of Goldreich's one-way function
+Journal = Computational Complexity
+Proceeding = 13th International Workshop on Randomization and Computation (RANDOM)
+Volume = 21
+Number = 1
+Year = 2012
+Authors = Andrej Bogdanov and Youming Qiao:In Computational Complexity
+Month = November
+
+***Wrong Authors
+===== end 1 =====
+
+
+===== testing string 2 =====
+Andrej Bogdanov, Periklis Papakonstantinou, and Andrew Wan: Pseudorandomness for read-once formulas. In Proceedings of the 52nd Annual Symposium on Foundations of Computer Science (FOCS), 2011., 
+===== remaining fields 2 =====
+===== weka prediction =====
+Andrej Bogdanov
+Predicted as: Distribution:
+Author: 0.6838359788359789
+Title: 0.0
+Journal: 0.31616402116402115
+Proceeding: 0.0
+Periklis Papakonstantinou
+Predicted as: Title
+Distribution:
+Author: 0.0
+Title: 0.6666666666666666
+Journal: 0.3333333333333333
+Proceeding: 0.0
+and Andrew Wan:
+Predicted as: Distribution:
+Author: 0.611111111111111
+Title: 0.0
+Journal: 0.38888888888888895
+Proceeding: 0.0
+===== splitted fields 2 =====
+Title = Pseudorandomness for read-once formulas
+Proceeding = 52nd Annual Symposium on Foundations of Computer Science (FOCS)
+Year = 2011
+Authors = Periklis Papakonstantinou
+Publisher = Angus B. Watson and Andrew MacMillan Art & Design
+
+***Wrong Authors
+===== end 2 =====
+
+
+===== testing string 3 =====
+M. Xiao, L. Cai, and A.C.C. Yao, Tight Approximation Ratio of a General Greedy Splitting Algorithm for the Minimum k-Way Cut Problem, Algorithmica Vol 59 510-520, 2011., 
+===== remaining fields 3 =====
+===== weka prediction =====
+L. Cai
+Predicted as: Author
+Distribution:
+Author: 1.0
+Title: 0.0
+Journal: 0.0
+Proceeding: 0.0
+and A.C.C. Yao
+Predicted as: Author
+Distribution:
+Author: 1.0
+Title: 0.0
+Journal: 0.0
+Proceeding: 0.0
+Algorithmica
+Predicted as: Journal
+Distribution:
+Author: 0.0
+Title: 0.0
+Journal: 1.0
+Proceeding: 0.0
+===== splitted fields 3 =====
+Title = Tight Approximation Ratio of a General Greedy Splitting Algorithm for the Minimum k-Way Cut Problem
+Journal = Algorithmica
+Volume = 59
+Page = 510-520
+Year = 2011
+Authors = M. Xiao and L. Cai and A.C.C. Yao
+Publisher = Light & Life Pub
+
+***Wrong Authors
+===== end 3 =====
+
+
+===== testing string 4 =====
+L. Cai, Parameterized Complexity of Cardinality Constrained Optimization Problems, the Computer Journal, 51(1) 102-121, 2008., 
+===== remaining fields 4 =====
+===== weka prediction =====
+the Computer Journal
+Predicted as: Distribution:
+Author: 0.6222222222222221
+Title: 0.0
+Journal: 0.3777777777777778
+Proceeding: 0.0
+===== splitted fields 4 =====
+Title = Parameterized Complexity of Cardinality Constrained Optimization Problems
+Journal = Computer Journal
+Volume = 51
+Issue = 1
+Page = 102-121
+Year = 2008
+Authors = L. Cai
+Publisher = Light & Life Pub
+
+===== end 4 =====
+
+
+===== testing string 5 =====
+L. Cai and D.G. Corneil, Tree Spanners, SIAM Journal on Discrete Mathematics, 8(3), 359-387, 1995., 
+===== remaining fields 5 =====
+===== weka prediction =====
+Tree Spanners
+Predicted as: Author
+Distribution:
+Author: 0.8714049839049839
+Title: 0.12859501609501608
+Journal: 0.0
+Proceeding: 0.0
+SIAM Journal on Discrete Mathematics
+Predicted as: Journal
+Distribution:
+Author: 0.0
+Title: 0.2
+Journal: 0.8
+Proceeding: 0.0
+===== splitted fields 5 =====
+Title = Cai and D.G.
+Journal = Discrete Mathematics
+Volume = 8
+Issue = 3
+Page = 359-387
+Year = 1995
+Authors = L.Corneil and Tree Spanners
+Publisher = Discrete Mathematics Theoretical Computer Science
+
+***Wrong Authors
+***Wrong Title
+***Wrong Journal
+===== end 5 =====
+
+
+===== testing string 6 =====
+Zhenxing Wang, Laiwan Chan. Learning Causal Relationship in Multivariate time series Data, ACM Transactions on Intelligent Systems and Technology (TIST) , 2012: Vol 3, No 4, article no 76, 
+===== remaining fields 6 =====
+===== weka prediction =====
+Zhenxing Wang
+Predicted as: Author
+Distribution:
+Author: 0.8714049839049839
+Title: 0.12859501609501608
+Journal: 0.0
+Proceeding: 0.0
+ACM Transactions on Intelligent Systems and Technology (TIST)
+Predicted as: Journal
+Distribution:
+Author: 0.0
+Title: 0.3
+Journal: 0.7
+Proceeding: 0.0
+===== splitted fields 6 =====
+Title = Laiwan Chan. Learning Causal Relationship in Multivariate time series Data
+Volume = 3
+Number = 4
+Year = 2012
+Authors = and Zhenxing Wang
+Article = 76
+Publisher = [Univ.] : Lundequistska bokh., distr.
+
+***Wrong Authors
+***Wrong Title
+***Wrong Journal
+===== end 6 =====
+
+
+===== testing string 7 =====
+Zhitang Chen, Laiwan Chan. Causal Discovery for Linear Non-Gaussian Acyclic Models in the Presence of Latent Gaussian Confounders. LVA/ICA, 2012: 17-24 , 
+===== remaining fields 7 =====
+===== weka prediction =====
+Zhitang Chen
+Predicted as: Author
+Distribution:
+Author: 0.9230183892200415
+Title: 0.0
+Journal: 0.0769816107799585
+Proceeding: 0.0
+Laiwan Chan.LVA/ICA
+Predicted as: Journal
+Distribution:
+Author: 0.13333333333333333
+Title: 0.0
+Journal: 0.8666666666666667
+Proceeding: 0.0
+===== splitted fields 7 =====
+Title = Causal Discovery for Linear Non-Gaussian Acyclic Models in the Presence of Latent Gaussian Confounders
+Page = 17-24
+Year = 2012
+Authors = and Zhitang Chen
+Publisher = [Univ.] : Lundequistska bokh., distr.
+
+***Wrong Authors
+***Wrong Journal
+===== end 7 =====
+
+
+===== testing string 8 =====
+Zhitang Chen, Laiwan Chan. New Approaches for Solving Permutation Indeterminacy and Scaling Ambiguity in Frequency Domain Separation of Convolved Mixtures, Proceedings of International Joint Conference on Neural Networks, San Jose, California, USA, July 31-August 5, 2011, p911-918, 
+===== remaining fields 8 =====
+===== weka prediction =====
+Zhitang Chen
+Predicted as: Author
+Distribution:
+Author: 0.9230183892200415
+Title: 0.0
+Journal: 0.0769816107799585
+Proceeding: 0.0
+San Jose
+Predicted as: Author
+Distribution:
+Author: 1.0
+Title: 0.0
+Journal: 0.0
+Proceeding: 0.0
+California
+Predicted as: Journal
+Distribution:
+Author: 0.4577777777777779
+Title: 0.013333333333333334
+Journal: 0.5288888888888889
+Proceeding: 0.0
+USA
+Predicted as: Distribution:
+Author: 0.5333333333333333
+Title: 0.0
+Journal: 0.4666666666666667
+Proceeding: 0.0
+July-August 5
+Predicted as: Author
+Distribution:
+Author: 1.0
+Title: 0.0
+Journal: 0.0
+Proceeding: 0.0
+===== splitted fields 8 =====
+Title = Laiwan Chan. New Approaches for Solving Permutation Indeterminacy and Scaling Ambiguity in Frequency Domain Separation of Convolved Mixtures
+Proceeding = International Joint Conference on Neural Networks
+Volume = 31
+Number = July-August5
+Page = 911-918
+Year = 2011
+Authors = and Zhitang Chen and San Jose and July-August 5
+Month = July-August
+Publisher = Japanese American Museum of San Jose
+
+***Wrong Authors
+***Wrong Title
+===== end 8 =====
+
+
+===== testing string 9 =====
+Laiwan Chan. A Study of the Activity Levels in E-learning Using Data Mining Approach. Australian Quality Forum 2010 Higher Education, p.28-34. Gold Coast, Australia, 2010.06, 
+===== remaining fields 9 =====
+===== weka prediction =====
+Laiwan Chan.Australian Quality ForumHigher Education
+Predicted as: Title
+Distribution:
+Author: 0.0
+Title: 0.9333333333333333
+Journal: 0.06666666666666667
+Proceeding: 0.0
+. Gold Coast
+Predicted as: Author
+Distribution:
+Author: 1.0
+Title: 0.0
+Journal: 0.0
+Proceeding: 0.0
+Australia
+Predicted as: Journal
+Distribution:
+Author: 0.13333333333333333
+Title: 0.0
+Journal: 0.8666666666666667
+Proceeding: 0.0
+2010.06
+Predicted as: Journal
+Distribution:
+Author: 0.41333333333333333
+Title: 0.0
+Journal: 0.5866666666666667
+Proceeding: 0.0
+===== splitted fields 9 =====
+Title = A Study of the Activity Levels in E-learning Using Data Mining Approach
+Volume = 2010
+Number = 2010.06
+Page = 28-34
+Year = 2010
+Authors = Laiwan Chan.Australian Quality ForumHigher Education and . Gold Coast
+Month = June
+Publisher = Council on Higher Education
+
+***Wrong Authors
+***Wrong Journal
+===== end 9 =====
+
+
+===== testing string 10 =====
+Lou S, Ni B, Lo LY, Tsui SK, Chan TF*, and Leung KS: ABMapper: a suffix array-based tool for multi-location searching and splice-junction mapping. Bioinformatics. 2011 27(3):421-2.  (*corresponding author, page special), 
+===== remaining fields 10 =====
+===== weka prediction =====
+Lou S
+Predicted as: Author
+Distribution:
+Author: 1.0
+Title: 0.0
+Journal: 0.0
+Proceeding: 0.0
+Ni B
+Predicted as: Author
+Distribution:
+Author: 1.0
+Title: 0.0
+Journal: 0.0
+Proceeding: 0.0
+Lo LY
+Predicted as: Author
+Distribution:
+Author: 1.0
+Title: 0.0
+Journal: 0.0
+Proceeding: 0.0
+Tsui SK
+Predicted as: Author
+Distribution:
+Author: 1.0
+Title: 0.0
+Journal: 0.0
+Proceeding: 0.0
+Chan TF*
+Predicted as: Author
+Distribution:
+Author: 1.0
+Title: 0.0
+Journal: 0.0
+Proceeding: 0.0
+and Leung KS:(*corresponding author
+Predicted as: Title
+Distribution:
+Author: 0.0
+Title: 1.0
+Journal: 0.0
+Proceeding: 0.0
+page special)
+Predicted as: Author
+Distribution:
+Author: 0.8714049839049839
+Title: 0.12859501609501608
+Journal: 0.0
+Proceeding: 0.0
+===== splitted fields 10 =====
+Title = ABMapper: a suffix array-based tool for multi-location searching and splice-junction mapping. Bioinformatics.
+Journal = BIOINFORMATICS
+Volume = 27
+Issue = 3
+Page = 421-2
+Year = 2011
+Authors = and Leung KS:(*corresponding author and Lou S and Ni B and Lo LY and Tsui SK and Chan TF* and page special)
+Month = June
+Publisher = BNi Building News
+
+***Wrong Authors
+***Wrong Title
+***Wrong Journal
+===== end 10 =====
+
+
+===== testing string 11 =====
+Kwok PY and TF Chan: Genotyping technologies: the present and the future. In Genetics, Genomics, Proteomics and Bioinformatics, Marsh, J (Ed.). 2005, John Wiley & Sons Ltd., London, 
+===== remaining fields 11 =====
+===== weka prediction =====
+Kwok PY and TF Chan:In Genetics
+Predicted as: Title
+Distribution:
+Author: 0.0
+Title: 0.6
+Journal: 0.4
+Proceeding: 0.0
+Genomics
+Predicted as: Journal
+Distribution:
+Author: 0.0
+Title: 0.0
+Journal: 1.0
+Proceeding: 0.0
+Proteomics and Bioinformatics
+Predicted as: Journal
+Distribution:
+Author: 0.0
+Title: 0.13333333333333333
+Journal: 0.8666666666666667
+Proceeding: 0.0
+Marsh
+Predicted as: Journal
+Distribution:
+Author: 0.26666666666666666
+Title: 0.0
+Journal: 0.7333333333333333
+Proceeding: 0.0
+J (Ed.).
+Predicted as: Author
+Distribution:
+Author: 1.0
+Title: 0.0
+Journal: 0.0
+Proceeding: 0.0
+John Wiley & Sons Ltd.
+Predicted as: Author
+Distribution:
+Author: 0.8
+Title: 0.0
+Journal: 0.2
+Proceeding: 0.0
+London
+Predicted as: Journal
+Distribution:
+Author: 0.49111111111111116
+Title: 0.0
+Journal: 0.5088888888888888
+Proceeding: 0.0
+===== splitted fields 11 =====
+Title = Genotyping technologies: the present and the future
+Journal = Genomics
+Year = 2005
+Authors = Kwok PY and TF Chan:In Genetics and J (Ed.). and John Wiley & Sons Ltd.
+Month = March
+Publisher = George C. Marshall European Center for Security Studies
+
+***Wrong Authors
+***Wrong Title
+***Wrong Chapter
+***Wrong Editors
+***Wrong Publisher
+===== end 11 =====
+
+
+===== testing string 12 =====
+James Cheng, Zechao Shang, Hong Cheng, Haixun Wang, and Jeffrey Xu Yu., KReach: Who is In Your Small World., In PVLDB, Volume 5, Number 11, Pages 1292-1303, 2012, 
+===== remaining fields 12 =====
+===== weka prediction =====
+James Cheng
+Predicted as: Author
+Distribution:
+Author: 1.0
+Title: 0.0
+Journal: 0.0
+Proceeding: 0.0
+Zechao Shang
+Predicted as: Author
+Distribution:
+Author: 0.7908032708032707
+Title: 0.0
+Journal: 0.20919672919672924
+Proceeding: 0.0
+Hong Cheng
+Predicted as: Author
+Distribution:
+Author: 1.0
+Title: 0.0
+Journal: 0.0
+Proceeding: 0.0
+Haixun Wang
+Predicted as: Author
+Distribution:
+Author: 0.895892255892256
+Title: 0.0
+Journal: 0.10410774410774412
+Proceeding: 0.0
+and Jeffrey Xu Yu.
+Predicted as: Distribution:
+Author: 0.6
+Title: 0.0
+Journal: 0.4
+Proceeding: 0.0
+KReach:
+Predicted as: Journal
+Distribution:
+Author: 0.41333333333333333
+Title: 0.0
+Journal: 0.5866666666666667
+Proceeding: 0.0
+In PVLDB
+Predicted as: Author
+Distribution:
+Author: 1.0
+Title: 0.0
+Journal: 0.0
+Proceeding: 0.0
+===== splitted fields 12 =====
+Title = Who is In Your Small World
+Volume = 5
+Number = 11
+Page = 1292-1303
+Year = 2012
+Authors = and James Cheng and Zechao Shang and Hong Cheng and Haixun Wang and In PVLDB
+Publisher = Alan Naylor and Jeffrey Burns
+
+***Wrong Authors
+***Wrong Title
+***Wrong Proceeding
+===== end 12 =====
+
+
+===== testing string 13 =====
+J. Tang and A. Fu, "Query Rewriting Using Views for XPath queries, framework, and methodologies", Information Systems, 35:3, May, 2010, pages 315-334, 
+===== remaining fields 13 =====
+===== weka prediction =====
+Information Systems
+Predicted as: Journal
+Distribution:
+Author: 0.2
+Title: 0.05
+Journal: 0.75
+Proceeding: 0.0
+:3
+Predicted as: Distribution:
+Author: 0.5333333333333333
+Title: 0.0
+Journal: 0.4666666666666667
+Proceeding: 0.0
+May
+Predicted as: Distribution:
+Author: 0.5333333333333333
+Title: 0.0
+Journal: 0.4666666666666667
+Proceeding: 0.0
+===== splitted fields 13 =====
+Title = Query Rewriting Using Views for XPath queries, framework, and methodologies
+Journal = Information Systems
+Volume = 35
+Number = :3
+Page = 315-334
+Year = 2010
+Authors = J. Tang& A. Fu
+Month = May
+Publisher = T.A. Fuller
+
+***Wrong Issue
+===== end 13 =====
+
+
+===== testing string 14 =====
+"Using Time-Varying Texels to Simulate Withering Grassland",, S. Jiao, W. Wu, P. A. Heng and E. Wu, , IEEE Computer Graphics and Applications, pp. 36 - 48, 2012, 
+===== remaining fields 14 =====
+===== weka prediction =====
+W. Wu
+Predicted as: Author
+Distribution:
+Author: 1.0
+Title: 0.0
+Journal: 0.0
+Proceeding: 0.0
+P. A. Heng and E. Wu
+Predicted as: Author
+Distribution:
+Author: 0.8
+Title: 0.06666666666666667
+Journal: 0.13333333333333333
+Proceeding: 0.0
+IEEE Computer Graphics and Applications
+Predicted as: Journal
+Distribution:
+Author: 0.0
+Title: 0.13333333333333333
+Journal: 0.7333333333333333
+Proceeding: 0.13333333333333333
+===== splitted fields 14 =====
+Title = Using Time-Varying Texels to Simulate Withering Grassland
+Journal = IEEE Computer
+Page = 36-48
+Year = 2012
+Authors = S. Jiao and W. Wu and P. A. Heng and E. Wu
+Publisher = P. A. Trafford
+
+***Wrong Authors
+***Wrong Journal
+===== end 14 =====
+
+
+===== testing string 15 =====
+"Structure-Aware Halftoning", , W. M. Pang, Y. Qu, T. T. Wong, D. Cohen-Or and P. A. Heng,, ACM Transactions on Graphics (SIGGRAPH 2008 issue), Vol.27, No.3:Article 89, 2008, pp.89-1., 
+===== remaining fields 15 =====
+===== weka prediction =====
+Y. Qu
+Predicted as: Author
+Distribution:
+Author: 1.0
+Title: 0.0
+Journal: 0.0
+Proceeding: 0.0
+T. T. Wong
+Predicted as: Author
+Distribution:
+Author: 1.0
+Title: 0.0
+Journal: 0.0
+Proceeding: 0.0
+D. Cohen-Or and P. A. Heng
+Predicted as: Journal
+Distribution:
+Author: 0.3333333333333333
+Title: 0.2
+Journal: 0.4666666666666667
+Proceeding: 0.0
+ACM Transactions on Graphics (SIGGRAPHissue)
+Predicted as: Journal
+Distribution:
+Author: 0.0
+Title: 0.4666666666666667
+Journal: 0.5333333333333333
+Proceeding: 0.0
+2008
+Predicted as: Journal
+Distribution:
+Author: 0.06666666666666667
+Title: 0.0
+Journal: 0.9333333333333333
+Proceeding: 0.0
+===== splitted fields 15 =====
+Title = Structure-Aware Halftoning
+Volume = 27
+Number = 3
+Page = 89-1
+Year = 2008
+Authors = W. M. Pang and Y. Qu and T. T. Wong
+Article = 89
+Publisher = W. W. M. Nisbet
+
+***Wrong Authors
+***Wrong Journal
+===== end 15 =====
+
+
+===== testing string 16 =====
+Mingzhen Mo, Irwin King, and Kwong-Sak Leung, "Empirical Comparisons of Attack and Protection Algorithms for Online Social Networks", Procedia CS, vol. 5, pp. 705-712, 2011, 
+===== remaining fields 16 =====
+===== weka prediction =====
+Mingzhen Mo
+Predicted as: Author
+Distribution:
+Author: 0.8196536796536797
+Title: 0.0
+Journal: 0.18034632034632037
+Proceeding: 0.0
+Irwin King
+Predicted as: Author
+Distribution:
+Author: 1.0
+Title: 0.0
+Journal: 0.0
+Proceeding: 0.0
+and Kwong-Sak Leung
+Predicted as: Author
+Distribution:
+Author: 0.81
+Title: 0.06666666666666667
+Journal: 0.12333333333333334
+Proceeding: 0.0
+Procedia CS
+Predicted as: Author
+Distribution:
+Author: 0.8196536796536797
+Title: 0.0
+Journal: 0.18034632034632037
+Proceeding: 0.0
+===== splitted fields 16 =====
+Title = Empirical Comparisons of Attack and Protection Algorithms for Online Social Networks
+Journal = Social Networks
+Volume = 5
+Page = 705-712
+Year = 2011
+Authors = and Mingzhen Mo and Irwin King and Kwong-Sak Leung and Procedia CS
+
+***Wrong Authors
+***Wrong Journal
+===== end 16 =====
+
+
+===== testing string 17 =====
+Hao Ma, Irwin King, and Michael R. Lyu, "Learning to Recommend with Explicit and Implicit Social Relations", ACM Transactions on Intelligent Systems and Technology (TIST), vol. 2, iss. 3, p. 29:1-29:19, 2011., 
+===== remaining fields 17 =====
+===== weka prediction =====
+Hao Ma
+Predicted as: Author
+Distribution:
+Author: 1.0
+Title: 0.0
+Journal: 0.0
+Proceeding: 0.0
+Irwin King
+Predicted as: Author
+Distribution:
+Author: 1.0
+Title: 0.0
+Journal: 0.0
+Proceeding: 0.0
+and Michael R. Lyu
+Predicted as: Author
+Distribution:
+Author: 1.0
+Title: 0.0
+Journal: 0.0
+Proceeding: 0.0
+ACM Transactions on Intelligent Systems and Technology (TIST)
+Predicted as: Journal
+Distribution:
+Author: 0.0
+Title: 0.3
+Journal: 0.7
+Proceeding: 0.0
+===== splitted fields 17 =====
+Title = Learning to Recommend with Explicit and Implicit Social Relations
+Volume = 2
+Issue = 3
+Page = 29:1-29:19
+Year = 2011
+Authors = and Hao Ma and Irwin King and Michael R. Lyu
+Publisher = Lois and Michael K. Torf
+
+***Wrong Authors
+***Wrong Journal
+===== end 17 =====
+
+
+===== testing string 18 =====
+I. King, "Report on the Computer Strategy Game Programming Workshop", International Computer Chess Association Journal, pp. 113-115, June 1995, 
+===== remaining fields 18 =====
+===== weka prediction =====
+June
+Predicted as: Journal
+Distribution:
+Author: 0.06666666666666667
+Title: 0.0
+Journal: 0.9333333333333333
+Proceeding: 0.0
+===== splitted fields 18 =====
+Title = Report on the Computer Strategy Game Programming Workshop
+Journal = International Computer Chess Association Journal
+Page = 113-115
+Year = 1995
+Authors = I. King
+Month = June
+Publisher = Juneau Press
+
+===== end 18 =====
+
+
+===== testing string 19 =====
+Graph connectivities, network coding, and expander graphs, Ho Yee Cheung, Lap Chi Lau, Kai Man Leung, SIAM Journal on Computing, 42(3), 733-751, 2013 , 
+===== remaining fields 19 =====
+===== weka prediction =====
+Graph connectivities
+Predicted as: Journal
+Distribution:
+Author: 0.0
+Title: 0.06666666666666667
+Journal: 0.9333333333333333
+Proceeding: 0.0
+network coding
+Predicted as: Author
+Distribution:
+Author: 1.0
+Title: 0.0
+Journal: 0.0
+Proceeding: 0.0
+and expander graphs
+Predicted as: Distribution:
+Author: 0.7333333333333333
+Title: 0.0
+Journal: 0.26666666666666666
+Proceeding: 0.0
+Ho Yee Cheung
+Predicted as: Author
+Distribution:
+Author: 0.9333333333333333
+Title: 0.0
+Journal: 0.06666666666666667
+Proceeding: 0.0
+Lap Chi Lau
+Predicted as: Author
+Distribution:
+Author: 1.0
+Title: 0.0
+Journal: 0.0
+Proceeding: 0.0
+Kai Man Leung
+Predicted as: Author
+Distribution:
+Author: 0.9333333333333333
+Title: 0.0
+Journal: 0.06666666666666667
+Proceeding: 0.0
+===== splitted fields 19 =====
+Journal = SIAM Journal on Computing
+Volume = 42
+Issue = 3
+Page = 733-751
+Year = 2013
+Authors = and network coding and Ho Yee Cheung and Lap Chi Lau and Kai Man Leung
+
+***Wrong Authors
+***Wrong Title
+===== end 19 =====
+
+
+===== testing string 20 =====
+On linear and semidefinite programming relaxation for hypergraph matching, Yuk Hei Chan, Lap Chi Lau, Mathematical Programming, 135(1-2), 123-148, 2012, 
+===== remaining fields 20 =====
+===== weka prediction =====
+Yuk Hei Chan
+Predicted as: Author
+Distribution:
+Author: 1.0
+Title: 0.0
+Journal: 0.0
+Proceeding: 0.0
+Lap Chi Lau
+Predicted as: Author
+Distribution:
+Author: 1.0
+Title: 0.0
+Journal: 0.0
+Proceeding: 0.0
+Mathematical Programming
+Predicted as: Journal
+Distribution:
+Author: 0.0
+Title: 0.0
+Journal: 1.0
+Proceeding: 0.0
+===== splitted fields 20 =====
+Title = On linear and semidefinite programming relaxation for hypergraph matching
+Journal = Mathematical Programming
+Volume = 135
+Issue = 1-2
+Page = 123-148
+Year = 2012
+Authors = and Yuk Hei Chan and Lap Chi Lau
+
+***Wrong Authors
+===== end 20 =====
+
+
+
+===== overall statistics =====
+Total Fields: 128
+Correct Fields: 90
+Wrong Fields: 38
+Accuracy: 0.703125
+All correct: 4,18,
+
+===== fields statistics =====
+Author: 3/20, accuracy: 0.15
+Title: 13/20, accuracy: 0.65
+Journal: 7/16, accuracy: 0.4375
+Proceeding: 2/3, accuracy: 0.6666666666666666
+Volume: 13/13, accuracy: 1.0
+Issue: 6/7, accuracy: 0.8571428571428571
+Number: 4/4, accuracy: 1.0
+Article: 2/2, accuracy: 1.0
+Page: 16/16, accuracy: 1.0
+Month: 4/4, accuracy: 1.0
+Thesis: 0/0, accuracy: NaN
+Chapter: 0/1, accuracy: 0.0
+Editor: 0/1, accuracy: 0.0
+Publisher: 0/1, accuracy: 0.0
+Year: 20/20, accuracy: 1.0
+
+End Time = 00:36:07
+
+Running Time = 43 seconds

@@ -29,6 +29,8 @@ import java.sql.Date;
 import javax.servlet.http.*;
 import javax.servlet.*;
 
+import FYP_UI.CheckArray;
+
 import org.apache.poi.hssf.usermodel.HSSFCell;
 import org.apache.poi.hssf.usermodel.HSSFRichTextString;
 import org.apache.poi.hssf.usermodel.HSSFRow;
@@ -313,17 +315,22 @@ public class Main extends HttpServlet {
 		int totaleditor = 0, wrongeditor = 0;
 		int totalpublisher = 0, wrongpublisher = 0;
 		int totalyear = 0, wrongyear = 0;
-		
+
 		CheckArray ca;
+		CheckArray.constructMap();
 		String tmp;
+		
 		String strbuf;
 		String[] array = null;
 		
 		ProcessData process = new ProcessData();
+		process.makeArff();
 		TestWeka weka = new TestWeka();
 		weka.buildTree();
 		double[] label;
 		double[][] distribution;
+		
+		HashMap<Integer, ArrayList> result_map = new HashMap<Integer, ArrayList>();
 		
 		//"[A-Z]{1}\\." - short form name
 		
@@ -467,13 +474,12 @@ public class Main extends HttpServlet {
 					
 					journal = ca.getJournal();
 					
-					
-					authors = ca.getAuthors();
-					
 					if (title == null)
 					{
 						title = ca.getTitlePostSplit();
 					}
+
+					editors = ca.getEditors();
 
 					publisher = ca.getPublisher();
 					
@@ -500,6 +506,75 @@ public class Main extends HttpServlet {
 						year = ca.getYearLast(title);
 					}
 					
+					authors = ca.getAuthors();
+					
+					/////////////////////////////////////////////////////////////////
+					// weka prediction start
+					/////////////////////////////////////////////////////////////////
+					System.out.println("===== remaining fields " + count + " =====");
+					System.out.println("===== weka prediction =====");
+					//ca.printArray();
+					array = ca.getArray();
+					
+					if (authors!=null) authors = authors.trim();
+					else authors = "";
+					
+					for (int i=0; i<array.length; i++) {
+						if (array[i].trim().length()>1) {
+							System.out.println(array[i]);
+							process.makeArff2(array[i]);
+							weka.runResult_new();
+							label = weka.getClassLabel();
+							distribution = weka.getClassDistribution();
+
+							System.out.print("Predicted as: ");
+							if (label[0]==0 && distribution[0][0] >= 0.75 ) {
+								System.out.println("Author");
+								if (authors.endsWith("and") || array[i].startsWith("and"))
+									authors += " " + array[i];
+								else
+									authors += " and " + array[i];
+							}
+							else if (label[0]==1) System.out.println("Title");
+							else if (label[0]==2) System.out.println("Journal");
+							else if (label[0]==3) System.out.println("Proceeding");
+							
+							System.out.println("Distribution:");
+							System.out.println("Author: " + distribution[0][0]);
+							System.out.println("Title: " + distribution[0][1]);
+							System.out.println("Journal: " + distribution[0][2]);
+							System.out.println("Proceeding: " + distribution[0][3]);
+						}
+					}
+					
+					/*for (int i=0; i<label.length; i++) {
+						System.out.print("Predicted as: ");
+						if (label[i]==0) {
+							System.out.println("Author");
+							for (int j=0; j<array.length; j++) {
+								if (array[j].trim().length()>0) {
+									if (n==i)
+										authors += " and " + array[i];
+									else
+										n++;
+								}
+							}
+						}
+						else if (label[i]==1) System.out.println("Title");
+						else if (label[i]==2) System.out.println("Journal");
+						else if (label[i]==3) System.out.println("Proceeding");
+						
+						System.out.println("Distribution:");
+						System.out.println("Author: " + distribution[i][0]);
+						System.out.println("Title: " + distribution[i][1]);
+						System.out.println("Journal: " + distribution[i][2]);
+						System.out.println("Proceeding: " + distribution[i][3]);
+					}*/
+					/////////////////////////////////////////////////////////////////
+					// weka prediction end
+					/////////////////////////////////////////////////////////////////
+					
+					
 					/////////////////////////////////////////////////////////////////
 					// Trim and Replace the field
 					if (title != null) title = title.trim();
@@ -524,6 +599,7 @@ public class Main extends HttpServlet {
 					if (chapter != null) chapter = chapter.trim();
 					if (editors != null) editors = editors.trim();
 					if (publisher != null) publisher = publisher.trim();
+					
 					
 					
 					if (authors != null) {
@@ -628,42 +704,7 @@ public class Main extends HttpServlet {
 						cell.setCellValue(new HSSFRichTextString(publisher));
 						
 					}
-					
-					
-					webpage_out.println("===== weka result " + count + " =====\n");
-					//ca.printArray();
-					strbuf = "";
-					array = ca.getArray();
-					
-					for (int i=0; i<array.length; i++) {
-						if (array[i].trim().length()>0) {
-							strbuf += array[i].trim() + "%%";
-						}
-					}
-					
-					process.makeArff2(strbuf);
-					weka.runResult_new();
-					label = weka.getClassLabel();
-					distribution = weka.getClassDistribution();
-					webpage_out.println(strbuf);
-					
-					for (int i=0; i<label.length; i++) {
-						webpage_out.print("Predicted as: ");
-						if (label[i]==0) webpage_out.println("Author");
-						else if (label[i]==1) webpage_out.println("Title");
-						else if (label[i]==2) webpage_out.println("Journal");
-						else if (label[i]==3) webpage_out.println("Proceeding");
-						
-						webpage_out.println("Distribution:");
-						webpage_out.println("Author: " + distribution[i][0]);
-						webpage_out.println("Title: " + distribution[i][1]);
-						webpage_out.println("Journal: " + distribution[i][2]);
-						webpage_out.println("Proceeding: " + distribution[i][3]);
-					}
-					
-					
-					/////////////////////////////////////////////////////////////////
-					
+
 					webpage_out.println("===== end " + count + " =====\n\n");
 					print_writer_output_txt.println("===== end " + count + " =====\n\n");
 					
@@ -715,7 +756,7 @@ public class Main extends HttpServlet {
 							print_writer_output_bib.println("\tpublisher\t=\t\"" + publisher + "\"");
 						}
 						
-						print_writer_output_bib.println("\tnote\t\t=\t\"" + ca.originalInput + "\"");
+						print_writer_output_bib.println("\tnote\t\t=\t\"" + ca.getoriginalInput() + "\"");
 						print_writer_output_bib.println("}");
 						print_writer_output_bib.println("");
 						
@@ -764,7 +805,7 @@ public class Main extends HttpServlet {
 							print_writer_output_bib.println("\tpublisher\t=\t\"" + publisher + "\"");
 						}
 						
-						print_writer_output_bib.println("\tnote\t\t=\t\"" + ca.originalInput + "\"");
+						print_writer_output_bib.println("\tnote\t\t=\t\"" + ca.getoriginalInput() + "\"");
 						print_writer_output_bib.println("}");
 						print_writer_output_bib.println("");
 						
@@ -810,7 +851,7 @@ public class Main extends HttpServlet {
 							print_writer_output_bib.println("\tpublisher\t=\t\"" + publisher + "\"");
 						}
 						
-						print_writer_output_bib.println("\tnote\t\t=\t\"" + ca.originalInput + "\"");
+						print_writer_output_bib.println("\tnote\t\t=\t\"" + ca.getoriginalInput() + "\"");
 						print_writer_output_bib.println("}");
 						print_writer_output_bib.println("");
 						
@@ -857,7 +898,7 @@ public class Main extends HttpServlet {
 						}
 						
 						
-						print_writer_output_bib.println("\tnote\t\t=\t\"" + ca.originalInput + "\"");
+						print_writer_output_bib.println("\tnote\t\t=\t\"" + ca.getoriginalInput() + "\"");
 						print_writer_output_bib.println("}");
 						print_writer_output_bib.println("");
 						
@@ -901,7 +942,7 @@ public class Main extends HttpServlet {
 						}
 						
 						
-						print_writer_output_bib.println("\tnote\t\t=\t\"" + ca.originalInput + "\"");
+						print_writer_output_bib.println("\tnote\t\t=\t\"" + ca.getoriginalInput() + "\"");
 						print_writer_output_bib.println("}");
 						print_writer_output_bib.println("");
 						

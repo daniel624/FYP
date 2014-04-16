@@ -10,15 +10,19 @@ import java.net.*;
 import java.io.*;
 import org.apache.commons.lang3.*;
 import common.CommonFunction;
+import weka.*;
 
 public class CheckArray {
-	String originalInput;
+	private String originalInput;
 	private String[] array;
 	
 	private static HashMap<Integer, ArrayList> jmap = new HashMap<Integer, ArrayList>();
 	private static HashMap<Integer, ArrayList> cmap = new HashMap<Integer, ArrayList>();
 	private static HashMap<Integer, ArrayList> pmap = new HashMap<Integer, ArrayList>();
 	
+	private ProcessData process = new ProcessData();
+	private TestWeka test = new TestWeka();
+
 	public static void constructMap() {
 		try {
 			DBConnection db = new DBConnection();
@@ -74,6 +78,11 @@ public class CheckArray {
 	public String[] getArray() {
 		return array;
 	}
+	
+	public String getoriginalInput() {
+		return originalInput;
+	}
+	
 	
 	/**
 	 * CheckArray - constructor
@@ -1867,6 +1876,8 @@ public class CheckArray {
 				break;
 			}
 		}
+		
+
 		
 		if (authors == "") {
 			authors = null;

@@ -1155,10 +1155,6 @@ public class CheckArray {
 	public String getJournal()
 	{
 		String journal = null;
-		DBConnection db = new DBConnection();
-		Connection conn = db.getConnection();
-		ResultSet rs = null;
-		String sql = "";
 		String[] checkJournal;
 		String checkStr;
 		ArrayList list = new ArrayList();
@@ -1169,18 +1165,19 @@ public class CheckArray {
 			for (int i=0; i<array.length; i++)
 			{
 				checkJournal = array[i].split(" ");
+				checkStr = "";
 				for (int j=0; j<checkJournal.length; j++) {
-					if (checkJournal.length>1)
-					{
-						if (j<1) checkStr = checkJournal[j] + " " + checkJournal[j+1];
-						else if (j==checkJournal.length-1) checkStr = checkJournal[j-1] + " " + checkJournal[j];
-						else checkStr = checkJournal[j-1] + " " + checkJournal[j] + " " + checkJournal[j+1];
+					if (checkJournal.length < 4) {
+						checkStr = array[i];
+					} else {
+						if (j==0) 
+							checkStr = checkJournal[0] + " " + checkJournal[1];
+						else if (j==checkJournal.length-1)
+							checkStr = checkJournal[checkJournal.length-2] + " " + checkJournal[checkJournal.length-1];
+						else 
+							checkStr = checkJournal[j-1] + " " + checkJournal[j] + " " + checkJournal[j+1];
 					}
-					else
-					{
-						checkStr = checkJournal[0];
-					}
-					checkStr = checkStr.replaceAll("'", "\\\\'");
+					checkStr = checkStr.replaceAll("'", "\\\\'").trim();
 					//System.out.println(checkStr);
 					
 					if (!checkStr.equals("")) {
@@ -1191,53 +1188,32 @@ public class CheckArray {
 							short2 = list.get(3).toString();
 							
 							// check exact match of journal name
-							if (fullname.equals(checkStr)) {
+							if (fullname.equalsIgnoreCase(checkStr)) {
 								journal = checkStr;
 								break;
 							}
 							
 							// check partial match of journal name
-							if (fullname.indexOf(checkStr) >=0 ||
-								short1.toString().indexOf(checkStr) >=0 ||
-								short2.toString().indexOf(checkStr) >=0) {
+							//if (fullname.toLowerCase().indexOf(checkStr.toLowerCase()) >= 0) {
+							/*if (checkStr.toLowerCase().indexOf(fullname.toLowerCase()) >= 0) {
 								journal = fullname;
 								break;
 							}
+							//if (!short1.equals("") && short1.toLowerCase().indexOf(checkStr.toLowerCase()) >= 0) {
+							if (!short1.equals("") && checkStr.toLowerCase().indexOf(short1.toLowerCase()) >= 0) {
+								journal = fullname;
+								break;
+							}
+							//if (!short2.equals("") && short2.toLowerCase().indexOf(checkStr.toLowerCase()) >= 0) {
+							if (!short2.equals("") && checkStr.toLowerCase().indexOf(short2.toLowerCase()) >= 0) {
+								journal = fullname;
+								break;
+							}*/
 						}
 					}
 					
-					/*if (!checkStr.equals("")) {
-						//sql = "select * from journal where fullname like '%" + URLEncoder.encode(checkStr, "UTF8") + "%'";
-						sql = "select * from journal where fullname like '%" + checkStr + "%'";
-						rs = db.getResultSet(conn, sql);
-						while (rs.next()) {
-							if (array[i].toLowerCase().contains(rs.getString(2).toLowerCase())) {
-								
-								journal = rs.getString(2);	
-								if (rs.getString(3)!=null && array[i].contains(rs.getString(3))) {
-									journal += " (" + rs.getString(3) + ")";
-									array[i] = CommonFunction.removePart(array[i], rs.getString(2), rs.getString(2));
-									break;
-								}
-								array[i] = CommonFunction.removePart(array[i], journal, journal);
-								
-	
-								//journal = rs.getString(2);
-								//array[i] = CommonFunction.removePart(array[i], journal, journal);
-								
-								// if check similar --> use whole string (rather than use db string)
-								journal = array[i].trim();
-								array[i] = "";
-								break;
-							}
-						}
-						
-					}*/
-					
 					if (journal!=null) break;
 				}
-
-				if (rs!=null) rs.close();
 				
 				if (journal!=null) {
 					break;
@@ -1254,14 +1230,10 @@ public class CheckArray {
 				}
 			}
 		}
-		catch (SQLException e)
+		catch (Exception e)
 		{
-			System.out.println("[CheckArray.getJournal()] SQLException");
+			System.out.println("[CheckArray.getJournal()] Exception");
 			e.printStackTrace();
-		}
-		finally
-		{
-			db.closeConnection(conn);
 		}
 		
 		
@@ -1371,10 +1343,6 @@ public class CheckArray {
 	public String getProceeding()
 	{
 		String proceeding = null;
-		DBConnection db = new DBConnection();
-		Connection conn = db.getConnection();
-		ResultSet rs = null;
-		String sql = "";
 		String[] checkProc;
 		String checkStr;
 		ArrayList list = new ArrayList();
@@ -1384,60 +1352,6 @@ public class CheckArray {
 		{		
 			for (int i=0; i<array.length; i++)
 			{
-				checkProc = array[i].split(" ");
-				for (int j=0; j<checkProc.length; j++) {
-					if (checkProc.length>1)
-					{
-						if (j<1) checkStr = checkProc[j] + " " + checkProc[j+1];
-						else if (j==checkProc.length-1) checkStr = checkProc[j-1] + " " + checkProc[j];
-						else checkStr = checkProc[j-1] + " " + checkProc[j] + " " + checkProc[j+1];
-					}
-					else
-					{
-						checkStr = checkProc[j];
-					}
-					checkStr = checkStr.replaceAll("'", "\\\\'");
-					
-					if (!checkStr.equals("")) {
-						for (int k=1; k<=cmap.size(); k++) {
-							list = cmap.get(k);
-							fullname = list.get(1).toString();
-							shortname = list.get(2).toString();
-							if (fullname.indexOf(checkStr) >=0 ||
-								shortname.indexOf(checkStr) >=0) {
-								proceeding = fullname;
-							}
-						}
-					}
-					
-					/*if (!checkStr.equals("")) {
-						sql = "select * from conference where fullname like '%" + URLEncoder.encode(checkStr, "UTF8") + "%'";
-						rs = db.getResultSet(conn, sql);
-						while (rs.next()) {
-							if (array[i].toLowerCase().contains(rs.getString(2).toLowerCase())) {
-								// comment block
-								proceeding = rs.getString(2);	
-								if (rs.getString(3)!=null && array[i].contains(rs.getString(3))) {
-									proceeding += " (" + rs.getString(3) + ")";
-									array[i] = CommonFunction.removePart(array[i], rs.getString(2), rs.getString(2));
-									break;
-								}
-								array[i] = CommonFunction.removePart(array[i], proceeding, proceeding);
-								// comment block
-								
-								// if check similar --> use whole string (rather than use db string)
-								proceeding = array[i].trim();
-								array[i] = "";
-								break;		
-							}
-						}						
-					}*/
-					
-					if (proceeding!=null) break;
-				}
-
-				if (proceeding!=null) break;
-				
 				if (proceeding==null)
 				{
 					if (array[i].toLowerCase().indexOf("in proceedings of the") >= 0)
@@ -1500,13 +1414,76 @@ public class CheckArray {
 						break;
 					}
 				}
+				
+				checkProc = array[i].split(" ");
+				for (int j=0; j<checkProc.length; j++) {
+					if (checkProc.length < 6) {
+						checkStr = array[i];
+					} else {
+						if (j < 2 || j > checkProc.length-3) 
+							continue;
+						else 
+							checkStr = checkProc[j-2] + " " + checkProc[j-1] + " " + checkProc[j] + " " + checkProc[j+1] + " " + checkProc[j+2];
+					}
+					checkStr = checkStr.replaceAll("'", "\\\\'");
+					
+					if (!checkStr.equals("")) {
+						for (int k=1; k<=cmap.size(); k++) {
+							list = cmap.get(k);
+							fullname = list.get(1).toString();
+							shortname = list.get(2).toString();
+
+							// check exact match of proceeding name
+							if (fullname.equalsIgnoreCase(checkStr)) {
+								proceeding = checkStr;
+								break;
+							}
+							
+							// check partial match of proceeding name
+							/*if (fullname.toLowerCase().indexOf(checkStr.toLowerCase()) >= 0) {
+								proceeding = fullname;
+								break;
+							}
+							if (!shortname.equals("") && shortname.toLowerCase().indexOf(checkStr.toLowerCase()) >= 0) {
+								proceeding = fullname;
+								break;
+							}*/
+						}
+					}
+					
+					/*if (!checkStr.equals("")) {
+						sql = "select * from conference where fullname like '%" + URLEncoder.encode(checkStr, "UTF8") + "%'";
+						rs = db.getResultSet(conn, sql);
+						while (rs.next()) {
+							if (array[i].toLowerCase().contains(rs.getString(2).toLowerCase())) {
+								// comment block
+								proceeding = rs.getString(2);	
+								if (rs.getString(3)!=null && array[i].contains(rs.getString(3))) {
+									proceeding += " (" + rs.getString(3) + ")";
+									array[i] = CommonFunction.removePart(array[i], rs.getString(2), rs.getString(2));
+									break;
+								}
+								array[i] = CommonFunction.removePart(array[i], proceeding, proceeding);
+								// comment block
+								
+								// if check similar --> use whole string (rather than use db string)
+								proceeding = array[i].trim();
+								array[i] = "";
+								break;		
+							}
+						}						
+					}*/
+					
+					if (proceeding!=null) break;
+				}
+
+				if (proceeding!=null) break;
 			}
 
-			if (rs!=null) rs.close();
 		}
-		catch (SQLException e)
+		catch (Exception e)
 		{
-			System.out.println("[CheckArray.getJournal()] SQLException");
+			System.out.println("[CheckArray.getJournal()] Exception");
 			e.printStackTrace();
 		}
 		/*catch (UnsupportedEncodingException e)
@@ -1514,10 +1491,6 @@ public class CheckArray {
 			System.out.println("[CheckArray.getJournal()] UnsupportedEncodingException");
 			e.printStackTrace();
 		}*/
-		finally
-		{
-			db.closeConnection(conn);
-		}
 		
 
 		if (proceeding!=null) {
@@ -1868,23 +1841,9 @@ public class CheckArray {
 		}
 		*/
 		
-		/** to be modified (Daniel 2014-04-02) **/
-		/*double[][] dist;
-		
-		for (int i=0; i<array.length; i++) {
-			process.makeArff2(array[i]);
-			test.runResult_new();
-			dist = test.getClassDistribution();
-			for (int j=0; j<dist.length; j++) {
-				if (dist[j][0] > 0.9) {
-					authors += array[i].trim() + " and ";
-				}
-			}
-		}*/
-		
 		for (int i=0; i<array.length; i++)
 		{
-			leadingLetter = Pattern.compile("[A-Z]\\.( )*").matcher(array[i]);
+			leadingLetter = Pattern.compile("^([A-Z]{1})(\\.)( )*").matcher(array[i]);
 			if (leadingLetter.find())
 			{
 				if (array[i].indexOf("and") >= 0) {
@@ -1899,10 +1858,36 @@ public class CheckArray {
 			}
 		}
 		
+		/** to be modified (Daniel 2014-04-02) **/
+		double[][] dist;
+		double[] label;
+		test.buildTree();
+		
+		for (int i=0; i<array.length; i++) {
+			if (array[i].trim().length() > 0) {
+				//System.out.println(array[i]);
+				process.makeArff2(array[i]);
+				test.runResult_new();
+				dist = test.getClassDistribution();
+				label = test.getClassLabel();
+				for (int j=0; j<label.length; j++) {
+					//if (dist[j][0] > 0.6) {
+					if (label[j] == 1) {
+						/*if (array[i].indexOf(" and ") > 0) {
+							array[i] = CommonFunction.removePart(array[i], " and ", " and ");
+						}*/
+						authors += array[i].trim() + " and ";
+					}
+				}
+			}
+		}
+		
 		if (authors == "") {
 			authors = null;
 		} else if (authors.trim().endsWith(",")) {
-			authors = authors.trim().substring(0, authors.indexOf(","));
+			authors = authors.trim().substring(0, authors.length()-1);
+		} else if (authors.trim().endsWith("and")) {
+			authors = authors.trim().substring(0, authors.length()-4);
 		}
 		
 		return authors;
