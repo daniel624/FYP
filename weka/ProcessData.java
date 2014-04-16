@@ -115,7 +115,7 @@ public class ProcessData {
 		String testa = "src/data/publication-test.arff";
 		String input, output, str, type;
 		int noOfWord, length, initials, prepo, longest, titleColon, ordinal;
-		int[] keyword = new int[8];
+		int[] keyword = new int[9];
 		String[] name;
 		HashMap<String, String> authors = new HashMap<String, String>();
 		int acnt=0, tcnt=0, jcnt=0, pcnt=0, cnt=0;
@@ -153,6 +153,7 @@ public class ProcessData {
 				out.write("@attribute key-meeting {0,1}\n");
 				out.write("@attribute key-conference {0,1}\n");
 				out.write("@attribute key-transaction {0,1}\n");
+				out.write("@attribute key-ordinal {0,1}\n");
 				out.write("@attribute preposition {0,1}\n");
 				out.write("@attribute longest-word numeric\n");
 				out.write("@attribute colon-in-title {0,1}\n");
@@ -163,7 +164,7 @@ public class ProcessData {
 				while ( (input=buf.readLine()) != null) {
 					str = "";
 					output = "";
-					for (int j=0; j<8; j++) keyword[j] = 0;
+					for (int j=0; j<9; j++) keyword[j] = 0;
 					
 					if (input.indexOf("Authors=")>=0) {
 						cnt++;
@@ -186,7 +187,7 @@ public class ProcessData {
 								
 								output = type +","+ noOfWord +","+ length +","+ initials +","+ keyword[0]
 										 +","+ keyword[1] +","+ keyword[2] +","+ keyword[3] +","+ keyword[4]
-										 +","+ keyword[5] +","+ keyword[6] +","+ keyword[7]
+										 +","+ keyword[5] +","+ keyword[6] +","+ keyword[7] +","+ keyword[8]
 										 +","+ prepo +","+ longest +","+ titleColon +","+ ordinal;
 								out.write(output + "\n");
 								acnt++;
@@ -207,7 +208,7 @@ public class ProcessData {
 						
 						output = type +","+ noOfWord +","+ length +","+ initials +","+ keyword[0]
 								 +","+ keyword[1] +","+ keyword[2] +","+ keyword[3] +","+ keyword[4]
-								 +","+ keyword[5] +","+ keyword[6] +","+ keyword[7]
+								 +","+ keyword[5] +","+ keyword[6] +","+ keyword[7] +","+ keyword[8]
 								 +","+ prepo +","+ longest +","+ titleColon +","+ ordinal;
 						out.write(output + "\n");
 						tcnt++;
@@ -226,7 +227,7 @@ public class ProcessData {
 						
 						output = type +","+ noOfWord +","+ length +","+ initials +","+ keyword[0]
 								 +","+ keyword[1] +","+ keyword[2] +","+ keyword[3] +","+ keyword[4]
-								 +","+ keyword[5] +","+ keyword[6] +","+ keyword[7]
+								 +","+ keyword[5] +","+ keyword[6] +","+ keyword[7] +","+ keyword[8]
 								 +","+ prepo +","+ longest +","+ titleColon +","+ ordinal;
 						out.write(output + "\n");
 						jcnt++;
@@ -244,6 +245,9 @@ public class ProcessData {
 						else if (str.toLowerCase().indexOf("meeting")>=0) keyword[5] = 1;
 						else if (str.toLowerCase().indexOf("conference")>=0) keyword[6] = 1;
 						else if (str.toLowerCase().indexOf("transaction")>=0) keyword[7] = 1;
+						else {
+							keyword[8] = getKey(str, ".*[0-9]*(st|nd|rd|th).*");
+						}
 						prepo = 0;
 						longest = getLongest(str);
 						titleColon = 0;
@@ -251,7 +255,7 @@ public class ProcessData {
 						
 						output = type +","+ noOfWord +","+ length +","+ initials +","+ keyword[0]
 								 +","+ keyword[1] +","+ keyword[2] +","+ keyword[3] +","+ keyword[4]
-								 +","+ keyword[5] +","+ keyword[6] +","+ keyword[7]
+								 +","+ keyword[5] +","+ keyword[6] +","+ keyword[7] +","+ keyword[8]
 								 +","+ prepo +","+ longest +","+ titleColon +","+ ordinal;
 						out.write(output + "\n");
 						pcnt++;
@@ -282,7 +286,7 @@ public class ProcessData {
 			String[] chunk = data.split("%%");
 			String input, output, str, type;
 			int noOfWord, length, initials, prepo, longest, titleColon, ordinal;
-			int[] keyword = new int[8];
+			int[] keyword = new int[9];
 			String[] name;
 			HashMap<String, String> authors = new HashMap<String, String>();
 			
@@ -299,6 +303,7 @@ public class ProcessData {
 			out.write("@attribute key-meeting {0,1}\n");
 			out.write("@attribute key-conference {0,1}\n");
 			out.write("@attribute key-transaction {0,1}\n");
+			out.write("@attribute key-ordinal {0,1}\n");
 			out.write("@attribute preposition {0,1}\n");
 			out.write("@attribute longest-word numeric\n");
 			out.write("@attribute colon-in-title {0,1}\n");
@@ -309,7 +314,7 @@ public class ProcessData {
 				str = "";
 				output = "";
 				input = chunk[k];
-				for (int j=0; j<8; j++) keyword[j] = 0;
+				for (int j=0; j<9; j++) keyword[j] = 0;
 				
 				type = "A";
 				noOfWord = countWord(input);
@@ -324,7 +329,7 @@ public class ProcessData {
 				
 				output = type +","+ noOfWord +","+ length +","+ initials +","+ keyword[0]
 						 +","+ keyword[1] +","+ keyword[2] +","+ keyword[3] +","+ keyword[4]
-						 +","+ keyword[5] +","+ keyword[6] +","+ keyword[7]
+						 +","+ keyword[5] +","+ keyword[6] +","+ keyword[7] +","+ keyword[8]
 						 +","+ prepo +","+ longest +","+ titleColon +","+ ordinal;
 				out.write(output + "\n");
 				
@@ -348,7 +353,7 @@ public class ProcessData {
 							
 							output = type +","+ noOfWord +","+ length +","+ initials +","+ keyword[0]
 									 +","+ keyword[1] +","+ keyword[2] +","+ keyword[3] +","+ keyword[4]
-									 +","+ keyword[5] +","+ keyword[6] +","+ keyword[7]
+									 +","+ keyword[5] +","+ keyword[6] +","+ keyword[7] +","+ keyword[8]
 									 +","+ prepo +","+ longest +","+ titleColon +","+ ordinal;
 							out.write(output + "\n");
 						}
@@ -368,7 +373,7 @@ public class ProcessData {
 					
 					output = type +","+ noOfWord +","+ length +","+ initials +","+ keyword[0]
 							 +","+ keyword[1] +","+ keyword[2] +","+ keyword[3] +","+ keyword[4]
-							 +","+ keyword[5] +","+ keyword[6] +","+ keyword[7]
+							 +","+ keyword[5] +","+ keyword[6] +","+ keyword[7] +","+ keyword[8]
 							 +","+ prepo +","+ longest +","+ titleColon +","+ ordinal;
 					out.write(output + "\n");
 				} else if (input.indexOf("Journal=")>=0) {					
@@ -386,7 +391,7 @@ public class ProcessData {
 					
 					output = type +","+ noOfWord +","+ length +","+ initials +","+ keyword[0]
 							 +","+ keyword[1] +","+ keyword[2] +","+ keyword[3] +","+ keyword[4]
-							 +","+ keyword[5] +","+ keyword[6] +","+ keyword[7]
+							 +","+ keyword[5] +","+ keyword[6] +","+ keyword[7] +","+ keyword[8]
 							 +","+ prepo +","+ longest +","+ titleColon +","+ ordinal;
 					out.write(output + "\n");
 				} else if (input.indexOf("Proceeding=")>=0) {					
@@ -403,6 +408,9 @@ public class ProcessData {
 					else if (str.toLowerCase().indexOf("meeting")>=0) keyword[5] = 1;
 					else if (str.toLowerCase().indexOf("conference")>=0) keyword[6] = 1;
 					else if (str.toLowerCase().indexOf("transaction")>=0) keyword[7] = 1;
+					else {
+						keyword[8] = getKey(str, ".*[0-9]*(st|nd|rd|th).*");
+					}
 					prepo = 0;
 					longest = getLongest(str);
 					titleColon = 0;
@@ -410,7 +418,7 @@ public class ProcessData {
 					
 					output = type +","+ noOfWord +","+ length +","+ initials +","+ keyword[0]
 							 +","+ keyword[1] +","+ keyword[2] +","+ keyword[3] +","+ keyword[4]
-							 +","+ keyword[5] +","+ keyword[6] +","+ keyword[7]
+							 +","+ keyword[5] +","+ keyword[6] +","+ keyword[7] +","+ keyword[8]
 							 +","+ prepo +","+ longest +","+ titleColon +","+ ordinal;
 					out.write(output + "\n");
 				}

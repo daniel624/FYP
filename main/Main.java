@@ -117,13 +117,10 @@ public class Main {
 		String[] array = null;
 		
 		ProcessData process = new ProcessData();
-		process.makeArff();
 		TestWeka weka = new TestWeka();
 		weka.buildTree();
 		double[] label;
 		double[][] distribution;
-		
-		HashMap<Integer, ArrayList> result_map = new HashMap<Integer, ArrayList>();
 		
 		//"[A-Z]{1}\\." - short form name
 		
@@ -135,27 +132,11 @@ public class Main {
 			String filename;
 			
 			// 100 records (4,13,18,56,63,69,70,98,99)
-			filename = "src/data/freelist_20.txt";
-			//filename = "src/data/freelist_100.txt";
+			//filename = "src/data/freelist_20.txt";
+			filename = "src/data/freelist_100.txt";
 			//filename = "src/data/freelist_200.txt";
 			//filename = "src/data/freelist_380.txt";
 			//filename = "src/data/freelist_test.txt";
-			
-			// get manually separated data into hash map for later checking
-			/*sql = "select * from publications";
-			rs = db.getResultSet(conn, sql);
-			int id;
-			ArrayList<String> list = new ArrayList<String>();
-			while (rs.next()) {
-				id = rs.getInt(1);
-				for (int i=2; i<=16; i++) {
-					list.add(i, rs.getString(i));
-				}
-				
-				result_map.put(id, list);
-			}
-			db.closeConnection(conn);
-			rs.close();*/
 
 			in = new BufferedReader(new InputStreamReader(new FileInputStream(filename), "UTF-8"));
 			buffer = in.readLine();
@@ -194,7 +175,9 @@ public class Main {
 					System.out.println("===== testing string " + count + " =====");
 					System.out.println(data);
 					indiWrong = 0;
-										
+					
+					System.out.println("===== splitted fields " + count + " =====");
+					
 					tmp = null;
 					
 					ca = new CheckArray(data);
@@ -273,16 +256,22 @@ public class Main {
 					
 					journal = ca.getJournal();
 					
+					
+					authors = ca.getAuthors();
+					
 					if (title == null)
 					{
 						title = ca.getTitlePostSplit();
 					}
 
 					publisher = ca.getPublisher();
+					
 
 					if ((journal == null) && (title != null)) {
 						journal = ca.getJournal_Last_fromTitle(title);
 					}
+					
+					
 					
 					if (volume == null) {
 						volume = ca.getVolumeLast();
@@ -300,75 +289,6 @@ public class Main {
 						year = ca.getYearLast(title);
 					}
 					
-					authors = ca.getAuthors();
-										
-					/////////////////////////////////////////////////////////////////
-					// weka prediction start
-					/////////////////////////////////////////////////////////////////
-					System.out.println("===== remaining fields " + count + " =====");
-					System.out.println("===== weka prediction =====");
-					//ca.printArray();
-					array = ca.getArray();
-					
-					if (authors!=null) authors = authors.trim();
-					else authors = "";
-					
-					for (int i=0; i<array.length; i++) {
-						if (array[i].trim().length()>1) {
-							System.out.println(array[i]);
-							process.makeArff2(array[i]);
-							weka.runResult_new();
-							label = weka.getClassLabel();
-							distribution = weka.getClassDistribution();
-
-							System.out.print("Predicted as: ");
-							if (label[0]==0 && distribution[0][0] >= 0.75 ) {
-								System.out.println("Author");
-								if (authors.endsWith("and") || array[i].startsWith("and"))
-									authors += " " + array[i];
-								else
-									authors += " and " + array[i];
-							}
-							else if (label[0]==1) System.out.println("Title");
-							else if (label[0]==2) System.out.println("Journal");
-							else if (label[0]==3) System.out.println("Proceeding");
-							
-							System.out.println("Distribution:");
-							System.out.println("Author: " + distribution[0][0]);
-							System.out.println("Title: " + distribution[0][1]);
-							System.out.println("Journal: " + distribution[0][2]);
-							System.out.println("Proceeding: " + distribution[0][3]);
-						}
-					}
-					
-					/*for (int i=0; i<label.length; i++) {
-						System.out.print("Predicted as: ");
-						if (label[i]==0) {
-							System.out.println("Author");
-							for (int j=0; j<array.length; j++) {
-								if (array[j].trim().length()>0) {
-									if (n==i)
-										authors += " and " + array[i];
-									else
-										n++;
-								}
-							}
-						}
-						else if (label[i]==1) System.out.println("Title");
-						else if (label[i]==2) System.out.println("Journal");
-						else if (label[i]==3) System.out.println("Proceeding");
-						
-						System.out.println("Distribution:");
-						System.out.println("Author: " + distribution[i][0]);
-						System.out.println("Title: " + distribution[i][1]);
-						System.out.println("Journal: " + distribution[i][2]);
-						System.out.println("Proceeding: " + distribution[i][3]);
-					}*/
-					/////////////////////////////////////////////////////////////////
-					// weka prediction end
-					/////////////////////////////////////////////////////////////////
-					
-
 					/////////////////////////////////////////////////////////////////
 					// Trim and Replace the field
 					if (title != null) title = title.trim();
@@ -396,7 +316,6 @@ public class Main {
 
 					/////////////////////////////////////////////////////////////////
 					// Print out the field
-					System.out.println("===== splitted fields " + count + " =====");
 					if (title != null) System.out.println("Title = " + title);
 					if (journal != null) System.out.println("Journal = " + journal);
 					if (proceeding != null) System.out.println("Proceeding = " + proceeding);
@@ -607,8 +526,43 @@ public class Main {
 							}
 						}
 						
-						if (indiWrong==0) totalCorrect += count + ",";						
-					}					
+						if (indiWrong==0) totalCorrect += count + ",";
+						
+					}
+					
+
+					System.out.println("===== remaining fields " + count + " =====");
+					ca.printArray();
+					strbuf = "";
+					array = ca.getArray();
+					
+					for (int i=0; i<array.length; i++) {
+						if (array[i].trim().length()>0) {
+							strbuf += array[i].trim() + "%%";
+						}
+					}
+					
+					System.out.println("===== weka prediction =====\n");
+					
+					process.makeArff2(strbuf);
+					weka.runResult_new();
+					label = weka.getClassLabel();
+					distribution = weka.getClassDistribution();
+					//out.println(strbuf);
+					
+					for (int i=0; i<label.length; i++) {
+						System.out.print("Predicted as: ");
+						if (label[i]==0) System.out.println("Author");
+						else if (label[i]==1) System.out.println("Title");
+						else if (label[i]==2) System.out.println("Journal");
+						else if (label[i]==3) System.out.println("Proceeding");
+						
+						System.out.println("Distribution:");
+						System.out.println("Author: " + distribution[i][0]);
+						System.out.println("Title: " + distribution[i][1]);
+						System.out.println("Journal: " + distribution[i][2]);
+						System.out.println("Proceeding: " + distribution[i][3]);
+					}
 					
 					System.out.println("===== end " + count + " =====\n\n");
 					
