@@ -322,7 +322,7 @@ public class Main {
 							distribution = weka.getClassDistribution();
 
 							System.out.print("Predicted as: ");
-							if (label[0]==0 && distribution[0][0] >= 0.75 ) {
+							if (label[0]==0 && distribution[0][0] >= 0.75) {
 								System.out.println("Author");
 								if (authors == null) {
 									authors = array[i];
@@ -330,9 +330,24 @@ public class Main {
 									authors = authors + "& " + array[i];
 								}
 							}
-							else if (label[0]==1) System.out.println("Title");
-							else if (label[0]==2) System.out.println("Journal");
-							else if (label[0]==3) System.out.println("Proceeding");
+							else if (label[0]==1 && distribution[0][1] >= 0.75) {
+								System.out.println("Title");
+								if (title == null) {
+									title = array[i];
+								} 
+							}
+							else if (label[0]==2 && distribution[0][2] >= 0.75) {
+								System.out.println("Journal");
+								if (journal == null) {
+									journal = array[i];
+								} 
+							}
+							else if (label[0]==3 && distribution[0][3] >= 0.75) {
+								System.out.println("Proceeding");
+								if (proceeding == null) {
+									proceeding = array[i];
+								} 
+							}
 							
 							System.out.println("Distribution:");
 							System.out.println("Author: " + distribution[0][0]);
