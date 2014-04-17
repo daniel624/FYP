@@ -1,56 +1,40 @@
-Start Time = 19:56:51
+Start Time = 17:44:37
 
 ===== testing string 1 =====
-"Verification of G7 symmetry assignment for the top valence band of ZnO by magneto-optical studies of the free A exciton state", Lu Ding, Chunlei Yang, Hongtao He, Jiannong Wang, Zikang Tang, Bradley A Foreman, Fengyi Jiang, and Weikun Ge, New Journal of Physics 15 033015 (2013)
-Title = Verification of G7 symmetry assignment for the top valence band of ZnO by magneto-optical studies of the free A exciton state
-Journal = Romanian Journal of Physics
-Volume = 15
-Issue = 033015
-Year = 2013
-Authors = and Lu Ding and Chunlei Yang and Hongtao He and Jiannong Wang and Zikang Tang and Bradley A Foreman and Fengyi Jiang and Weikun Ge
+J. Tang and A. Fu, "Query Rewriting Using Views for XPath queries, framework, and methodologies", Information Systems, 35:3, May, 2010, pages 315-334
+Title = Query Rewriting Using Views for XPath queries, framework, and methodologies
+Journal = Information Systems
+Volume = 35
+Number = :3
+Page = 315-334
+Year = 2010
+Authors = J. Tang and A. Fu
+Month = May
 ===== end 1 =====
 
 
 ===== testing string 2 =====
-M. Xiao, L. Cai, and A.C.C. Yao, Tight Approximation Ratio of a General Greedy Splitting Algorithm for the Minimum k-Way Cut Problem, Algorithmica Vol 59 510-520, 2011.
-Title = Tight Approximation Ratio of a General Greedy Splitting Algorithm for the Minimum k-Way Cut Problem
-Journal = ALGORITHMICA
-Proceeding = Software Quality. Process Automation in Software Development
-Volume = 59
-Page = 510-520
-Year = 2011
-Authors = M. Xiao and and L. Cai and A.C.C. Yao
-Publisher = Light & Life Pub
+Andrej Bogdanov and Youming Qiao: On the security of Goldreich's one-way function. In Computational Complexity, vol. 21, no. 1, 2012. Invited paper. 
+Title = On the security of Goldreich's one-way function
+Journal = Computational Complexity
+Volume = 21
+Number = 1
+Year = 2012
+Authors = Andrej Bogdanov and Youming Qiao:In and . Invited paper.
+Month = November
 ===== end 2 =====
 
 
 ===== testing string 3 =====
-L. Cai, Parameterized Complexity of Cardinality Constrained Optimization Problems, the Computer Journal, 51(1) 102-121, 2008.
-Title = Parameterized Complexity of Cardinality Constrained Optimization Problems
-Journal = International Journal of Combinatorial Optimization Problems and Informatics
-Proceeding = Solving Combinatorial Optimization Problems in Parallel
-Volume = 51
-Issue = 1
-Page = 102-121
-Year = 2008
-Authors = L. Cai
-Publisher = Light & Life Pub
+Andrej Bogdanov, Periklis Papakonstantinou, and Andrew Wan: Pseudorandomness for read-once formulas. In Proceedings of the 52nd Annual Symposium on Foundations of Computer Science (FOCS), 2011.
+Title = Pseudorandomness for read-once formulas
+Proceeding = 52nd Annual Symposium on Foundations of Computer Science (FOCS)
+Year = 2011
+Authors = Andrew Wan:
 ===== end 3 =====
 
 
-===== testing string 4 =====
-"Using Time-Varying Texels to Simulate Withering Grassland,", S. Jiao, W. Wu, P. A. Heng and E. Wu, , IEEE Computer Graphics and Applications, pp. 36 - 48, 2012
-Title = Using Time-Varying Texels to Simulate Withering Grassland,
-Journal = IEEE Computer
-Proceeding = IEEE Computer Society Annual Symposium on VLSI
-Page = 36-48
-Year = 2012
-Authors = S. Jiao and and W. Wu
-Publisher = P. A. Trafford
-===== end 4 =====
 
+End Time = 17:44:45
 
-
-End Time = 19:56:56
-
-Running Time = 5 seconds
+Running Time = 7 seconds

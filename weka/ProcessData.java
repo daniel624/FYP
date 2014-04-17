@@ -62,9 +62,12 @@ public class ProcessData {
 	}
 	
 	public void makeDataset(int mod) {
-		String filename = "src/data/Publication.txt";
-		String train = "src/data/train-data.txt";
-		String test = "src/data/test-data.txt";
+		String filename = "webapps/FYP_UI/WEB-INF/classes/data/Publication.txt";
+		String train = "webapps/FYP_UI/WEB-INF/classes/data/train-data.txt";
+		String test = "webapps/FYP_UI/WEB-INF/classes/data/test-data.txt";
+		//String filename = "src/data/Publication.txt";
+		//String train = "src/data/train-data.txt";
+		//String test = "src/data/test-data.txt";
 		BufferedReader buf;
 		BufferedWriter trainout, testout;
 		String input;
@@ -107,12 +110,16 @@ public class ProcessData {
 	 * - use sample train and test data to generate arff file for later use
 	 */
 	public void makeArff() {
-		String train = "src/data/train-data.txt";
-		String test = "src/data/test-data.txt";
+		String train = "webapps/FYP_UI/WEB-INF/classes/data/train-data.txt";
+		String test = "webapps/FYP_UI/WEB-INF/classes/data/test-data.txt";
+		//String train = "src/data/train-data.txt";
+		//String test = "src/data/test-data.txt";
 		BufferedReader buf = null;
 		BufferedWriter trainout=null, testout=null, out=null;
-		String traina = "src/data/publication-train.arff";
-		String testa = "src/data/publication-test.arff";
+		String traina = "webapps/FYP_UI/WEB-INF/classes/data/publication-train.arff";
+		String testa = "webapps/FYP_UI/WEB-INF/classes/data/publication-test.arff";
+		//String traina = "src/data/publication-train.arff";
+		//String testa = "src/data/publication-test.arff";
 		String input, output, str, type;
 		int noOfWord, length, initials, prepo, longest, titleColon, ordinal;
 		int[] keyword = new int[9];
@@ -280,8 +287,8 @@ public class ProcessData {
 	 */
 	public void makeArff2(String data) {
 		try {
-			//String outfile = "webapps/FYP_UI/WEB-INF/classes/data/out-data.arff";
-			String outfile = "src/data/out-data.arff";
+			String outfile = "webapps/FYP_UI/WEB-INF/classes/data/out-data.arff";
+			//String outfile = "src/data/out-data.arff";
 			BufferedWriter out = new BufferedWriter(new FileWriter(outfile));
 			String[] chunk = data.split("%%");
 			String input, output, str, type;

@@ -135,11 +135,11 @@ public class Main {
 			String filename;
 			
 			// 100 records (4,13,18,56,63,69,70,98,99)
-			filename = "src/data/freelist_20.txt";
+			//filename = "src/data/freelist_20.txt";
 			//filename = "src/data/freelist_100.txt";
 			//filename = "src/data/freelist_200.txt";
 			//filename = "src/data/freelist_380.txt";
-			//filename = "src/data/freelist_test.txt";
+			filename = "src/data/freelist_test.txt";
 			
 			// get manually separated data into hash map for later checking
 			/*sql = "select * from publications";
@@ -301,17 +301,17 @@ public class Main {
 					}
 					
 					authors = ca.getAuthors();
-										
+						
+					
+					System.out.println("===== remaining fields " + count + " =====");
+					ca.printArray();
+					
+
 					/////////////////////////////////////////////////////////////////
 					// weka prediction start
 					/////////////////////////////////////////////////////////////////
-					System.out.println("===== remaining fields " + count + " =====");
 					System.out.println("===== weka prediction =====");
-					//ca.printArray();
 					array = ca.getArray();
-					
-					if (authors!=null) authors = authors.trim();
-					else authors = "";
 					
 					for (int i=0; i<array.length; i++) {
 						if (array[i].trim().length()>1) {
@@ -324,10 +324,11 @@ public class Main {
 							System.out.print("Predicted as: ");
 							if (label[0]==0 && distribution[0][0] >= 0.75 ) {
 								System.out.println("Author");
-								if (authors.endsWith("and") || array[i].startsWith("and"))
-									authors += " " + array[i];
-								else
-									authors += " and " + array[i];
+								if (authors == null) {
+									authors = array[i];
+								} else {
+									authors = authors + "& " + array[i];
+								}
 							}
 							else if (label[0]==1) System.out.println("Title");
 							else if (label[0]==2) System.out.println("Journal");
@@ -341,29 +342,6 @@ public class Main {
 						}
 					}
 					
-					/*for (int i=0; i<label.length; i++) {
-						System.out.print("Predicted as: ");
-						if (label[i]==0) {
-							System.out.println("Author");
-							for (int j=0; j<array.length; j++) {
-								if (array[j].trim().length()>0) {
-									if (n==i)
-										authors += " and " + array[i];
-									else
-										n++;
-								}
-							}
-						}
-						else if (label[i]==1) System.out.println("Title");
-						else if (label[i]==2) System.out.println("Journal");
-						else if (label[i]==3) System.out.println("Proceeding");
-						
-						System.out.println("Distribution:");
-						System.out.println("Author: " + distribution[i][0]);
-						System.out.println("Title: " + distribution[i][1]);
-						System.out.println("Journal: " + distribution[i][2]);
-						System.out.println("Proceeding: " + distribution[i][3]);
-					}*/
 					/////////////////////////////////////////////////////////////////
 					// weka prediction end
 					/////////////////////////////////////////////////////////////////

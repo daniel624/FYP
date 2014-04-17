@@ -1,10 +1,6 @@
-"Verification of G7 symmetry assignment for the top valence band of ZnO by magneto-optical studies of the free A exciton state", Lu Ding, Chunlei Yang, Hongtao He, Jiannong Wang, Zikang Tang, Bradley A Foreman, Fengyi Jiang, and Weikun Ge, New Journal of Physics 15 033015 (2013), 
+J. Tang and A. Fu, "Query Rewriting Using Views for XPath queries, framework, and methodologies", Information Systems, 35:3, May, 2010, pages 315-334
 
-M. Xiao, L. Cai, and A.C.C. Yao, Tight Approximation Ratio of a General Greedy Splitting Algorithm for the Minimum k-Way Cut Problem, Algorithmica Vol 59 510-520, 2011., 
+Andrej Bogdanov and Youming Qiao: On the security of Goldreich's one-way function. In Computational Complexity, vol. 21, no. 1, 2012. Invited paper. 
 
-L. Cai, Parameterized Complexity of Cardinality Constrained Optimization Problems, the Computer Journal, 51(1) 102-121, 2008., 
-
-"Using Time-Varying Texels to Simulate Withering Grassland,"
-S. Jiao, W. Wu, P. A. Heng and E. Wu, 
-IEEE Computer Graphics and Applications, pp. 36 - 48, 2012
+Andrej Bogdanov, Periklis Papakonstantinou, and Andrew Wan: Pseudorandomness for read-once formulas. In Proceedings of the 52nd Annual Symposium on Foundations of Computer Science (FOCS), 2011., 
 
