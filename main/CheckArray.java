@@ -855,6 +855,7 @@ public class CheckArray {
 	{
 		String year = null;
 		Matcher yearOnly;
+		String tempYear = null;
 		
 		// 2007-2008
 		String startYear = null;
@@ -878,9 +879,21 @@ public class CheckArray {
 		if (yearOnly.find())
 		{
 			year = yearOnly.group();
-			if (checkYear(year))
-			{
-				return year;
+			
+			if (inputTitle.indexOf(year) != 0) {
+				tempYear = inputTitle.substring(inputTitle.indexOf(year)-1);
+				
+				if (!(tempYear.startsWith("-"))) {
+					if (checkYear(year))
+					{
+						return year;
+					}
+				}
+			} else {
+				if (checkYear(year))
+				{
+					return year;
+				}
 			}
 		}
 		
@@ -906,9 +919,21 @@ public class CheckArray {
 			if (yearOnly.find())
 			{
 				year = yearOnly.group();
-				if (checkYear(year))
-				{
-					return year;
+				
+				if (array[i].indexOf(year) != 0) {
+					tempYear = array[i].substring(array[i].indexOf(year)-1);
+					
+					if (!(tempYear.startsWith("-"))) {
+						if (checkYear(year))
+						{
+							return year;
+						}
+					}
+				} else {
+					if (checkYear(year))
+					{
+						return year;
+					}
 				}
 			}
 			
@@ -927,6 +952,7 @@ public class CheckArray {
 	{
 		String year = null;
 		Matcher yearOnly;
+		String tempYear = null;
 
 		for (int i=0; i<array.length; i++)
 		{
@@ -935,11 +961,25 @@ public class CheckArray {
 			if (yearOnly.find())
 			{
 				year = yearOnly.group();
-				if (checkYear(year))
-				{
-					array[i] = CommonFunction.removePart(array[i], year, year);
-					return year;
+				
+				if (array[i].indexOf(year) != 0) {
+					tempYear = array[i].substring(array[i].indexOf(year)-1);
+					
+					if (!(tempYear.startsWith("-"))) {
+						if (checkYear(year))
+						{
+							array[i] = CommonFunction.removePart(array[i], year, year);
+							return year;
+						}
+					}
+				} else {
+					if (checkYear(year))
+					{
+						array[i] = CommonFunction.removePart(array[i], year, year);
+						return year;
+					}
 				}
+				
 			}
 		}
 		

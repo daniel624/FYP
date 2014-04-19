@@ -138,8 +138,8 @@ public class Main {
 			//filename = "src/data/freelist_20.txt";
 			//filename = "src/data/freelist_100.txt";
 			//filename = "src/data/freelist_200.txt";
-			//filename = "src/data/freelist_380.txt";
-			filename = "src/data/freelist_test.txt";
+			filename = "src/data/freelist_380.txt";
+			//filename = "src/data/freelist_test.txt";
 			
 			// get manually separated data into hash map for later checking
 			/*sql = "select * from publications";
@@ -386,6 +386,15 @@ public class Main {
 					if (chapter != null) chapter = chapter.trim();
 					if (editors != null) editors = editors.trim();
 					if (publisher != null) publisher = publisher.trim();
+					
+					/**
+					if (authors != null) {
+						authors = authors.replaceAll("&", " and");
+						if (authors.endsWith(" and")) {
+							authors = authors.substring(0, authors.length()-4);
+						}
+					}
+					**/
 
 					/////////////////////////////////////////////////////////////////
 					// Print out the field

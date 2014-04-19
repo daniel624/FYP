@@ -395,6 +395,7 @@ public class Main extends HttpServlet {
 					indiWrong = 0;
 					
 					webpage_out.println("===== splitted fields " + count + " =====");
+					print_writer_output_txt.println("===== splitted fields " + count + " =====");
 					
 					tmp = null;
 					
@@ -592,11 +593,11 @@ public class Main extends HttpServlet {
 					
 					if (authors != null) {
 						authors = authors.replaceAll("&", " and");
-						if (authors.lastIndexOf(" and") == authors.length()-4) {
+						if (authors.endsWith(" and")) {
 							authors = authors.substring(0, authors.length()-4);
 						}
 					}
-
+					
 					/////////////////////////////////////////////////////////////////
 					// Print out the field (UI, txt, xls)
 					/////////////////////////////////////////////////////////////////
