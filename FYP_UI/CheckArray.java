@@ -152,6 +152,7 @@ public class CheckArray {
 						if (monthNum.equals(monthNumWords_1[j]))
 						{
 							yearMonth = yearMonth.substring(0, yearMonth.indexOf(".")) + "," + monthWords[j].substring(0, 1).toUpperCase() + monthWords[j].substring(1);
+							array[i] = array[i].replace(yearMonthOnly_1.group(), "");
 							flag = 1;
 							break;
 						}
@@ -173,6 +174,7 @@ public class CheckArray {
 							if (monthNum.equals(monthNumWords_1[j]))
 							{
 								yearMonth = yearMonth.substring(yearMonth.indexOf(".") + 1) + "," + monthWords[j].substring(0, 1).toUpperCase() + monthWords[j].substring(1);
+								array[i] = array[i].replace(monthYearOnly_1.group(), "");
 								flag = 1;
 								break;
 							}
@@ -194,6 +196,7 @@ public class CheckArray {
 								if (monthNum.equals(monthNumWords_2[j]))
 								{
 									yearMonth = yearMonth.substring(0, yearMonth.indexOf(".")) + "," + monthWords[j].substring(0, 1).toUpperCase() + monthWords[j].substring(1);
+									array[i] = array[i].replace(yearMonthOnly_2.group(), "");
 									flag = 1;
 									break;
 								}
@@ -215,6 +218,7 @@ public class CheckArray {
 									if (monthNum.equals(monthNumWords_2[j]))
 									{
 										yearMonth = yearMonth.substring(yearMonth.indexOf(".") + 1) + "," + monthWords[j].substring(0, 1).toUpperCase() + monthWords[j].substring(1);
+										array[i] = array[i].replace(monthYearOnly_2.group(), "");
 										flag = 1;
 										break;
 									}
@@ -232,7 +236,9 @@ public class CheckArray {
 		
 		return yearMonth;
 	}
+
 	
+
 	/**
 	 * getMonth()
 	 * - search for the month field
@@ -285,25 +291,76 @@ public class CheckArray {
 				// month, month / month
 				for (int j=0; j<12; j++) {
 					indexOfShort = array[i].toLowerCase().indexOf(monthWords[j].substring(0, 3));
-					
+
 					if (indexOfShort >= 0)
 					{
-						if ((indexOfShort != 0) && (indexOfShort-2 > 0)) {
-							if (!CommonFunction.isCharacter(array[i].substring(indexOfShort-2, indexOfShort-1))) {
+						
+						if (indexOfShort - 1 >= 0) {
+							//System.out.println("before " + array[i].toLowerCase().charAt(indexOfShort - 1));
+							
+							if ((array[i].toLowerCase().charAt(indexOfShort - 1) >= 'a') && (array[i].toLowerCase().charAt(indexOfShort - 1) <= 'z')) {
+								continue;
+							}
+						}
+
+						
+						if ((j != 4) && (indexOfShort + 3 < array[i].length())) {
+							if ((array[i].toLowerCase().charAt(indexOfShort + 3) >= 'a') && (array[i].toLowerCase().charAt(indexOfShort + 3) <= 'z')) {
+								if (array[i].toLowerCase().charAt(indexOfShort + 3) == monthWords[j].charAt(3)) {
+									
+									if ((indexOfShort != 0) && (indexOfShort-2 > 0)) {
+										if (!CommonFunction.isCharacter(array[i].substring(indexOfShort-2, indexOfShort-1))) {
+											if (month != "") {
+												month = month + "-" + monthWords[j].substring(0, 1).toUpperCase() + monthWords[j].substring(1);
+											} else {
+												month = month + monthWords[j].substring(0, 1).toUpperCase() + monthWords[j].substring(1);
+											}
+										}
+									} else {
+										if (month != "") {
+											month = month + "-" + monthWords[j].substring(0, 1).toUpperCase() + monthWords[j].substring(1);
+										} else {
+											month = month + monthWords[j].substring(0, 1).toUpperCase() + monthWords[j].substring(1);
+										}
+									}
+									break;
+								}
+							} else {
+								if ((indexOfShort != 0) && (indexOfShort-2 > 0)) {
+									if (!CommonFunction.isCharacter(array[i].substring(indexOfShort-2, indexOfShort-1))) {
+										if (month != "") {
+											month = month + "-" + monthWords[j].substring(0, 1).toUpperCase() + monthWords[j].substring(1);
+										} else {
+											month = month + monthWords[j].substring(0, 1).toUpperCase() + monthWords[j].substring(1);
+										}
+									}
+								} else {
+									if (month != "") {
+										month = month + "-" + monthWords[j].substring(0, 1).toUpperCase() + monthWords[j].substring(1);
+									} else {
+										month = month + monthWords[j].substring(0, 1).toUpperCase() + monthWords[j].substring(1);
+									}
+								}
+								break;
+							}
+						} else {
+							if ((indexOfShort != 0) && (indexOfShort-2 > 0)) {
+								if (!CommonFunction.isCharacter(array[i].substring(indexOfShort-2, indexOfShort-1))) {
+									if (month != "") {
+										month = month + "-" + monthWords[j].substring(0, 1).toUpperCase() + monthWords[j].substring(1);
+									} else {
+										month = month + monthWords[j].substring(0, 1).toUpperCase() + monthWords[j].substring(1);
+									}
+								}
+							} else {
 								if (month != "") {
 									month = month + "-" + monthWords[j].substring(0, 1).toUpperCase() + monthWords[j].substring(1);
 								} else {
 									month = month + monthWords[j].substring(0, 1).toUpperCase() + monthWords[j].substring(1);
 								}
 							}
-						} else {
-							if (month != "") {
-								month = month + "-" + monthWords[j].substring(0, 1).toUpperCase() + monthWords[j].substring(1);
-							} else {
-								month = month + monthWords[j].substring(0, 1).toUpperCase() + monthWords[j].substring(1);
-							}
+							break;
 						}
-						break;
 					}
 				}
 			}
@@ -316,7 +373,9 @@ public class CheckArray {
 		}
 	}
 	
-
+	
+	
+	
 	/**
 	 * getArticle()
 	 * - search for the article field
@@ -1713,6 +1772,11 @@ public class CheckArray {
 		if (originalInput.indexOf('\"') < originalInput.lastIndexOf('\"'))
 		{
 			title = (originalInput.substring(originalInput.indexOf('\"')+1, originalInput.lastIndexOf('\"'))).trim();
+		} else {
+			if (originalInput.indexOf('\'') < originalInput.lastIndexOf('\''))
+			{
+				title = (originalInput.substring(originalInput.indexOf('\'')+1, originalInput.lastIndexOf('\''))).trim();
+			}
 		}
 
 		return title;
